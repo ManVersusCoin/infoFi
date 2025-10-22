@@ -36,7 +36,7 @@ export default function MultiSelectBar({
     const memoOptions = useMemo(() => options, [options]);
 
     return (
-        <div className="w-full mb-6">
+        <div className="w-full mb-6 relative z-50">
             <Select
                 isMulti
                 value={selected}
