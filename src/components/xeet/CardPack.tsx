@@ -1,5 +1,4 @@
-﻿import React from "react";
-import ProfileCard from "./ProfileCard";
+﻿import ProfileCard from "./ProfileCard";
 
 interface CardPackProps {
     profiles: {

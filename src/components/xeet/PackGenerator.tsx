@@ -1,10 +1,10 @@
-﻿import React, { useState, useRef } from "react";
+﻿import { useState, useRef } from "react";
 import * as htmlToImage from "dom-to-image";
 import MultiSelectBar from "../ui/MultiSelectBar";
 import CardPack from "./CardPack";
 
 export default function PackGenerator({ allProfiles }: { allProfiles: any[] }) {
-    const [selected, setSelected] = useState<{ value: string; label: string }[]>([]);
+    const [selected, setSelected] = useState<{ value: string; label: string; imageUrl: string }[]>([]);
     const packRef = useRef<HTMLDivElement>(null);
 
     // Ensure allProfiles is defined before using it
@@ -66,7 +66,7 @@ export default function PackGenerator({ allProfiles }: { allProfiles: any[] }) {
                 options={allProfiles ? allProfiles.map((p) => ({
                     value: p.id,
                     label: `@${p.handle}`,
-                    imageUrl: p.imageUrl,
+                    imageUrl: p.imageUrl || "/default-avatar.jpg",
                 })) : []}
                 selected={selected}
                 onChange={setSelected}
