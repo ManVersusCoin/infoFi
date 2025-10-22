@@ -7,6 +7,7 @@ import Settings from "./pages/Settings";
 import XeetLeaderboard from "./pages/XeetLeaderboard";
 import WallChainLeaderboard from "./pages/WallchainLeaderboard";
 */
+import AirdropCardGenerator from "./pages/AirdropCardGenerator";
 import XeetPackGeneratorPage from "./pages/xeet/XeetPackGenerator";
 import "./index.css";
 
@@ -17,6 +18,7 @@ export default function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/pack-generator" element={<XeetPackGeneratorPage />} />
+                    <Route path="/airdrop-card" element={<AirdropCardGenerator />} />
                     {/*
                     < Route path="/xeet" element={<XeetLeaderboard />} />
                     <Route path="/wallchain" element={<WallChainLeaderboard />} />
