@@ -5,6 +5,7 @@ interface ProfileCardProps {
     handle: string;
     number: string;
     imageUrl: string;
+    score?: number;
     rarity?: "common" | "rare" | "epic" | "mythical";
 }
 
@@ -22,24 +23,14 @@ const rarityBadgeColors: Record<string, string> = {
     mythical: "bg-pink-700 text-pink-100 border-pink-400 shadow-pink-400/30",
 };
 
-// Génère un score pseudo-aléatoire mais stable
-function generateScore(handle: string, number: string): number {
-    const seed = [...(handle + number)].reduce(
-        (acc, c) => acc + c.charCodeAt(0),
-        0
-    );
-    const random = Math.sin(seed) * 10000;
-    return Math.floor((random - Math.floor(random)) * 100);
-}
-
 export default function ProfileCard({
     name,
     handle,
-    number,
     imageUrl,
+    score,
     rarity = "mythical",
 }: ProfileCardProps) {
-    const score = generateScore(handle, number);
+    //const score = generateScore(handle, number);
 
     return (
         <div className="flex justify-center items-center">
@@ -91,7 +82,7 @@ export default function ProfileCard({
                         {/* Score (à gauche à la place de rarity) */}
                         <div className="flex flex-col">
                             <p className="text-xs opacity-70 uppercase">Score</p>
-                            <p className="text-xl font-bold text-pink-300">{score}</p>
+                            <p className="text-xl font-bold text-pink-300">{score?.toFixed(0)}</p>
                         </div>
 
                         {/* Numéro + logo Signal */}

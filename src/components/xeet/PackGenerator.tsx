@@ -75,7 +75,7 @@ export default function PackGenerator({ allProfiles }: { allProfiles: any[] }) {
 
             {selectedProfiles.length > 0 && (
                 <>
-                    <div ref={packRef} className="bg-white dark:bg-gray-800">
+                    <div ref={packRef} className="bg-white dark:bg-gray-900">
                         <CardPack profiles={selectedProfiles} />
                     </div>
 

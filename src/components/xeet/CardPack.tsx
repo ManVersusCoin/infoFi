@@ -7,6 +7,7 @@ interface CardPackProps {
         handle: string;
         number: string;
         imageUrl: string;
+        score?: number;
         rarity?: "common" | "rare" | "epic" | "mythical";
     }[];
 }
@@ -29,6 +30,7 @@ export default function CardPack({ profiles }: CardPackProps) {
                         handle={p.handle}
                         number={p.number}
                         imageUrl={p.imageUrl}
+                        score={p.score}
                         rarity={p.rarity}
                     />
                 </div>
