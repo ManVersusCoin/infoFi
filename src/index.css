@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --color-bg-pack: #ffffff;
+}
+
+.dark {
+    --color-bg-pack: #1a202c;
+}

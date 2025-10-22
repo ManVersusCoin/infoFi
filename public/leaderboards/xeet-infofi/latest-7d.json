@@ -1,0 +1,4002 @@
+[
+  {
+    "platform": "xeet",
+    "twitterId": "1279739983990075392",
+    "handle": "Caben_nft",
+    "name": "Caben",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1928966336333385728/jGCb5nMj_bigger.jpg",
+    "rank": 1,
+    "score": 104.0165487553106,
+    "mindsharePct": 0.9484438941986757
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1448040240560623618",
+    "handle": "Pons_ETH",
+    "name": "Pons Asinorum",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1963745837244166144/gCXaDMiy_400x400.jpg",
+    "rank": 2,
+    "score": 89.80840804867256,
+    "mindsharePct": 0.7954891009259877
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "29603039",
+    "handle": "monitalan",
+    "name": "MonicaTalan ⚔️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1955603187139817472/QeRwzjhl_bigger.jpg",
+    "rank": 3,
+    "score": 64.9367105383767,
+    "mindsharePct": 1.203056131840343
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "27553316",
+    "handle": "beijingdou",
+    "name": "Josh Ong",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1602122467002155010/MI7V7cqu_400x400.png",
+    "rank": 4,
+    "score": 52.71944684178671,
+    "mindsharePct": 0.7733717873409907
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1432387651974443009",
+    "handle": "ProofOfEly",
+    "name": "Ely",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1899824667671576576/RVqjlLdW_400x400.jpg",
+    "rank": 5,
+    "score": 46.7444953132113,
+    "mindsharePct": 0.4495264540624385
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1378756322041196552",
+    "handle": "zaimiriQ",
+    "name": "zaimiri ✏️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1956760267330572288/RLKoQJwK_bigger.jpg",
+    "rank": 6,
+    "score": 31.03576971187199,
+    "mindsharePct": 0.3674967666212413
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1447603917823647755",
+    "handle": "Rajp_14",
+    "name": "Raj",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1899840185925337088/2g_uarj5_400x400.jpg",
+    "rank": 7,
+    "score": 33.58316229866786,
+    "mindsharePct": 0.4272956086658413
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1530107446294872065",
+    "handle": "cryptoleon_xyz",
+    "name": "cryptoleon (comeback arc)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1927445953063067648/EY0MKv62_400x400.jpg",
+    "rank": 8,
+    "score": 22.18509848022009,
+    "mindsharePct": 0.2543659002664839
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1471926684874162189",
+    "handle": "Carlitoswa_y",
+    "name": "Carlitosway 🔺",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1934966779786186752/-WOUTIZ9_400x400.jpg",
+    "rank": 9,
+    "score": 24.44194933639355,
+    "mindsharePct": 0.3202283892495685
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1739107604931166208",
+    "handle": "Crypto_Zh0u",
+    "name": "Zh0u 🧬",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1887692699731636224/U2zFHLv__bigger.jpg",
+    "rank": 10,
+    "score": 20.91041610716694,
+    "mindsharePct": 0.5133404967404803
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "844337276297588738",
+    "handle": "Tuteth_",
+    "name": "tut™",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1914340160562409472/QQw-Qsry_bigger.jpg",
+    "rank": 11,
+    "score": 20.36208922637282,
+    "mindsharePct": 0.4076334571840561
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1388182057474531332",
+    "handle": "NFTCHESUS",
+    "name": "CHESUS🧀",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1955455053440983040/CeQ0hyvW_bigger.jpg",
+    "rank": 12,
+    "score": 17.99352689150026,
+    "mindsharePct": 0.4464956501373872
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1405153657751019521",
+    "handle": "CrypSaf",
+    "name": "SafZ",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1683213602013036544/GuQn2-Ig_400x400.jpg",
+    "rank": 13,
+    "score": 17.96347697008262,
+    "mindsharePct": 0.1986132131397867
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1355075567054417920",
+    "handle": "walsxbt",
+    "name": "Wals",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1928090995326877696/-kqI--eh_bigger.jpg",
+    "rank": 14,
+    "score": 19.02608022542444,
+    "mindsharePct": 0.4264875259004788
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1529700919238987776",
+    "handle": "Smokey_titan",
+    "name": "smokey",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1964013431943733248/xEjB7rnr_400x400.jpg",
+    "rank": 15,
+    "score": 17.91280229991798,
+    "mindsharePct": 0.2059861512835481
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "994404102",
+    "handle": "greenytrades",
+    "name": "Greeny",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1916583729386115073/EyBuVJGh_400x400.jpg",
+    "rank": 16,
+    "score": 15.14893141135506,
+    "mindsharePct": 0.304201807167804
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "4900102269",
+    "handle": "vohvohh",
+    "name": "voh 🔺",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1969755016308092928/LjCIGBVN_400x400.jpg",
+    "rank": 17,
+    "score": 23.49513895446734,
+    "mindsharePct": 0.1287887819387926
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "607591295",
+    "handle": "Hydraze420",
+    "name": "Hydraze 🏴‍☠️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1931474104684605440/TLMLjVgj_400x400.jpg",
+    "rank": 18,
+    "score": 16.16244126445982,
+    "mindsharePct": 0.2558888162606178
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1379181238502580224",
+    "handle": "FFVV1211",
+    "name": "FFV",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1921885812863479808/yKrTu_QK_400x400.jpg",
+    "rank": 19,
+    "score": 15.02296155998765,
+    "mindsharePct": 0.1251668500882774
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1287576585353039872",
+    "handle": "0xCygaar",
+    "name": "cygaar",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1874970187780194304/rEKKc4YC_400x400.jpg",
+    "rank": 20,
+    "score": 17.97319007603403,
+    "mindsharePct": 0.1246548308284257
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "210831184",
+    "handle": "eeelistar",
+    "name": "Elisa",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1945769639323009024/Z8rbd7Q__400x400.jpg",
+    "rank": 21,
+    "score": 14.43551441226165,
+    "mindsharePct": 0.2130045937361953
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1074566198",
+    "handle": "FerreWeb3",
+    "name": "Ferre",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1891782324141895680/nxQuPcsu_bigger.jpg",
+    "rank": 22,
+    "score": 15.58782305090111,
+    "mindsharePct": 0.4055564292435635
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1387820020403740674",
+    "handle": "camolNFT",
+    "name": "camol",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1881027124028481536/l5kOGGWW_400x400.jpg",
+    "rank": 23,
+    "score": 14.67964462134592,
+    "mindsharePct": 0.2502154864231121
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "318738125",
+    "handle": "iagosnews",
+    "name": "Royale Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1951335135317540864/Bab0KZJf_400x400.jpg",
+    "rank": 24,
+    "score": 14.5248594376363,
+    "mindsharePct": 0.3932858158659928
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1744692286980825088",
+    "handle": "muhitonx",
+    "name": "Muhit 💢",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1968730096652664833/Vad_Welf_bigger.jpg",
+    "rank": 25,
+    "score": 12.50245488334783,
+    "mindsharePct": 0.4154339829457701
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1130642299283619840",
+    "handle": "bryantheden",
+    "name": "Bryant",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1969375018342891522/8tgpd-3-_bigger.jpg",
+    "rank": 26,
+    "score": 12.62136130552189,
+    "mindsharePct": 0.4687106509048808
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1475014806025371651",
+    "handle": "Jampzey",
+    "name": "Jampzey.hl",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1944970434853920771/JzL2woNp_bigger.jpg",
+    "rank": 27,
+    "score": 14.80651211114027,
+    "mindsharePct": 0.2574122683967027
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1467734865676312579",
+    "handle": "xerocooleth",
+    "name": "xero 🎮",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1888644116969316352/RLFRdI16_bigger.jpg",
+    "rank": 28,
+    "score": 16.62962811884649,
+    "mindsharePct": 0.2336959628856509
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1407650169827463169",
+    "handle": "BitmanTW",
+    "name": "Bitman Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1950891556698984448/xxhVeoAh_bigger.jpg",
+    "rank": 29,
+    "score": 10.14162049977004,
+    "mindsharePct": 0.2855389989678688
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1198239019643154432",
+    "handle": "bestbaby01",
+    "name": "bestbaby",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1946625532113641473/XB6FdXQF_bigger.jpg",
+    "rank": 30,
+    "score": 10.67602506463679,
+    "mindsharePct": 0.3547949955227194
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "470625043",
+    "handle": "Phin_totten",
+    "name": "Phin",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1978233724329226240/0VM4zTu1_400x400.jpg",
+    "rank": 31,
+    "score": 9.074254611332902,
+    "mindsharePct": 0.179555906049151
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1479905666798178307",
+    "handle": "jussy_world",
+    "name": "jussy",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1805882099993362433/ZS_9CBKb_400x400.jpg",
+    "rank": 32,
+    "score": 9.66768440862004,
+    "mindsharePct": 0.1317491491441415
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "875734960539414528",
+    "handle": "SmartGrap",
+    "name": "SmartGraph 💰 | 𝔽rAI",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1962746639400980480/cBZhBvZm_bigger.jpg",
+    "rank": 33,
+    "score": 12.28898196248917,
+    "mindsharePct": 0.3003278719625862
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "843624954",
+    "handle": "djsamwithers",
+    "name": "Sam Withers",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1970683945818935296/6Js_ZU_p_bigger.jpg",
+    "rank": 34,
+    "score": 9.836829419802246,
+    "mindsharePct": 0.1773879516885744
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1585042550087376899",
+    "handle": "Babyshindaa",
+    "name": "Dara💗 (❖,❖)Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1968996985366573056/yqlmW-go_400x400.jpg",
+    "rank": 35,
+    "score": 10.46708179503444,
+    "mindsharePct": 0.3320517317019036
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "4142777621",
+    "handle": "shivst3r",
+    "name": "Shiv",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1979146806396121089/LJDv0oMm_400x400.jpg",
+    "rank": 36,
+    "score": 10.64488276483679,
+    "mindsharePct": 0.0983675236379515
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1501201857615646720",
+    "handle": "AtnsXBT",
+    "name": "AtnsMDX",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1910330118922280960/kYCDIxCV_bigger.jpg",
+    "rank": 37,
+    "score": 9.486637514599835,
+    "mindsharePct": 0.3048467132052909
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1689566629439664128",
+    "handle": "Pentaeth_",
+    "name": "Penta",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1963439843809398786/kcrmznG0_bigger.jpg",
+    "rank": 38,
+    "score": 9.045852563633552,
+    "mindsharePct": 0.3112147239592423
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1593822657069432834",
+    "handle": "Zaddy_Fi",
+    "name": "Zaddy",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1969756286196609025/gV_zKVCl_400x400.jpg",
+    "rank": 39,
+    "score": 8.452801183114262,
+    "mindsharePct": 0.2387296513651947
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1466836916783960071",
+    "handle": "rakermoon89",
+    "name": "Moonraker⚔️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1953431307997900801/Fuq4BSGW_bigger.jpg",
+    "rank": 40,
+    "score": 7.58860238884232,
+    "mindsharePct": 0.2306204314657045
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1245337518385401856",
+    "handle": "0xRory",
+    "name": "Rory /✨🐐/",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1849086045247193088/XHnPw4Ry_400x400.jpg",
+    "rank": 41,
+    "score": 8.63961218330123,
+    "mindsharePct": 0.2642136730956042
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "221634760",
+    "handle": "itskkoma",
+    "name": "itskkoma",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1972687552722452480/3AwqWXo4_400x400.jpg",
+    "rank": 42,
+    "score": 7.17118871361518,
+    "mindsharePct": 0.2074478739601701
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1363439215388803074",
+    "handle": "auwalkhan104",
+    "name": "Auwal Khan🕊️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1930308757323403264/VrCBZv9y_bigger.jpg",
+    "rank": 43,
+    "score": 9.060251834730106,
+    "mindsharePct": 0.2344683512348906
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "274762943",
+    "handle": "pwniR3birth",
+    "name": "R3birth",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1927490939636899840/6i-Z8U1r_bigger.jpg",
+    "rank": 44,
+    "score": 7.213493410599785,
+    "mindsharePct": 0.324190674704474
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1291551202744958976",
+    "handle": "Yinkssz",
+    "name": "Yinks",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1974735743110062080/J7dAI24p_bigger.jpg",
+    "rank": 45,
+    "score": 5.926445307483342,
+    "mindsharePct": 0.2059430778088167
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1613906317156167683",
+    "handle": "defi_parcifap",
+    "name": "Parcifap",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1785645013403062272/AL3hF9lA_bigger.jpg",
+    "rank": 46,
+    "score": 5.765589539980618,
+    "mindsharePct": 0.1141141540747142
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1475531647202127872",
+    "handle": "RealDuckMaster",
+    "name": "duckmaster.eth",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1673417733294153728/Tfp3NCIq_bigger.jpg",
+    "rank": 47,
+    "score": 6.084496181274712,
+    "mindsharePct": 0.2252084804092575
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1805660516322623488",
+    "handle": "wtfAaron",
+    "name": "Explorer",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1977440532637892610/GwMg70qk_400x400.jpg",
+    "rank": 48,
+    "score": 8.169429682438167,
+    "mindsharePct": 0.1510858269659612
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1426357566041296903",
+    "handle": "BawsaXBT",
+    "name": "BAWSA",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1942235865725775872/ou3YszkG_bigger.jpg",
+    "rank": 49,
+    "score": 10.99751723798458,
+    "mindsharePct": 0.133936869502589
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1469259059547230213",
+    "handle": "TheCryptoProfes",
+    "name": "The Crypto Professor",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1896664017113919488/BOptSYYQ_400x400.jpg",
+    "rank": 50,
+    "score": 5.822868463456309,
+    "mindsharePct": 0.1763449201118583
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1214757469785747457",
+    "handle": "ripchillpill",
+    "name": "Chill Pill 🔮 (Bald)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1946234469947478016/xzWSyU2l_bigger.jpg",
+    "rank": 51,
+    "score": 9.139511717228917,
+    "mindsharePct": 0.1276783110734975
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1324038533808640005",
+    "handle": "ProofOfTravis",
+    "name": "Travis Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1947588879378264064/VX-7syV7_400x400.jpg",
+    "rank": 52,
+    "score": 5.437979673070152,
+    "mindsharePct": 0.2433047105842045
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1916452324551106560",
+    "handle": "BalistoVin",
+    "name": "Balisto ⬜️🟩",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1978472211376697344/0Vfpce2a_bigger.jpg",
+    "rank": 53,
+    "score": 5.341805049992764,
+    "mindsharePct": 0.2196665922001013
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1905895407588397056",
+    "handle": "KaiBGR",
+    "name": "Kai | 𝔽rAI | π²",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1951246719951446016/7Ck7vWvB_bigger.jpg",
+    "rank": 54,
+    "score": 6.439414908393123,
+    "mindsharePct": 0.276519052539265
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1348754007377010700",
+    "handle": "LIMITLESSDAMI",
+    "name": "ℕOLIMIT🪼",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1878395921483874305/fvg5gXM3_400x400.jpg",
+    "rank": 55,
+    "score": 5.083504637419596,
+    "mindsharePct": 0.1447406608669626
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1654208868883283969",
+    "handle": "Defi_Scribbler",
+    "name": "Scribbler Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1863564345793224704/UgsnGdu__400x400.jpg",
+    "rank": 56,
+    "score": 5.995346347003855,
+    "mindsharePct": 0.1895877627762319
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1467913111571210244",
+    "handle": "0xValmir",
+    "name": "Valmir",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1930924462058188800/EwBXSLYr_bigger.jpg",
+    "rank": 57,
+    "score": 5.977330659274855,
+    "mindsharePct": 0.1629320814578857
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "179224911",
+    "handle": "xinsanityo",
+    "name": "Cris 𓆏",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1963482016977940480/a0oo6uN0_bigger.jpg",
+    "rank": 58,
+    "score": 4.933850040227505,
+    "mindsharePct": 0.2100723598643012
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1389843943471321089",
+    "handle": "Alexgoldpack",
+    "name": "Alexgoldpack",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1954158790913282048/R0dv96fZ_bigger.jpg",
+    "rank": 59,
+    "score": 5.740876372219962,
+    "mindsharePct": 0.07029319583970589
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1288625624739753984",
+    "handle": "interest_about",
+    "name": "MaskJiro",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1932452591004475392/XIlDZRgu_bigger.jpg",
+    "rank": 60,
+    "score": 5.096999425968194,
+    "mindsharePct": 0.2059011641098371
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1349432670200205313",
+    "handle": "Gyokeres_eth",
+    "name": "Gyo",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1943569917141196800/pycs19G9_bigger.jpg",
+    "rank": 61,
+    "score": 5.396086709263778,
+    "mindsharePct": 0.1605132318261938
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "557822642",
+    "handle": "HouseofYogiX",
+    "name": "Yogi",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1967710687972470784/hHYuLMbM_400x400.jpg",
+    "rank": 62,
+    "score": 3.956488763981952,
+    "mindsharePct": 0.1232817925906171
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1732496710876676097",
+    "handle": "Soathefirstt",
+    "name": "Dr SOA 🧪",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1786132270216065024/FK750ARz_bigger.jpg",
+    "rank": 63,
+    "score": 4.987002762568441,
+    "mindsharePct": 0.1963146482200544
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1138860747881160705",
+    "handle": "Fatimabadam",
+    "name": "Noor💥Fateema",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1956624294898749440/M7CByX4__bigger.jpg",
+    "rank": 64,
+    "score": 5.02742652611785,
+    "mindsharePct": 0.1967096911285686
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1228678346185281537",
+    "handle": "OxTochi",
+    "name": "OxTøchi 🦇🔈",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1888969490223759360/Ez3fTiDZ_400x400.jpg",
+    "rank": 65,
+    "score": 5.491864349261327,
+    "mindsharePct": 0.085419880680477
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1216865142870331392",
+    "handle": "johnjassper",
+    "name": "JASSP3R ♞",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1934551187921031168/nGtzaMgy_bigger.jpg",
+    "rank": 66,
+    "score": 4.164007188389726,
+    "mindsharePct": 0.1801606265625628
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1252825232491950081",
+    "handle": "Manners_ST",
+    "name": "0xManners ☕️ 🇻🇳🦇✦",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1953681199681220610/Awnb1xQ6_bigger.jpg",
+    "rank": 67,
+    "score": 4.225619022875692,
+    "mindsharePct": 0.225345203332818
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1626433202406494208",
+    "handle": "OGA_NASER",
+    "name": "OGA_NASER",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1944465913152950272/Vk6u_FEO_bigger.jpg",
+    "rank": 68,
+    "score": 5.720636315887592,
+    "mindsharePct": 0.2013994309305903
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1569004740926644227",
+    "handle": "Aduragbemi0000",
+    "name": "Bishop",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1873853589694615553/idONWNAe_400x400.jpg",
+    "rank": 69,
+    "score": 3.796539217437751,
+    "mindsharePct": 0.1359491724971808
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1550499475805933573",
+    "handle": "tola_unusual",
+    "name": "Omotola🦋 (❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1968376245390876672/jVMqKPo__bigger.jpg",
+    "rank": 70,
+    "score": 3.621227551282725,
+    "mindsharePct": 0.2005812964496551
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1433617497643646976",
+    "handle": "HottieBabeGem",
+    "name": "hottiebabegem Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1905940914788564993/9d_lTMKV_400x400.jpg",
+    "rank": 71,
+    "score": 3.667838975453754,
+    "mindsharePct": 0.09729413415469972
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1489344748209029128",
+    "handle": "Kelvinkhute1",
+    "name": "BOY ALONE 🧘",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1976782022686146560/1FLaSxvY_bigger.jpg",
+    "rank": 72,
+    "score": 4.139291855727114,
+    "mindsharePct": 0.2027793830540049
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1216903214",
+    "handle": "WrecksGG",
+    "name": "Wrecks",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1936019352303665152/ddoA0vY-_bigger.jpg",
+    "rank": 73,
+    "score": 3.300548997283323,
+    "mindsharePct": 0.08031246728612855
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "2828304326",
+    "handle": "brave_raf",
+    "name": "Dr Rafa",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1938512181970276356/mWwM8Fu3_bigger.jpg",
+    "rank": 74,
+    "score": 3.650385185995718,
+    "mindsharePct": 0.1689267945806974
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "511921428",
+    "handle": "the_viiibe",
+    "name": "viiibe",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1912215562295345152/pyQXtJen_bigger.jpg",
+    "rank": 75,
+    "score": 4.425481491282184,
+    "mindsharePct": 0.164266730179857
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1500892159305785349",
+    "handle": "cryptodaaddy",
+    "name": "Crypto Daddy ֎",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1942072396174807040/qif7O0LT_400x400.jpg",
+    "rank": 76,
+    "score": 4.354934500193063,
+    "mindsharePct": 0.1375171066244098
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "3078211361",
+    "handle": "TimHaldorsson",
+    "name": "Tim Haldorsson",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1928091512484556800/Toeoufns_400x400.jpg",
+    "rank": 77,
+    "score": 3.441357632849427,
+    "mindsharePct": 0.1241467878057755
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1468579133038997504",
+    "handle": "RickLFG",
+    "name": "rick",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1732719093243949056/u8AXAOkn_bigger.png",
+    "rank": 78,
+    "score": 3.578289425939818,
+    "mindsharePct": 0.1318008323046375
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1855364084373340160",
+    "handle": "Bl9ckston",
+    "name": "Castro",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1976020399461646336/u3tI0Sd-_400x400.jpg",
+    "rank": 79,
+    "score": 3.673865891673024,
+    "mindsharePct": 0.2000779851390125
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1772199493863198720",
+    "handle": "web3_Adri",
+    "name": "Adri 💜",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1957937769361072128/cBHRSZPI_400x400.jpg",
+    "rank": 80,
+    "score": 5.830832702738443,
+    "mindsharePct": 0.1307028803143862
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1540870335481913344",
+    "handle": "anonsatoshi1",
+    "name": "Anon Satoshi",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1938132508333285376/Ag1BnZZW_bigger.jpg",
+    "rank": 81,
+    "score": 3.574385676411159,
+    "mindsharePct": 0.1489506296349219
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1385570411161739268",
+    "handle": "whemohere",
+    "name": "whemo",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1913520604247994368/MGDvxQEJ_bigger.jpg",
+    "rank": 82,
+    "score": 3.243780073403586,
+    "mindsharePct": 0.2102449020869602
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1753683326379126784",
+    "handle": "0x_Samir",
+    "name": "0xSamir.Sui (✧ᴗ✧)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1956937903080173568/jGdLq0-1_bigger.jpg",
+    "rank": 83,
+    "score": 3.681598697616162,
+    "mindsharePct": 0.114462750400883
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1785805702935515137",
+    "handle": "vikktorrrre",
+    "name": "Veee",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1957831848643485696/NmSdQOFc_bigger.jpg",
+    "rank": 84,
+    "score": 3.410628691894007,
+    "mindsharePct": 0.1855790327984455
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "37945701",
+    "handle": "EricCLFung",
+    "name": "EricF",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1908353374732640256/h6QmIugs_bigger.jpg",
+    "rank": 85,
+    "score": 3.769495773377374,
+    "mindsharePct": 0.1262443900119704
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1714047986123116544",
+    "handle": "m_jhaayy",
+    "name": "jamal",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1977773759244214272/sWJVI17w_400x400.jpg",
+    "rank": 86,
+    "score": 3.109221399530535,
+    "mindsharePct": 0.1643804055360483
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1424220780217372673",
+    "handle": "kelvinoyibo2",
+    "name": "H0ld.sats",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1964291899285540864/k58FJ1R7_400x400.jpg",
+    "rank": 87,
+    "score": 3.306895858921836,
+    "mindsharePct": 0.09792590647328284
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1587849097557458948",
+    "handle": "R2D2zen",
+    "name": "R2D2",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1788670816034451457/tLqRa6mn_bigger.jpg",
+    "rank": 88,
+    "score": 5.31947395890737,
+    "mindsharePct": 0.103588925435211
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1235197540842311685",
+    "handle": "DaSpielberg",
+    "name": "Da Real Spielberg",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1961288652203421696/D66L2CNy_bigger.jpg",
+    "rank": 89,
+    "score": 3.637340427893481,
+    "mindsharePct": 0.1467818046255183
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "966414543319597056",
+    "handle": "Spicy_Rich",
+    "name": "Spicy Rich",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1970128829063573504/jKBOnRUY_bigger.jpg",
+    "rank": 90,
+    "score": 3.009318671683924,
+    "mindsharePct": 0.1112080189725877
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1793365165880303616",
+    "handle": "Dwisecryp",
+    "name": "Dwise (Ø,G)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1794495221163540480/Guw1W5-b_bigger.jpg",
+    "rank": 91,
+    "score": 3.120653625878892,
+    "mindsharePct": 0.1891038113811834
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1506650477253079050",
+    "handle": "CRYPTOKRALI3",
+    "name": "CRYPTOKRALI©️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1811393626498285568/vce0tW6K_400x400.jpg",
+    "rank": 92,
+    "score": 3.160325736324354,
+    "mindsharePct": 0.09863491354218541
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1294613174180884480",
+    "handle": "pillze_",
+    "name": "Pillze (❖,❖) Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1972226150156959744/p2-6-JFk_400x400.jpg",
+    "rank": 93,
+    "score": 3.194857861086471,
+    "mindsharePct": 0.2068226405907912
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1836023578409443328",
+    "handle": "Ask_Of_Benson",
+    "name": "𝐒𝐢𝐧𝐜𝐞𝐫𝐞𝐥𝐲 ✝︎ 𝐁𝐄𝐍𝐒𝐎𝐍",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1913229036597231616/bp4__O-z_bigger.jpg",
+    "rank": 94,
+    "score": 3.163737253060091,
+    "mindsharePct": 0.1211343414394838
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1281243246124052481",
+    "handle": "vikes_xx",
+    "name": "vikes🌚✨ (❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1788661922314776576/O6fm1Rjg_bigger.jpg",
+    "rank": 95,
+    "score": 2.932955448417315,
+    "mindsharePct": 0.1870236250113812
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1465909238241251336",
+    "handle": "shubh2005S",
+    "name": "Shubh Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1977350531031891970/fL2R1Ozu_400x400.jpg",
+    "rank": 96,
+    "score": 2.769577343869247,
+    "mindsharePct": 0.07873845661652318
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1488991552768724998",
+    "handle": "Aurelius_1988",
+    "name": "Aurelius",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1968380423651700736/KLBOebQf_400x400.jpg",
+    "rank": 97,
+    "score": 2.576314511571016,
+    "mindsharePct": 0.1530597990162254
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "928906658813808640",
+    "handle": "xxCJ78xx",
+    "name": "CJ78",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1978868048753762305/AlwrH8pV_400x400.jpg",
+    "rank": 98,
+    "score": 2.808481064959329,
+    "mindsharePct": 0.130770686426123
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1807695074047807488",
+    "handle": "chuachipibi",
+    "name": "MandyJR♟️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1847466645289070592/T1OR6J76_400x400.jpg",
+    "rank": 99,
+    "score": 2.715367083008653,
+    "mindsharePct": 0.1129139433453713
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1884829206477180928",
+    "handle": "glory_patrick1",
+    "name": "Glory patrick (❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1906780960521142274/bk5WTlhw_bigger.jpg",
+    "rank": 100,
+    "score": 2.895634121913687,
+    "mindsharePct": 0.1825052361201425
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "285526940",
+    "handle": "Rahamumer",
+    "name": "Rahamumer ❤️ (Ø,G)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1692090202452332545/3jX1mcIX_400x400.png",
+    "rank": 101,
+    "score": 2.313443991845874,
+    "mindsharePct": 0.06377209401210976
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1575675920622358529",
+    "handle": "keys0321",
+    "name": "Rempo",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1812240517029085184/YSyA6oEH_bigger.jpg",
+    "rank": 102,
+    "score": 2.67407854656589,
+    "mindsharePct": 0.1463675397743317
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1440471937495363597",
+    "handle": "swankyjohnx",
+    "name": "Swanky",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1938707134931251200/k0q_RYbL_bigger.jpg",
+    "rank": 103,
+    "score": 2.519955486308439,
+    "mindsharePct": 0.1624934163531198
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1495458073607127047",
+    "handle": "joewrldera",
+    "name": "joe♟️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1970368353723187201/xVUvbW_d_bigger.jpg",
+    "rank": 104,
+    "score": 2.743870471055979,
+    "mindsharePct": 0.1768282926031313
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1859316850137460736",
+    "handle": "FaveSummy",
+    "name": "Grace",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1924778273159979008/XNmDwGa__400x400.jpg",
+    "rank": 105,
+    "score": 2.620911882150445,
+    "mindsharePct": 0.1846824976931531
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1393093556609458179",
+    "handle": "MorkHood",
+    "name": "Mørk",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1942514764069928963/ja2a5Lk9_bigger.jpg",
+    "rank": 106,
+    "score": 2.374133953428116,
+    "mindsharePct": 0.126048676525643
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "2815782993",
+    "handle": "EnsieEnsy",
+    "name": "ChicEnsy | HUDL",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1895564016912568320/8TKEWDUM_bigger.jpg",
+    "rank": 107,
+    "score": 3.001031272438427,
+    "mindsharePct": 0.08838429911843117
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1804766957889343488",
+    "handle": "mr_random14",
+    "name": "Mr_Random",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1968693743671984131/xr1LBGij_400x400.jpg",
+    "rank": 108,
+    "score": 3.00355460826731,
+    "mindsharePct": 0.1261177960313555
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1539549901033558018",
+    "handle": "Meelerh_Web3",
+    "name": "Jameelerh 🕊️Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1963082333998751744/L9FpcPb2_400x400.jpg",
+    "rank": 109,
+    "score": 3.462324421844843,
+    "mindsharePct": 0.02498662241131698
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1806309581242404864",
+    "handle": "exclusive269",
+    "name": "EXCLUSIVE EMMA (✧ᴗ✧)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1917249054863417344/QH4EHorZ_bigger.jpg",
+    "rank": 110,
+    "score": 2.387044893041751,
+    "mindsharePct": 0.1505876325765006
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1417655496266240001",
+    "handle": "sanjfomojis",
+    "name": "Sanj 😶‍🌫️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1770266879921364992/gLnNEe3S_bigger.jpg",
+    "rank": 111,
+    "score": 2.827928263353732,
+    "mindsharePct": 0.02197481431759768
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1658195888559235075",
+    "handle": "metheromicheal",
+    "name": "methero",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1952008510494941184/d8wfNuhN_bigger.jpg",
+    "rank": 112,
+    "score": 2.557540590499189,
+    "mindsharePct": 0.16870906033539
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1830714640642228224",
+    "handle": "neko_cryptt",
+    "name": "Neko",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1968210665803313152/tObnqyhv_bigger.jpg",
+    "rank": 113,
+    "score": 2.161960354977215,
+    "mindsharePct": 0.1167930785405753
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1935282916256313344",
+    "handle": "Nuelonchain",
+    "name": "NUEL🔗🌐",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1958224808178520065/isp4JjKn_bigger.jpg",
+    "rank": 114,
+    "score": 2.211169765092652,
+    "mindsharePct": 0.1577135672835144
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1503063685966794753",
+    "handle": "anda765",
+    "name": "Anda ☀️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1867479631344902144/a76UoJ1P_bigger.jpg",
+    "rank": 115,
+    "score": 5.258814487541075,
+    "mindsharePct": 0.05064093677346638
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1903726598656016384",
+    "handle": "Mamat464987324",
+    "name": "Mamat",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1977085974216896512/O2YEFbmW_bigger.jpg",
+    "rank": 116,
+    "score": 2.534582463596707,
+    "mindsharePct": 0.1324921201071883
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "343586472",
+    "handle": "mrTonyexcel",
+    "name": "KennyExcel⚡️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1953395818192379904/EweRprj3_bigger.jpg",
+    "rank": 117,
+    "score": 2.451261158879135,
+    "mindsharePct": 0.1489240082412629
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "31936063",
+    "handle": "NFTWhistledown",
+    "name": "LADY WHISTLΞD◎WN",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1785732484635803648/bfQYH7cI_bigger.jpg",
+    "rank": 118,
+    "score": 2.09982462278231,
+    "mindsharePct": 0.1264975486052309
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1730868782879444992",
+    "handle": "JerryStarke",
+    "name": "0xJust.ME",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1966189666085822464/gIY8ifvr_bigger.jpg",
+    "rank": 119,
+    "score": 2.510406835994551,
+    "mindsharePct": 0.1480512572590532
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1441552575686275076",
+    "handle": "tdkimber",
+    "name": "💎tdk💎",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1970659851966791680/VxDHZ8Rs_400x400.jpg",
+    "rank": 120,
+    "score": 2.482455591404425,
+    "mindsharePct": 0.1518132007769004
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1363247996205289478",
+    "handle": "tulipxbt",
+    "name": "tulip ✨",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1934290546438053888/mCQvumh3_400x400.jpg",
+    "rank": 121,
+    "score": 2.312074469945533,
+    "mindsharePct": 0.08783608046614573
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1868933002488954886",
+    "handle": "Chopper_zk",
+    "name": "Chopper🌻",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1968630724803837952/1kyhPOm7_bigger.jpg",
+    "rank": 122,
+    "score": 2.702821351264729,
+    "mindsharePct": 0.08934628026670409
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "839621821",
+    "handle": "gomtu_xyz",
+    "name": "Gomtu Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1972687547970318337/aGYkpL9d_400x400.jpg",
+    "rank": 123,
+    "score": 5.749683993925113,
+    "mindsharePct": 0.0505665255617664
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1482096121937862661",
+    "handle": "iamczmac",
+    "name": "2 1 8",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1955783035057479685/y-wdIR4T_bigger.jpg",
+    "rank": 124,
+    "score": 2.494102768787164,
+    "mindsharePct": 0.1057820799345085
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1870859602126106624",
+    "handle": "truonganhv2967",
+    "name": "Harriette | Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1952399491858128896/7yDqPLKZ_400x400.jpg",
+    "rank": 125,
+    "score": 2.554002160828023,
+    "mindsharePct": 0.1002890272888217
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "729051879280254976",
+    "handle": "ken_w3b3",
+    "name": "Ken 🌊",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1971152708615929858/l1Zzgjul_400x400.jpg",
+    "rank": 126,
+    "score": 1.852918238334215,
+    "mindsharePct": 0.06859074573275568
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1358594831795257348",
+    "handle": "Dollar782",
+    "name": "JDollar☂️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1942197494558994432/vCEeRx5A_bigger.jpg",
+    "rank": 127,
+    "score": 2.832864219766104,
+    "mindsharePct": 0.1118733934745411
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1870460883849076737",
+    "handle": "thedatalyst2012",
+    "name": "The Datalyst 🧐",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1891869875280199680/oBzjI8TL_bigger.jpg",
+    "rank": 128,
+    "score": 2.466603584405261,
+    "mindsharePct": 0.1332863717721886
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1746777449533235200",
+    "handle": "AdedejiTos55012",
+    "name": "kida kush",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1862830708940500992/iJYy6trv_bigger.jpg",
+    "rank": 129,
+    "score": 2.179683048272513,
+    "mindsharePct": 0.1252244995704206
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "949299263904755713",
+    "handle": "khaibillbill",
+    "name": "khaibill | ∑:",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1939959997380640769/bJrxyEn-_bigger.jpg",
+    "rank": 130,
+    "score": 2.353839577597257,
+    "mindsharePct": 0.1392396566061484
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1796123452434161664",
+    "handle": "Gen_Okwuchukwu2",
+    "name": "OkwyBobo(❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1917730554650189824/dZDuvI7c_bigger.jpg",
+    "rank": 131,
+    "score": 1.945873762513085,
+    "mindsharePct": 0.1183957134038855
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1549397798583521282",
+    "handle": "rexxie_05",
+    "name": "boi",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1965428331962134528/YQz5I2zf_400x400.jpg",
+    "rank": 132,
+    "score": 1.696463429459001,
+    "mindsharePct": 0.07843182658757875
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1367979196769796101",
+    "handle": "DjaniWhaleSkul",
+    "name": "Djani",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1978770153857757184/X-iPLAd0_400x400.jpg",
+    "rank": 133,
+    "score": 2.638256577752931,
+    "mindsharePct": 0.1054668087341806
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1637442964224892928",
+    "handle": "_iam_Emperor",
+    "name": "𝕰𝖒𝖕𝖊𝖗𝖔𝖗 👑 π² Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1926998579089944577/k7oWUPpu_bigger.jpg",
+    "rank": 134,
+    "score": 3.17713340884552,
+    "mindsharePct": 0.1571068329917556
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "878063326961573888",
+    "handle": "Tarek0560",
+    "name": "Maynul",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1618082412151603200/HIBly3LE_bigger.jpg",
+    "rank": 135,
+    "score": 2.101624754765813,
+    "mindsharePct": 0.1336128987314829
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1908913816647163904",
+    "handle": "GoatXII3",
+    "name": "Goat XII",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1941586485397876736/0b6vdHOP_bigger.jpg",
+    "rank": 136,
+    "score": 2.213918389771777,
+    "mindsharePct": 0.1108852992437149
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1791445151149129728",
+    "handle": "nel_ogx",
+    "name": "nel",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1948400003107463168/U5WwkfDD_bigger.jpg",
+    "rank": 137,
+    "score": 3.660568919396664,
+    "mindsharePct": 0.1636957763579641
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "319052152",
+    "handle": "NFTGUYY",
+    "name": "nftguyy",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1892412723373518848/ImtRncey_bigger.jpg",
+    "rank": 138,
+    "score": 2.165093590688534,
+    "mindsharePct": 0.05813698404048871
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1343574851550896129",
+    "handle": "Odycx01",
+    "name": "Odyycx Noya",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1976172158842785792/ixl6JIPh_bigger.jpg",
+    "rank": 139,
+    "score": 2.090271286134052,
+    "mindsharePct": 0.1483602110693587
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1581067380419137537",
+    "handle": "0x_Kings",
+    "name": "0x__Kinno ♦️(Ø,G).ink .lvl🆙 👁️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1631658085184946177/sQ8RJ8Y__400x400.jpg",
+    "rank": 140,
+    "score": 2.131436127908245,
+    "mindsharePct": 0.1808727199968001
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1548769544935653376",
+    "handle": "amit0xic",
+    "name": "t0xic Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1739256766074908672/RsbzxQ3__bigger.jpg",
+    "rank": 141,
+    "score": 2.389793968811248,
+    "mindsharePct": 0.0942259507724767
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1842614992698589184",
+    "handle": "Sol_dium",
+    "name": "Na+",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1960758709371428864/VxqMklQy_bigger.jpg",
+    "rank": 142,
+    "score": 2.153293189387503,
+    "mindsharePct": 0.1274692473917339
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1310604060618354691",
+    "handle": "pawnie_",
+    "name": "Pawnie",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1699698856517099520/XUrzmI2C_bigger.jpg",
+    "rank": 143,
+    "score": 2.917949909794199,
+    "mindsharePct": 0.07384369800745952
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1528123707146870786",
+    "handle": "thekuchh",
+    "name": "kuch Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1923797852968333312/eWzXpnRZ_bigger.jpg",
+    "rank": 144,
+    "score": 1.945537107465277,
+    "mindsharePct": 0.1027190047916629
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1791360369409019904",
+    "handle": "thutmusx",
+    "name": "Thutmus(❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1970884904444432385/Z-Gr7Bb1_bigger.jpg",
+    "rank": 145,
+    "score": 2.198608004366453,
+    "mindsharePct": 0.1473611045678993
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1867214306",
+    "handle": "Enyioma_Ifeanyi",
+    "name": "Yess Ubah 🐐",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1887174557435318273/o5EjjIyu_400x400.jpg",
+    "rank": 146,
+    "score": 2.227231933527933,
+    "mindsharePct": 0.137448027239249
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1849714877306372096",
+    "handle": "lumisaigon3",
+    "name": "Lumi MT Crypto|Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1966482516887646209/BaH7Lkuk_400x400.jpg",
+    "rank": 147,
+    "score": 2.2260894002908,
+    "mindsharePct": 0.1392024169864378
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "2889493108",
+    "handle": "SolMemeEmperor",
+    "name": "Solana Memes Emperor | 𝔽rAI",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1779542666696343553/0VxImihc_400x400.jpg",
+    "rank": 148,
+    "score": 2.137042050039814,
+    "mindsharePct": 0.1244889120806874
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1190320435046436864",
+    "handle": "_AminW3",
+    "name": "Al Amin | Web3 Enthusiast",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1955682052143271936/o6GpILgK_400x400.jpg",
+    "rank": 149,
+    "score": 2.247650679135444,
+    "mindsharePct": 0.1120915061638486
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "112705099",
+    "handle": "maziibe_",
+    "name": "Ibe 🎒",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1917119717229068288/umancsJ6_bigger.png",
+    "rank": 150,
+    "score": 1.921890402027616,
+    "mindsharePct": 0.0483837108098424
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1766837162186604544",
+    "handle": "ramazanbaran07",
+    "name": "AI ⚡ Web3 Alpha",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1963359553346498560/LlTJzRjj_bigger.jpg",
+    "rank": 151,
+    "score": 2.556844316233237,
+    "mindsharePct": 0.0799619060434335
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1516007131098583042",
+    "handle": "jennn_sol",
+    "name": "jennn Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1690384836924510208/hwKuT81j_400x400.jpg",
+    "rank": 152,
+    "score": 2.375232053474867,
+    "mindsharePct": 0.03974319060282061
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1791043027445678080",
+    "handle": "Bryce160920",
+    "name": "Official Bryce ✞",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1928402865401298944/KD29WQwl_400x400.jpg",
+    "rank": 153,
+    "score": 2.042350975723108,
+    "mindsharePct": 0.1754364664135478
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "150259248",
+    "handle": "7_Tolani",
+    "name": "Alvin Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1971878169864011776/2b0VC6dd_400x400.jpg",
+    "rank": 154,
+    "score": 1.73732745332856,
+    "mindsharePct": 0.1171118962874782
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1673756922762108935",
+    "handle": "IFeelNothing07",
+    "name": "I_Feel_Nothing... Noya.ai",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1962601731948212224/AzKGy52r_bigger.jpg",
+    "rank": 155,
+    "score": 1.992517833663728,
+    "mindsharePct": 0.1464230512867019
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1439606210186067968",
+    "handle": "OldBakugo",
+    "name": "0xJeff Σ:",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1943949719023038464/ykD9kmEO_400x400.jpg",
+    "rank": 156,
+    "score": 2.29851742712363,
+    "mindsharePct": 0.1151535901489458
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1357239579447762945",
+    "handle": "MtroX207",
+    "name": "MtroX. Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1933932609819811840/9GxxSwzP_bigger.jpg",
+    "rank": 157,
+    "score": 2.174388220000811,
+    "mindsharePct": 0.1316868218383669
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1872235254771048448",
+    "handle": "Unique1her",
+    "name": "Chi",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1906655121531920384/gvefStAQ_bigger.jpg",
+    "rank": 158,
+    "score": 2.298645537933502,
+    "mindsharePct": 0.1216493485257836
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1478015583874650117",
+    "handle": "Web3Pikachu",
+    "name": "Pikachu⚡",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1747323744035512323/aaSeVPAL_400x400.jpg",
+    "rank": 159,
+    "score": 1.797588989785454,
+    "mindsharePct": 0.08334933524336643
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "29696918",
+    "handle": "eth2",
+    "name": "ETH2",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1598099463997890560/L6l6-fnL_400x400.jpg",
+    "rank": 160,
+    "score": 2.641637185106394,
+    "mindsharePct": 0.1297929494725037
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1496159412804890626",
+    "handle": "JustNath_web3",
+    "name": "JustNath",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1885520434352803840/pcEoKrfv_400x400.jpg",
+    "rank": 161,
+    "score": 1.493104355685066,
+    "mindsharePct": 0.07642578572606895
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1702565697724002304",
+    "handle": "InternXBT_",
+    "name": "Intern",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1930526253905326080/_ABPeuGx_bigger.jpg",
+    "rank": 162,
+    "score": 1.726048017257505,
+    "mindsharePct": 0.1099237612986416
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1813922893153103872",
+    "handle": "webxiv",
+    "name": "web",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1945995493303107584/i1n8hXy__bigger.jpg",
+    "rank": 163,
+    "score": 2.486244222883971,
+    "mindsharePct": 0.1307219118250267
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1546091256962580480",
+    "handle": "Telcier",
+    "name": "Telcier",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1951971663026778112/DD3U1Pc2_400x400.jpg",
+    "rank": 164,
+    "score": 2.3777747252473,
+    "mindsharePct": 0.07412297769571881
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1090070385733894146",
+    "handle": "0xZeXoR",
+    "name": "ZEXOR",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1907914271452790784/ILm2-qO2_400x400.jpg",
+    "rank": 165,
+    "score": 2.908631678083862,
+    "mindsharePct": 0.04346081745262811
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1738678594321133568",
+    "handle": "Bedlam127",
+    "name": "ChildOfGod (❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1969829219468247040/r-RJQ3fz_bigger.jpg",
+    "rank": 166,
+    "score": 1.905628489587334,
+    "mindsharePct": 0.1538190610668901
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "589447873",
+    "handle": "bennettchimere",
+    "name": "Chimerenka",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1955901110998257669/tPUSIR2a_bigger.jpg",
+    "rank": 167,
+    "score": 3.132201048081776,
+    "mindsharePct": 0.1330543383184792
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1314699170549202945",
+    "handle": "0xZiggy_eth",
+    "name": "ZIGGY (Ø,G)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1972410832425238528/iYXx7SXx_bigger.jpg",
+    "rank": 168,
+    "score": 2.410520590255002,
+    "mindsharePct": 0.1425293559705485
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1904385235934220288",
+    "handle": "leondoteth",
+    "name": "Hey! This is Leon",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1978432243044663296/K1017BZ5_400x400.jpg",
+    "rank": 169,
+    "score": 2.325084400819719,
+    "mindsharePct": 0.05591866073072773
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1826905671071072256",
+    "handle": "Jidans24",
+    "name": "IJcrypto | 𝔽rAI",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1902080429362151424/e9oy5nhN_bigger.jpg",
+    "rank": 170,
+    "score": 2.234548960213545,
+    "mindsharePct": 0.1299048815477991
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1843444958289870848",
+    "handle": "Big_kayyyyyyyy",
+    "name": "Bigkay",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1885027375743688704/jMCX7y0h_bigger.jpg",
+    "rank": 171,
+    "score": 1.94700202124728,
+    "mindsharePct": 0.1563812920081212
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1711356455490609152",
+    "handle": "eleanor_ev23907",
+    "name": "Tiz Bank⛺🏷️(Ø,G)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1980242364204466176/qG1_lf1W_400x400.jpg",
+    "rank": 172,
+    "score": 1.822464790704625,
+    "mindsharePct": 0.1097913071942158
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1449480972811051015",
+    "handle": "EmekaOghali",
+    "name": "Prymex.eth 🌊",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1968397908023115776/ECMbbH-i_bigger.jpg",
+    "rank": 173,
+    "score": 1.900745882017167,
+    "mindsharePct": 0.1249732800572949
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1405278804822663173",
+    "handle": "Decency019",
+    "name": "Decency",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1934289664262746112/hhwkP4-o_400x400.jpg",
+    "rank": 174,
+    "score": 2.124565602919952,
+    "mindsharePct": 0.1106074574737712
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "3043117294",
+    "handle": "MadMaxx_eth",
+    "name": "MadMaxx (∎, ∆)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1954953099560280064/kc8kX-VI_bigger.jpg",
+    "rank": 175,
+    "score": 1.486569604880832,
+    "mindsharePct": 0.1182997778074111
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1938590894061715456",
+    "handle": "kakashi_zyx",
+    "name": "kakashi",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1971605651500728320/d-rWMsHS_bigger.jpg",
+    "rank": 176,
+    "score": 2.902384806807663,
+    "mindsharePct": 0.07105672724905421
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1688955447288508420",
+    "handle": "akachukwuxbt",
+    "name": "Akachukwu (❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1973152547683667968/avw7ojG2_bigger.jpg",
+    "rank": 177,
+    "score": 1.830805372766318,
+    "mindsharePct": 0.0982973410783169
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1652642772346707968",
+    "handle": "hacirekaya93884",
+    "name": "ChainPulse",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1952968255435407360/lVbxPiA3_bigger.jpg",
+    "rank": 178,
+    "score": 1.956672569706063,
+    "mindsharePct": 0.123518603318546
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1667272890234945536",
+    "handle": "precious_e14883",
+    "name": "Precious Essien 🛅🦧",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1915519438935171072/T3Rg0rML_400x400.jpg",
+    "rank": 179,
+    "score": 1.718592116437088,
+    "mindsharePct": 0.09794641292135296
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "3008727188",
+    "handle": "naumanisrar02",
+    "name": "nomi Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1976355966384742400/uOfaK1U0_bigger.jpg",
+    "rank": 180,
+    "score": 2.478331452962894,
+    "mindsharePct": 0.09500035123022596
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1548542882021363714",
+    "handle": "KendoxKK",
+    "name": "Kendo 🥋",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1966091409640898560/eP2jScJA_bigger.jpg",
+    "rank": 181,
+    "score": 1.8923325869341,
+    "mindsharePct": 0.1007164369677388
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1899999976073420801",
+    "handle": "flamiliacrypto",
+    "name": "flamília .ink 🍚 ⛓",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1903812479714775040/E1kKO436_bigger.jpg",
+    "rank": 182,
+    "score": 2.805519676452956,
+    "mindsharePct": 0.04060591478904556
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1793001178369867776",
+    "handle": "kryptqueen19942",
+    "name": "KryptqueenⓂ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1958054066338013184/3wUBeCrb_400x400.jpg",
+    "rank": 183,
+    "score": 1.726486445938974,
+    "mindsharePct": 0.121978585152519
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1801245932547092480",
+    "handle": "Aman_2173",
+    "name": "Amigo",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1973847470347018240/IosneYaH_400x400.jpg",
+    "rank": 184,
+    "score": 1.773753358462454,
+    "mindsharePct": 0.1136139847800424
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1243922024860393473",
+    "handle": "mayor_adekunle",
+    "name": "Mayor Adekunle",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1692061444194304000/UWP-gQbp_bigger.jpg",
+    "rank": 185,
+    "score": 1.711703015228645,
+    "mindsharePct": 0.06968485585358544
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1789722427661967363",
+    "handle": "xemieth_",
+    "name": "𝑿𝑬𝑴𝑰🧚🏻",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1918237534607294464/Ki53gESk_bigger.jpg",
+    "rank": 186,
+    "score": 1.795566780538053,
+    "mindsharePct": 0.1375612463979649
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1514551467025309702",
+    "handle": "0xbambamy",
+    "name": "Bambam",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1978800582426046464/AZzaze4w_bigger.jpg",
+    "rank": 187,
+    "score": 2.867583199492086,
+    "mindsharePct": 0.03904772717406382
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "951105316288155649",
+    "handle": "AintAteen",
+    "name": "That_farmer",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1837479346761551873/50WduE_j_400x400.jpg",
+    "rank": 188,
+    "score": 2.131127750414864,
+    "mindsharePct": 0.1156835607786071
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1480170960523341827",
+    "handle": "GuldenErtrk",
+    "name": "Nehir.Azra.Melisa",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1962286244894793728/ht3bShRa_bigger.jpg",
+    "rank": 189,
+    "score": 2.45876461584916,
+    "mindsharePct": 0.09168082225533944
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1216751209685581824",
+    "handle": "PrecyartG",
+    "name": "precyblazer.base.eth༒ (Comeback Arc)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1954573309523152899/xAzS5qfC_bigger.jpg",
+    "rank": 190,
+    "score": 2.883411084937463,
+    "mindsharePct": 0.06050976603122796
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1465376978849218560",
+    "handle": "itsmecapa",
+    "name": "Capa Alex Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1951039650375565312/J7BZO6Kb_bigger.jpg",
+    "rank": 191,
+    "score": 1.463808210494829,
+    "mindsharePct": 0.1040869068338352
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1375061257569587202",
+    "handle": "AriaWeb_3",
+    "name": "Aria",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1971881856652967936/9wy10lia_bigger.jpg",
+    "rank": 192,
+    "score": 1.76721603018315,
+    "mindsharePct": 0.140778681200653
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1497884920978587650",
+    "handle": "jaybeola",
+    "name": "jayyyyyy",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1976554751027269632/NOWe5Ir5_bigger.jpg",
+    "rank": 193,
+    "score": 1.401697857648585,
+    "mindsharePct": 0.09343253823909639
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1154448106714365953",
+    "handle": "AnikAsahar",
+    "name": "Anik ✦ Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1916133927150116864/-LHhhSbV_400x400.jpg",
+    "rank": 194,
+    "score": 2.160919796490329,
+    "mindsharePct": 0.1126797059082601
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1725910530383294464",
+    "handle": "A2438Ali",
+    "name": "MD. NUR HASAN 🍊,💊π²",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1977337616627605504/vlpivXjM_bigger.jpg",
+    "rank": 195,
+    "score": 2.074212767535051,
+    "mindsharePct": 0.1099445934889964
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1379428666908631047",
+    "handle": "Bdigital17",
+    "name": "Boluson",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1970988591321878528/MmedCu0A_bigger.jpg",
+    "rank": 196,
+    "score": 1.612233147382839,
+    "mindsharePct": 0.06538037980649929
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1324076449071058945",
+    "handle": "crisnochris",
+    "name": "Cristian",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1979524238181818368/8DT3pol1_400x400.jpg",
+    "rank": 197,
+    "score": 1.437087990327211,
+    "mindsharePct": 0.1049168880019108
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1695798690718330880",
+    "handle": "None_knows_me_",
+    "name": "$tanislaus〽️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1926902282664169472/PYdOa0z__bigger.jpg",
+    "rank": 198,
+    "score": 2.017381527979511,
+    "mindsharePct": 0.1125130492337098
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1516848709534990342",
+    "handle": "dess_y_",
+    "name": "Adesola_B 🔥",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1891196887551672320/Ra970QoL_bigger.jpg",
+    "rank": 199,
+    "score": 1.439926721147844,
+    "mindsharePct": 0.0982863137890132
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1712583135689420800",
+    "handle": "Adamu_eth",
+    "name": "Adamu.eth🧩",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1918198877020196864/Bz7E6CO4_bigger.jpg",
+    "rank": 200,
+    "score": 1.626623376550861,
+    "mindsharePct": 0.09700440625550708
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1162738041766711297",
+    "handle": "AdebsE",
+    "name": "Emmy_web3📈",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1960808154314227712/yRDlRy4W_bigger.jpg",
+    "rank": 201,
+    "score": 1.864262415269649,
+    "mindsharePct": 0.1167328942804271
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1895168195960393728",
+    "handle": "01honcho",
+    "name": "ADEBAYO",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1978121411961978880/AhKPRUBF_400x400.jpg",
+    "rank": 202,
+    "score": 2.200100435641478,
+    "mindsharePct": 0.07270060803042228
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1369706901513138177",
+    "handle": "mbexbt",
+    "name": "MBE",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1900448345258176512/TAZ4Ztt5_400x400.jpg",
+    "rank": 203,
+    "score": 1.975519751655574,
+    "mindsharePct": 0.05164606498190929
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1796167953676992512",
+    "handle": "zea_eth",
+    "name": "ZEA",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1967486584196104192/INOSFXr7_bigger.jpg",
+    "rank": 204,
+    "score": 2.066461584590994,
+    "mindsharePct": 0.1032740080759866
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1760644381613129728",
+    "handle": "randsomee",
+    "name": "randsomee.base.eth",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1974869684215308288/63Klyzdg_bigger.jpg",
+    "rank": 205,
+    "score": 1.857802556476413,
+    "mindsharePct": 0.1063708731503896
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1519459453388607489",
+    "handle": "OladijaD",
+    "name": "Dammyy",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1952707329847123968/Sp_9m_Vo_bigger.jpg",
+    "rank": 206,
+    "score": 1.592083122605435,
+    "mindsharePct": 0.07263905790298383
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1811391839376928768",
+    "handle": "Oleribeweb30",
+    "name": "Oleribe",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1912909444582670336/l7OETW4s_bigger.jpg",
+    "rank": 207,
+    "score": 1.551539689542026,
+    "mindsharePct": 0.03823662062926763
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1520002764973264897",
+    "handle": "raxthealpha",
+    "name": "Rax Alpha",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1965683670531891200/jaaqMfdy_bigger.jpg",
+    "rank": 208,
+    "score": 1.456758880703184,
+    "mindsharePct": 0.07595811577482178
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1428526969424007174",
+    "handle": "hoasky1894",
+    "name": "Kieu Trinh",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1929889583678009350/symM3-hc_400x400.jpg",
+    "rank": 209,
+    "score": 2.001330433125978,
+    "mindsharePct": 0.0252906942618489
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1754453423653621760",
+    "handle": "Criptovalenca",
+    "name": "Cripto Valença ⌘ base.eth",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1957949538603315200/W0OnG9tl_bigger.jpg",
+    "rank": 210,
+    "score": 1.368626027796802,
+    "mindsharePct": 0.08431054328028752
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1740827429709533184",
+    "handle": "flb_xyz",
+    "name": "FLB",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1883229281699979264/dHIvY1R5_400x400.jpg",
+    "rank": 211,
+    "score": 1.385571526238204,
+    "mindsharePct": 0.1037837508056939
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1872821030",
+    "handle": "Raymicozy_",
+    "name": "RAYMICOZY",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1930423610734161921/NxXHkV7R_bigger.jpg",
+    "rank": 212,
+    "score": 1.932031515674052,
+    "mindsharePct": 0.1454323991622821
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1786399593892073472",
+    "handle": "famzz009",
+    "name": "Famz💫",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1949636282977579008/JkOWXn8m_bigger.jpg",
+    "rank": 213,
+    "score": 2.870337707434741,
+    "mindsharePct": 0.08901712062127001
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1502735506144116740",
+    "handle": "Lexywise10",
+    "name": "𝐀𝐥𝐞𝐱𝐚𝐧𝐝𝐞𝐫",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1955023872937365504/gWYHVBeB_bigger.jpg",
+    "rank": 214,
+    "score": 1.843629208053277,
+    "mindsharePct": 0.1220380703161078
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1856706090219479040",
+    "handle": "evrendag1284",
+    "name": "evren",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1957226563524591616/mOmy68io_bigger.jpg",
+    "rank": 215,
+    "score": 1.632651224084287,
+    "mindsharePct": 0.1312764043004653
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1482720044589236225",
+    "handle": "erequendiweb3",
+    "name": "Erequendi",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1961414968315674624/urrz3-Qp_bigger.jpg",
+    "rank": 216,
+    "score": 1.399127291168191,
+    "mindsharePct": 0.07462152612818906
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1650027810122072065",
+    "handle": "netrovertHQ",
+    "name": "Netrovert 🦊",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1870163846528118784/ik_r400z_400x400.jpg",
+    "rank": 217,
+    "score": 1.357232949883861,
+    "mindsharePct": 0.03337967224818612
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1483065936479506440",
+    "handle": "gbolly_marley",
+    "name": "Gbolly Marley",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1682901791409598465/ItmTH4fP_bigger.jpg",
+    "rank": 218,
+    "score": 1.480314669550427,
+    "mindsharePct": 0.1612183629642492
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "269458599",
+    "handle": "jgonzalezferrer",
+    "name": "Javi🥥.eth",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1961316387894304768/QZe8cSsQ_400x400.jpg",
+    "rank": 219,
+    "score": 2.056719508075187,
+    "mindsharePct": 0.1012962472982723
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1892092515458875392",
+    "handle": "Lifee2L80704",
+    "name": "Bích Ngọc | Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1952415447800033280/IO_O7_na_400x400.jpg",
+    "rank": 220,
+    "score": 1.975038429968861,
+    "mindsharePct": 0.08870469146876968
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "2511716449",
+    "handle": "aquiboon",
+    "name": "Akib",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1965774973710004224/Jc708x8E_bigger.jpg",
+    "rank": 221,
+    "score": 1.575423187546956,
+    "mindsharePct": 0.08817165211192551
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1891372602817429504",
+    "handle": "EMOGANGAN",
+    "name": "E.M.O🐦‍🔥🔥",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1927982767184195584/GsH9NiAo_bigger.jpg",
+    "rank": 222,
+    "score": 1.771948743440827,
+    "mindsharePct": 0.09858546134658289
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1315150363356405761",
+    "handle": "winner_asd",
+    "name": "Udochukwu",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1834524830609145856/dVGMByk7_bigger.jpg",
+    "rank": 223,
+    "score": 1.439474683527612,
+    "mindsharePct": 0.08788770977761175
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1776993448085630976",
+    "handle": "thomaxspeaks",
+    "name": "thomax🧸",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1973954593529749506/niD0Tgv8_bigger.jpg",
+    "rank": 224,
+    "score": 1.558450297682982,
+    "mindsharePct": 0.08219951942575601
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "46935545",
+    "handle": "ChrisJourdan",
+    "name": "Captain Zwingli 🍌🎙️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1980220867889000448/8frj-c3Q_400x400.jpg",
+    "rank": 225,
+    "score": 1.167969420664651,
+    "mindsharePct": 0.06049442713379988
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1282740350243819520",
+    "handle": "benofweb",
+    "name": "B€N 爱",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1961031786814697472/Cwo7z1SW_bigger.jpg",
+    "rank": 226,
+    "score": 1.642202579938403,
+    "mindsharePct": 0.1174857419441087
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1889848631424962560",
+    "handle": "anondes_",
+    "name": "Anondes Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1938668998054346752/QqU26ivF_400x400.jpg",
+    "rank": 227,
+    "score": 1.522582426253914,
+    "mindsharePct": 0.1138063515535028
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1904629074128986112",
+    "handle": "1M_Million",
+    "name": "Maryam 💗",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1962442386803482625/JVfanv5n_bigger.jpg",
+    "rank": 228,
+    "score": 1.585532892433656,
+    "mindsharePct": 0.1230607277962318
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "2886579733",
+    "handle": "hitarayo",
+    "name": "rain",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1956830983962976256/tiG4GjSP_bigger.jpg",
+    "rank": 229,
+    "score": 1.398529335444114,
+    "mindsharePct": 0.07510712145619691
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1507677253114736645",
+    "handle": "Obamikenft",
+    "name": "👑ObaM!k3 Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1979387610934960128/rKmmV_fu_400x400.jpg",
+    "rank": 230,
+    "score": 1.426089920173874,
+    "mindsharePct": 0.1230700673145063
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1721062634827513856",
+    "handle": "nn_ceasar",
+    "name": "NICHOLAS",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1882313911120056320/X8Qtye1K_bigger.jpg",
+    "rank": 231,
+    "score": 1.690364555585318,
+    "mindsharePct": 0.08500271239369966
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1220032234238828544",
+    "handle": "Autosultan_team",
+    "name": "Zamza Salim Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1974511904010997761/B74Rsn3C_400x400.jpg",
+    "rank": 232,
+    "score": 1.993979392441037,
+    "mindsharePct": 0.05915344709995338
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1488458712620675072",
+    "handle": "InimfonOkoh",
+    "name": "Bigname Ini",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1785951748701519872/wR3BL4GA_bigger.jpg",
+    "rank": 233,
+    "score": 1.29384423464842,
+    "mindsharePct": 0.0840889019766611
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1756595798224031744",
+    "handle": "MJdontgiveafuck",
+    "name": "MJ.🧌",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1970917069567774720/Wt3IjPig_400x400.jpg",
+    "rank": 234,
+    "score": 1.775995598436937,
+    "mindsharePct": 0.08268623842090128
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1872944362520547328",
+    "handle": "RokibulAhad02",
+    "name": "Rok .L1X",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1919701399828627457/5qcIX4yq_bigger.jpg",
+    "rank": 235,
+    "score": 1.562324761958915,
+    "mindsharePct": 0.1434539746946721
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1843896983561371648",
+    "handle": "ace3tech",
+    "name": "Ace Crypt",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1874175921596375040/dmvlkXmP_400x400.jpg",
+    "rank": 236,
+    "score": 2.115790996621011,
+    "mindsharePct": 0.04868753086642936
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1142765414499438593",
+    "handle": "Emmy_Crrypto",
+    "name": "EmmyCrypto 💰 ₿",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1942617938378280960/sQSx2_E3_bigger.jpg",
+    "rank": 237,
+    "score": 1.32734832853806,
+    "mindsharePct": 0.09962363093031053
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1068804391954800640",
+    "handle": "prettyboychonah",
+    "name": "CHONAH 🦦",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1969024296384110593/b2FkOfBD_400x400.jpg",
+    "rank": 238,
+    "score": 1.53325675439982,
+    "mindsharePct": 0.07273604137261924
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1773698531229863936",
+    "handle": "GISTEROTF",
+    "name": "GISTER OTF 💎",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1971041044704673792/IFiRynhD_400x400.jpg",
+    "rank": 239,
+    "score": 2.128393026994685,
+    "mindsharePct": 0.07316337817590961
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "272552463",
+    "handle": "teddi_speaks",
+    "name": "King.sol 🇶🇦",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1876065898936586240/pNgkv-wZ_400x400.jpg",
+    "rank": 240,
+    "score": 1.284624048639563,
+    "mindsharePct": 0.07012787273574943
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1373702148819669001",
+    "handle": "neyshaat",
+    "name": "Neyshaa",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1953946805319696384/gehr1Y5c_bigger.jpg",
+    "rank": 241,
+    "score": 1.290130058005765,
+    "mindsharePct": 0.06921760906615908
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1487063994686971914",
+    "handle": "manlikeife_",
+    "name": "T💨",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1962062355811946496/kNx4ZPSe_bigger.jpg",
+    "rank": 242,
+    "score": 1.427755809620869,
+    "mindsharePct": 0.1008695956100696
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1845201957432000533",
+    "handle": "Hec_77",
+    "name": "Dev03⚕️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1913669878193549312/sW5Ja1L1_400x400.jpg",
+    "rank": 243,
+    "score": 1.306485535861785,
+    "mindsharePct": 0.09886207006074813
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1616501528231124994",
+    "handle": "Zlam_fi",
+    "name": "Zlam ⎔",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1952027397647429632/SKpVMJTI_400x400.jpg",
+    "rank": 244,
+    "score": 1.156758954552429,
+    "mindsharePct": 0.09758092088524023
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1906362250647986176",
+    "handle": "Mr_Destinyeke1",
+    "name": "Mr D 🥷🧑‍🌾",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1973661362501943296/mQUy2vYI_bigger.jpg",
+    "rank": 245,
+    "score": 1.39734040806465,
+    "mindsharePct": 0.1230469701970423
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "825417635596759040",
+    "handle": "menthor004",
+    "name": "Menthor",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1971797725353066496/G0uGLIuj_bigger.jpg",
+    "rank": 246,
+    "score": 1.691515080544612,
+    "mindsharePct": 0.0837848897208223
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1849566575260475392",
+    "handle": "NmlOmak",
+    "name": "Senator",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1954679697389850625/ymxtY-Qz_bigger.jpg",
+    "rank": 247,
+    "score": 1.325043623667495,
+    "mindsharePct": 0.08984703756414411
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1836128710472192000",
+    "handle": "WildDreamz101",
+    "name": "Mr. Wen TGE🦜",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1917248437046632448/Rz4waUPL_bigger.jpg",
+    "rank": 248,
+    "score": 1.579971925836891,
+    "mindsharePct": 0.1062565530438621
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1818227683966472192",
+    "handle": "asishgpl",
+    "name": "ASISH",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1953515736045170689/D1CclQVD_bigger.jpg",
+    "rank": 249,
+    "score": 1.748084241409549,
+    "mindsharePct": 0.05799209942937936
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1093656282475753473",
+    "handle": "Arbdhul69",
+    "name": "ARB ⚡️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1952792961453862912/wIvjBMmv_bigger.jpg",
+    "rank": 250,
+    "score": 1.38049456134943,
+    "mindsharePct": 0.1103238285985085
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1560531241719439360",
+    "handle": "ruthogechi3002",
+    "name": "Oge Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1885676336410173440/ez_TxLG1_400x400.jpg",
+    "rank": 251,
+    "score": 1.700145223304368,
+    "mindsharePct": 0.02226353991012959
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "126067709",
+    "handle": "what3verman",
+    "name": "✨whateverman✨🎙️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1970343637000024064/BeFLu_FK_bigger.jpg",
+    "rank": 252,
+    "score": 2.017089834313739,
+    "mindsharePct": 0.05634132411841063
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1693021573697900544",
+    "handle": "prxfecy0x",
+    "name": "prxfecy",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1951141784186212353/7aU0yXco_bigger.jpg",
+    "rank": 253,
+    "score": 1.330803519299807,
+    "mindsharePct": 0.06451793042251663
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1653090592535068702",
+    "handle": "0xmjay_",
+    "name": "Mjay | 𝔽rAI",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1980329256623263744/yQYslzP__400x400.jpg",
+    "rank": 254,
+    "score": 1.135168753984324,
+    "mindsharePct": 0.07313250171765291
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1688875940632203265",
+    "handle": "mayor_hobbs",
+    "name": "𝐌𝐚𝐲𝐨𝐫 𝐇𝐨𝐛𝐛𝐬",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1977104797569314816/A_-E7ySn_bigger.jpg",
+    "rank": 255,
+    "score": 1.49266322978038,
+    "mindsharePct": 0.09086085761191726
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1633809943341195267",
+    "handle": "Gtreaz4258",
+    "name": "Treaz",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1959920940034199552/M1ugPDCd_400x400.jpg",
+    "rank": 256,
+    "score": 1.747157691907276,
+    "mindsharePct": 0.06361957091395644
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1703570086634672128",
+    "handle": "Mrchawlz",
+    "name": "Mr. Charles⨀ (Mainnet arc)🎓",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1915337868370644992/KkxiDad7_bigger.jpg",
+    "rank": 257,
+    "score": 1.371696629046254,
+    "mindsharePct": 0.07129652293654819
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1569601404200960000",
+    "handle": "thanhai1508",
+    "name": "Thanh Hải",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1926377093954162688/SHFxtiLs_bigger.jpg",
+    "rank": 258,
+    "score": 1.73663189027195,
+    "mindsharePct": 0.07360567834936951
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "390004779",
+    "handle": "Colorful_Rabbit",
+    "name": "Rainbow Rabbit 🐰",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1957450072209371136/SDc2QQcq_400x400.jpg",
+    "rank": 259,
+    "score": 1.506924399960637,
+    "mindsharePct": 0.1266862330890514
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1701196612523966465",
+    "handle": "zakaroms",
+    "name": "Kavros",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1977418230395248640/7QPIRYQ3_bigger.jpg",
+    "rank": 260,
+    "score": 1.088303537136836,
+    "mindsharePct": 0.03820063076769991
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1802736673316315138",
+    "handle": "honesguyz",
+    "name": "honesguy",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1951168944481370112/wxgK1CrN_bigger.jpg",
+    "rank": 261,
+    "score": 1.43786205030575,
+    "mindsharePct": 0.1166094403993965
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1514930866811990022",
+    "handle": "0xArkane",
+    "name": "Arkane",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1920952987494617088/AxjwWaWT_bigger.jpg",
+    "rank": 262,
+    "score": 1.319813382697472,
+    "mindsharePct": 0.1166580928567409
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "816925048397131777",
+    "handle": "TeeBancing",
+    "name": "TEEBANCING | 𝔽rAI",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1560908609869021184/Oi39gY2p_bigger.jpg",
+    "rank": 263,
+    "score": 1.163782609128096,
+    "mindsharePct": 0.07974677494396977
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1827423266220199936",
+    "handle": "001_talented",
+    "name": "Izu web3🦅",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1938116829651636224/lUXADmTv_bigger.jpg",
+    "rank": 264,
+    "score": 2.894432679903337,
+    "mindsharePct": 0.06311422356957286
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1676285732892057617",
+    "handle": "kayydee_sol",
+    "name": "kayydees",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1940010811763658752/2j2Q412V_bigger.jpg",
+    "rank": 265,
+    "score": 1.365321992784603,
+    "mindsharePct": 0.1004918594665444
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1240184713668702213",
+    "handle": "0xDarya_",
+    "name": "0xDarya Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1944532132342140928/K8AFqV1k_400x400.jpg",
+    "rank": 266,
+    "score": 1.155500525457262,
+    "mindsharePct": 0.06503557596860478
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1265672332988878849",
+    "handle": "web3_attorney",
+    "name": "w3a.base.eth",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1949587905522921472/B7pd1Oi8_bigger.jpg",
+    "rank": 267,
+    "score": 1.507422647678573,
+    "mindsharePct": 0.08166770230586377
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1923544274999836672",
+    "handle": "iam_alfred7",
+    "name": "Bullion 🥶",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1962926393446043648/3_Xy-XaT_bigger.jpg",
+    "rank": 268,
+    "score": 2.200057530709269,
+    "mindsharePct": 0.1082947267135086
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1831892611197464576",
+    "handle": "AminaI76150",
+    "name": "Amina_ | 𝔽rAI",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1961636478234058753/gZ-lVv5F_bigger.jpg",
+    "rank": 269,
+    "score": 1.522278062478626,
+    "mindsharePct": 0.02140768225936519
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1572525022140416003",
+    "handle": "Zondi77",
+    "name": "77",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1941785025789255680/KRiVLbYO_bigger.jpg",
+    "rank": 270,
+    "score": 1.804536236285225,
+    "mindsharePct": 0.05571445381177168
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1781284185165963265",
+    "handle": "emmynull",
+    "name": "Fëranmi🤍🕸️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1978516428564074496/xRWpk3II_400x400.jpg",
+    "rank": 271,
+    "score": 1.162766410276364,
+    "mindsharePct": 0.09004645848749789
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1715728110102958080",
+    "handle": "Omo_akin297",
+    "name": "Humblemee🐐🔥Noya",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1927745377685438465/rD2DkpH3_bigger.jpg",
+    "rank": 272,
+    "score": 1.521815305846338,
+    "mindsharePct": 0.06517947141520694
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1638257175473659905",
+    "handle": "Akwasa090354",
+    "name": "Akwasa",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1957415554827898880/Q1lMzXqL_bigger.jpg",
+    "rank": 273,
+    "score": 1.493743763965742,
+    "mindsharePct": 0.04787389927216056
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1756371710775828480",
+    "handle": "0xMaringer",
+    "name": "꧁𓊈 𝕄𝔸ℝ𝕀ℕ𝔾𝔼ℝ 𓊉꧂",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1955542067502874624/Jx5MJO5M_bigger.jpg",
+    "rank": 274,
+    "score": 2.006688966797559,
+    "mindsharePct": 0.06521144621655767
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1721086345785798656",
+    "handle": "Calmo00",
+    "name": "Eniola4pnf(❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1863134674270257152/1eOS1odZ_400x400.jpg",
+    "rank": 275,
+    "score": 1.449626516929826,
+    "mindsharePct": 0.06021466716340845
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1610725793847443470",
+    "handle": "Dakruz25",
+    "name": "Dakruz NOYA",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1971475047362478080/gvx9M7fo_bigger.jpg",
+    "rank": 276,
+    "score": 1.132369859049898,
+    "mindsharePct": 0.09869662097954698
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1909087700340355072",
+    "handle": "mjbcty0",
+    "name": "mjb",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1950083902611034112/95C47DPN_400x400.jpg",
+    "rank": 277,
+    "score": 1.075511830882608,
+    "mindsharePct": 0.09589802730078327
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "2876884666",
+    "handle": "web3CryptoHunt",
+    "name": "DeFi Hunter",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1777074252052627457/SXGHUbfv_bigger.jpg",
+    "rank": 278,
+    "score": 1.52633357188564,
+    "mindsharePct": 0.05932095064776607
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "917530356420558848",
+    "handle": "mrbeardjo",
+    "name": "bejo Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1953896290770907136/CzZWAqhe_400x400.jpg",
+    "rank": 279,
+    "score": 0.9596707502977622,
+    "mindsharePct": 0.05388777075344221
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1511455513770438658",
+    "handle": "neeharrt",
+    "name": "Neehert",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1972496182115962881/T_Rgh78-_bigger.jpg",
+    "rank": 280,
+    "score": 1.210045788245272,
+    "mindsharePct": 0.05740134753571003
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1894098001670340609",
+    "handle": "Chrizkay3",
+    "name": "CHRIZ KAY",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1965134160290279424/rr4lOotV_bigger.jpg",
+    "rank": 281,
+    "score": 2.052939455291017,
+    "mindsharePct": 0.03035117868053104
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1354954345373118465",
+    "handle": "A_J_Dominic",
+    "name": "AJDominic Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1856065757341184001/CKlqkILj_400x400.jpg",
+    "rank": 282,
+    "score": 1.262363330276326,
+    "mindsharePct": 0.1112202340833961
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "284248400",
+    "handle": "melik34",
+    "name": "melik34.base.eth",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1972795531668660224/fWZZM_RQ_400x400.jpg",
+    "rank": 283,
+    "score": 5.192990696697526,
+    "mindsharePct": 0.01427995405311687
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1495742589441564673",
+    "handle": "Norrix_6490",
+    "name": "Norrix (❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1965035694654377984/evRelt_o_bigger.jpg",
+    "rank": 284,
+    "score": 1.496433360486334,
+    "mindsharePct": 0.0655561759468478
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1793314588512997376",
+    "handle": "Davix_TB",
+    "name": "Tobi David",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1901531409505746944/CIDgrsan_bigger.jpg",
+    "rank": 285,
+    "score": 1.845136148432684,
+    "mindsharePct": 0.01758788679496886
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1833807763203297280",
+    "handle": "RukayatL84961",
+    "name": "Aridunu ( Noya )✨",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1938176236393549824/3vh3BAF7_bigger.jpg",
+    "rank": 286,
+    "score": 1.268150504650551,
+    "mindsharePct": 0.1180826990983281
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1917373634298986497",
+    "handle": "Bigjoe8312",
+    "name": "𝐉.𝐎.𝐄 💜💢",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1980178420177702912/2FPxwxZ1_400x400.jpg",
+    "rank": 287,
+    "score": 1.297736654704333,
+    "mindsharePct": 0.02980573500889519
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1875201510914527232",
+    "handle": "FreakinOmega",
+    "name": "Omegaa!🍁🐦‍🔥",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1973216526816747520/xBW50e1N_400x400.jpg",
+    "rank": 288,
+    "score": 1.026229622772624,
+    "mindsharePct": 0.048521368789851
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "947229569098092544",
+    "handle": "_tolase",
+    "name": "Sage_LLC",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1887295869768118272/7nKFB2mA_400x400.jpg",
+    "rank": 289,
+    "score": 1.059485663866683,
+    "mindsharePct": 0.05989399646708712
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "407732951",
+    "handle": "0xSprite_",
+    "name": "𝕊𝕡𝕣𝕚𝕥𝕖",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1950158496219181056/So5LxGsD_400x400.jpg",
+    "rank": 290,
+    "score": 1.615793802301375,
+    "mindsharePct": 0.1090520728849439
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1462073446255317002",
+    "handle": "estridthelion",
+    "name": "Estrid 🦁 Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1915630118011363331/QOwU1WQH_400x400.jpg",
+    "rank": 291,
+    "score": 1.118139876947074,
+    "mindsharePct": 0.05197950992743455
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1540862724778954753",
+    "handle": "Jahsquiat",
+    "name": "𝖏𝖆𝖍𝖘𝖖𝖚𝖎𝖆𝖙 •Ξ",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1924528988803792896/XUmXBwZc_bigger.jpg",
+    "rank": 292,
+    "score": 1.206472808505322,
+    "mindsharePct": 0.08573585532491305
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1038021937304416256",
+    "handle": "lawrenx_",
+    "name": "Xen (❖,❖)Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1975163353174626304/YhkepX5a_400x400.jpg",
+    "rank": 293,
+    "score": 1.082780992077043,
+    "mindsharePct": 0.05221993604847871
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1707180781871767552",
+    "handle": "thyBEAST20",
+    "name": "HIM🎩",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1966511959299235840/FmkD6Df6_bigger.jpg",
+    "rank": 294,
+    "score": 1.224570674999961,
+    "mindsharePct": 0.1177208932805355
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1260242273163493378",
+    "handle": "0x6595",
+    "name": "faんb",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1971335945422049280/xm1TjIl7_400x400.jpg",
+    "rank": 295,
+    "score": 1.409402220267111,
+    "mindsharePct": 0.08279472150569653
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1907434939903275008",
+    "handle": "Cryptobullaaa",
+    "name": "Cryptobulla",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1907435131456909312/OIMJXb4h_bigger.jpg",
+    "rank": 296,
+    "score": 1.171972023844427,
+    "mindsharePct": 0.1255959739648276
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1013432743928193027",
+    "handle": "_dreallboy",
+    "name": "Law 🐻⛓️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1976662394282663936/x1T48FX2_bigger.jpg",
+    "rank": 297,
+    "score": 1.536152335534262,
+    "mindsharePct": 0.05222714829770714
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "241375605",
+    "handle": "0xQuonlix",
+    "name": "Quonlix",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1906026856249188352/WcHfn6wR_bigger.jpg",
+    "rank": 298,
+    "score": 0.8929349223541723,
+    "mindsharePct": 0.07621957820982304
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "2783449471",
+    "handle": "MatthewXBT",
+    "name": "M.AUD",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1867811860353101827/7wdqMqeS_bigger.jpg",
+    "rank": 299,
+    "score": 1.046884443875542,
+    "mindsharePct": 0.06213208034685715
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1686422152508067856",
+    "handle": "eoolasupo",
+    "name": "OluwaSeyiBlaise",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1961909429655236608/_t_IJWFW_bigger.jpg",
+    "rank": 300,
+    "score": 1.290055053066102,
+    "mindsharePct": 0.1123125880369712
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1420301569904545794",
+    "handle": "KingNonyerem",
+    "name": "NonyeremFx",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1974830362946637824/ake6aLHQ_400x400.jpg",
+    "rank": 301,
+    "score": 0.9602008530742612,
+    "mindsharePct": 0.03810790133250568
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "446619146",
+    "handle": "Abba_kakaa",
+    "name": "Bakaka",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1754019293136584704/NjOVpbZO_bigger.jpg",
+    "rank": 302,
+    "score": 1.433962989187471,
+    "mindsharePct": 0.05654905710078107
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1970438234065768448",
+    "handle": "jaye_lii",
+    "name": "Jaye Lii (Jaymie Lee) 🧡",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1974455139860615168/49bVOauY_bigger.jpg",
+    "rank": 303,
+    "score": 1.606868812320138,
+    "mindsharePct": 0.04672577520312639
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1600230048572792846",
+    "handle": "sjdedic",
+    "name": "Simon Dedic",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1945552136592367616/y3x7RUZ4_400x400.jpg",
+    "rank": 304,
+    "score": 3.543655361364129,
+    "mindsharePct": 0.005401755531534854
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1586308544164495361",
+    "handle": "dahirm000clone",
+    "name": "CURRENCY",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1959117317125627904/Iz9dMYVW_bigger.jpg",
+    "rank": 305,
+    "score": 1.106852195730376,
+    "mindsharePct": 0.07345372126729788
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1094601936194674690",
+    "handle": "itzibnmaiyaki_",
+    "name": "I B N",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1975330695837818880/qFAGX7ZT_400x400.jpg",
+    "rank": 306,
+    "score": 1.468947814220705,
+    "mindsharePct": 0.078195250376548
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1690457604852428800",
+    "handle": "omowale900",
+    "name": "Omowale",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1886793600870100993/8HbyOSR0_bigger.jpg",
+    "rank": 307,
+    "score": 2.023661905390282,
+    "mindsharePct": 0.07423355754300387
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1524764097841094660",
+    "handle": "notjazii",
+    "name": "J A Z I I",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1980153456640888832/b4d_Z_-p_400x400.jpg",
+    "rank": 308,
+    "score": 1.816598326122262,
+    "mindsharePct": 0.03678877944527122
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1959597541370347520",
+    "handle": "Nehar000",
+    "name": "MISHU 🦄",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1967857074391670784/QdGui785_400x400.jpg",
+    "rank": 309,
+    "score": 1.366728021657298,
+    "mindsharePct": 0.03131203078105471
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1815506452100075520",
+    "handle": "Daddypresh20",
+    "name": "DADDY PRESH 🥷💎✨",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1945168075868839936/EdZJpaHa_400x400.jpg",
+    "rank": 310,
+    "score": 1.22773397894231,
+    "mindsharePct": 0.1114662200979849
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "3121443530",
+    "handle": "denoweb3",
+    "name": "Deno",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1949981859972034561/8D3q6CUK_400x400.jpg",
+    "rank": 311,
+    "score": 0.8143472165426169,
+    "mindsharePct": 0.05778786496288939
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1620033961907953667",
+    "handle": "BabsTeevee",
+    "name": "Mrbabs007🐺🧑🏾‍💻 | 𝔽rAI | Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1880652103523213312/04_QfluA_bigger.jpg",
+    "rank": 312,
+    "score": 1.064620574758023,
+    "mindsharePct": 0.1132788005445763
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1791904618114379777",
+    "handle": "Eth_Danx",
+    "name": "DAN.€TH",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1968027483304800256/igg9H9J6_400x400.jpg",
+    "rank": 313,
+    "score": 1.31614776222068,
+    "mindsharePct": 0.04058140250267966
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "758602154080821248",
+    "handle": "0xChaiin",
+    "name": "0xChain",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1964790650148466688/8UKB0sJE_bigger.jpg",
+    "rank": 314,
+    "score": 1.22039083703498,
+    "mindsharePct": 0.06351150898829978
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1401917448140595203",
+    "handle": "marcuslayerx",
+    "name": "Marcus 🧪",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1962030935097966592/1VLe4jWh_bigger.jpg",
+    "rank": 315,
+    "score": 0.945290336905195,
+    "mindsharePct": 0.05889640768669533
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1574383520037888000",
+    "handle": "_Tohbs_",
+    "name": "Top BoyⓂ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1965577326265065472/qlPD-nUr_bigger.jpg",
+    "rank": 316,
+    "score": 1.159304333228953,
+    "mindsharePct": 0.1144456035611425
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1042816293882212352",
+    "handle": "thatsassyboy_",
+    "name": "SASS¥ⓨ 🌵| 9.11",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1939377996562878464/hB2ry7m1_400x400.jpg",
+    "rank": 317,
+    "score": 2.268899536288068,
+    "mindsharePct": 0.01049991239300949
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1833000876329553920",
+    "handle": "Clovediffnopro",
+    "name": "𝙲𝚕𝚘𝚟𝚎 ✤ Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1893340062672113664/njm8ucdz_bigger.jpg",
+    "rank": 318,
+    "score": 0.9915423785216397,
+    "mindsharePct": 0.04255874928465663
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1491841992204115979",
+    "handle": "Only_1zanny",
+    "name": "Nisa🤍✨⌘",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1917926713650024448/WSzoNX5A_400x400.jpg",
+    "rank": 319,
+    "score": 0.9816290889155416,
+    "mindsharePct": 0.07836089167128404
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1420904958988328970",
+    "handle": "CookieBrex",
+    "name": "粗略-B | 𝔽rAI",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1944691821835067393/Mz55YNkf_bigger.jpg",
+    "rank": 320,
+    "score": 1.114278384933651,
+    "mindsharePct": 0.05881955830243941
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "781647549648306177",
+    "handle": "kingfxyo",
+    "name": "fxyo",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1978262186498621440/eIUxVIIf_400x400.jpg",
+    "rank": 321,
+    "score": 1.804651573037277,
+    "mindsharePct": 0.04244109465623393
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1835046852607037440",
+    "handle": "0xSteezey",
+    "name": "0xSteeze Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1965261668880904192/CLmKs9Uq_400x400.jpg",
+    "rank": 322,
+    "score": 1.169563887055334,
+    "mindsharePct": 0.08628572870703058
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "446400263",
+    "handle": "alvinxx",
+    "name": "ALVİN (❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1773115983621758976/Q6iCYEQ8_400x400.jpg",
+    "rank": 323,
+    "score": 2.122700395244066,
+    "mindsharePct": 0.02060769864298055
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1720763168",
+    "handle": "billard_onmonad",
+    "name": "Billard Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1949111690391371776/8ql4gQ5I_400x400.jpg",
+    "rank": 324,
+    "score": 1.03165317243463,
+    "mindsharePct": 0.06020761189064649
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1233461070808932357",
+    "handle": "mainsolange",
+    "name": "Solange",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1965728027096014848/GQcyU970_400x400.jpg",
+    "rank": 325,
+    "score": 1.909802479580659,
+    "mindsharePct": 0.09798692847735832
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1484843696499695618",
+    "handle": "Arianacrypto202",
+    "name": "Arianacrypto💕",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1968888917576364032/4rU5wuyn_400x400.jpg",
+    "rank": 326,
+    "score": 1.168436766002666,
+    "mindsharePct": 0.07407535172442899
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1533424792875188224",
+    "handle": "MdHubayeb",
+    "name": "Md Hubayeb",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1932763884055900161/isG-Bu8E_bigger.jpg",
+    "rank": 327,
+    "score": 1.366840209935571,
+    "mindsharePct": 0.06608255467984142
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1470988141746032645",
+    "handle": "EdricETH22",
+    "name": "EDRIC.ETH",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1951016678885588992/NfDcuedu_bigger.jpg",
+    "rank": 328,
+    "score": 1.093575290575165,
+    "mindsharePct": 0.1132169108491689
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1786718393699291136",
+    "handle": "caxtopau123",
+    "name": "cAxtopau Ⓜ️Ⓜ️ T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1968545714348376064/ZL4ePdjf_bigger.jpg",
+    "rank": 329,
+    "score": 1.578208711683903,
+    "mindsharePct": 0.0375900892799933
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1832532094670544896",
+    "handle": "Bigaraf_",
+    "name": "MANQ✟",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1980243465733550080/xCCqDwYi_bigger.jpg",
+    "rank": 330,
+    "score": 1.1266914718792,
+    "mindsharePct": 0.07997282630753777
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1347503044607488000",
+    "handle": "Dr_web3_",
+    "name": "Dr_web3_ ⓂⓂ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1967627681471647744/qLcjFjfw_400x400.jpg",
+    "rank": 331,
+    "score": 0.9402992143699268,
+    "mindsharePct": 0.06391945090372064
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "153893744",
+    "handle": "Maxebm_",
+    "name": "M. (❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1939706232257826816/2nHca7U7_bigger.jpg",
+    "rank": 332,
+    "score": 1.099317854204572,
+    "mindsharePct": 0.1087391903286623
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1516641037476761601",
+    "handle": "quan_eth",
+    "name": "Quan",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1584649679291064320/OpjzQDZ6_400x400.jpg",
+    "rank": 333,
+    "score": 1.762690022585717,
+    "mindsharePct": 0.05095061186585713
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1583268154075222016",
+    "handle": "SaulWgmi",
+    "name": "Saul",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1845191160001679366/ZbAlLTh__bigger.jpg",
+    "rank": 334,
+    "score": 1.55477123449636,
+    "mindsharePct": 0.07417704535738372
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "263211294",
+    "handle": "OzzyChina",
+    "name": "OzzyChina",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1883641176156172289/eP7tLgxQ_bigger.jpg",
+    "rank": 335,
+    "score": 0.888828992168702,
+    "mindsharePct": 0.04498892689964046
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "960960604495405056",
+    "handle": "0xQipai",
+    "name": "Qudus",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1891681847211429888/8O8SxOJ3_bigger.jpg",
+    "rank": 336,
+    "score": 1.220709341439969,
+    "mindsharePct": 0.0801730596578232
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1555942273258487811",
+    "handle": "meme_gems",
+    "name": "Shill",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1968716053652914186/q3J6JIJD_400x400.jpg",
+    "rank": 337,
+    "score": 1.625551131745877,
+    "mindsharePct": 0.06221192019533502
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "3206396588",
+    "handle": "mayorofweb3_ai",
+    "name": "Mayorofweb3 (❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1919757607750742019/89fDW-b3_bigger.jpg",
+    "rank": 338,
+    "score": 1.163605669418594,
+    "mindsharePct": 0.08466671562579389
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1854168697344053261",
+    "handle": "derahxchange",
+    "name": "Derah🚹™️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1903114152870109184/p0-uDzkc_bigger.jpg",
+    "rank": 339,
+    "score": 1.543053686244134,
+    "mindsharePct": 0.06016503130236715
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "2743463751",
+    "handle": "mztacat",
+    "name": "〽️ᄃﾑt 🐾",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1793755444919291904/GhcFlcv5_400x400.jpg",
+    "rank": 340,
+    "score": 1.298717394533794,
+    "mindsharePct": 0.03013957992570065
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1348967030083510272",
+    "handle": "bigray0x",
+    "name": "bigray0x.eth ⚡️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1928386981479739392/hv_8hwMS_bigger.jpg",
+    "rank": 341,
+    "score": 1.088927124830791,
+    "mindsharePct": 0.03571214578468785
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1889986259793190912",
+    "handle": "Romeo_Onchain",
+    "name": "Romeo Ⓜ️Ⓜ️T🌹",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1956851580889640960/b-FGjrOi_400x400.jpg",
+    "rank": 342,
+    "score": 1.136522461980824,
+    "mindsharePct": 0.0439751381259824
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1639077472254799873",
+    "handle": "SaveTheMind1st",
+    "name": "Vivacity",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1972700995999129600/G02yhwkH_400x400.jpg",
+    "rank": 343,
+    "score": 1.339986481904619,
+    "mindsharePct": 0.08200517021063967
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1666701272806817793",
+    "handle": "0xgarby",
+    "name": "0xGarby",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1939193923039023104/W8-mijcX_400x400.jpg",
+    "rank": 344,
+    "score": 1.147888918058689,
+    "mindsharePct": 0.0819991080635499
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1450717642956832771",
+    "handle": "tictacmagic_",
+    "name": "Tictacmagic",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1944756000256606208/Rh_xYqrC_400x400.jpg",
+    "rank": 345,
+    "score": 1.397761183930347,
+    "mindsharePct": 0.04051558883101104
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1831589153282113536",
+    "handle": "Dr_Is_Real_",
+    "name": "𝕴𝖘𝖈𝖔.𝖊𝖙𝖍",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1948504680960606209/RK1x4uD6_400x400.jpg",
+    "rank": 346,
+    "score": 1.436553586043949,
+    "mindsharePct": 0.0692122696548831
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1436516684911845379",
+    "handle": "yusbaba11",
+    "name": "Ismi_Yusuf 𓄿Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1954319911716532224/luQeABzi_400x400.jpg",
+    "rank": 347,
+    "score": 1.50813781380647,
+    "mindsharePct": 0.01548046930593801
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1346872397102804993",
+    "handle": "TweetByWale",
+    "name": "Wale ⭕️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1678155182717140993/hUgZRRn6_400x400.png",
+    "rank": 348,
+    "score": 0.8538903185014655,
+    "mindsharePct": 0.05731531146738369
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1702952079231188992",
+    "handle": "WilliamsXchange",
+    "name": "Mr W",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1902466105781735424/8o2I_tMc_bigger.jpg",
+    "rank": 349,
+    "score": 0.878489358711163,
+    "mindsharePct": 0.046474197158904
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "2530582896",
+    "handle": "speedajaks",
+    "name": "kennyajaks",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1966272564319199232/3cdt1IKe_bigger.jpg",
+    "rank": 350,
+    "score": 1.293187726735726,
+    "mindsharePct": 0.07696571652501706
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1855284382350589952",
+    "handle": "HussainAsi63830",
+    "name": "Haris | Web3 Hustler 🎩",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1950597466811932673/azqAXi39_bigger.jpg",
+    "rank": 351,
+    "score": 1.426200752316854,
+    "mindsharePct": 0.05940644268324193
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1598261796997156864",
+    "handle": "Okpara081",
+    "name": "DANNY-OF-WEB3 🧸 Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1601519264464355336/0FFVT3RS_400x400.jpg",
+    "rank": 352,
+    "score": 0.9260474637379984,
+    "mindsharePct": 0.05706656367623406
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1823007699078139904",
+    "handle": "hbanu_0",
+    "name": "Hb",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1952891254888394752/PNABIkpu_bigger.jpg",
+    "rank": 353,
+    "score": 1.771254932860509,
+    "mindsharePct": 0.06931855404198427
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "840671318915837952",
+    "handle": "0xRich4rd",
+    "name": "Richard 💎",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1944933402706124800/tooaonFH_bigger.jpg",
+    "rank": 354,
+    "score": 1.355228792979052,
+    "mindsharePct": 0.07100408224042418
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1250007543205761024",
+    "handle": "Lala3462",
+    "name": "Abduol-ne",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1951312809054052353/LM677bka_400x400.jpg",
+    "rank": 355,
+    "score": 3.562463836804783,
+    "mindsharePct": 0.05912117755189902
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1478794161969000450",
+    "handle": "Franklyn1266912",
+    "name": "Ikebobo",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1979417097131249664/3eQlClc8_400x400.jpg",
+    "rank": 356,
+    "score": 0.9571596878148242,
+    "mindsharePct": 0.08924840313312755
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1045315329356910592",
+    "handle": "CuzmanovS",
+    "name": "Sasha Cuzmanov",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1964588100560056320/m-QCKuTX_bigger.jpg",
+    "rank": 357,
+    "score": 1.197408489710555,
+    "mindsharePct": 0.09489867874585342
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1652346336732233730",
+    "handle": "krypt0speaker",
+    "name": "Kryptospeaker 🇺🇸",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1943425812998361088/AaUEx0S3_400x400.jpg",
+    "rank": 358,
+    "score": 0.7183076251867632,
+    "mindsharePct": 0.04863852354657935
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1326515591708991492",
+    "handle": "0xKeidy",
+    "name": "Keid | APAC🐺Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1972680230600167424/Qj5pPg4b_bigger.jpg",
+    "rank": 359,
+    "score": 1.813490781173085,
+    "mindsharePct": 0.04382635551015006
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "430562948",
+    "handle": "Dbiljonaire",
+    "name": "DB",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1973931464401301505/yO4JhiWs_bigger.jpg",
+    "rank": 360,
+    "score": 0.9899979974738737,
+    "mindsharePct": 0.1064874717062053
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1304481260534927362",
+    "handle": "delashotit",
+    "name": "Delashot_it",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1966812107715858433/7hHeVtbi_bigger.jpg",
+    "rank": 361,
+    "score": 1.202839884734898,
+    "mindsharePct": 0.0861946946522597
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1010912915505872897",
+    "handle": "MHanwar10",
+    "name": "Anwar (❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1977256037641224192/0wUAIA9B_400x400.jpg",
+    "rank": 362,
+    "score": 1.115086046940971,
+    "mindsharePct": 0.09607538929374403
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1766707951056592896",
+    "handle": "Emmz1i",
+    "name": "Emmzii",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1969838725392650240/qbZZpbaX_bigger.jpg",
+    "rank": 363,
+    "score": 1.075531259393103,
+    "mindsharePct": 0.0186262632743097
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1861957579955482624",
+    "handle": "MichaelTems",
+    "name": "M1CHA3L",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1974757381406879744/WK4PRu-w_bigger.jpg",
+    "rank": 364,
+    "score": 1.049545186768889,
+    "mindsharePct": 0.06410326683839221
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1516140668128743430",
+    "handle": "CryptoAminu01",
+    "name": "M Aminu",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1957154485354041344/0G9BP2V4_bigger.jpg",
+    "rank": 365,
+    "score": 1.142658549879556,
+    "mindsharePct": 0.09587947129756805
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1749325058097418240",
+    "handle": "Oluwatise28",
+    "name": "Anonymous Elephant🇬🇷💚",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1920521512328577024/U-ZBCoGz_400x400.jpg",
+    "rank": 366,
+    "score": 1.163174397502214,
+    "mindsharePct": 0.0591653737687796
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1848388648112390145",
+    "handle": "Yemiola_eth",
+    "name": "Yemiola_Eth 🦅 📉📈",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1953725579322122240/0tPaFgPB_bigger.jpg",
+    "rank": 367,
+    "score": 1.78863194193942,
+    "mindsharePct": 0.0131142900861953
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1394259749470982145",
+    "handle": "haavii",
+    "name": "HAVI",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1963001092649664512/vAJVW7oN_bigger.jpg",
+    "rank": 368,
+    "score": 1.624449797026973,
+    "mindsharePct": 0.07485151633921082
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1778065409821827072",
+    "handle": "0xkahndy1",
+    "name": "Kahndy",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1954480546886680576/Do4b1XGZ_bigger.jpg",
+    "rank": 369,
+    "score": 0.8854829155889448,
+    "mindsharePct": 0.04113621448967866
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "917788697302654977",
+    "handle": "BigJamieX",
+    "name": "BigJamie✨ (❖,❖)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1860623004759146496/yXxEnUEi_400x400.jpg",
+    "rank": 370,
+    "score": 1.108029378615577,
+    "mindsharePct": 0.08146413058057252
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1785448955930624000",
+    "handle": "masterchainzz",
+    "name": "𝐈𝐦𝐩𝐞𝐫𝐢𝐚𝐥 🛸",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1883170088150335489/jQeoGpDf_bigger.jpg",
+    "rank": 371,
+    "score": 0.8255154089306055,
+    "mindsharePct": 0.063472942908781
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1458134848430878721",
+    "handle": "dazzlercoin",
+    "name": "bewise",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1969281345487544321/ZutMuuAw_bigger.jpg",
+    "rank": 372,
+    "score": 1.501228382200885,
+    "mindsharePct": 0.04583906384251818
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1478495667031089161",
+    "handle": "Deebs_DeFi",
+    "name": "Deebs DeFi 🛰",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1968619702017523713/YYBKtycq_bigger.png",
+    "rank": 373,
+    "score": 0.8682173048837116,
+    "mindsharePct": 0.03841053778595698
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1347818213762064384",
+    "handle": "ivysats",
+    "name": "Donalds | ex-Ivy",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1946189974254051328/xBYh_Who_400x400.png",
+    "rank": 374,
+    "score": 0.8258183595362598,
+    "mindsharePct": 0.03975099984645896
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1547302457432236035",
+    "handle": "wyckoffweb",
+    "name": "wyck 📴",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1810337639226040320/aBjQWOkT_400x400.png",
+    "rank": 375,
+    "score": 1.126321806655232,
+    "mindsharePct": 0.05974916127248026
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1299920493793783809",
+    "handle": "nathnnfts",
+    "name": "Nathn (abstract arc)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1977933922777624576/ow8DZfFc_bigger.jpg",
+    "rank": 376,
+    "score": 1.053471444331766,
+    "mindsharePct": 0.04101218130805705
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1481532947060695041",
+    "handle": "richie_bitcoin",
+    "name": "Richie",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1963059874117378048/qT3WZiJ8_bigger.jpg",
+    "rank": 377,
+    "score": 1.079260918141338,
+    "mindsharePct": 0.06801727951232577
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1918792447192088576",
+    "handle": "0x0pei_",
+    "name": "Ibra🍡",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1978007098949599232/25oHqrjo_400x400.jpg",
+    "rank": 378,
+    "score": 0.9927582330053351,
+    "mindsharePct": 0.08854896392401701
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1599292366598410240",
+    "handle": "CaaSi_5",
+    "name": "𝑪𝒂𝒂𝒔𝒊 ☥🀄️",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1950238064967663616/07xF6imb_bigger.jpg",
+    "rank": 379,
+    "score": 0.8020401654938585,
+    "mindsharePct": 0.09594516172685258
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1714193581076869120",
+    "handle": "CEmmanuel6145",
+    "name": "DarkCrypto",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1940146801975156736/F6gEJIzF_bigger.jpg",
+    "rank": 380,
+    "score": 1.19742962358042,
+    "mindsharePct": 0.0484454252355502
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1181594505407021056",
+    "handle": "CM__Smiles",
+    "name": "cM Smiles",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1808084914933268480/-9Ujqo42_bigger.jpg",
+    "rank": 381,
+    "score": 1.014358307558521,
+    "mindsharePct": 0.05222466274266924
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1481633424427335688",
+    "handle": "powerfulfacts1",
+    "name": "JONNNNNNNNNNNNNN.Denet(Ø, G)",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1853846998182481920/8ZpBIgBU_bigger.jpg",
+    "rank": 382,
+    "score": 0.9378214067490039,
+    "mindsharePct": 0.08233436694832846
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1482301555667787776",
+    "handle": "Only_SOJI",
+    "name": "S.O.J",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1967652803012067328/kRBARUcV_bigger.jpg",
+    "rank": 383,
+    "score": 1.751366396191359,
+    "mindsharePct": 0.03860328780209615
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1388222694731157504",
+    "handle": "emilios_eth",
+    "name": "emilios.eth",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1970011297275052032/eBMIzIZS_bigger.png",
+    "rank": 384,
+    "score": 2.177010951601,
+    "mindsharePct": 0.01055458203339136
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1811667819739693056",
+    "handle": "0XHarry0X",
+    "name": "𝗛𝗔𝗥𝗥𝗬",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1927253016056401920/RSfO73VO_400x400.jpg",
+    "rank": 385,
+    "score": 0.9390902740440576,
+    "mindsharePct": 0.07687584984848886
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1173675263693078528",
+    "handle": "BlockWaveXo",
+    "name": "BlockWave🪽",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1980673036127744000/ZshkO5OC_bigger.jpg",
+    "rank": 386,
+    "score": 1.180178665103153,
+    "mindsharePct": 0.07363360827668858
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1926340136943394816",
+    "handle": "thedevil0287",
+    "name": "Dêvïl",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1926341161611886592/Nz8EzPQ9_bigger.jpg",
+    "rank": 387,
+    "score": 0.9100878858058506,
+    "mindsharePct": 0.06384544284087323
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1550500189399662598",
+    "handle": "HeyAlherii",
+    "name": "Alherii",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1955694474073423874/aILa6_Bc_bigger.jpg",
+    "rank": 388,
+    "score": 0.9268770590268707,
+    "mindsharePct": 0.09317668088213873
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1846055071647420416",
+    "handle": "MamunShari58945",
+    "name": "Mamun",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1953691734875242496/jFCbQjuh_400x400.jpg",
+    "rank": 389,
+    "score": 1.357374724705511,
+    "mindsharePct": 0.01551389791978244
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1861929285830787072",
+    "handle": "cryptaanic",
+    "name": "Cryptanic ☔🌐🦧",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1918367779280805888/lJFMjZhM_400x400.jpg",
+    "rank": 390,
+    "score": 2.431033161622872,
+    "mindsharePct": 0.01061446541814553
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1625001841594404864",
+    "handle": "DefixpertPaps",
+    "name": "Paps",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1929232223779127296/DaiAMAqi_bigger.jpg",
+    "rank": 391,
+    "score": 1.29352076264249,
+    "mindsharePct": 0.07128127320379593
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1375492239913259014",
+    "handle": "BigScopar",
+    "name": "SCOPAR Ⓜ️Ⓜ️T",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1960274990269411328/L8er_W-N_400x400.jpg",
+    "rank": 392,
+    "score": 1.060437667417704,
+    "mindsharePct": 0.0605167761285437
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1455269006009581569",
+    "handle": "threadoor",
+    "name": "threadoor",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1973030064817123328/cEBacqay_400x400.jpg",
+    "rank": 393,
+    "score": 0.7711597108094537,
+    "mindsharePct": 0.05101032232688421
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1763460666248286208",
+    "handle": "rezafarkhari",
+    "name": "CyberShinobi3 | 𝔽rAI",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1969467498144681984/TAU7L7db_bigger.jpg",
+    "rank": 394,
+    "score": 1.117929695803984,
+    "mindsharePct": 0.08171000397615888
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1450530992750530560",
+    "handle": "harlogen_jnr",
+    "name": "Harlogen 🎧📚📈💙",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1862032616674787328/VfcST27h_bigger.jpg",
+    "rank": 395,
+    "score": 1.020278555222172,
+    "mindsharePct": 0.06735820630246722
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1585108297551486976",
+    "handle": "HarrietPJones",
+    "name": "🜲 Harriet",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1964901327395581952/KhlfHWu2_bigger.jpg",
+    "rank": 396,
+    "score": 0.6696390461007785,
+    "mindsharePct": 0.04912998104962762
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1690293999356010496",
+    "handle": "Maskedegenec",
+    "name": "OBiTO",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1954088556311252992/fuwL_Fkm_400x400.jpg",
+    "rank": 397,
+    "score": 0.7536169602041487,
+    "mindsharePct": 0.09794044216488204
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1844482190563741713",
+    "handle": "TaiwoEliza53100",
+    "name": "AB || NOYA.AI",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1961127606507417600/9koWMKf6_400x400.jpg",
+    "rank": 398,
+    "score": 0.840553813270897,
+    "mindsharePct": 0.08341670721847498
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "352135192",
+    "handle": "tolibear_",
+    "name": "toli",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1939855295032774656/ConGtyzt_bigger.jpg",
+    "rank": 399,
+    "score": 0.8188875826464344,
+    "mindsharePct": 0.04240605367817313
+  },
+  {
+    "platform": "xeet",
+    "twitterId": "1246585936747679745",
+    "handle": "Yhuzee4",
+    "name": "zeelon",
+    "avatarUrl": "https://pbs.twimg.com/profile_images/1653079662073987073/VaimJYbr_bigger.jpg",
+    "rank": 400,
+    "score": 0.9536344428588537,
+    "mindsharePct": 0.08501337285861928
+  }
+]
