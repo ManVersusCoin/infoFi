@@ -59,15 +59,28 @@ export default function XeetPackGeneratorPage() {
     return (
         <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
             <div className="max-w-7xl mx-auto p-6">
-                <h1 className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-8">
-                    Xeet fake Pack Generator
+                <h1 className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-8 text-center">
+                    Xeet Fake Pack Generator
                 </h1>
-                <div className="flex items-center justify-center text-gray-600 dark:text-gray-300">
-                    You can select profiles from the list below to generate your custom Xeet profile pack.<br />
-                    Only profiles in the top 400 from the latest 30 days Xeet-info leaderboard are available.
-                    This is a tool just for fun purposes only, not affiliated with Xeet and score data could not be accurate.
+
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-8 mb-8">
+                    <div className="md:col-span-2 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <p className="text-gray-600 dark:text-gray-300 mb-4">
+                            You can select profiles from the list below to generate your custom Xeet profile pack.
+                        </p>
+                        <p className="text-gray-600 dark:text-gray-300">
+                            Only profiles in the top 400 from the latest 30 days Xeet-info leaderboard are available.
+                            This is a tool just for fun purposes only, not affiliated with Xeet and score data could not be accurate.
+                        </p>
+                    </div>
+
+                    <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                        <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
+                            Search Profiles
+                        </h2>
+                        <PackGenerator allProfiles={profiles} />
+                    </div>
                 </div>
-                <PackGenerator allProfiles={profiles} />
             </div>
         </div>
     );
