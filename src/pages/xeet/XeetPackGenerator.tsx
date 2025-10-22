@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useState, useMemo } from "react";
+﻿import { useEffect, useState } from "react";
 import PackGenerator from "../../components/xeet/PackGenerator";
 
 interface Profile {
