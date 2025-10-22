@@ -18,7 +18,25 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
             <aside className="hidden md:flex flex-col w-64 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700">
                 {/* Contenu principal scrollable */}
                 <div className="flex-1 overflow-y-auto p-4">
-                    <h2 className="text-xl font-bold mb-6">📊 Dashboard</h2>
+                    {/* --- Logo + Title --- */}
+                    <div className="flex items-center gap-3 mb-8">
+                        
+                        <img
+                            src="/logo.png" 
+                            alt="WUT"
+                            className="w-20 h-20 rounded-xl shadow-sm bg-gray-100 dark:bg-gray-700 p-1"
+                        />
+                        <div>
+                            <h2 className="text-xl font-bold text-gray-900 dark:text-gray-100 leading-tight">
+                                WUT
+                            </h2>
+                            <p className="text-xs text-gray-500 dark:text-gray-400">
+                                Web3 Useless Tools
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* --- Navigation --- */}
                     <nav className="space-y-2">
                         {links.map(({ to, label, icon: Icon }) => (
                             <NavLink
@@ -27,7 +45,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
                                 className={({ isActive }) =>
                                     `flex items-center gap-2 rounded-xl px-3 py-2 transition ${isActive
                                         ? "bg-blue-500 text-white"
-                                        : "hover:bg-gray-100 dark:hover:bg-gray-700"
+                                        : "hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200"
                                     }`
                                 }
                             >
@@ -38,7 +56,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
                     </nav>
                 </div>
 
-                {/* Footer fixe */}
+                {/* --- Footer --- */}
                 <footer className="border-t border-gray-200 dark:border-gray-700 p-4 text-xs text-gray-500 dark:text-gray-400">
                     <div className="flex items-center justify-between">
                         <a
@@ -54,7 +72,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
                     </div>
 
                     {/* Disclaimer */}
-                    <p className="mt-3 text-[11px] leading-tight text-gray-500 dark:text-gray-400 italic opacity-80">
+                    <p className="mt-3 text-[11px] leading-tight italic opacity-80">
                         Not affiliated with Xeet, Wallchain, or any mentioned
                         projects. For fun purposes only.
                     </p>
@@ -73,6 +91,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
                 />
 
                 <div className="relative w-64 bg-white dark:bg-gray-800 h-full p-4 flex flex-col justify-between">
+                    {/* --- Header mobile --- */}
                     <div>
                         <button
                             onClick={() => setOpen(false)}
@@ -80,7 +99,24 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
                         >
                             <X size={20} />
                         </button>
-                        <h2 className="text-xl font-bold mb-6">📊 Dashboard</h2>
+
+                        <div className="flex items-center gap-3 mb-8 mt-2">
+                            <img
+                                src="/logo.svg"
+                                alt="WUT Logo"
+                                className="w-9 h-9 rounded-xl shadow-sm bg-gray-100 dark:bg-gray-700 p-1"
+                            />
+                            <div>
+                                <h2 className="text-lg font-bold leading-tight">
+                                    WUT
+                                </h2>
+                                <p className="text-xs text-gray-500 dark:text-gray-400">
+                                    Web3 Useless Tools
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* --- Nav links --- */}
                         <nav className="space-y-2">
                             {links.map(({ to, label, icon: Icon }) => (
                                 <NavLink
@@ -90,7 +126,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
                                     className={({ isActive }) =>
                                         `flex items-center gap-2 rounded-xl px-3 py-2 transition ${isActive
                                             ? "bg-blue-500 text-white"
-                                            : "hover:bg-gray-100 dark:hover:bg-gray-700"
+                                            : "hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200"
                                         }`
                                     }
                                 >
@@ -101,7 +137,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
                         </nav>
                     </div>
 
-                    {/* Footer mobile */}
+                    {/* --- Footer mobile --- */}
                     <footer className="border-t border-gray-200 dark:border-gray-700 pt-4 text-xs text-gray-500 dark:text-gray-400">
                         <a
                             href="https://github.com/"

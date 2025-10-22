@@ -53,7 +53,7 @@ export default function Home() {
                 {/* Titre principal */}
                 <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-10 text-center">
                     Discover some useless tools for {" "}
-                    <span className="text-blue-500">InfoFi Analytics</span>
+                    <span className="text-blue-500">Web3</span>
                 </h1>
 
                 {/* Grille de cartes */}

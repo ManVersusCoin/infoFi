@@ -54,7 +54,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                             className="border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-sm text-gray-600 dark:text-gray-400 px-6 py-3 fixed bottom-0 left-64 right-0 md:left-64 z-20"
                         >
                             <div className="flex justify-center items-center flex-wrap gap-1">
-                                <span>{new Date().getFullYear()} - InfoFi useless tools - By</span>
+                                <span>{new Date().getFullYear()} - WUT - Web3 Useless Tools - By</span>
                                 <a
                                     href="https://x.com/man_versus_coin"
                                     target="_blank"
