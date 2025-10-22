@@ -21,6 +21,15 @@ const features: FeatureCardProps[] = [
         isNew: true,
     },
     {
+        title: "Airdrop Card Generator",
+        description:
+            "Create your fake airdrop card generator.",
+        image: "/images/airdrop-card.png",
+        link: "/airdrop-card",
+        active: true,
+        isNew: true,
+    },
+    {
         title: "Leaderboards",
         description:
             "Explore top profiles ranked by influence and insights. Compare across topics and timeframes.",
