@@ -2,6 +2,7 @@
 import * as htmlToImage from "dom-to-image";
 import MultiSelectBar from "../ui/MultiSelectBar";
 import CardPack from "./CardPack";
+import { AlertTriangle } from "lucide-react";
 
 const domtoimageTyped = htmlToImage as any;
 export default function PackGenerator({ allProfiles }: { allProfiles: any[] }) {
@@ -62,7 +63,14 @@ export default function PackGenerator({ allProfiles }: { allProfiles: any[] }) {
             <h2 className="text-2xl font-bold mb-4 text-blue-500 dark:text-blue-400">
                 Build Your Profile Pack
             </h2>
-
+            <p className="flex items-start gap-2 text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/30 border border-red-200 dark:border-red-700 rounded-lg p-3 my-4">
+                <AlertTriangle className="w-5 h-5 mt-0.5 flex-shrink-0" />
+                <span>
+                    <strong>Disclaimer:</strong> This tool is purely speculative and for
+                    recreational purposes only. All rarity levels and scores are fictional and
+                    do not represent real data or rankings. Not affiliated with Xeet.
+                </span>
+            </p>
             <MultiSelectBar
                 options={allProfiles ? allProfiles.map((p) => ({
                     value: p.id,

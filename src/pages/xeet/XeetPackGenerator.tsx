@@ -68,9 +68,8 @@ export default function XeetPackGeneratorPage() {
                         <p className="text-gray-600 dark:text-gray-300 mb-4">
                             You can select profiles from the list below to generate your custom Xeet profile pack.
                         </p>
-                        <p className="text-gray-600 dark:text-gray-300">
+                        <p className="text-gray-600 dark:text-gray-300 mt-4">
                             Only profiles in the top 400 from the latest 30 days Xeet-info leaderboard are available.
-                            This is a tool just for fun purposes only, not affiliated with Xeet and score data could not be accurate.
                         </p>
                     </div>
 
