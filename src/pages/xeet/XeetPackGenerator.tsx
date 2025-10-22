@@ -13,9 +13,9 @@ interface Profile {
 }
 
 const getRarity = (score: number) => {
-    if (score >= 2000) return "mythical";
-    if (score >= 700) return "epic";
-    if (score >= 200) return "rare";
+    if (score >= 900) return "mythical";
+    if (score >= 500) return "epic";
+    if (score >= 300) return "rare";
     return "common";
 };
 
