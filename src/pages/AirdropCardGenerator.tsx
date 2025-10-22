@@ -1,4 +1,4 @@
-﻿import React, { useRef, useState } from "react";
+﻿import { useRef, useState } from "react";
 import domtoimage from "dom-to-image";
 import { CheckCircle, XCircle, Download, Copy } from "lucide-react";
 
