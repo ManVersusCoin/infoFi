@@ -3,6 +3,7 @@ import * as htmlToImage from "dom-to-image";
 import MultiSelectBar from "../ui/MultiSelectBar";
 import CardPack from "./CardPack";
 
+const domtoimageTyped = htmlToImage as any;
 export default function PackGenerator({ allProfiles }: { allProfiles: any[] }) {
     const [selected, setSelected] = useState<{ value: string; label: string; imageUrl: string }[]>([]);
     const packRef = useRef<HTMLDivElement>(null);
@@ -16,7 +17,7 @@ export default function PackGenerator({ allProfiles }: { allProfiles: any[] }) {
         if (!packRef.current) return;
 
         try {
-            const dataUrl = await htmlToImage.toPng(packRef.current, {
+            const dataUrl = await domtoimageTyped.toPng(packRef.current, {
                 quality: 1,
                 bgcolor: getComputedStyle(document.documentElement).getPropertyValue('--color-bg-pack'),
             });
@@ -40,7 +41,7 @@ export default function PackGenerator({ allProfiles }: { allProfiles: any[] }) {
         if (!packRef.current) return;
 
         try {
-            const dataUrl = await htmlToImage.toPng(packRef.current, {
+            const dataUrl = await domtoimageTyped.toPng(packRef.current, {
                 quality: 1,
                 bgcolor: getComputedStyle(document.documentElement).getPropertyValue('--color-bg-pack'),
             });
