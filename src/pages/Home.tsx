@@ -23,9 +23,18 @@ const features: FeatureCardProps[] = [
     {
         title: "Airdrop Card Generator",
         description:
-            "Create your fake airdrop card generator.",
+            "Create your fake airdrop claim card.",
         image: "/images/airdrop-card.png",
         link: "/airdrop-card",
+        active: true,
+        isNew: true,
+    },
+    {
+        title: "CryptDads Jokes",
+        description:
+            "Let your CryptoDads share their best jokes.",
+        image: "/images/dad-jokes.png",
+        link: "/dad-jokes",
         active: true,
         isNew: true,
     },
