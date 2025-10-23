@@ -103,7 +103,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
 
                         <div className="flex items-center gap-3 mb-8 mt-2">
                             <img
-                                src="/logo.svg"
+                                src="/logo.png"
                                 alt="WUT Logo"
                                 className="w-9 h-9 rounded-xl shadow-sm bg-gray-100 dark:bg-gray-700 p-1"
                             />
