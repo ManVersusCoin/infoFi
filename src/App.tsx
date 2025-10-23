@@ -9,6 +9,7 @@ import WallChainLeaderboard from "./pages/WallchainLeaderboard";
 */
 import AirdropCardGenerator from "./pages/AirdropCardGenerator";
 import XeetPackGeneratorPage from "./pages/xeet/XeetPackGenerator";
+import CryptoDadsTalker from "./pages/CryptoDadsTalker";
 import "./index.css";
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/pack-generator" element={<XeetPackGeneratorPage />} />
                     <Route path="/airdrop-card" element={<AirdropCardGenerator />} />
+                    <Route path="/dad-jokes" element={<CryptoDadsTalker />} />
                     {/*
                     < Route path="/xeet" element={<XeetLeaderboard />} />
                     <Route path="/wallchain" element={<WallChainLeaderboard />} />
