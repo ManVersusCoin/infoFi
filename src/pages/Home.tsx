@@ -30,7 +30,7 @@ const features: FeatureCardProps[] = [
         isNew: true,
     },
     {
-        title: "CryptDads Jokes",
+        title: "CryptoDads Jokes",
         description:
             "Let your CryptoDads share their best jokes.",
         image: "/images/dad-jokes.png",
