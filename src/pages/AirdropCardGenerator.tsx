@@ -63,46 +63,67 @@ export default function AirdropCardCustomizer() {
 
     return (
         <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-col md:flex-row items-start justify-center gap-8 p-8 relative">
-            {/* === CARD PREVIEW === */}
-            <div
-                ref={cardRef}
-                className="w-[340px] rounded-2xl shadow-lg p-8 flex flex-col items-center justify-center space-y-6 transition-all"
-                style={{
-                    backgroundColor: colors.card,
-                    color: colors.textPrimary,
-                    minHeight: "420px",
-                }}
-            >
-                {eligible ? (
-                    <CheckCircle size={60} color="#22c55e" />
-                ) : (
-                    <XCircle size={60} color="#ef4444" />
-                )}
-                <h2 className="text-2xl font-bold text-center">{title}</h2>
-                <p
-                    className="text-sm text-center"
-                    style={{ color: colors.textSecondary }}
-                >
-                    {subtitle}
-                </p>
 
+            {/* === CARD PREVIEW + ACTIONS === */}
+            <div className="flex flex-col items-center">
                 <div
-                    className="rounded-xl py-3 px-4 w-full flex justify-between items-center"
-                    style={{ backgroundColor: "#2a2a2a" }}
-                >
-                    <span>{allocationLabel}</span>
-                    <span className="font-semibold text-lg">{allocationAmount}</span>
-                </div>
-
-                <button
-                    className="w-full font-semibold py-3 rounded-xl mt-4 transition hover:opacity-90"
+                    ref={cardRef}
+                    className="w-[340px] rounded-2xl shadow-lg p-8 flex flex-col items-center justify-center space-y-6 transition-all"
                     style={{
-                        backgroundColor: colors.button,
-                        color: "#000",
+                        backgroundColor: colors.card,
+                        color: colors.textPrimary,
+                        minHeight: "420px",
                     }}
                 >
-                    {buttonText}
-                </button>
+                    {eligible ? (
+                        <CheckCircle size={60} color="#22c55e" />
+                    ) : (
+                        <XCircle size={60} color="#ef4444" />
+                    )}
+                    <h2 className="text-2xl font-bold text-center">{title}</h2>
+                    <p
+                        className="text-sm text-center"
+                        style={{ color: colors.textSecondary }}
+                    >
+                        {subtitle}
+                    </p>
+
+                    <div
+                        className="rounded-xl py-3 px-4 w-full flex justify-between items-center"
+                        style={{ backgroundColor: "#2a2a2a" }}
+                    >
+                        <span>{allocationLabel}</span>
+                        <span className="font-semibold text-lg">{allocationAmount}</span>
+                    </div>
+
+                    <button
+                        className="w-full font-semibold py-3 rounded-xl mt-4 transition hover:opacity-90"
+                        style={{
+                            backgroundColor: colors.button,
+                            color: "#000",
+                        }}
+                    >
+                        {buttonText}
+                    </button>
+                </div>
+
+                {/* === ACTION BUTTONS BELOW EXPORT AREA === */}
+                <div className="flex gap-3 mt-4 w-[340px]">
+                    <button
+                        onClick={downloadImage}
+                        className="flex-1 flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white py-2 rounded"
+                    >
+                        <Download size={16} />
+                        Download
+                    </button>
+                    <button
+                        onClick={copyToClipboard}
+                        className="flex-1 flex items-center justify-center gap-2 bg-gray-700 hover:bg-gray-800 text-white py-2 rounded"
+                    >
+                        <Copy size={16} />
+                        Copy
+                    </button>
+                </div>
             </div>
 
             {/* === CUSTOMIZATION PANEL === */}
@@ -110,6 +131,15 @@ export default function AirdropCardCustomizer() {
                 <h3 className="text-lg font-semibold mb-4">⚙️ Customize</h3>
 
                 <div className="space-y-3">
+                    <button
+                        onClick={() => setEligible(!eligible)}
+                        className={`w-full p-2 rounded font-semibold text-sm ${eligible
+                            ? "bg-red-500 hover:bg-red-600"
+                            : "bg-green-500 hover:bg-green-600"
+                            }`}
+                    >
+                        {eligible ? "Switch to Not Eligible" : "Switch to Eligible"}
+                    </button>
                     <input
                         type="text"
                         value={title}
@@ -147,7 +177,6 @@ export default function AirdropCardCustomizer() {
                     />
                 </div>
 
-                {/* === COLORS === */}
                 <h4 className="text-sm font-semibold mt-6 mb-2">🎨 Colors</h4>
                 <div className="grid grid-cols-2 gap-3 text-xs">
                     {Object.keys(colors).map((key) => (
@@ -163,36 +192,6 @@ export default function AirdropCardCustomizer() {
                             />
                         </div>
                     ))}
-                </div>
-
-                {/* === ACTIONS === */}
-                <div className="mt-6 flex flex-col gap-3">
-                    <button
-                        onClick={() => setEligible(!eligible)}
-                        className={`px-4 py-2 rounded font-semibold text-sm ${eligible
-                                ? "bg-red-500 hover:bg-red-600"
-                                : "bg-green-500 hover:bg-green-600"
-                            }`}
-                    >
-                        {eligible ? "Switch to Not Eligible" : "Switch to Eligible"}
-                    </button>
-
-                    <div className="flex gap-3 mt-4">
-                        <button
-                            onClick={downloadImage}
-                            className="flex-1 flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white py-2 rounded"
-                        >
-                            <Download size={16} />
-                            Download
-                        </button>
-                        <button
-                            onClick={copyToClipboard}
-                            className="flex-1 flex items-center justify-center gap-2 bg-gray-700 hover:bg-gray-800 text-white py-2 rounded"
-                        >
-                            <Copy size={16} />
-                            Copy
-                        </button>
-                    </div>
                 </div>
             </div>
 
