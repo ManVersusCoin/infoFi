@@ -2,13 +2,26 @@
 import * as htmlToImage from "dom-to-image";
 import MultiSelectBar from "../ui/MultiSelectBar";
 import CardPack from "./CardPack";
-import { AlertTriangle } from "lucide-react";
+import { AlertTriangle, Copy, Download } from "lucide-react";
 
 const domtoimageTyped = htmlToImage as any;
+
+interface Toast {
+    id: number;
+    message: string;
+    type: "success" | "error";
+}
+
 export default function PackGenerator({ allProfiles }: { allProfiles: any[] }) {
     const [selected, setSelected] = useState<{ value: string; label: string; imageUrl: string }[]>([]);
     const packRef = useRef<HTMLDivElement>(null);
+    const [toasts, setToasts] = useState<Toast[]>([]);
 
+    const showToast = (message: string, type: "success" | "error" = "success") => {
+        const id = Date.now();
+        setToasts((prev) => [...prev, { id, message, type }]);
+        setTimeout(() => setToasts((prev) => prev.filter((t) => t.id !== id)), 3000);
+    };
     // Ensure allProfiles is defined before using it
     const selectedProfiles = allProfiles ? allProfiles.filter((p) =>
         selected.some((s) => s.value === p.id)
@@ -20,21 +33,17 @@ export default function PackGenerator({ allProfiles }: { allProfiles: any[] }) {
         try {
             const dataUrl = await domtoimageTyped.toPng(packRef.current, {
                 quality: 1,
-                bgcolor: getComputedStyle(document.documentElement).getPropertyValue('--color-bg-pack'),
+                bgcolor: getComputedStyle(document.documentElement).getPropertyValue("--color-bg-pack"),
             });
 
-            // Create a temporary link to download the image
-            
-
-            // Copy the image to the clipboard
             const blob = await fetch(dataUrl).then((res) => res.blob());
             await navigator.clipboard.write([
                 new ClipboardItem({ "image/png": blob }),
             ]);
-            alert("📋 Pack image copied to clipboard!");
+            showToast("📋 Pack image copied to clipboard!");
         } catch (error) {
             console.error("Error copying image:", error);
-            alert("Failed to copy image to clipboard.");
+            showToast("❌ Failed to copy image.", "error");
         }
     };
 
@@ -44,17 +53,17 @@ export default function PackGenerator({ allProfiles }: { allProfiles: any[] }) {
         try {
             const dataUrl = await domtoimageTyped.toPng(packRef.current, {
                 quality: 1,
-                bgcolor: getComputedStyle(document.documentElement).getPropertyValue('--color-bg-pack'),
+                bgcolor: getComputedStyle(document.documentElement).getPropertyValue("--color-bg-pack"),
             });
 
-            // Create a temporary link to download the image
             const link = document.createElement("a");
             link.download = "profile-pack.png";
             link.href = dataUrl;
             link.click();
+            showToast("✅ Pack image downloaded successfully!");
         } catch (error) {
             console.error("Error downloading image:", error);
-            alert("Failed to download image.");
+            showToast("❌ Failed to download image.", "error");
         }
     };
 
@@ -83,26 +92,43 @@ export default function PackGenerator({ allProfiles }: { allProfiles: any[] }) {
 
             {selectedProfiles.length > 0 && (
                 <>
-                    <div ref={packRef} className="bg-white dark:bg-gray-900">
+                    {/* === EXPORTABLE ZONE === */}
+                    <div ref={packRef} className="bg-white dark:bg-gray-900 ">
                         <CardPack profiles={selectedProfiles} />
                     </div>
 
-                    <div className="flex justify-center gap-4 mt-6">
-                        <button
-                            onClick={handleCopy}
-                            className="px-4 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700"
-                        >
-                            📸 Copy Pack to Clipboard
-                        </button>
+                    {/* === ACTION BUTTONS BELOW EXPORT AREA === */}
+                    <div className="flex justify-center gap-4 mt-6 w-full">
                         <button
                             onClick={handleDownload}
-                            className="px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700"
+                            className="flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-5 rounded shadow transition-all"
                         >
-                            📥 Download Pack
+                            <Download size={18} />
+                            Download
+                        </button>
+                        <button
+                            onClick={handleCopy}
+                            className="flex items-center justify-center gap-2 bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded shadow transition-all"
+                        >
+                            <Copy size={18} />
+                            Copy
                         </button>
                     </div>
                 </>
             )}
+
+            {/* === TOASTS === */}
+            <div className="fixed bottom-4 right-4 space-y-2 z-50">
+                {toasts.map((toast) => (
+                    <div
+                        key={toast.id}
+                        className={`px-4 py-3 rounded-lg shadow-md text-sm text-white ${toast.type === "success" ? "bg-green-600" : "bg-red-600"
+                            }`}
+                    >
+                        {toast.message}
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }
