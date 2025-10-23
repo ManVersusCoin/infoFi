@@ -1,5 +1,5 @@
 ﻿// CryptoDadsTalker.tsx
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import domtoimage from "dom-to-image";
 import { Download, Copy, Shuffle } from "lucide-react";
 
