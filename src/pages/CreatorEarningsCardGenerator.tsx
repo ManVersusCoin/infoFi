@@ -59,7 +59,7 @@ export default function CreatorEarningsCard() {
     };
 
     return (
-        <div className="bg-gray-100 dark:bg-black flex flex-col items-center justify-center gap-6 p-8 relative text-gray-900 dark:text-white transition-colors duration-300">
+        <div className="flex flex-col items-center justify-center gap-6 p-8 relative text-gray-900 dark:text-white transition-colors duration-300">
 
             {/* === PAGE HEADER === */}
             <div className="text-center max-w-md mb-4">
