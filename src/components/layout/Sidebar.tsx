@@ -1,5 +1,5 @@
 ﻿import { NavLink } from "react-router-dom";
-import { Home, Trophy, Github, X , Gift, Laugh } from "lucide-react";
+import { Home, Trophy, Github, X, Gift, Laugh, CircleDollarSign } from "lucide-react";
 
 interface SidebarProps {
     open: boolean;
@@ -11,6 +11,7 @@ const links = [
     { to: "/pack-generator", label: "Xeet pack generator", icon: Trophy },
     { to: "/airdrop-card", label: "Airdrop Card generator", icon: Gift },
     { to: "/dad-jokes", label: "CryptoDad Jokes", icon: Laugh },
+    { to: "/earning-card", label: "Creator Earning Card", icon: CircleDollarSign },
 ];
 
 export default function Sidebar({ open, setOpen }: SidebarProps) {

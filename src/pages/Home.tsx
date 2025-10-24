@@ -21,7 +21,7 @@ const features: FeatureCardProps[] = [
         isNew: true,
     },
     {
-        title: "Airdrop Card Generator",
+        title: "Airdrop Card",
         description:
             "Create your fake airdrop claim card.",
         image: "/images/airdrop-card.png",
@@ -35,6 +35,15 @@ const features: FeatureCardProps[] = [
             "Let your CryptoDads share their best jokes.",
         image: "/images/dad-jokes.png",
         link: "/dad-jokes",
+        active: true,
+        isNew: true,
+    },
+    {
+        title: "Creator Earning Card",
+        description:
+            "Create your Creator Earning Card and flex like a KOL",
+        image: "/images/earning-card.png",
+        link: "/earning-card",
         active: true,
         isNew: true,
     },
