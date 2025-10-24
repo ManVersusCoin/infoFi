@@ -6,8 +6,9 @@ import Leaderboards from "./pages/Leaderboards";
 import Settings from "./pages/Settings";
 import EvmActivityVisualizerPage from "./pages/EvmActivityVisualizer";
 import WallChainLeaderboard from "./pages/WallchainLeaderboard";
-*/
 import XeetLeaderboard from "./pages/XeetLeaderboard";
+*/
+
 import AirdropCardGenerator from "./pages/AirdropCardGenerator";
 import CreatorEarningsCard from "./pages/CreatorEarningsCardGenerator";
 import XeetPackGeneratorPage from "./pages/xeet/XeetPackGenerator";
@@ -25,9 +26,10 @@ export default function App() {
                     <Route path="/airdrop-card" element={<AirdropCardGenerator />} />
                     <Route path="/earning-card" element={<CreatorEarningsCard />} />
                     <Route path="/dad-jokes" element={<CryptoDadsTalker />} />
-                    < Route path="/xeet" element={<XeetLeaderboard />} />
+                    
                     
                     {/*
+                        < Route path="/xeet" element={<XeetLeaderboard />} />
 < Route path="/nft-journey" element={<EvmActivityVisualizerPage />} />
                     <Route path="/wallchain" element={<WallChainLeaderboard />} />
 
