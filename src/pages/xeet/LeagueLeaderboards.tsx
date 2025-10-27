@@ -1,5 +1,4 @@
-﻿import * as React from "react";
-import { useEffect, useMemo, useRef, useState } from "react";
+﻿import { useEffect, useMemo, useRef, useState, type JSX } from "react";
 
 /*
   LeagueLeaderboards.tsx
