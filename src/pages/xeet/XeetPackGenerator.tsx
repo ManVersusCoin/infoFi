@@ -34,8 +34,8 @@ export default function XeetPackGeneratorPage() {
                     handle: p.handle || "unknown",
                     number: index + 1,
                     imageUrl: p.avatarUrl || "/default-avatar.jpg",
-                    rarity: getRarity(p.score ?? 0),
-                    score: p.score ?? 0,
+                    rarity: getRarity(p.totalPoints ?? 0),
+                    score: p.totalPoints ?? 0,
                     mindsharePct: p.mindsharePct,
                 }));
                 setProfiles(formatted);
