@@ -1,0 +1,5551 @@
+[
+  {
+    "id": "5ea420b7-17c1-4a9d-9501-0fcaa60387f9",
+    "title": "Crypto Twitter",
+    "topicSlug": "crypto-creator",
+    "description": "Crypto Creator tracks influential voices on X (Twitter) who shape narratives and markets across DeFi, NFTs, and infrastructure. Posts are scored for “Signal”, timely, original, and verifiable insights, while hype, misinformation, and low-effort amplification are penalized.",
+    "categoryTags": [
+      "Social"
+    ],
+    "isLeague": true,
+    "leagueSlug": "ct",
+    "logoUrl": "https://pbs.twimg.com/profile_images/1974980773657673728/Xdohv622_400x400.jpg",
+    "xHandle": null,
+    "tournament": {
+      "id": "3f573dcc-b7cd-4369-a084-4ffbad7124be",
+      "rewardsEnabled": false,
+      "rewardCadence": null,
+      "rewardDescription": null,
+      "prizePoolLabel": "Xeets",
+      "rewardPoolAmount": "Everyone",
+      "endsAt": null,
+      "isActive": true,
+      "comingSoon": false,
+      "startDate": "2025-06-11T00:00:00.000Z",
+      "spotlighted": false
+    },
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 49252
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 51690
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 47018
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 42725
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 34572
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 30970
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "8877ccf0-80d6-4a3b-a1ff-b9d107d1fac9",
+        "twitterId": "1051852534518824960",
+        "handle": "inversebrah",
+        "name": "smolting (wassie, verse)",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1812298915661623296/P0Yj0Xgq_400x400.jpg",
+        "totalPoints": 12.30123390969078
+      },
+      {
+        "userId": "d2c4c8cb-be86-463e-af83-151bd1ef1d85",
+        "twitterId": "1469851247133945856",
+        "handle": "TylerDurden",
+        "name": "Tyler",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1824291487355637762/aTHlX07H_400x400.jpg",
+        "totalPoints": 11.37030921251722
+      },
+      {
+        "userId": "d10b7bbc-140d-4ef8-8482-611c1f917f5a",
+        "twitterId": "1310378599984148480",
+        "handle": "MINHxDYNASTY",
+        "name": "۟",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1960391362723110912/imsXPz-F_400x400.jpg",
+        "totalPoints": 11.0375080276873
+      },
+      {
+        "userId": "68a9778c-b2c1-4647-939e-3a2c1309f2f2",
+        "twitterId": "1502733964808650754",
+        "handle": "SolJakey",
+        "name": "Jakey",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1874210663431573504/PkUwgxiN_400x400.jpg",
+        "totalPoints": 9.926393527969314
+      },
+      {
+        "userId": "98921933-7a09-4bab-a7e3-33417ba5c41a",
+        "twitterId": "127646057",
+        "handle": "DeeZe",
+        "name": "DeeZe ⛳🏌️‍♂️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1958967516237099008/B6G-ah_R_400x400.jpg",
+        "totalPoints": 9.90655531450857
+      }
+    ]
+  },
+  {
+    "id": "48bde8a1-04e3-4ceb-9575-197862ce3717",
+    "title": "NFTs",
+    "topicSlug": "nfts",
+    "description": "NFTs are unique digital assets with provenance and programmable rights, spanning art, gaming, and IP. On-topic posts involve collections, mint mechanics, royalties, marketplace dynamics, and brand expansions.",
+    "categoryTags": [
+      "NFT"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1974980773657673728/Xdohv622_400x400.jpg",
+    "xHandle": null,
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 6605
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 6679
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 6528
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 7129
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 5236
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 5071
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 4654
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "1594ad5c-766f-4571-ac89-c37ad6060a46",
+        "twitterId": "46801378",
+        "handle": "Xeer",
+        "name": "Xeer",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1982304460715016192/eQUgmzIy_400x400.jpg",
+        "mindsharePct": 0.4801104163881438
+      },
+      {
+        "userId": "c0698ed1-2179-48d7-bd7d-c872f797fff9",
+        "twitterId": "1385956210902454272",
+        "handle": "SteveKBark",
+        "name": "Steve 🤙",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1978806515994640384/Swe5BY5R_400x400.jpg",
+        "mindsharePct": 0.4080774287328192
+      },
+      {
+        "userId": "68aaff2e-b3ca-49e3-8fb9-6ca2760a04b1",
+        "twitterId": "1099790079294287872",
+        "handle": "lokithebird",
+        "name": "Loki 😈",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1739893695942639616/9W39mSnm_400x400.jpg",
+        "mindsharePct": 0.3833325195787404
+      },
+      {
+        "userId": "d0997177-64c4-470d-a417-16a652c99549",
+        "twitterId": "27553316",
+        "handle": "beijingdou",
+        "name": "Josh Ong",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1602122467002155010/MI7V7cqu_400x400.png",
+        "mindsharePct": 0.3591277179565017
+      },
+      {
+        "userId": "ca4323a4-5a80-4933-a8e6-f6e537896c22",
+        "twitterId": "46600062",
+        "handle": "jbondwagon",
+        "name": "JBond",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1981417858937630720/TidAsiY0_400x400.jpg",
+        "mindsharePct": 0.3555702925603361
+      }
+    ]
+  },
+  {
+    "id": "e052c3c2-d102-46ba-82c5-2d8ccf893715",
+    "title": "Bitcoin",
+    "topicSlug": "bitcoin",
+    "description": "Bitcoin is the original decentralized currency and settlement network. Key discussions cover BTC markets, consensus and security, scaling (L2s, ordinals), institutional adoption, and policy or macroeconomic narratives.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/421692600446619648/dWAbC2wg_400x400.jpeg",
+    "xHandle": "Bitcoin",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 3880
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 4270
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 4017
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 4100
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 3117
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 2308
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 2664
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "678f67a8-83f7-4945-904c-835feada15e4",
+        "twitterId": "17351167",
+        "handle": "scottmelker",
+        "name": "The Wolf Of All Streets",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1927915527990833152/cGrIp3T0_400x400.jpg",
+        "mindsharePct": 0.9752764213273192
+      },
+      {
+        "userId": "dd900898-e579-42ac-88f5-8b81afdcdf01",
+        "twitterId": "3185716686",
+        "handle": "Ashcryptoreal",
+        "name": "Ash Crypto",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1935933861034090496/h_vgXOAw_400x400.jpg",
+        "mindsharePct": 0.7690699700734238
+      },
+      {
+        "userId": "90feb99c-a017-4787-8a46-aa129ea82045",
+        "twitterId": "341746855",
+        "handle": "pete_rizzo_",
+        "name": "The Bitcoin Historian",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1752407077987721216/329doR50_400x400.jpg",
+        "mindsharePct": 0.7074377821795831
+      },
+      {
+        "userId": "263d06de-5d43-44df-846c-ccff8a4f1924",
+        "twitterId": "146008010",
+        "handle": "CryptoMichNL",
+        "name": "Michaël van de Poppe",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1696225706768740353/ta6goKxa_400x400.jpg",
+        "mindsharePct": 0.7050494150618081
+      },
+      {
+        "userId": "82f4b275-d346-4197-b31c-0bb00158a735",
+        "twitterId": "40134343",
+        "handle": "Tyler_Did_It",
+        "name": "TylerD 🧙‍♂️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1561354964534018049/T9lKN_2c_400x400.jpg",
+        "mindsharePct": 0.5714135445271465
+      }
+    ]
+  },
+  {
+    "id": "d7cbea83-b570-4291-9cca-32569a24deb5",
+    "title": "Ethereum",
+    "topicSlug": "ethereum",
+    "description": "Ethereum is the leading smart-contract Layer-1 powering much of Web3. Relevant topics include ETH markets, protocol upgrades, rollups/L2s, EVM tooling, restaking/security, and new ERC standards.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg",
+    "xHandle": "ethereum",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 4047
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 3647
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 3436
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 3403
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 2668
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 2147
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 2421
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "dd900898-e579-42ac-88f5-8b81afdcdf01",
+        "twitterId": "3185716686",
+        "handle": "Ashcryptoreal",
+        "name": "Ash Crypto",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1935933861034090496/h_vgXOAw_400x400.jpg",
+        "mindsharePct": 0.8642060305250693
+      },
+      {
+        "userId": "c7e7e6e5-6d76-43f4-b970-76f0119cab34",
+        "twitterId": "991745162274467840",
+        "handle": "DeFi_Dad",
+        "name": "DeFi Dad ⟠ defidad.eth",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1613764698775633921/72tL5YzB_400x400.jpg",
+        "mindsharePct": 0.5347867325480063
+      },
+      {
+        "userId": "6accb631-b7ac-41f4-a553-8e01466071ce",
+        "twitterId": "956670268596015105",
+        "handle": "iamDCinvestor",
+        "name": "DCinvestor",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1548726894417305601/Ko19bO_Q_400x400.png",
+        "mindsharePct": 0.4053584847736013
+      },
+      {
+        "userId": "63adb091-4e59-414f-82f6-491ded117e63",
+        "twitterId": "14571055",
+        "handle": "RyanSAdams",
+        "name": "RYAN SΞAN ADAMS - rsa.eth 🦄",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1766150845614145536/NPX7ozxG_400x400.jpg",
+        "mindsharePct": 0.3696749706746106
+      },
+      {
+        "userId": "d453f09c-f051-41a6-9072-56f345b59858",
+        "twitterId": "1852674305517342720",
+        "handle": "aixbt_agent",
+        "name": "aixbt",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1874758416658509824/UPaVddbm_400x400.jpg",
+        "mindsharePct": 0.3583971416178127
+      }
+    ]
+  },
+  {
+    "id": "b39142f5-b150-4729-bfda-c7cc496bc70a",
+    "title": "Solana",
+    "topicSlug": "solana",
+    "description": "Solana is a high-throughput Layer-1 blockchain popular for consumer apps and memecoins. On-topic content spans SOL markets, major ecosystem tools, validator/MEV updates, and infrastructure upgrades.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1472933274209107976/6u-LQfjG_400x400.jpg",
+    "xHandle": "solana",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 3235
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 3145
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 3114
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 3590
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 2714
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 2198
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 2254
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "618888a5-007b-49c6-b1da-bf28bc494189",
+        "twitterId": "1309886201944473600",
+        "handle": "0xMert_",
+        "name": "mert | helius.dev",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1975912876243095552/YlVLO4Oz_400x400.jpg",
+        "mindsharePct": 0.8356108116064359
+      },
+      {
+        "userId": "37892d10-8361-4920-bf9f-cb17949c47ec",
+        "twitterId": "1479905666798178307",
+        "handle": "jussy_world",
+        "name": "jussy",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1805882099993362433/ZS_9CBKb_400x400.jpg",
+        "mindsharePct": 0.6594919954984424
+      },
+      {
+        "userId": "68a9778c-b2c1-4647-939e-3a2c1309f2f2",
+        "twitterId": "1502733964808650754",
+        "handle": "SolJakey",
+        "name": "Jakey",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1874210663431573504/PkUwgxiN_400x400.jpg",
+        "mindsharePct": 0.4424470050991379
+      },
+      {
+        "userId": "af89321e-2d1f-4b14-8d7b-4d5fd4e141a6",
+        "twitterId": "1474489799528615942",
+        "handle": "Tiger_aspect06",
+        "name": "Tiger_Aspect",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1965781673817370625/NY7YeWsg_bigger.jpg",
+        "mindsharePct": 0.3471116970785671
+      },
+      {
+        "userId": "d0997177-64c4-470d-a417-16a652c99549",
+        "twitterId": "27553316",
+        "handle": "beijingdou",
+        "name": "Josh Ong",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1602122467002155010/MI7V7cqu_400x400.png",
+        "mindsharePct": 0.3392330391886486
+      }
+    ]
+  },
+  {
+    "id": "d0cd14c7-7da7-432e-be59-4d401dfd0092",
+    "title": "Wallchain",
+    "topicSlug": "wallchain",
+    "description": "The Future of Growth. Powered by AI. Social Signal + Onchain = Fundamental Growth\n",
+    "categoryTags": [
+      "Info Markets",
+      "AI"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1975520590401355776/CAcu6Xzr_400x400.jpg",
+    "xHandle": "wallchain_xyz",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 2919
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 2704
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 3531
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 3628
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 2615
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 2405
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 2390
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "cb4bb9dc-6a40-41ab-80e3-5409613ac2e3",
+        "twitterId": "1366316376466587649",
+        "handle": "leaf_swan",
+        "name": "Leafswan",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1946130545433260032/5aHssudZ_400x400.jpg",
+        "mindsharePct": 0.6699669504361656
+      },
+      {
+        "userId": "d0997177-64c4-470d-a417-16a652c99549",
+        "twitterId": "27553316",
+        "handle": "beijingdou",
+        "name": "Josh Ong",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1602122467002155010/MI7V7cqu_400x400.png",
+        "mindsharePct": 0.5397156379441157
+      },
+      {
+        "userId": "e8780693-a8bb-4b5a-be20-2f5000655e1b",
+        "twitterId": "1296724110601531392",
+        "handle": "Steezehuman",
+        "name": "Stephenblaq",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1841982630742384640/m_x3zUqh_400x400.jpg",
+        "mindsharePct": 0.3437122179890504
+      },
+      {
+        "userId": "4357de4d-e0ba-47a1-89e1-4c41e637230e",
+        "twitterId": "1514218190691344449",
+        "handle": "Samtopexchange",
+        "name": "Samtop 👽🍂",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1875132570238648320/zvDMvtsx_400x400.jpg",
+        "mindsharePct": 0.3317943320175656
+      },
+      {
+        "userId": "7f9dd60b-858d-4b36-bd73-b051eb94c952",
+        "twitterId": "1445356255514554372",
+        "handle": "BloosBTC",
+        "name": "BLAZE",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1939687375401005056/5jpyxt4X_bigger.jpg",
+        "mindsharePct": 0.3066266824428574
+      }
+    ]
+  },
+  {
+    "id": "e468dba4-f966-4dfb-8855-d6a918e4c685",
+    "title": "Prediction Markets",
+    "topicSlug": "prediction-markets",
+    "description": "Prediction markets let users trade event-based contracts where prices reflect crowd-implied probabilities. This includes both on-chain platforms and regulated venues, with focus on odds, liquidity, resolution, and forecasting accuracy.",
+    "categoryTags": [
+      "Prediction Markets"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1974980773657673728/Xdohv622_400x400.jpg",
+    "xHandle": null,
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 2340
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 2322
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 3484
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 3646
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 2509
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 2054
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 2148
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "76816697-cbc1-4c0d-ae56-0b6e733bc60d",
+        "twitterId": "776230888573063168",
+        "handle": "pukerrainbrow",
+        "name": "Pukerainbow 🤮🌈",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1912163120233005056/fINv15w6_400x400.jpg",
+        "mindsharePct": 0.8631266460992569
+      },
+      {
+        "userId": "82f4b275-d346-4197-b31c-0bb00158a735",
+        "twitterId": "40134343",
+        "handle": "Tyler_Did_It",
+        "name": "TylerD 🧙‍♂️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1561354964534018049/T9lKN_2c_400x400.jpg",
+        "mindsharePct": 0.589991619473215
+      },
+      {
+        "userId": "fe4d1d64-94f3-4bc9-8986-c584e26e9622",
+        "twitterId": "1341287326467538945",
+        "handle": "j0hnwang",
+        "name": "John Wang",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1972903375026184192/R3njU90y_400x400.jpg",
+        "mindsharePct": 0.5444205401889286
+      },
+      {
+        "userId": "d248ceb6-f0c0-40df-9ea0-4f359c7d95db",
+        "twitterId": "1423097842034528257",
+        "handle": "EasyEatsBodega",
+        "name": "Easy",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1962922966326427648/LTLWaY2y_400x400.jpg",
+        "mindsharePct": 0.4154373201268436
+      },
+      {
+        "userId": "a11a60a8-314e-4944-856b-bcc39adb69b0",
+        "twitterId": "3369243892",
+        "handle": "farokh",
+        "name": "Farokh (Perma/Bull)",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1943379757308985344/b3iuP4wq_400x400.jpg",
+        "mindsharePct": 0.376712167733184
+      }
+    ]
+  },
+  {
+    "id": "6669c869-c72b-499d-ab7a-491019abb001",
+    "title": "Xeet InfoFI",
+    "topicSlug": "xeet-infofi",
+    "description": "Xeet.ai is an AI-powered analytics platform measuring “Signal vs. Noise” across creators and blockchain ecosystems. It turns insights into on-chain assets, rewarding accuracy, influence, and ROI while penalizing low-quality amplification.",
+    "categoryTags": [
+      "Info Markets",
+      "AI"
+    ],
+    "isLeague": true,
+    "leagueSlug": "xeet",
+    "logoUrl": "https://pbs.twimg.com/profile_images/1974980773657673728/Xdohv622_400x400.jpg",
+    "xHandle": "xeetdotai",
+    "tournament": {
+      "id": "8223e5ff-f9e2-47e9-ac49-f7f9edc099df",
+      "rewardsEnabled": false,
+      "rewardCadence": null,
+      "rewardDescription": null,
+      "prizePoolLabel": "Xeets",
+      "rewardPoolAmount": "Everyone",
+      "endsAt": null,
+      "isActive": true,
+      "comingSoon": false,
+      "startDate": "2025-06-11T00:00:00.000Z",
+      "spotlighted": false
+    },
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 1727
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 1856
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 2725
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 3236
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 2334
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 1920
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 1840
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "f03847c0-f984-4e71-acb6-72b6429e413a",
+        "twitterId": "1342386913",
+        "handle": "73lV_",
+        "name": "Hokage",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1960988745538109440/OPl2lRXV_400x400.jpg",
+        "totalPoints": 10.03956856892274
+      },
+      {
+        "userId": "9a093ed7-8ef8-4e6a-bf96-f8603caa1733",
+        "twitterId": "4900102269",
+        "handle": "vohvohh",
+        "name": "voh 🔺",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1969755016308092928/LjCIGBVN_400x400.jpg",
+        "totalPoints": 9.965506670678659
+      },
+      {
+        "userId": "570db729-5898-4324-93e8-875826ae35e9",
+        "twitterId": "1382338123015856132",
+        "handle": "RiddlerNFT",
+        "name": "RIDDLΞR",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1828382316709711872/yjl9GzVp_400x400.jpg",
+        "totalPoints": 9.04094203478413
+      },
+      {
+        "userId": "36c75fcf-b443-4666-9bfd-4fa51e11384a",
+        "twitterId": "1378756322041196552",
+        "handle": "zaimiriQ",
+        "name": "zaimiri ✏️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1956760267330572288/RLKoQJwK_400x400.jpg",
+        "totalPoints": 8.937345142901139
+      },
+      {
+        "userId": "2fba1378-19c6-4002-be94-a6483bf48353",
+        "twitterId": "1279739983990075392",
+        "handle": "Caben_nft",
+        "name": "Caben",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1928966336333385728/jGCb5nMj_400x400.jpg",
+        "totalPoints": 7.359680129064294
+      }
+    ]
+  },
+  {
+    "id": "9862a895-b4c6-4c2f-9542-b6c75148b46f",
+    "title": "Kaito",
+    "topicSlug": "kaito",
+    "description": "The distribution powerhouse of crypto - for attention, data & capital.",
+    "categoryTags": [
+      "Info Markets",
+      "AI"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://ugc.production.linktr.ee/0ed573e0-0d6a-4616-92a1-44ad43337e27_PFP--1-.png?io=true&size=avatar-v3_0",
+    "xHandle": "KaitoAI",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 2024
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 1939
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 2050
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 2129
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 2086
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 1972
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 1645
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "693a6f68-ae4b-4241-b9ee-79a5cee322ad",
+        "twitterId": "1529700919238987776",
+        "handle": "Smokey_titan",
+        "name": "smokey",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1964013431943733248/xEjB7rnr_400x400.jpg",
+        "mindsharePct": 0.7908268879923925
+      },
+      {
+        "userId": "1594ad5c-766f-4571-ac89-c37ad6060a46",
+        "twitterId": "46801378",
+        "handle": "Xeer",
+        "name": "Xeer",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1982304460715016192/eQUgmzIy_400x400.jpg",
+        "mindsharePct": 0.7120336253063559
+      },
+      {
+        "userId": "ed2131a6-c2f9-4ad2-aa1c-caf5e975456c",
+        "twitterId": "3078211361",
+        "handle": "TimHaldorsson",
+        "name": "Tim Haldorsson",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1928091512484556800/Toeoufns_400x400.jpg",
+        "mindsharePct": 0.5609103442472932
+      },
+      {
+        "userId": "36c75fcf-b443-4666-9bfd-4fa51e11384a",
+        "twitterId": "1378756322041196552",
+        "handle": "zaimiriQ",
+        "name": "zaimiri ✏️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1956760267330572288/RLKoQJwK_400x400.jpg",
+        "mindsharePct": 0.5015823780103393
+      },
+      {
+        "userId": "570db729-5898-4324-93e8-875826ae35e9",
+        "twitterId": "1382338123015856132",
+        "handle": "RiddlerNFT",
+        "name": "RIDDLΞR",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1828382316709711872/yjl9GzVp_bigger.jpg",
+        "mindsharePct": 0.4470320106273796
+      }
+    ]
+  },
+  {
+    "id": "96a16908-6e69-460c-ab34-75704ceb39b0",
+    "title": "BNB",
+    "topicSlug": "bnb",
+    "description": "BNB Chain is a community-driven, decentralized and censorship-resistant blockchain, powered by BNB. It is composed of BNB Smart Chain (BSC): A secure DeFi hub with the lowest gas fees of any EVM-compatible L1 and serves as the ecosystem’s governance chain; opBNB: A scalability L2 that delivers some of the lowest gas fees of any L2 and rapid processing speeds; BNB Greenfield: Meets decentralized storage needs for the ecosystem and lets users establish their own data marketplaces.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1967532773117239296/vuRfxE3F_400x400.jpg",
+    "xHandle": "BNBCHAIN",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 1811
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 1756
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 2549
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 2651
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 1620
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 1297
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 1201
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "7fb38e62-72e7-4542-8899-89da2a8cf66b",
+        "twitterId": "902926941413453824",
+        "handle": "cz_binance",
+        "name": "CZ 🔶 BNB",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1961440580279336960/PiiIs8Lh_400x400.jpg",
+        "mindsharePct": 1.73344317436717
+      },
+      {
+        "userId": "c5dd9ef5-9447-4296-9ccb-7c5fbce34f56",
+        "twitterId": "1064982684060057606",
+        "handle": "ShiLLin_ViLLian",
+        "name": "Alex",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1971332068958158848/x-pdXq5A_400x400.jpg",
+        "mindsharePct": 0.9531442921522698
+      },
+      {
+        "userId": "678f67a8-83f7-4945-904c-835feada15e4",
+        "twitterId": "17351167",
+        "handle": "scottmelker",
+        "name": "The Wolf Of All Streets",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1927915527990833152/cGrIp3T0_400x400.jpg",
+        "mindsharePct": 0.7609871376832319
+      },
+      {
+        "userId": "98f2e1df-89b3-4e52-bc0b-14d4d4ebe4e3",
+        "twitterId": "1471279207095406595",
+        "handle": "asparagoid",
+        "name": "🔶 Dr. Shin Geon-yeong (神建永), Ph.D.",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1950818894513405952/tfv9xWP__400x400.jpg",
+        "mindsharePct": 0.5481507543358322
+      },
+      {
+        "userId": "e2cbb92f-765f-45b1-af3a-2627871c4aeb",
+        "twitterId": "314560827",
+        "handle": "DaoKwonDo",
+        "name": "Books",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1971451052793761792/CRZhOHRx_400x400.jpg",
+        "mindsharePct": 0.5344371519155643
+      }
+    ]
+  },
+  {
+    "id": "f34c47b0-d01d-4089-8ec6-8b057cc74da5",
+    "title": "Base",
+    "topicSlug": "base",
+    "description": "Base is an Ethereum Layer 2 network built on the Optimism OP Stack and incubated by Coinbase to provide a secure, low-cost, EVM-compatible environment for consumer-scale decentralized apps. It is open source, designed for interoperability with Ethereum L1 and other chains, and aims to progressively decentralize while supporting developer velocity and large-scale user adoption.",
+    "categoryTags": [
+      "L2"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1945608199500910592/rnk6ixxH_400x400.jpg",
+    "xHandle": "base",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 1839
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 2157
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 1842
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 1882
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 1691
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 1639
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 1658
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "7888833e-f21c-4437-a422-644a88cdda93",
+        "twitterId": "18876842",
+        "handle": "jessepollak",
+        "name": "jesse.base.eth",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1879556312822120448/QngrqCSC_400x400.jpg",
+        "mindsharePct": 1.650136017491869
+      },
+      {
+        "userId": "106a269d-c521-4b30-8c15-d5efe9af86ea",
+        "twitterId": "1835943590",
+        "handle": "OttoSuwenNFT",
+        "name": "Otto Suwen",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1762154701179785217/o9JoXf9O_400x400.jpg",
+        "mindsharePct": 0.791099792353548
+      },
+      {
+        "userId": "12acbb33-541b-42d6-9933-d0936a21a09c",
+        "twitterId": "864011281",
+        "handle": "KookCapitalLLC",
+        "name": "kook 🏝️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1724383779307843584/YiFv8ORd_400x400.jpg",
+        "mindsharePct": 0.615156472984496
+      },
+      {
+        "userId": "b2d7478a-fecb-45c4-939d-00139e2d8ab2",
+        "twitterId": "1454785464041295880",
+        "handle": "heycape_",
+        "name": "Cape 👊",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1959126721929879552/L4_sJxzT_400x400.jpg",
+        "mindsharePct": 0.4670731453420776
+      },
+      {
+        "userId": "ae56a68b-7520-4a52-a4ea-8c03d6a9b332",
+        "twitterId": "1593822657069432834",
+        "handle": "Zaddy_Fi",
+        "name": "Zaddy",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1982118037751734272/LLffWqxD_400x400.jpg",
+        "mindsharePct": 0.3976803597650621
+      }
+    ]
+  },
+  {
+    "id": "6decbe21-5d63-4684-a696-f0545d4db1c0",
+    "title": "IOPn",
+    "topicSlug": "iopn",
+    "description": "IOPn is a decentralised infrastructure pioneering the OPN Chain, a sovereign ready L1 designed for identity verified participants. IOPn provides solutions in real world asset tokenisation, sovereign AI, and decentralised ownership.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": true,
+    "leagueSlug": "iopn",
+    "logoUrl": "https://pbs.twimg.com/profile_images/1929775799478956032/eNc_Kixr_400x400.jpg",
+    "xHandle": "IOPn_io",
+    "tournament": {
+      "id": "e09099a4-13fb-4dc1-8f60-84c173d554ee",
+      "rewardsEnabled": false,
+      "rewardCadence": null,
+      "rewardDescription": null,
+      "prizePoolLabel": "$300K $OPN + Xeets",
+      "rewardPoolAmount": "Top 100 receive $100K OPN per monthly tournament",
+      "endsAt": null,
+      "isActive": true,
+      "comingSoon": false,
+      "startDate": "2025-10-23T00:00:00.000Z",
+      "spotlighted": true
+    },
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 619
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 1673
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 2541
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 2375
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 1410
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 1039
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 1011
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "d895ae1f-db62-4dae-aae2-d22cac97b367",
+        "twitterId": "1475014806025371651",
+        "handle": "Jampzey",
+        "name": "Jampzey",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1944970434853920771/JzL2woNp_400x400.jpg",
+        "totalPoints": 58.17942005268948
+      },
+      {
+        "userId": "dd65d449-ee9b-4e0b-87da-92f89eb6a485",
+        "twitterId": "2646285871",
+        "handle": "libra_Saloni22",
+        "name": "V J | Crypto Alphas",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1962928411963166721/Khdbrpog_400x400.jpg",
+        "totalPoints": 29.82607479238467
+      },
+      {
+        "userId": "cb4bb9dc-6a40-41ab-80e3-5409613ac2e3",
+        "twitterId": "1366316376466587649",
+        "handle": "leaf_swan",
+        "name": "Leafswan",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1946130545433260032/5aHssudZ_400x400.jpg",
+        "totalPoints": 20.8367345091218
+      },
+      {
+        "userId": "1e85f9de-82fb-4780-8349-c395cbbc2989",
+        "twitterId": "1810887504700084225",
+        "handle": "mamecoines",
+        "name": "memecoins 🌊",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1970875717245399040/ya02XcrC_bigger.jpg",
+        "totalPoints": 19.49506212009575
+      },
+      {
+        "userId": "72f0485b-ea15-4151-a0fa-c1d5ceeb0373",
+        "twitterId": "994404102",
+        "handle": "greenytrades",
+        "name": "Greeny",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1916583729386115073/EyBuVJGh_400x400.jpg",
+        "totalPoints": 18.4059385984396
+      }
+    ]
+  },
+  {
+    "id": "6092c24b-3ddc-4653-9ace-6b3fe6d49f23",
+    "title": "Sui",
+    "topicSlug": "sui",
+    "description": "Sui is a Layer 1 blockchain designed to make digital asset ownership fast, private, secure, and accessible to everyone.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1966183924880572416/__KrQPZP_400x400.jpg",
+    "xHandle": "SuiNetwork",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 2134
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 2203
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 1397
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 775
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 573
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 488
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 441
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "c00a1ef5-496f-4246-a98f-e2ab3598cffc",
+        "twitterId": "883752230",
+        "handle": "eyezenhour",
+        "name": "eye zen hour 🥶",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1514668784006533128/jqFYUGmU_400x400.jpg",
+        "mindsharePct": 0.645645960069123
+      },
+      {
+        "userId": "ae6ea4c8-3225-4e3f-8c5b-3ed8d232793f",
+        "twitterId": "1837856298320420864",
+        "handle": "suintern_",
+        "name": "Sui Intern",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1929809388056776705/mtzRyrYh_400x400.jpg",
+        "mindsharePct": 0.5929061971948413
+      },
+      {
+        "userId": "8ff13166-b06e-4164-8068-3b9d3c48c894",
+        "twitterId": "1859879905",
+        "handle": "NefariiLightt",
+        "name": "Nefariistein 🔎",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1964264266829107200/V2WcL3wk_400x400.jpg",
+        "mindsharePct": 0.5446968869853743
+      },
+      {
+        "userId": "ef5c4844-d451-488b-8580-2ff6dd6537da",
+        "twitterId": "760736446735155201",
+        "handle": "tehMoonwalkeR",
+        "name": "tehMoonwalkeR",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1860353810368987136/F5XA-x6S_400x400.jpg",
+        "mindsharePct": 0.4225875368278774
+      },
+      {
+        "userId": "2da69e11-15c9-4aa2-a7db-ba3b8936fc8d",
+        "twitterId": "1433617497643646976",
+        "handle": "HottieBabeGem",
+        "name": "hottiebabegem Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1905940914788564993/9d_lTMKV_bigger.jpg",
+        "mindsharePct": 0.4221515491854222
+      }
+    ]
+  },
+  {
+    "id": "e47b356c-ff09-433f-9669-0dea48f14cbb",
+    "title": "Cookie.fun",
+    "topicSlug": "cookiedotfun",
+    "description": "Cookie.fun (Cookie DAO) is a developer- and agent-focused data layer that turns raw on-chain + social signals into actionable analytics, mindshare metrics, and incentive flows for builders and AI agents. $COOKIE tokens gate advanced access (staking, farming, multi-airdrop rewards) while Cookie APIs, Cookie Snaps, and the DataSwarm provide low-latency feeds and granular filters to power agentic InfoFi workflows and creator incentives.",
+    "categoryTags": [
+      "Info Markets",
+      "AI"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1945138189028487168/L66FKjwW_400x400.jpg",
+    "xHandle": "cookiedotfun",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 1307
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 1397
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 1211
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 1232
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 948
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 791
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 748
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "36c75fcf-b443-4666-9bfd-4fa51e11384a",
+        "twitterId": "1378756322041196552",
+        "handle": "zaimiriQ",
+        "name": "zaimiri ✏️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1956760267330572288/RLKoQJwK_bigger.jpg",
+        "mindsharePct": 1.561462176004664
+      },
+      {
+        "userId": "443adbf6-5d18-4691-89d0-3bc63ff79741",
+        "twitterId": "1471926684874162189",
+        "handle": "Carlitoswa_y",
+        "name": "Carlitosway 🔺",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1934966779786186752/-WOUTIZ9_bigger.jpg",
+        "mindsharePct": 0.6961786869645165
+      },
+      {
+        "userId": "6ba26570-7fcb-4185-9a0b-4d28d35e8ffe",
+        "twitterId": "1467913111571210244",
+        "handle": "0xValmir",
+        "name": "Valmir",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1930924462058188800/EwBXSLYr_bigger.jpg",
+        "mindsharePct": 0.484919183475049
+      },
+      {
+        "userId": "30787fec-9f2f-4faa-9841-9f61bb89f3f8",
+        "twitterId": "1556662141398155264",
+        "handle": "davidonchainx",
+        "name": "david 🔛⛓️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1780701427670953984/vMYmtbiB_bigger.jpg",
+        "mindsharePct": 0.4801174452051178
+      },
+      {
+        "userId": "d895ae1f-db62-4dae-aae2-d22cac97b367",
+        "twitterId": "1475014806025371651",
+        "handle": "Jampzey",
+        "name": "Jampzey",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1944970434853920771/JzL2woNp_400x400.jpg",
+        "mindsharePct": 0.4496471162248971
+      }
+    ]
+  },
+  {
+    "id": "c26b993d-fde6-47d5-95d8-cc788a0a64a3",
+    "title": "Klout",
+    "topicSlug": "klout",
+    "description": "Klout is a trend‑trading engine that converts X’s top 20 trending topics into token markets, funding timed buybacks for the #1 trend via the Trend Jackpot Pool. Traders launch and trade topics as attention shifts, while Genesis Hashtag NFTs share platform fees and offer mint‑time perks. It’s “horse racing for attention”: pick the next winner, ride the pump.",
+    "categoryTags": [
+      "Token Markets"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1924668002290827265/V2Vg5BSZ_400x400.jpg",
+    "xHandle": "Klout",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 1068
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 921
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 1032
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 1312
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 1125
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 1011
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 967
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "07d24614-814a-42eb-9ae3-bf523959a78f",
+        "twitterId": "1364116249794371592",
+        "handle": "dcryptodragons",
+        "name": "CRYPTODRAGON ⚡️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1965074583050199041/3XIFYgWa_400x400.jpg",
+        "mindsharePct": 0.74069202748755
+      },
+      {
+        "userId": "4357de4d-e0ba-47a1-89e1-4c41e637230e",
+        "twitterId": "1514218190691344449",
+        "handle": "Samtopexchange",
+        "name": "Samtop 👽🍂",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1875132570238648320/zvDMvtsx_400x400.jpg",
+        "mindsharePct": 0.6219548721036832
+      },
+      {
+        "userId": "7f9dd60b-858d-4b36-bd73-b051eb94c952",
+        "twitterId": "1445356255514554372",
+        "handle": "BloosBTC",
+        "name": "BLAZE",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1939687375401005056/5jpyxt4X_bigger.jpg",
+        "mindsharePct": 0.5802551589647355
+      },
+      {
+        "userId": "45fda28d-769e-4c05-ab42-65aa14009b8b",
+        "twitterId": "1431768395993780229",
+        "handle": "ArtvisionNFT",
+        "name": "Artvisionᴺᶠᵀ",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1911584209128271873/fmBrLjC4_400x400.jpg",
+        "mindsharePct": 0.5548762735167481
+      },
+      {
+        "userId": "098b5c95-74d3-4829-aaae-e73974a19028",
+        "twitterId": "1526915574793641985",
+        "handle": "UxGsol",
+        "name": "UxG",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1894892233024851968/f6HI2MDt_bigger.jpg",
+        "mindsharePct": 0.4173449886951636
+      }
+    ]
+  },
+  {
+    "id": "6fc51574-1838-40bb-aba5-4f4f5914cac4",
+    "title": "Flow",
+    "topicSlug": "flow",
+    "description": "Flow is a consumer-grade Layer-1 built for massive, low-cost, and composable crypto apps. It pairs Cadence (a purpose-built smart-contract language) with an EVM-equivalent execution environment, a pipelined multi-role node architecture, and a rich developer toolkit to power NFTs, games, and brand experiences at scale.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1928495609608286209/uhYIxY6U_400x400.jpg",
+    "xHandle": "flow_blockchain",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 1061
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 1090
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 1085
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 1216
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 952
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 880
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 801
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "8d6b7161-2da8-4a17-9663-85443bb87a1a",
+        "twitterId": "26035132",
+        "handle": "DrewAustin",
+        "name": "Drew Austin",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1794842534788608000/A7MghsC__400x400.jpg",
+        "mindsharePct": 2.624828490172893
+      },
+      {
+        "userId": "82a02b18-d538-4fc4-b246-97fb74965baa",
+        "twitterId": "1519407585840885760",
+        "handle": "doodlifts",
+        "name": "doodlifts",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1949897689854013440/8nQ95wgq_400x400.jpg",
+        "mindsharePct": 2.414197204656236
+      },
+      {
+        "userId": "45fda28d-769e-4c05-ab42-65aa14009b8b",
+        "twitterId": "1431768395993780229",
+        "handle": "ArtvisionNFT",
+        "name": "Artvisionᴺᶠᵀ",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1911584209128271873/fmBrLjC4_400x400.jpg",
+        "mindsharePct": 1.073210441466476
+      },
+      {
+        "userId": "f99a5da4-6e7a-477f-80fb-1c9ecfbb6691",
+        "twitterId": "889066597578674177",
+        "handle": "blackbeardXBT",
+        "name": "Blackbeard",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1573958923886927873/LNotmXRf_400x400.jpg",
+        "mindsharePct": 1.009785981433166
+      },
+      {
+        "userId": "d36070e8-a79c-4039-ae77-67288c48d185",
+        "twitterId": "1651741152570408961",
+        "handle": "jackyang36",
+        "name": "Jack.Meme🟢🐃",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1722754863548039168/N6u2h0Z__bigger.jpg",
+        "mindsharePct": 0.9821245758005918
+      }
+    ]
+  },
+  {
+    "id": "506d3f1f-d091-4f2d-b269-05f5f1ab4ac0",
+    "title": "Myriad Markets",
+    "topicSlug": "myriad",
+    "description": "Prediction Markets for everything! From crypto, politics and sports to gaming, culture and technology. Trade your opinion.",
+    "categoryTags": [
+      "Prediction Markets"
+    ],
+    "isLeague": true,
+    "leagueSlug": "myriad-market",
+    "logoUrl": "https://pbs.twimg.com/profile_images/1949824545403101184/bdrlDoUR_400x400.jpg",
+    "xHandle": "MyriadMarkets",
+    "tournament": {
+      "id": "feacda7d-680c-43b4-981e-430e00c4f7b7",
+      "rewardsEnabled": false,
+      "rewardCadence": null,
+      "rewardDescription": null,
+      "prizePoolLabel": "1B $MYR Points + Xeets",
+      "rewardPoolAmount": "500",
+      "endsAt": null,
+      "isActive": true,
+      "comingSoon": false,
+      "startDate": "2025-09-25T00:00:00.000Z",
+      "spotlighted": false
+    },
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 859
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 864
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 985
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 1100
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 811
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 808
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 825
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "82f4b275-d346-4197-b31c-0bb00158a735",
+        "twitterId": "40134343",
+        "handle": "Tyler_Did_It",
+        "name": "TylerD 🧙‍♂️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1561354964534018049/T9lKN_2c_400x400.jpg",
+        "totalPoints": 67.30650777255369
+      },
+      {
+        "userId": "76816697-cbc1-4c0d-ae56-0b6e733bc60d",
+        "twitterId": "776230888573063168",
+        "handle": "pukerrainbrow",
+        "name": "Pukerainbow 🤮🌈",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1912163120233005056/fINv15w6_400x400.jpg",
+        "totalPoints": 43.22836887274954
+      },
+      {
+        "userId": "9a9112ab-928b-41d7-9ec0-586f6f9503dd",
+        "twitterId": "1388182057474531332",
+        "handle": "NFTCHESUS",
+        "name": "CHESUS🧀",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1955455053440983040/CeQ0hyvW_400x400.jpg",
+        "totalPoints": 39.5663323738185
+      },
+      {
+        "userId": "570db729-5898-4324-93e8-875826ae35e9",
+        "twitterId": "1382338123015856132",
+        "handle": "RiddlerNFT",
+        "name": "RIDDLΞR",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1828382316709711872/yjl9GzVp_400x400.jpg",
+        "totalPoints": 24.02259687487365
+      },
+      {
+        "userId": "72f0485b-ea15-4151-a0fa-c1d5ceeb0373",
+        "twitterId": "994404102",
+        "handle": "greenytrades",
+        "name": "Greeny",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1916583729386115073/EyBuVJGh_400x400.jpg",
+        "totalPoints": 19.58786211049589
+      }
+    ]
+  },
+  {
+    "id": "35231c67-a407-45a8-ba17-8511914143b2",
+    "title": "Story",
+    "topicSlug": "story",
+    "description": "Story is an IP-native blockchain that turns creative works into programmable IP Assets with enforceable rights and provenance. Its ecosystem enables licensing",
+    "categoryTags": [
+      "L1",
+      "IP"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1820303986349805569/MKfPfLtz_400x400.jpg",
+    "xHandle": "StoryProtocol",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 945
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 1009
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 969
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 1083
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 787
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 696
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 662
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "30035eb4-6947-40de-88f8-2709e5d179f3",
+        "twitterId": "1426357566041296903",
+        "handle": "BawsaXBT",
+        "name": "BAWSA",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1942235865725775872/ou3YszkG_bigger.jpg",
+        "mindsharePct": 1.354518371690062
+      },
+      {
+        "userId": "bca965a9-43b3-4271-b552-e782239ff435",
+        "twitterId": "1477231808337137664",
+        "handle": "leonabboud_",
+        "name": "Leon Abboud",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1866559198768594944/ixkeGLnI_400x400.jpg",
+        "mindsharePct": 1.134842137827609
+      },
+      {
+        "userId": "8d76b16c-fd4b-4386-b5f1-c5ddbf257e19",
+        "twitterId": "1895488840208437248",
+        "handle": "VicTheGreat01",
+        "name": "VIÇ TØR (✧ᴗ✧)",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1952245686658801664/FolwBEwA_400x400.jpg",
+        "mindsharePct": 0.9046648551431089
+      },
+      {
+        "userId": "68aaff2e-b3ca-49e3-8fb9-6ca2760a04b1",
+        "twitterId": "1099790079294287872",
+        "handle": "lokithebird",
+        "name": "Loki 😈",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1739893695942639616/9W39mSnm_bigger.jpg",
+        "mindsharePct": 0.8816639628049701
+      },
+      {
+        "userId": "bb442f8a-8df2-4f0d-b3a1-71268ce1ff1b",
+        "twitterId": "1373807281",
+        "handle": "apilpirman",
+        "name": "apilpirman.ip.morph",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1875966804843257856/5i42BJo0_400x400.jpg",
+        "mindsharePct": 0.8758458883560295
+      }
+    ]
+  },
+  {
+    "id": "d89737b3-eb50-416a-8622-829d9b861a28",
+    "title": "Limitless",
+    "topicSlug": "limitless",
+    "description": "Limitless is a high-frequency prediction-markets exchange on Base where users trade natural-language markets (crypto, stocks, events) via an EVM order-book and conditional tokens. It features capital-efficient primitives — merge/split shares, Negrisk category markets with No→Yes conversion, and an LP rewards program — plus a public API and on-chain conditional tokens contract for integrations. Market resolution is typically sourced from Pyth and the platform exposes analytical endpoints (Dune) and docs for builders.",
+    "categoryTags": [
+      "Prediction Markets"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1933055667524239360/mqiIx1cj_400x400.jpg",
+    "xHandle": "trylimitless",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 654
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 636
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 1864
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 1058
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 560
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 455
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 481
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "76816697-cbc1-4c0d-ae56-0b6e733bc60d",
+        "twitterId": "776230888573063168",
+        "handle": "pukerrainbrow",
+        "name": "Pukerainbow 🤮🌈",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1912163120233005056/fINv15w6_bigger.jpg",
+        "mindsharePct": 1.873040412215033
+      },
+      {
+        "userId": "d0997177-64c4-470d-a417-16a652c99549",
+        "twitterId": "27553316",
+        "handle": "beijingdou",
+        "name": "Josh Ong",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1602122467002155010/MI7V7cqu_400x400.png",
+        "mindsharePct": 1.72546394592602
+      },
+      {
+        "userId": "cb4bb9dc-6a40-41ab-80e3-5409613ac2e3",
+        "twitterId": "1366316376466587649",
+        "handle": "leaf_swan",
+        "name": "Leafswan",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1946130545433260032/5aHssudZ_400x400.jpg",
+        "mindsharePct": 1.064763285724315
+      },
+      {
+        "userId": "d0cd4fad-68c8-46ec-8d91-2b9ea8f07944",
+        "twitterId": "1266923223406518274",
+        "handle": "Deviled_meggs_",
+        "name": "Deviled Meggs",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1901707880484732928/PqMx-ONx_400x400.jpg",
+        "mindsharePct": 0.9959441111509308
+      },
+      {
+        "userId": "24a03b82-0730-4019-bdc3-9c89146332a6",
+        "twitterId": "1130642299283619840",
+        "handle": "bryantheden",
+        "name": "Bryant",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1969375018342891522/8tgpd-3-_bigger.jpg",
+        "mindsharePct": 0.831804047809667
+      }
+    ]
+  },
+  {
+    "id": "d954012a-a21b-4d59-92d5-4f0de4890daa",
+    "title": "Solstice",
+    "topicSlug": "solstice",
+    "description": "Solstice is focused on delivering stable, real yield through strategies that don’t rely on hype or speculation. Our approach combines proven delta-neutral trading, robust infrastructure, and institutional-grade risk management to build a foundation for long-term positive returns.",
+    "categoryTags": [
+      "DeFI"
+    ],
+    "isLeague": true,
+    "leagueSlug": "solstice",
+    "logoUrl": "https://pbs.twimg.com/profile_images/1916876277388046337/Qny5yRI2_400x400.png",
+    "xHandle": "solsticefi",
+    "tournament": {
+      "id": "55991da0-632a-431f-8f06-8ebc5e300233",
+      "rewardsEnabled": false,
+      "rewardCadence": null,
+      "rewardDescription": null,
+      "prizePoolLabel": "1% $SLX + Xeets",
+      "rewardPoolAmount": "Top 100",
+      "endsAt": null,
+      "isActive": true,
+      "comingSoon": false,
+      "startDate": "2025-09-29T00:00:00.000Z",
+      "spotlighted": true
+    },
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 752
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 723
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 748
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 950
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 835
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 770
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 752
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "f03847c0-f984-4e71-acb6-72b6429e413a",
+        "twitterId": "1342386913",
+        "handle": "73lV_",
+        "name": "Hokage",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1960988745538109440/OPl2lRXV_400x400.jpg",
+        "totalPoints": 287.1654763151672
+      },
+      {
+        "userId": "36c75fcf-b443-4666-9bfd-4fa51e11384a",
+        "twitterId": "1378756322041196552",
+        "handle": "zaimiriQ",
+        "name": "zaimiri ✏️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1956760267330572288/RLKoQJwK_400x400.jpg",
+        "totalPoints": 59.8545478458637
+      },
+      {
+        "userId": "72f0485b-ea15-4151-a0fa-c1d5ceeb0373",
+        "twitterId": "994404102",
+        "handle": "greenytrades",
+        "name": "Greeny",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1916583729386115073/EyBuVJGh_400x400.jpg",
+        "totalPoints": 59.59678097158648
+      },
+      {
+        "userId": "2025f5f1-ebee-4e4f-8321-de59f7ee5370",
+        "twitterId": "1198239019643154432",
+        "handle": "bestbaby01",
+        "name": "bestbaby",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1946625532113641473/XB6FdXQF_bigger.jpg",
+        "totalPoints": 54.66857108438662
+      },
+      {
+        "userId": "e0d141be-e355-48cd-971d-82f191f86ef6",
+        "twitterId": "1499585375534206980",
+        "handle": "beast_ico",
+        "name": "IcoBeast.eth🦇🔊",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1610827135978987522/qGWbuvec_400x400.jpg",
+        "totalPoints": 54.23246170819375
+      }
+    ]
+  },
+  {
+    "id": "1fc3251d-fab6-4aaf-af1e-558a401b2ef1",
+    "title": "Hyperliquid",
+    "topicSlug": "hyperliquid",
+    "description": "Hyperliquid is a high-performance Layer-1 blockchain focused on native, fully onchain financial markets. Built around HyperBFT consensus, HyperCore order-book primitives, and an EVM-compatible HyperEVM, it combines one-block finality and institutional throughput with permissionless smart-contract composability.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1646991609416806408/vKLEZxhh_400x400.png",
+    "xHandle": "HyperliquidX",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 751
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 733
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 819
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 1240
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 620
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 480
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 566
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "12acbb33-541b-42d6-9933-d0936a21a09c",
+        "twitterId": "864011281",
+        "handle": "KookCapitalLLC",
+        "name": "kook 🏝️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1724383779307843584/YiFv8ORd_400x400.jpg",
+        "mindsharePct": 1.782308086944685
+      },
+      {
+        "userId": "c5dd9ef5-9447-4296-9ccb-7c5fbce34f56",
+        "twitterId": "1064982684060057606",
+        "handle": "ShiLLin_ViLLian",
+        "name": "Alex",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1971332068958158848/x-pdXq5A_400x400.jpg",
+        "mindsharePct": 1.12510453734406
+      },
+      {
+        "userId": "00f0c48f-577d-43e1-910b-93404b674148",
+        "twitterId": "938606626017370112",
+        "handle": "MoonOverlord",
+        "name": "moon",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1725249311816941569/V-VuS0Lv_400x400.png",
+        "mindsharePct": 0.9193819235087756
+      },
+      {
+        "userId": "557032c9-8e36-40c3-b3b3-3e924c648ac1",
+        "twitterId": "973261472",
+        "handle": "blknoiz06",
+        "name": "Ansem",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1961642107187109888/o0B468ZS_400x400.jpg",
+        "mindsharePct": 0.8409673771097192
+      },
+      {
+        "userId": "759c4319-6c96-44d3-a6d0-b4ae725340fe",
+        "twitterId": "423164349",
+        "handle": "rasmr_eth",
+        "name": "rasmr",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1921965917782867972/DqXr5oi0_400x400.jpg",
+        "mindsharePct": 0.7821049107231488
+      }
+    ]
+  },
+  {
+    "id": "54cc346e-9c2e-4d82-af45-7bc86a74b86e",
+    "title": "Abstract",
+    "topicSlug": "abstract",
+    "description": "Abstract is an Ethereum Layer-2 built with the ZK Stack, offering fast, low-fee transactions with full EVM compatibility. It features the Abstract Global Wallet for seamless onboarding and a developer portal to deploy and scale Web3 apps.",
+    "categoryTags": [
+      "L2"
+    ],
+    "isLeague": true,
+    "leagueSlug": "abstract",
+    "logoUrl": "https://pbs.twimg.com/profile_images/1947751080705630208/0OQFUJxI_400x400.jpg",
+    "xHandle": "AbstractChain",
+    "tournament": {
+      "id": "3a1ecad9-4b01-42de-a97b-cc0d4edac966",
+      "rewardsEnabled": false,
+      "rewardCadence": null,
+      "rewardDescription": null,
+      "prizePoolLabel": "Xeets",
+      "rewardPoolAmount": "Everyone",
+      "endsAt": null,
+      "isActive": true,
+      "comingSoon": false,
+      "startDate": "2025-09-25T00:00:00.000Z",
+      "spotlighted": false
+    },
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 697
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 793
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 774
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 867
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 593
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 492
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 505
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "e2f1982c-6e2c-43ac-90a3-688d3f321ea7",
+        "twitterId": "843624954",
+        "handle": "djsamwithers",
+        "name": "Sam Withers",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1970683945818935296/6Js_ZU_p_400x400.jpg",
+        "totalPoints": 62.66947310772073
+      },
+      {
+        "userId": "403e443f-35a1-4b98-9647-f59de76bb34e",
+        "twitterId": "179224911",
+        "handle": "xinsanityo",
+        "name": "Cris 𓆏",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1963482016977940480/a0oo6uN0_400x400.jpg",
+        "totalPoints": 11.57716271150703
+      },
+      {
+        "userId": "09fac855-3b2a-40cd-a2c3-d7cf5d883e3b",
+        "twitterId": "1587849097557458948",
+        "handle": "R2D2zen",
+        "name": "R2D2",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1788670816034451457/tLqRa6mn_400x400.jpg",
+        "totalPoints": 4.572971873810632
+      },
+      {
+        "userId": "36c9fddf-57df-4978-9f9b-bfa27db6b4e6",
+        "twitterId": "1460283925",
+        "handle": "tszzl",
+        "name": "roon",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1918970926668054530/fy-ZsgJ7_400x400.jpg",
+        "totalPoints": 4.384195213307255
+      },
+      {
+        "userId": "b2e9014c-2775-4221-8245-0cc55abab3ae",
+        "twitterId": "3043117294",
+        "handle": "MadMaxx_eth",
+        "name": "MadMaxx (∎, ∆)",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1954953099560280064/kc8kX-VI_400x400.jpg",
+        "totalPoints": 4.0688818926271
+      }
+    ]
+  },
+  {
+    "id": "eb25580b-b8ef-45df-80ec-591fe54392a9",
+    "title": "Monad",
+    "topicSlug": "monad",
+    "description": "Monad is an EVM-compatible Layer-1 built for parallel execution and high throughput. Its design includes MonadBFT consensus and MonadDB, aiming to reduce latency while scaling developer-friendly infrastructure.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1967693862559698944/XTfCXXGa_400x400.jpg",
+    "xHandle": "monad",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 700
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 793
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 724
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 792
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 472
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 365
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 401
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "1de30b31-f56b-4933-a121-ffd97c4a072e",
+        "twitterId": "1473429303085916166",
+        "handle": "0xGrimjow",
+        "name": "Grimjow",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1977146756891541504/lzHmxXHG_400x400.jpg",
+        "mindsharePct": 1.103537033834396
+      },
+      {
+        "userId": "8a9a5677-e798-44c7-811a-faddeb7c1a75",
+        "twitterId": "399344026",
+        "handle": "4ormund",
+        "name": "Paul Warren (✖,✖)",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1961443592834109441/FaB5N4fS_400x400.jpg",
+        "mindsharePct": 1.049568224807179
+      },
+      {
+        "userId": "cea7e35c-f54d-4605-8cff-f86ae379d3b5",
+        "twitterId": "1746304181655252992",
+        "handle": "BigAbdulWeb3",
+        "name": "Big-Abdul (evm/acc)",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1905666366545252352/LCJ6jU9Q_400x400.jpg",
+        "mindsharePct": 0.9621204954116959
+      },
+      {
+        "userId": "11f611d6-e36f-4da6-bf74-69b84637b7f9",
+        "twitterId": "1733168195828400132",
+        "handle": "MediaMonad",
+        "name": "Monad Media",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1906989938387910656/fTKXIh4e_400x400.jpg",
+        "mindsharePct": 0.8953023187409596
+      },
+      {
+        "userId": "87b723ff-625d-47b7-b9a7-4677774c118b",
+        "twitterId": "1228678346185281537",
+        "handle": "OxTochi",
+        "name": "OxTøchi 🦇🔈",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1888969490223759360/Ez3fTiDZ_400x400.jpg",
+        "mindsharePct": 0.8279115170847481
+      }
+    ]
+  },
+  {
+    "id": "9e29408f-ae21-4fe9-af01-d5f792e41077",
+    "title": "DeSci",
+    "topicSlug": "desci",
+    "description": "DeSci is an intent to make science programmable: funding, data, methods, and credit are represented on‑chain so communities can coordinate, verify, and reward research in the open. Using tools like research DAOs, IP‑NFTs, and tokenized curation/peer review, DeSci aims to replace closed, slow, and opaque processes with transparent, incentive‑aligned ones that scale across fields.",
+    "categoryTags": [
+      "DeSci"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1974980773657673728/Xdohv622_400x400.jpg",
+    "xHandle": null,
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 705
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 636
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 656
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 724
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 539
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 463
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 448
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "fd88eb51-3e77-4400-b95b-eeea2a098745",
+        "twitterId": "1479822999284977669",
+        "handle": "bella_summerss",
+        "name": "Bella Summers🌸 Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1969005605261287424/VfCFfSau_bigger.jpg",
+        "mindsharePct": 1.770887105264603
+      },
+      {
+        "userId": "4144a24f-9f1d-4383-8a6f-e1cc3d5137fe",
+        "twitterId": "1450162897187975172",
+        "handle": "holly_web3",
+        "name": "Holly",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1958532390525046784/bC3v1ity_400x400.jpg",
+        "mindsharePct": 1.279459166923124
+      },
+      {
+        "userId": "6ab2d454-5ffc-4367-a7ba-77d228ced7ad",
+        "twitterId": "223921570",
+        "handle": "S4mmyEth",
+        "name": "s4mmy",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1899434260903161856/WJoBQyLi_400x400.jpg",
+        "mindsharePct": 1.262004890132955
+      },
+      {
+        "userId": "5d8271cc-7541-4b67-a77b-0482fbf208a2",
+        "twitterId": "1300255902474199040",
+        "handle": "HTLGTM",
+        "name": "MR Command 🆓 Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1827826714090909696/7hQ7U7FN_400x400.jpg",
+        "mindsharePct": 1.089791515162522
+      },
+      {
+        "userId": "643d5da8-a3a1-4222-be99-e6dfb44d4180",
+        "twitterId": "1485029520029765633",
+        "handle": "ghost93_x",
+        "name": "𝔊𝔥𝔬𝔰𝔱",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1752826759504965632/_BJV6z9l_400x400.jpg",
+        "mindsharePct": 1.039181644504977
+      }
+    ]
+  },
+  {
+    "id": "9ea04652-ec12-412c-b9a9-62448a7c7a8b",
+    "title": "Arbitrum",
+    "topicSlug": "arbitrum",
+    "description": "Arbitrum is a suite of Ethereum scaling technologies that operates as a blockchain protocol designed to make transactions faster and cheaper while maintaining compatibility with Ethereum. Arbitrum chains use an underlying EVM-compatible chain (such as Ethereum) for settlement and fraud proofs, coming in two main forms: Arbitrum Rollup Chains and Arbitrum AnyTrust Chains. These chains enable users to deploy smart contracts and use decentralized applications with lower costs and higher throughput compared to Ethereum mainnet.",
+    "categoryTags": [
+      "L2"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1952411676621295616/KUOmiy3l_400x400.jpg",
+    "xHandle": "arbitrum",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 732
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 721
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 604
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 646
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 464
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 399
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 394
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "4a1e6167-4a66-4754-a1ce-3e5cc2753529",
+        "twitterId": "1103459924",
+        "handle": "thegreatola",
+        "name": "Ola Ξlixir",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1945817318388305920/hrVc8K5f_400x400.jpg",
+        "mindsharePct": 1.399586628266464
+      },
+      {
+        "userId": "36c75fcf-b443-4666-9bfd-4fa51e11384a",
+        "twitterId": "1378756322041196552",
+        "handle": "zaimiriQ",
+        "name": "zaimiri ✏️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1956760267330572288/RLKoQJwK_400x400.jpg",
+        "mindsharePct": 1.329290722217165
+      },
+      {
+        "userId": "396842ff-d801-4d1f-a3a2-9dc4388d538a",
+        "twitterId": "37945701",
+        "handle": "EricCLFung",
+        "name": "EricF",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1908353374732640256/h6QmIugs_400x400.jpg",
+        "mindsharePct": 1.282800732053382
+      },
+      {
+        "userId": "263d06de-5d43-44df-846c-ccff8a4f1924",
+        "twitterId": "146008010",
+        "handle": "CryptoMichNL",
+        "name": "Michaël van de Poppe",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1696225706768740353/ta6goKxa_400x400.jpg",
+        "mindsharePct": 1.117419058054702
+      },
+      {
+        "userId": "920a2062-e4cb-4d85-9997-2059bb799128",
+        "twitterId": "2600456406",
+        "handle": "MarcinPress",
+        "name": "Marcin at Arbitrum",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1960244518755631104/drdgE2d5_bigger.jpg",
+        "mindsharePct": 1.004016692656228
+      }
+    ]
+  },
+  {
+    "id": "03ea3ce6-8a02-4d0e-8557-39c487c17227",
+    "title": "VDEX",
+    "topicSlug": "vdex",
+    "description": "Trade Anything, Anywhere. VDEX is the gasless, omnichain sovereign DEX with CEX speed. Perps & prediction markets across crypto, equities, and FX on ETH, SOL, BSC, ARB, and AVAX.",
+    "categoryTags": [
+      "DeFI"
+    ],
+    "isLeague": true,
+    "leagueSlug": "vdex",
+    "logoUrl": "https://pbs.twimg.com/profile_images/1965484007069564928/aBNhOiUU_400x400.jpg",
+    "xHandle": "0xVDEX",
+    "tournament": {
+      "id": "8cdb5ec0-b756-4599-bdd0-cb9eeab5552e",
+      "rewardsEnabled": false,
+      "rewardCadence": null,
+      "rewardDescription": null,
+      "prizePoolLabel": "0.5% $VDEX + Xeets",
+      "rewardPoolAmount": "33% per month for top 150",
+      "endsAt": "2026-01-01T00:00:00.112Z",
+      "isActive": true,
+      "comingSoon": false,
+      "startDate": "2025-10-01T00:00:00.000Z",
+      "spotlighted": true
+    },
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 535
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 532
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 536
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 569
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 471
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 384
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 395
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "570db729-5898-4324-93e8-875826ae35e9",
+        "twitterId": "1382338123015856132",
+        "handle": "RiddlerNFT",
+        "name": "RIDDLΞR",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1828382316709711872/yjl9GzVp_400x400.jpg",
+        "totalPoints": 21.45769204082831
+      },
+      {
+        "userId": "75a12385-09c1-441b-8d1f-285040276c38",
+        "twitterId": "1720397904139960320",
+        "handle": "shardycrypto",
+        "name": "shardy.eth (❖,❖) 🐋♦️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1979932245033926657/SHgoKHu5_400x400.jpg",
+        "totalPoints": 11.45507601353046
+      },
+      {
+        "userId": "9f6b5a8d-83c6-43df-9246-14abe89f1edb",
+        "twitterId": "1799418512303157248",
+        "handle": "milliana175662",
+        "name": "Jake cole",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1946535125518311424/fIN_5rKK_400x400.jpg",
+        "totalPoints": 10.21948471325987
+      },
+      {
+        "userId": "4258866e-4ecd-430c-8769-9373f2e8d78c",
+        "twitterId": "1579550235113754631",
+        "handle": "Zyntrixt",
+        "name": "Zyntrix",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1977369061043359745/Vg5FIErG_400x400.jpg",
+        "totalPoints": 10.19420080496309
+      },
+      {
+        "userId": "e3be553e-8ac2-4858-8681-027ee59b0798",
+        "twitterId": "1481701473369178121",
+        "handle": "SIGM_AII",
+        "name": "SIGMA",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1965643754024439808/gLrPSJ_3_bigger.jpg",
+        "totalPoints": 8.817356296625896
+      }
+    ]
+  },
+  {
+    "id": "740805ad-5cc4-423a-bef1-9936ca44d072",
+    "title": "MegaETH",
+    "topicSlug": "megaeth",
+    "description": "MegaETH is the real-time blockchain. Where crypto applications leverage extreme performance to reach their full potential.",
+    "categoryTags": [
+      "L2"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1861751545790070784/KvlxTzAq_400x400.jpg",
+    "xHandle": "megaeth_labs",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 204
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 234
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 677
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 892
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 441
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 352
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 484
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "a0f93ca7-d412-4ba0-b156-9fabb36d5125",
+        "twitterId": "844337276297588738",
+        "handle": "Tuteth_",
+        "name": "tut™",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1914340160562409472/QQw-Qsry_400x400.jpg",
+        "mindsharePct": 2.733924432122152
+      },
+      {
+        "userId": "a1ef2ee0-1358-4e1f-899b-8235dea9cba9",
+        "twitterId": "1453661470869360643",
+        "handle": "0xBreadguy",
+        "name": "BREAD | ∑:",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1982592180364382208/-zqrvZGP_400x400.jpg",
+        "mindsharePct": 2.442924343755501
+      },
+      {
+        "userId": "1594ad5c-766f-4571-ac89-c37ad6060a46",
+        "twitterId": "46801378",
+        "handle": "Xeer",
+        "name": "Xeer",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1982304460715016192/eQUgmzIy_400x400.jpg",
+        "mindsharePct": 1.875748264264124
+      },
+      {
+        "userId": "02f857d0-76a3-4734-99dd-5c4f21d75759",
+        "twitterId": "1374328291872567296",
+        "handle": "tobific",
+        "name": "tobi.hl",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1958885068744663040/-5nexLR5_400x400.jpg",
+        "mindsharePct": 1.665031703069267
+      },
+      {
+        "userId": "12acbb33-541b-42d6-9933-d0936a21a09c",
+        "twitterId": "864011281",
+        "handle": "KookCapitalLLC",
+        "name": "kook 🏝️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1724383779307843584/YiFv8ORd_400x400.jpg",
+        "mindsharePct": 1.411235483082396
+      }
+    ]
+  },
+  {
+    "id": "033d75eb-2eac-4188-9337-95a939eadbdc",
+    "title": "DePin",
+    "topicSlug": "depin",
+    "description": "DePIN (Decentralized Physical Infrastructure Networks) are crypto‑native marketplaces that fund, verify, and pay for real‑world infrastructure such as wireless, storage, compute, and sensor networks. Individuals supply hardware and earn tokens or usage fees for provably delivering service, while applications buy those services on demand. This bottom‑up model aims to scale physical networks faster and cheaper than centralized providers by aligning incentives on‑chain.",
+    "categoryTags": [
+      "DePin"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1974980773657673728/Xdohv622_400x400.jpg",
+    "xHandle": null,
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 536
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 492
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 447
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 510
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 421
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 337
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 346
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "263d06de-5d43-44df-846c-ccff8a4f1924",
+        "twitterId": "146008010",
+        "handle": "CryptoMichNL",
+        "name": "Michaël van de Poppe",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1696225706768740353/ta6goKxa_400x400.jpg",
+        "mindsharePct": 1.169431782575227
+      },
+      {
+        "userId": "8c853fac-8a8a-4ff2-9312-6844186d0824",
+        "twitterId": "1749139741906251776",
+        "handle": "BeeOnGrid",
+        "name": "Bee🐝",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1947960502530809856/rvVF2mNM_400x400.jpg",
+        "mindsharePct": 0.9326330029759057
+      },
+      {
+        "userId": "aa61376b-f4e6-46e2-991f-82c98f0ee622",
+        "twitterId": "1517327083478736896",
+        "handle": "0xxNathan",
+        "name": "Nathan",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1917244025566081024/ddvK6rr6_400x400.jpg",
+        "mindsharePct": 0.9096817942077609
+      },
+      {
+        "userId": "92a13f4c-a889-4c41-bd4d-4e0b3d8d7065",
+        "twitterId": "1503019095436021767",
+        "handle": "avni87744",
+        "name": "Avni_web3",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1978149471616708608/wjTqzRAG_400x400.jpg",
+        "mindsharePct": 0.5495005866220398
+      },
+      {
+        "userId": "f99a5da4-6e7a-477f-80fb-1c9ecfbb6691",
+        "twitterId": "889066597578674177",
+        "handle": "blackbeardXBT",
+        "name": "Blackbeard",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1573958923886927873/LNotmXRf_400x400.jpg",
+        "mindsharePct": 0.5309778015108699
+      }
+    ]
+  },
+  {
+    "id": "8674f3c2-fe9e-425d-93c3-9828047f57e0",
+    "title": "Genome",
+    "topicSlug": "genome",
+    "description": "Genome is a modular EngagementFi stack for games and Web3 apps that converts real user behavior into on-chain value using a combination of SDKs (Kode), real-time analytics (Splice), onboarding/UX primitives (Edge), and AI agent tooling (Inteligant). It supports omnichain, superchain-style integration and exposes developer APIs and plug-and-play modules for tournaments, predictions, and agent-driven competitions so builders can rapidly add monetizable engagement layers.",
+    "categoryTags": [
+      "Gaming",
+      "AI"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQFQs0elB0DK_w/company-logo_200_200/company-logo_200_200/0/1737995485535/genomeprotocol_logo?e=2147483647&v=beta&t=n7Ub3ZlXRpXjmDvn4ozT5ivvZ2u_y6k6R3DYR5A42NY",
+    "xHandle": "genome_protocol",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 343
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 317
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 340
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 395
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 352
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 322
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 296
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "e8780693-a8bb-4b5a-be20-2f5000655e1b",
+        "twitterId": "1296724110601531392",
+        "handle": "Steezehuman",
+        "name": "Stephenblaq",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1841982630742384640/m_x3zUqh_400x400.jpg",
+        "mindsharePct": 1.909301123775375
+      },
+      {
+        "userId": "f3c188e2-e717-42a0-a840-03daa70253cb",
+        "twitterId": "1497118101649113090",
+        "handle": "Amor_Web3",
+        "name": "Amor",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1945974895365468160/DSCb2yr1_400x400.png",
+        "mindsharePct": 1.67102842376109
+      },
+      {
+        "userId": "c477a088-b69e-4a9c-8681-fbd36d7a5277",
+        "twitterId": "1545336070220533760",
+        "handle": "Cryptojack444",
+        "name": "Jack",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1955704867751927808/UM-wHVSi_400x400.jpg",
+        "mindsharePct": 1.377646370722524
+      },
+      {
+        "userId": "45a4c2e9-e657-4398-9d8f-f454def86142",
+        "twitterId": "1042816293882212352",
+        "handle": "thatsassyboy_",
+        "name": "SASS¥ⓨ 🌵| 9.11",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1939377996562878464/hB2ry7m1_bigger.jpg",
+        "mindsharePct": 1.038379089567169
+      },
+      {
+        "userId": "36dd2cba-92ae-4e37-a0de-31f4439383da",
+        "twitterId": "315208482",
+        "handle": "Cata_web3",
+        "name": "CATA",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1945834404711915520/chAhx4cz_400x400.png",
+        "mindsharePct": 1.001128785258967
+      }
+    ]
+  },
+  {
+    "id": "02ab2e71-bb0a-40cf-b36d-9eee57c6a3ce",
+    "title": "Avalanche",
+    "topicSlug": "avax",
+    "description": "Avalanche is an ultra-fast, low-latency blockchain platform designed for builders who need high performance at scale. The network’s architecture allows for the creation of sovereign, efficient and fully interoperable public and private layer 1 (L1) blockchains which leverage the Avalanche Consensus Mechanism to achieve high throughput and near-instant transaction finality.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1970156760116944897/06WZz7t4_400x400.jpg",
+    "xHandle": "avax",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 426
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 332
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 357
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 334
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 290
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 250
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 308
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "9a093ed7-8ef8-4e6a-bf96-f8603caa1733",
+        "twitterId": "4900102269",
+        "handle": "vohvohh",
+        "name": "voh 🔺",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1969755016308092928/LjCIGBVN_bigger.jpg",
+        "mindsharePct": 3.756381753751344
+      },
+      {
+        "userId": "fcbca3ba-6831-4b5c-a172-5843379a178a",
+        "twitterId": "261390123",
+        "handle": "CryptoGuy_777",
+        "name": "CG777",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1970941641725710336/v5CPDvTS_400x400.jpg",
+        "mindsharePct": 1.687110893285332
+      },
+      {
+        "userId": "c760bbd0-498c-4adc-9549-e24b23fc007d",
+        "twitterId": "966414543319597056",
+        "handle": "Spicy_Rich",
+        "name": "Spicy Rich 🔺",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1970128829063573504/jKBOnRUY_400x400.jpg",
+        "mindsharePct": 1.419127550696216
+      },
+      {
+        "userId": "5bf4515d-397d-4e74-a979-c9c00dac6a86",
+        "twitterId": "1486713888045350912",
+        "handle": "avery_bartlett",
+        "name": "Avery ᴸ¹",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1813920742901219328/o8k-daj6_400x400.jpg",
+        "mindsharePct": 1.316861858746365
+      },
+      {
+        "userId": "5874b1e1-4e6f-45a8-9a99-fcaa47b79f4e",
+        "twitterId": "1792175848893648896",
+        "handle": "realwarrior313",
+        "name": "wakanda warrior 🔺⚔️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1967686544065523712/cvyceUCK_400x400.jpg",
+        "mindsharePct": 0.9887674388116883
+      }
+    ]
+  },
+  {
+    "id": "22bb7feb-b8f6-4bfc-88fa-f9cfc7cd65f7",
+    "title": "Pudgy Penguins",
+    "topicSlug": "pengu",
+    "description": "$PENGU is the Solana memecoin of the Pudgy Penguins ecosystem, created as a fun, accessible way for millions of fans to align with the Pudgy brand. Rooted in the underdog story of the “great blizzard” and the legendary community takeover, $PENGU symbolizes resilience, culture, and collective triumph.",
+    "categoryTags": [
+      "Token"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1848765927451492364/VysuN6mu_400x400.jpg",
+    "xHandle": "pudgypenguins",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 334
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 259
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 279
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 300
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 230
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 332
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 302
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "847a7cf1-7379-4536-a3e9-dea2f2092bec",
+        "twitterId": "1425647349783617539",
+        "handle": "beausecurity",
+        "name": "Beau",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1970575702584864768/1eNZddVS_400x400.jpg",
+        "mindsharePct": 1.849157247039761
+      },
+      {
+        "userId": "12acbb33-541b-42d6-9933-d0936a21a09c",
+        "twitterId": "864011281",
+        "handle": "KookCapitalLLC",
+        "name": "kook 🏝️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1724383779307843584/YiFv8ORd_400x400.jpg",
+        "mindsharePct": 1.52030105315066
+      },
+      {
+        "userId": "53a61325-388d-44a2-a537-b021d997b207",
+        "twitterId": "1530107446294872065",
+        "handle": "cryptoleon_xyz",
+        "name": "cryptoleon",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1927445953063067648/EY0MKv62_400x400.jpg",
+        "mindsharePct": 1.434092363164559
+      },
+      {
+        "userId": "e2f1982c-6e2c-43ac-90a3-688d3f321ea7",
+        "twitterId": "843624954",
+        "handle": "djsamwithers",
+        "name": "Sam Withers",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1970683945818935296/6Js_ZU_p_bigger.jpg",
+        "mindsharePct": 1.401159209115447
+      },
+      {
+        "userId": "72f0485b-ea15-4151-a0fa-c1d5ceeb0373",
+        "twitterId": "994404102",
+        "handle": "greenytrades",
+        "name": "Greeny",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1916583729386115073/EyBuVJGh_400x400.jpg",
+        "mindsharePct": 1.341929810151618
+      }
+    ]
+  },
+  {
+    "id": "954cb707-78c9-41a2-a8aa-4e81e60423e0",
+    "title": "Kona",
+    "topicSlug": "kona",
+    "description": "Kona (by KittyPunch) is a consumer-focused DeFi ecosystem on Abstract offering products for trading, lending, and experimental DeFi. Kona is built on top of the KONA token, which is required for accessing staking rewards and governing the distribution of Kona Points, a specialized reward system native to the Kona app.",
+    "categoryTags": [
+      "DeFI"
+    ],
+    "isLeague": true,
+    "leagueSlug": "kona",
+    "logoUrl": "https://pbs.twimg.com/profile_images/1962662588598362112/GS93TWpm_400x400.png",
+    "xHandle": "KonaDeFi",
+    "tournament": {
+      "id": "e55321e1-9ef3-4e0c-aabd-3fb157783b04",
+      "rewardsEnabled": false,
+      "rewardCadence": null,
+      "rewardDescription": null,
+      "prizePoolLabel": "1.5M Kona Points + Xeets",
+      "rewardPoolAmount": "100",
+      "endsAt": null,
+      "isActive": true,
+      "comingSoon": false,
+      "startDate": "2025-10-06T00:00:00.000Z",
+      "spotlighted": true
+    },
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 278
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 291
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 308
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 357
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 287
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 251
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 230
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "56dd0e58-06d2-469e-82a6-d62e301cd172",
+        "twitterId": "1468103131737247748",
+        "handle": "amitisinvesting",
+        "name": "amit",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1691241014659301377/yybT0mFC_400x400.jpg",
+        "totalPoints": 9.115284066005309
+      },
+      {
+        "userId": "c6a28198-5dac-4349-a7cc-74d44fb9e3d1",
+        "twitterId": "861725752269701121",
+        "handle": "PromsLevi",
+        "name": "PromsLevi",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1918637074883694592/uDHyy4Xa_bigger.jpg",
+        "totalPoints": 6.652367669078066
+      },
+      {
+        "userId": "292087b1-303c-44fc-8a5f-911e718768c8",
+        "twitterId": "1370643854",
+        "handle": "Kai_01x",
+        "name": "0x.Kai₿ Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1888457453941256192/ve0p6Y5m_bigger.jpg",
+        "totalPoints": 6.126721428826297
+      },
+      {
+        "userId": "7ed9555f-2473-4234-bf4d-8cd592306adb",
+        "twitterId": "1855364084373340160",
+        "handle": "Bl9ckston",
+        "name": "Castro",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1976020399461646336/u3tI0Sd-_bigger.jpg",
+        "totalPoints": 5.987359710365507
+      },
+      {
+        "userId": "b182037f-079e-4f20-89e8-ec460a959e59",
+        "twitterId": "1575675920622358529",
+        "handle": "keys0321",
+        "name": "Rempo",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1812240517029085184/YSyA6oEH_400x400.jpg",
+        "totalPoints": 5.653223266304466
+      }
+    ]
+  },
+  {
+    "id": "71ce29e2-b6a6-4fee-8459-59ca98c01970",
+    "title": "TON",
+    "topicSlug": "ton",
+    "description": "TON (The Open Network) is a decentralized, sharded platform and ecosystem built to power a user-owned Internet, combining a scalable blockchain with services like TON DNS, TON Storage, TON Sites, and TON Proxy.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1931243733439115264/HfLnjCPR_400x400.jpg",
+    "xHandle": "ton_blockchain",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 256
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 328
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 296
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 305
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 227
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 194
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 175
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "2bc75a1f-5465-4b8f-8ab0-001acc7bc23e",
+        "twitterId": "1488679062604296196",
+        "handle": "Giooton",
+        "name": "Gio",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1832730482691227648/uKKw8JfX_400x400.jpg",
+        "mindsharePct": 3.314991066024572
+      },
+      {
+        "userId": "ed34fe2d-b2a3-4732-a086-48d11f3be363",
+        "twitterId": "1605253261769973767",
+        "handle": "tommyunchain",
+        "name": "Томми",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1940507887958102016/yJGKcC5A_400x400.jpg",
+        "mindsharePct": 2.281162948152267
+      },
+      {
+        "userId": "ffa90349-5bb0-49a7-a6a9-256c20a5449c",
+        "twitterId": "3899291176",
+        "handle": "0xAbit",
+        "name": "Abit 💎",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1960262739521134593/Bs8rMG3X_400x400.jpg",
+        "mindsharePct": 1.803438168704756
+      },
+      {
+        "userId": "364c3a04-14f3-40d6-84ce-4cf5b0be051c",
+        "twitterId": "1501997405755088900",
+        "handle": "waleswoosh",
+        "name": "wale.moca 🐳",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1700199367511064576/v-3PNyPw_400x400.jpg",
+        "mindsharePct": 1.702525586713009
+      },
+      {
+        "userId": "5c61e79d-fbe9-495b-858c-79d5a8ffe0b7",
+        "twitterId": "1401099186154590209",
+        "handle": "DurovPD",
+        "name": "Pavel Durov (Parody)",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1823149416066486272/XqpEiiDB_400x400.jpg",
+        "mindsharePct": 1.61261965944669
+      }
+    ]
+  },
+  {
+    "id": "b4facd79-a140-4c00-a99d-6f40c9b922dd",
+    "title": "ApeChain",
+    "topicSlug": "apechain",
+    "description": "ApeChain is an EVM-equivalent Arbitrum Orbit Optimistic L3 that uses $APE as native gas and combines Arbitrum/ETH security with low-cost AnyTrust data availability and high throughput. Its key innovation is native, rebasing yield for bridged assets (apeUSD, apeETH) delivered via on-chain yield routes and configurable yield modes (automatic, void, delegate), plus built-in developer and bridge tooling (ApePortal, RPCs, explorers) for easy onboarding.",
+    "categoryTags": [
+      "L3"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1872074444350656512/rPUGMIFN_400x400.jpg",
+    "xHandle": "apecoin",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 381
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 298
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 302
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 273
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 216
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 144
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 138
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "d248ceb6-f0c0-40df-9ea0-4f359c7d95db",
+        "twitterId": "1423097842034528257",
+        "handle": "EasyEatsBodega",
+        "name": "Easy",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1962922966326427648/LTLWaY2y_400x400.jpg",
+        "mindsharePct": 3.723096696547712
+      },
+      {
+        "userId": "d0997177-64c4-470d-a417-16a652c99549",
+        "twitterId": "27553316",
+        "handle": "beijingdou",
+        "name": "Josh Ong",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1602122467002155010/MI7V7cqu_400x400.png",
+        "mindsharePct": 3.066137436585758
+      },
+      {
+        "userId": "c8c74e2e-39ac-43e3-b0ec-379b8ea1368f",
+        "twitterId": "70071092",
+        "handle": "KCMontero",
+        "name": "St. KC Montero | Founder | Saints | CHUMPZ",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1944761273624727552/3nmfyWQd_400x400.jpg",
+        "mindsharePct": 1.709451300011162
+      },
+      {
+        "userId": "0058e28c-ad9d-41b6-abb0-9db4ee01be3a",
+        "twitterId": "2488294064",
+        "handle": "NGBxShpend",
+        "name": "ngbshpend.eth 🍌",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1981027401380286464/hCQFVul3_400x400.jpg",
+        "mindsharePct": 1.58224475516141
+      },
+      {
+        "userId": "e3d56d03-6b42-4b70-99a4-4cfb6211844e",
+        "twitterId": "1221900260274057218",
+        "handle": "ElegantSnowWhit",
+        "name": "Mercy$now ⧉ 🦅◎",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1964726469327822848/jxyNy1EF_bigger.jpg",
+        "mindsharePct": 1.445574957866857
+      }
+    ]
+  },
+  {
+    "id": "303cb5a7-facf-4758-9db2-a0809cc98e3c",
+    "title": "Covalent",
+    "topicSlug": "covalent",
+    "description": "Covalent’s SpeedRun is a prompt-to-earn platform that combines GoldRush’s low-latency, multi-chain on-chain data with instant, internet-native payments and one-click contract deployment so builders can monetize prompts and agent interactions in real time. Backing SpeedRun is the Covalent Network — a decentralized, proof-based data availability layer (EWM / Block Specimens / Block Results) that indexes 100+ chains and settles operator rewards and governance via the native CXT token.",
+    "categoryTags": [
+      "AI"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1970196037999697923/YayVFD_P_400x400.jpg",
+    "xHandle": "Covalent_HQ",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 274
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 217
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 213
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 227
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 269
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 283
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 265
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "45fda28d-769e-4c05-ab42-65aa14009b8b",
+        "twitterId": "1431768395993780229",
+        "handle": "ArtvisionNFT",
+        "name": "Artvisionᴺᶠᵀ",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1911584209128271873/fmBrLjC4_400x400.jpg",
+        "mindsharePct": 2.561605581076046
+      },
+      {
+        "userId": "349adfa4-2cdd-430b-9149-50750b92eabc",
+        "twitterId": "1500892159305785349",
+        "handle": "cryptodaaddy",
+        "name": "Crypto Daddy ֎",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1942072396174807040/qif7O0LT_bigger.jpg",
+        "mindsharePct": 2.328501313362449
+      },
+      {
+        "userId": "75d21c5b-ec39-4475-9a30-923f35668116",
+        "twitterId": "1582065741792247809",
+        "handle": "skygecko_",
+        "name": "SkyGeckoⓂ️Ⓜ️T❄️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1732550526351417344/HU0y1ok8_400x400.png",
+        "mindsharePct": 2.286101423574722
+      },
+      {
+        "userId": "02d47292-6b2b-4f21-8b11-32311c728373",
+        "twitterId": "955063765254500352",
+        "handle": "Faithmeta_x",
+        "name": "Faith",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1867791428446715904/WEXaXkxV_400x400.jpg",
+        "mindsharePct": 2.267460651217978
+      },
+      {
+        "userId": "5671eef0-df28-433e-80c5-8980173ed40e",
+        "twitterId": "1684210786506358789",
+        "handle": "hush_web3",
+        "name": "Hush",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1964648414676668416/LtV9JoLr_400x400.jpg",
+        "mindsharePct": 2.094297507404788
+      }
+    ]
+  },
+  {
+    "id": "34101e4b-70bc-4734-8104-171d8b763200",
+    "title": "Polygon",
+    "topicSlug": "polygon",
+    "description": "Polygon is an Ethereum scaling ecosystem centered on zk-powered chains and the AggLayer for unified liquidity. It spans the Polygon PoS chain, zkEVM/CDK, and developer tooling under the POL token model.",
+    "categoryTags": [
+      "L2"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1947285584679936001/x0yfJ9e__400x400.jpg",
+    "xHandle": "0xPolygon",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 277
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 322
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 239
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 277
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 202
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 221
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 174
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "5b9811b4-b989-46a6-bf1f-5f26d9c4a6e8",
+        "twitterId": "100798845",
+        "handle": "sandeepnailwal",
+        "name": "Sandeep | CEO, Polygon Foundation (※,※)",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1957857998904205312/SoPgZBdy_400x400.jpg",
+        "mindsharePct": 4.654892833750376
+      },
+      {
+        "userId": "693a6f68-ae4b-4241-b9ee-79a5cee322ad",
+        "twitterId": "1529700919238987776",
+        "handle": "Smokey_titan",
+        "name": "smokey",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1964013431943733248/xEjB7rnr_400x400.jpg",
+        "mindsharePct": 2.732433121195535
+      },
+      {
+        "userId": "e64c991f-6bb4-4a9f-ab40-d89b8796f5c2",
+        "twitterId": "1466836916783960071",
+        "handle": "rakermoon89",
+        "name": "Moonraker⚔️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1980242275746693120/b0TIxjEO_bigger.jpg",
+        "mindsharePct": 2.430559013778949
+      },
+      {
+        "userId": "36c75fcf-b443-4666-9bfd-4fa51e11384a",
+        "twitterId": "1378756322041196552",
+        "handle": "zaimiriQ",
+        "name": "zaimiri ✏️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1956760267330572288/RLKoQJwK_400x400.jpg",
+        "mindsharePct": 2.385748780393716
+      },
+      {
+        "userId": "f99a5da4-6e7a-477f-80fb-1c9ecfbb6691",
+        "twitterId": "889066597578674177",
+        "handle": "blackbeardXBT",
+        "name": "Blackbeard",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1573958923886927873/LNotmXRf_400x400.jpg",
+        "mindsharePct": 1.454491711191009
+      }
+    ]
+  },
+  {
+    "id": "6e18ee16-ca44-4b24-9035-84d3d73d050e",
+    "title": "Claynosaurz",
+    "topicSlug": "claynosaurz",
+    "description": "Claynosaurz is a clay‑animated character universe and Solana NFT project featuring seven dinosaur species and 10,222 unique collectibles set in the whimsical world of Claynotopia. The brand blends viral short‑form storytelling with on‑chain collectibles, crafting tools (Clay, Claymaker), and IRL activations to bridge digital and physical fandom.",
+    "categoryTags": [
+      "NFT"
+    ],
+    "isLeague": true,
+    "leagueSlug": "claynosaurz",
+    "logoUrl": "https://pbs.twimg.com/profile_images/1927449655270416385/21LJ1SfL_400x400.jpg",
+    "xHandle": "Claynosaurz",
+    "tournament": {
+      "id": "eb4d9db7-5578-4ce2-aa67-fdbee1e698c1",
+      "rewardsEnabled": false,
+      "rewardCadence": null,
+      "rewardDescription": null,
+      "prizePoolLabel": "TBA + Xeets",
+      "rewardPoolAmount": "TBA",
+      "endsAt": null,
+      "isActive": true,
+      "comingSoon": false,
+      "startDate": "2025-10-24T00:00:00.000Z",
+      "spotlighted": true
+    },
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 66
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 75
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 70
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 422
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 393
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 288
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 291
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "30035eb4-6947-40de-88f8-2709e5d179f3",
+        "twitterId": "1426357566041296903",
+        "handle": "BawsaXBT",
+        "name": "BAWSA",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1942235865725775872/ou3YszkG_400x400.jpg",
+        "totalPoints": 54.16600285973429
+      },
+      {
+        "userId": "a9a824f3-b0ad-4172-aba7-a8800ea2eb9b",
+        "twitterId": "1387820020403740674",
+        "handle": "camolNFT",
+        "name": "camol",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1881027124028481536/l5kOGGWW_400x400.jpg",
+        "totalPoints": 34.19619953778366
+      },
+      {
+        "userId": "e2f1982c-6e2c-43ac-90a3-688d3f321ea7",
+        "twitterId": "843624954",
+        "handle": "djsamwithers",
+        "name": "Sam Withers",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1970683945818935296/6Js_ZU_p_400x400.jpg",
+        "totalPoints": 23.24250128954673
+      },
+      {
+        "userId": "176d6960-0c20-480e-aa98-86cc7cba2424",
+        "twitterId": "112705099",
+        "handle": "maziibe_",
+        "name": "Ibe 🎒",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1917119717229068288/umancsJ6_400x400.png",
+        "totalPoints": 21.18685073060961
+      },
+      {
+        "userId": "6ba26570-7fcb-4185-9a0b-4d28d35e8ffe",
+        "twitterId": "1467913111571210244",
+        "handle": "0xValmir",
+        "name": "Valmir Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1930924462058188800/EwBXSLYr_400x400.jpg",
+        "totalPoints": 19.84974440698139
+      }
+    ]
+  },
+  {
+    "id": "401c1fa3-e961-48c4-92a2-690a520c3d2a",
+    "title": "Beldex",
+    "topicSlug": "beldex",
+    "description": "Beldex is a privacy-centric Layer-1 blockchain that combines confidential computing and AI to enable secure, encrypted on-chain processing and private user experiences. With a masternode network and Fully Homomorphic Encryption (FHE) primitives, Beldex powers apps like BChat, BelNet, Beldex Browser, and BNS while preserving self-custody and confidentiality for users and developers.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1612770327112871937/nqneDF29_400x400.png",
+    "xHandle": "BeldexCoin",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 227
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 228
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 201
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 214
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 181
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 168
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 145
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "b8ed492f-ad9e-47f5-afba-6e30f25404d8",
+        "twitterId": "1673649791744499713",
+        "handle": "rektonomist_",
+        "name": "Rektnomist",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1963889964879339520/_8HWARUX_400x400.jpg",
+        "mindsharePct": 1.863715953966852
+      },
+      {
+        "userId": "00487a13-b488-48a3-89ce-1a90ed89c150",
+        "twitterId": "1658490282005127172",
+        "handle": "0xALTF4",
+        "name": "ALTF4",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1857055551533752320/BHZAJwL__400x400.jpg",
+        "mindsharePct": 1.705615529834668
+      },
+      {
+        "userId": "7cf9ae3b-98fc-4195-be15-327279d78763",
+        "twitterId": "983046985",
+        "handle": "KongBTC",
+        "name": "Kong Trading 🦍",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1519560148850774016/SeUbrdCX_400x400.jpg",
+        "mindsharePct": 1.670747816389955
+      },
+      {
+        "userId": "5484d608-8421-457e-b77e-d4743eb92d27",
+        "twitterId": "1822270757818220544",
+        "handle": "PiusX194023",
+        "name": "Pius -X",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1973239698421096449/eNG4tUOQ_400x400.jpg",
+        "mindsharePct": 1.641476724072195
+      },
+      {
+        "userId": "4cf270f4-c06b-4503-9034-39a5a7024774",
+        "twitterId": "1521180406128730121",
+        "handle": "sommmie_lynn",
+        "name": "Lynda-lynn 💎",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1960381962339614728/rE8AXGnu_400x400.jpg",
+        "mindsharePct": 1.626396641937965
+      }
+    ]
+  },
+  {
+    "id": "3559c196-de29-4ec8-95db-10781a3e7106",
+    "title": "Kalshi",
+    "topicSlug": "kalshi",
+    "description": "Kalshi is a CFTC-regulated exchange for trading binary event contracts (Yes/No) across politics, economics, sports, weather, and culture. It provides a regulated marketplace, API access, and clearing via Kalshi Klear so retail and institutional participants can trade, hedge, and discover market probabilities for real-world events.",
+    "categoryTags": [
+      "Prediction Markets"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1841549922694262784/1qzNBZII_400x400.jpg",
+    "xHandle": "kalshi",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 184
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 172
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 300
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 271
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 170
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 132
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 131
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "fe4d1d64-94f3-4bc9-8986-c584e26e9622",
+        "twitterId": "1341287326467538945",
+        "handle": "j0hnwang",
+        "name": "John Wang",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1972903375026184192/R3njU90y_400x400.jpg",
+        "mindsharePct": 4.362819108111836
+      },
+      {
+        "userId": "76816697-cbc1-4c0d-ae56-0b6e733bc60d",
+        "twitterId": "776230888573063168",
+        "handle": "pukerrainbrow",
+        "name": "Pukerainbow 🤮🌈",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1912163120233005056/fINv15w6_400x400.jpg",
+        "mindsharePct": 2.884842783567036
+      },
+      {
+        "userId": "e0d141be-e355-48cd-971d-82f191f86ef6",
+        "twitterId": "1499585375534206980",
+        "handle": "beast_ico",
+        "name": "IcoBeast.eth🦇🔊",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1610827135978987522/qGWbuvec_400x400.jpg",
+        "mindsharePct": 2.824327391885534
+      },
+      {
+        "userId": "82f4b275-d346-4197-b31c-0bb00158a735",
+        "twitterId": "40134343",
+        "handle": "Tyler_Did_It",
+        "name": "TylerD 🧙‍♂️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1561354964534018049/T9lKN_2c_400x400.jpg",
+        "mindsharePct": 1.839911058725805
+      },
+      {
+        "userId": "9a093ed7-8ef8-4e6a-bf96-f8603caa1733",
+        "twitterId": "4900102269",
+        "handle": "vohvohh",
+        "name": "voh 🔺",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1969755016308092928/LjCIGBVN_400x400.jpg",
+        "mindsharePct": 1.699590835062985
+      }
+    ]
+  },
+  {
+    "id": "e5cd91bb-ae3e-4011-be18-ce2c427027f8",
+    "title": "Sei",
+    "topicSlug": "sei",
+    "description": "Sei is a high-frequency Layer-1 optimized for orderbook-style trading and latency-sensitive apps. It offers fast finality, low fees, and EVM compatibility, with ecosystem upgrades like Sei EVM and “Giga” performance improvements.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1938635626766565380/l5P2O5jF_400x400.jpg",
+    "xHandle": "SeiNetwork",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 166
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 165
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 175
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 212
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 163
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 125
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 130
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "4041fe01-8e4d-4287-8646-82ab0661a545",
+        "twitterId": "1075851214380785664",
+        "handle": "H0ogie",
+        "name": "Hoogie ♨️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1966385384931069952/sLUw3W_L_400x400.jpg",
+        "mindsharePct": 3.157804735186946
+      },
+      {
+        "userId": "11b88b83-acfe-4663-a556-90043022fa1e",
+        "twitterId": "321304762",
+        "handle": "ilodiwow",
+        "name": "ilodi wow",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1870448372072726528/LiE0q2o3_400x400.jpg",
+        "mindsharePct": 2.832259164290072
+      },
+      {
+        "userId": "6852971c-f276-424a-9e22-f36318bba869",
+        "twitterId": "876576493505310721",
+        "handle": "NekozTek",
+        "name": "NekoZ",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1979455305793654784/zRUSPxc5_400x400.jpg",
+        "mindsharePct": 2.56964794950918
+      },
+      {
+        "userId": "76816697-cbc1-4c0d-ae56-0b6e733bc60d",
+        "twitterId": "776230888573063168",
+        "handle": "pukerrainbrow",
+        "name": "Pukerainbow 🤮🌈",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1912163120233005056/fINv15w6_400x400.jpg",
+        "mindsharePct": 2.29213937608136
+      },
+      {
+        "userId": "cec55570-1eb3-47fd-9e17-eca9df09d4bf",
+        "twitterId": "391474015",
+        "handle": "tezukaTez",
+        "name": "𝐃𝐞𝐯𝐢𝐥𝐊 ($/acc)",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1927509278878773248/eLAzPuoQ_400x400.jpg",
+        "mindsharePct": 1.936631191608435
+      }
+    ]
+  },
+  {
+    "id": "7949335d-6a3b-4b03-bc42-5c79cc092b50",
+    "title": "Somnia",
+    "topicSlug": "somnia",
+    "description": "Somnia is an EVM-compatible Layer-1 designed for real-time consumer apps like gaming, on-chain social, and the metaverse. With sub-second finality and high throughput, it supports the SOMI token and an active developer ecosystem.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1896736794810458112/9tsFttK2_400x400.jpg",
+    "xHandle": "Somnia_Network",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 178
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 162
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 159
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 160
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 165
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 154
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 112
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "0acb39e6-f255-47a7-bcd9-f04b07683ec8",
+        "twitterId": "1482396650471661572",
+        "handle": "lovaniceth",
+        "name": "Lovanic",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1948168385944043520/Fc_fn99c_400x400.jpg",
+        "mindsharePct": 3.761307222166223
+      },
+      {
+        "userId": "f81cc657-bf5c-4b25-afbf-155069534bf5",
+        "twitterId": "1036625164686028801",
+        "handle": "Cjay_BTC",
+        "name": "CJAY.somi",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1979953510725693440/hUwbdxn-_400x400.jpg",
+        "mindsharePct": 3.235954872942155
+      },
+      {
+        "userId": "7c8d0a52-673e-4f0b-90c4-0c95415b01cf",
+        "twitterId": "1015676585834373127",
+        "handle": "Elphie_L",
+        "name": "elphie",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1932560809504247808/o-YVrtzB_400x400.jpg",
+        "mindsharePct": 3.061231568313318
+      },
+      {
+        "userId": "37e5aa91-0909-4bea-93df-854a9d582112",
+        "twitterId": "855824548893274112",
+        "handle": "Cliff3Verse",
+        "name": "CliffVerse 💻",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1965751506579144704/ytQNRd5p_400x400.jpg",
+        "mindsharePct": 2.711515362389814
+      },
+      {
+        "userId": "c2cd13c7-cc00-4faa-8ab4-9bb6b203f4c1",
+        "twitterId": "1888488042886733824",
+        "handle": "calc_guy",
+        "name": "Calc",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1982575781009096704/K-1lkrkU_400x400.jpg",
+        "mindsharePct": 2.597869804856879
+      }
+    ]
+  },
+  {
+    "id": "99aec96b-ef66-4da3-afd0-05d71ec5ef45",
+    "title": "Proof of Play",
+    "topicSlug": "proofofplay",
+    "description": "Game studio & onchain technology company, building Proof of Play Arcade, REDACTED, and plug & play P2P market technology.",
+    "categoryTags": [
+      "Infrastructure"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1954952845108621312/NkoaOYew_400x400.jpg",
+    "xHandle": "proofofplay",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 139
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 145
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 163
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 166
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 152
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 122
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 150
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "d895ae1f-db62-4dae-aae2-d22cac97b367",
+        "twitterId": "1475014806025371651",
+        "handle": "Jampzey",
+        "name": "Jampzey",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1944970434853920771/JzL2woNp_400x400.jpg",
+        "mindsharePct": 5.099290781408256
+      },
+      {
+        "userId": "9d371422-ab5e-40c4-9e9a-d9b7a576fb07",
+        "twitterId": "1558653067964325888",
+        "handle": "UziCryptoo",
+        "name": "Uzi",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1931192556957937664/gFST7es1_400x400.jpg",
+        "mindsharePct": 3.411890407632308
+      },
+      {
+        "userId": "cf79ac31-a6a4-4a75-bdec-225b341b08f2",
+        "twitterId": "1324038533808640005",
+        "handle": "ProofOfTravis",
+        "name": "Travis Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1947588879378264064/VX-7syV7_400x400.jpg",
+        "mindsharePct": 3.405422900645062
+      },
+      {
+        "userId": "cc3f3558-85dc-4228-8c15-d46ebdff8683",
+        "twitterId": "1349310906438660098",
+        "handle": "0xMelkoreth",
+        "name": "Melkor.eth",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1963603619711700992/7wxCCjAD_400x400.jpg",
+        "mindsharePct": 3.374103062236052
+      },
+      {
+        "userId": "64cbc527-dbc3-4dbf-adbe-a0781d23d28d",
+        "twitterId": "1807750608973070336",
+        "handle": "ox_neato",
+        "name": "neato",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1895416932490231808/26t_Qb1U_400x400.jpg",
+        "mindsharePct": 2.783790690031812
+      }
+    ]
+  },
+  {
+    "id": "b1718f9a-d0a6-43da-9b18-45bcbca898c2",
+    "title": "Ethena",
+    "topicSlug": "ethena",
+    "description": "Ethena is a delta‑hedged synthetic‑dollar platform that powers USDe (and yield‑bearing sUSDe) with on‑chain custody, derivatives hedges, and programmatic transparency. Designed for “internet money,” Ethena brings stable dollar utility and native yield to DeFi and CeFi, while ENA/sENA govern protocol parameters and ecosystem growth.",
+    "categoryTags": [
+      "DeFI"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1963578749170900992/9M1Oxp04_400x400.jpg",
+    "xHandle": "ethena_labs",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 156
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 168
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 176
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 163
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 91
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 145
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 89
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "3b1b430b-8232-43db-aec2-f308c2987c30",
+        "twitterId": "1828938798454968320",
+        "handle": "mlmabc",
+        "name": "MLM",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1968048641840418816/5ohdf5Ua_400x400.jpg",
+        "mindsharePct": 3.148812025511879
+      },
+      {
+        "userId": "4309d697-84d8-468b-8228-0ff5a5f6240b",
+        "twitterId": "1481568237624393730",
+        "handle": "eli5_defi",
+        "name": "Eli5DeFi",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1684835274424242176/RxuyXAaJ_400x400.jpg",
+        "mindsharePct": 2.958366593431514
+      },
+      {
+        "userId": "87b723ff-625d-47b7-b9a7-4677774c118b",
+        "twitterId": "1228678346185281537",
+        "handle": "OxTochi",
+        "name": "OxTøchi 🦇🔈",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1888969490223759360/Ez3fTiDZ_400x400.jpg",
+        "mindsharePct": 2.82067785282203
+      },
+      {
+        "userId": "610162ca-4150-4801-995e-f567a9e37e18",
+        "twitterId": "1551393207077969921",
+        "handle": "bledi_ai",
+        "name": "BLEDI",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1930016899196133376/iVtRCX-p_bigger.jpg",
+        "mindsharePct": 2.241601388455766
+      },
+      {
+        "userId": "d248ceb6-f0c0-40df-9ea0-4f359c7d95db",
+        "twitterId": "1423097842034528257",
+        "handle": "EasyEatsBodega",
+        "name": "Easy",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1962922966326427648/LTLWaY2y_400x400.jpg",
+        "mindsharePct": 1.976546495398954
+      }
+    ]
+  },
+  {
+    "id": "1289f5e8-9e47-456d-bec5-11c3642e4104",
+    "title": "Cardano",
+    "topicSlug": "cardano",
+    "description": "Cardano is a peer-reviewed, proof-of-stake blockchain built for security, scalability, and formalized, research-first development. Powered by the Ouroboros consensus and Haskell-based implementations, it pairs a robust staking/governance model and smart-contract capabilities (Plutus) with a strong community governance and ecosystem stewardship through groups like Intersect and PRAGMA. Ada is the native token used for value transfer, staking, and participating in on-chain governance.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1728114482772340736/6CToA6BZ_400x400.jpg",
+    "xHandle": "Cardano",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 144
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 157
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 151
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 182
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 125
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 104
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 119
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "c1bb8ec5-9c6a-4d31-911e-03cd5d1bda7e",
+        "twitterId": "1479998430109962244",
+        "handle": "TheDAppAnalyst",
+        "name": "The DApp ₳nalyst",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1979923647981641728/ShtdFDIW_400x400.jpg",
+        "mindsharePct": 6.808562672645977
+      },
+      {
+        "userId": "72d10d04-6fe2-4895-9516-d0be342efb50",
+        "twitterId": "94369591",
+        "handle": "Av_Sebastian",
+        "name": "Sssebi🦁",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1763492347193528320/JFr9eKz-_400x400.jpg",
+        "mindsharePct": 3.960307064741253
+      },
+      {
+        "userId": "618888a5-007b-49c6-b1da-bf28bc494189",
+        "twitterId": "1309886201944473600",
+        "handle": "0xMert_",
+        "name": "mert | helius.dev",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1975912876243095552/YlVLO4Oz_400x400.jpg",
+        "mindsharePct": 3.189310142243714
+      },
+      {
+        "userId": "f3e451dc-a34a-4e47-a282-940df3e72179",
+        "twitterId": "1358265329386852352",
+        "handle": "StakeWithPride",
+        "name": "St₳ke with Pride 🌈 SPO & DRep",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1939878385154482176/nXCng9YE_400x400.jpg",
+        "mindsharePct": 2.957951717653933
+      },
+      {
+        "userId": "be800949-87f7-4b7f-b40f-2a60b8200b44",
+        "twitterId": "1238839241448263680",
+        "handle": "bigpeyYT",
+        "name": "big pey",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1937551392048029696/RlUEgwIP_400x400.jpg",
+        "mindsharePct": 2.661395852799424
+      }
+    ]
+  },
+  {
+    "id": "41114544-fa63-406e-8d05-427de9a7e67d",
+    "title": "Huma",
+    "topicSlug": "huma",
+    "description": "Huma is the PayFi Network that delivers real-world, permissionless DeFi yield by financing payment flows and recycling liquidity on Solana. Huma 2.0 enables LPs to earn stable, double-digit yields via PST and Huma Feathers while offering merchant-focused rails like instant settlement, stablecoin cards, and compliant financing tools.",
+    "categoryTags": [
+      "DeFI"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1624112902771703821/oSgPaG68_400x400.png",
+    "xHandle": "huma",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 151
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 148
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 141
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 154
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 142
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 123
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 107
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "36c75fcf-b443-4666-9bfd-4fa51e11384a",
+        "twitterId": "1378756322041196552",
+        "handle": "zaimiriQ",
+        "name": "zaimiri ✏️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1956760267330572288/RLKoQJwK_400x400.jpg",
+        "mindsharePct": 5.996411398616308
+      },
+      {
+        "userId": "f46b0c82-fe3e-4f57-82f4-1a022de21034",
+        "twitterId": "772845184333717504",
+        "handle": "hannaXbtc",
+        "name": "hannax.base.eth",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1950819113913196544/du4a8qAL_bigger.jpg",
+        "mindsharePct": 5.23177052854825
+      },
+      {
+        "userId": "fc5f2201-feb7-4ba6-8448-bd0fe228fd35",
+        "twitterId": "904964304713256960",
+        "handle": "tteasol",
+        "name": "Tobi (❖,❖) Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1895249309752246272/c9xJQ3q-_400x400.jpg",
+        "mindsharePct": 2.737732074584735
+      },
+      {
+        "userId": "4c01f184-6a85-4fe7-ac6d-b2b6e0197788",
+        "twitterId": "1884829206477180928",
+        "handle": "glory_patrick1",
+        "name": "Glory patrick (❖,❖)",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1906780960521142274/bk5WTlhw_400x400.jpg",
+        "mindsharePct": 2.2348807975077
+      },
+      {
+        "userId": "50e2c4fc-2d7a-4a95-b6d2-fdf6481ec8bc",
+        "twitterId": "1629903493178744832",
+        "handle": "Pweshze",
+        "name": "Miss P",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1944333838991212544/9XKD3xkz_400x400.jpg",
+        "mindsharePct": 2.127264298161692
+      }
+    ]
+  },
+  {
+    "id": "ad3d3dbc-8750-461e-84c9-45cbf036f235",
+    "title": "Berachain",
+    "topicSlug": "berachain",
+    "description": "Berachain is an EVM-identical Layer-1 that couples Ethereum tooling and compatibility with novel economics via Proof-of-Liquidity, directing protocol rewards to deepen on-chain liquidity and ecosystem growth. Its modular BeaconKit consensus framework (CometBFT-inspired) enables single-slot finality and flexible client implementations while native dApps (BEX, Honey Swap, BeraHub) and reward vaults demonstrate PoL in practice.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://image.coinpedia.org/app_uploads/markets/cryptocurrencies/17388603145094s9tv886ae.webp",
+    "xHandle": "berachain",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 154
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 161
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 140
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 143
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 104
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 88
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 79
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "7f9dd60b-858d-4b36-bd73-b051eb94c952",
+        "twitterId": "1445356255514554372",
+        "handle": "BloosBTC",
+        "name": "BLAZE",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1939687375401005056/5jpyxt4X_bigger.jpg",
+        "mindsharePct": 3.769865271711793
+      },
+      {
+        "userId": "54f4f742-bf2b-4ef8-acef-d689897a279e",
+        "twitterId": "729051879280254976",
+        "handle": "ken_w3b3",
+        "name": "Ken 🌊",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1971152708615929858/l1Zzgjul_400x400.jpg",
+        "mindsharePct": 3.378093045977668
+      },
+      {
+        "userId": "2da69e11-15c9-4aa2-a7db-ba3b8936fc8d",
+        "twitterId": "1433617497643646976",
+        "handle": "HottieBabeGem",
+        "name": "hottiebabegem Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1905940914788564993/9d_lTMKV_bigger.jpg",
+        "mindsharePct": 3.013335807920395
+      },
+      {
+        "userId": "75e43cef-6850-46ba-be66-2bc65bb67575",
+        "twitterId": "1454538368923078659",
+        "handle": "patryxW",
+        "name": "Patryx",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1973750530959663104/sDiLrhJo_bigger.jpg",
+        "mindsharePct": 2.519002931821396
+      },
+      {
+        "userId": "c00db265-74a8-482b-9b2c-1d00a5b24238",
+        "twitterId": "1562768344725344256",
+        "handle": "stacy_muur",
+        "name": "Stacy Muur",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1605592382908628992/v1qmOV_P_400x400.jpg",
+        "mindsharePct": 2.456116585587297
+      }
+    ]
+  },
+  {
+    "id": "781e7bcc-bd7a-4502-b4da-b926401cbac5",
+    "title": "Optimism",
+    "topicSlug": "optimism",
+    "description": "The OP Stack is an open-source, modular software stack maintained by the Optimism Collective that powers Optimism and makes it easy to launch production-grade Ethereum Layer-2 rollups.",
+    "categoryTags": [
+      "L2",
+      "Infrastructure"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1734354549496836096/-laoU9C9_400x400.jpg",
+    "xHandle": "Optimism",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 158
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 159
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 130
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 123
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 112
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 90
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 96
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "2da69e11-15c9-4aa2-a7db-ba3b8936fc8d",
+        "twitterId": "1433617497643646976",
+        "handle": "HottieBabeGem",
+        "name": "hottiebabegem Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1905940914788564993/9d_lTMKV_bigger.jpg",
+        "mindsharePct": 1.62436291215629
+      },
+      {
+        "userId": "d77bbcc6-1b7c-43f1-b572-dfe1d1e507b6",
+        "twitterId": "1448432122881101826",
+        "handle": "onechancefreedm",
+        "name": "EndGame Macro",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1982317282849132544/Te6zZRyl_400x400.jpg",
+        "mindsharePct": 1.251075281000536
+      },
+      {
+        "userId": "f2c4dc88-6288-45e5-9e25-184a4b363206",
+        "twitterId": "11740902",
+        "handle": "tferriss",
+        "name": "Tim Ferriss",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1870217053808013316/n4PstHDj_400x400.jpg",
+        "mindsharePct": 1.102883808482733
+      },
+      {
+        "userId": "bb99d0e4-a7c1-41e8-86d0-74ea29d9c6ab",
+        "twitterId": "1472197491844026370",
+        "handle": "MoonwellDeFi",
+        "name": "Moonwell",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1683495143876313088/GoAlrKp2_400x400.png",
+        "mindsharePct": 1.037219820888201
+      },
+      {
+        "userId": "878ecbe9-25bf-47f6-a259-53977af6fe4f",
+        "twitterId": "2900144985",
+        "handle": "mastermojo83",
+        "name": "⚔️ Mojo.ink 🔴",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1880802805604110336/BcmkOyUa_400x400.jpg",
+        "mindsharePct": 0.6903941443738133
+      }
+    ]
+  },
+  {
+    "id": "c0507cd4-8373-4580-9764-c965d381a206",
+    "title": "ANIME",
+    "topicSlug": "animecoin",
+    "description": "$ANIME is the Culture Coin of the anime industry, built to turn anime into a community-owned creative network. Powered by Animechain, a purpose-built L3, Animecoin fuels a “Full Stack Anime” strategy that combines original IP, consumer platforms like Anime.com, and blockchain infrastructure to unite fans and creators.",
+    "categoryTags": [
+      "Token"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1968540846153961472/D1Y6N9dG_400x400.jpg",
+    "xHandle": "animecoin",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 141
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 130
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 130
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 119
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 100
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 124
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 106
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "68aaff2e-b3ca-49e3-8fb9-6ca2760a04b1",
+        "twitterId": "1099790079294287872",
+        "handle": "lokithebird",
+        "name": "Loki 😈",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1739893695942639616/9W39mSnm_400x400.jpg",
+        "mindsharePct": 3.703211856453545
+      },
+      {
+        "userId": "f9a05aec-a2e6-46fc-a2bb-e54f31e1577d",
+        "twitterId": "1363585324660776970",
+        "handle": "animeupdates__",
+        "name": "Anime Updates",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1897437531186016256/ZmqpdbsT_400x400.jpg",
+        "mindsharePct": 3.435722929591088
+      },
+      {
+        "userId": "364c3a04-14f3-40d6-84ce-4cf5b0be051c",
+        "twitterId": "1501997405755088900",
+        "handle": "waleswoosh",
+        "name": "wale.moca 🐳",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1700199367511064576/v-3PNyPw_400x400.jpg",
+        "mindsharePct": 2.65552381389857
+      },
+      {
+        "userId": "7d39c0ef-37b1-4d9e-a445-2cda1109a0da",
+        "twitterId": "55482041",
+        "handle": "7316",
+        "name": "Seven",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1803008450378825728/kNePG1As_400x400.jpg",
+        "mindsharePct": 2.529761791362918
+      },
+      {
+        "userId": "8a6c489b-28ad-4349-85c1-c24842af09d2",
+        "twitterId": "1702568876",
+        "handle": "Artedeingenio",
+        "name": "OscarAI",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1811715899851964417/uIxksPGs_400x400.jpg",
+        "mindsharePct": 2.177387378125748
+      }
+    ]
+  },
+  {
+    "id": "638520f6-9654-43ed-81c7-1eb2bbccc29b",
+    "title": "MetaWin",
+    "topicSlug": "metawin",
+    "description": "MetaWin is a Web3 casino and on-chain competitions platform for provably fair prize draws, instant-win games, and NFT or crypto giveaways. It offers wallet-native, no-KYC play with transparent verification and fast crypto withdrawals, combining casino titles with decentralized raffles and leaderboard events on EVM networks.",
+    "categoryTags": [
+      "Gaming"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1969244954494189569/r_6NIM0Q_400x400.jpg",
+    "xHandle": "MetaWin",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 150
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 139
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 144
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 135
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 111
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 86
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 71
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "4041fe01-8e4d-4287-8646-82ab0661a545",
+        "twitterId": "1075851214380785664",
+        "handle": "H0ogie",
+        "name": "Hoogie ♨️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1966385384931069952/sLUw3W_L_400x400.jpg",
+        "mindsharePct": 4.840140183519638
+      },
+      {
+        "userId": "3ba24f69-8dc5-41b8-bbb8-31c4c5f83467",
+        "twitterId": "1038732650608054272",
+        "handle": "MetaBaz7",
+        "name": "Baz",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1971899049600339969/GwozATDt_400x400.jpg",
+        "mindsharePct": 3.561582981315271
+      },
+      {
+        "userId": "b95f7a7a-b8af-4a56-b969-5002573305e4",
+        "twitterId": "1462692696477286403",
+        "handle": "tikooww",
+        "name": "Tiko",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1892909342845747202/s34tLH21_400x400.jpg",
+        "mindsharePct": 2.960370885246535
+      },
+      {
+        "userId": "77ac456d-d8e1-43b7-92df-fe52d03a2d07",
+        "twitterId": "2760158505",
+        "handle": "patty_fi",
+        "name": "PattyIce",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1946002650450866177/RkL9lVwQ_400x400.jpg",
+        "mindsharePct": 2.925432339709124
+      },
+      {
+        "userId": "51d3aae8-0013-4c0a-a7bb-1d6f269f6526",
+        "twitterId": "1384549926080860166",
+        "handle": "MoonKing___",
+        "name": "MoonKing",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1675128345611182080/rS_aM_L4_400x400.jpg",
+        "mindsharePct": 2.859015682356699
+      }
+    ]
+  },
+  {
+    "id": "c43026b9-902f-4367-b515-4a10c230ae6d",
+    "title": "Limit Break",
+    "topicSlug": "limitbreak",
+    "description": "Limit Break is a Web3 game studio and infrastructure company that brings free-to-play gaming to blockchain by combining polished game experiences (DigiDaigaku) with distribution and payments primitives for NFTs. They build developer tools and standards—like ERC721C and an opt-in programmable-royalties/staking model—while executing large consumer on-ramps (Super Bowl free mints) and powering integrations with major marketplaces.",
+    "categoryTags": [
+      "Gaming",
+      "Infrastructure"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1554864488003903490/K77GypBR_400x400.jpg",
+    "xHandle": "limitbreak",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 164
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 91
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 109
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 168
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 86
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 89
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 81
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "e8780693-a8bb-4b5a-be20-2f5000655e1b",
+        "twitterId": "1296724110601531392",
+        "handle": "Steezehuman",
+        "name": "Stephenblaq",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1841982630742384640/m_x3zUqh_400x400.jpg",
+        "mindsharePct": 3.378566629373273
+      },
+      {
+        "userId": "098b5c95-74d3-4829-aaae-e73974a19028",
+        "twitterId": "1526915574793641985",
+        "handle": "UxGsol",
+        "name": "UxG",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1894892233024851968/f6HI2MDt_bigger.jpg",
+        "mindsharePct": 1.881889667714847
+      },
+      {
+        "userId": "1fcf3102-743c-48d6-89bb-e6815011845d",
+        "twitterId": "1462073446255317002",
+        "handle": "estridthelion",
+        "name": "Estrid 🦁",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1915630118011363331/QOwU1WQH_400x400.jpg",
+        "mindsharePct": 1.785758424340044
+      },
+      {
+        "userId": "3243e794-420e-4ddc-8252-ad1e6c257d8a",
+        "twitterId": "1474855083988955138",
+        "handle": "0xbigm7",
+        "name": "BigM",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1946852262145314816/Xb5Kiegx_400x400.jpg",
+        "mindsharePct": 1.738238488340372
+      },
+      {
+        "userId": "3d4fcda0-a315-4f9b-a36c-703ab8bb1f07",
+        "twitterId": "1681470587720577024",
+        "handle": "stonik",
+        "name": "sdy",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1981386181758619648/mia5BgnW_400x400.jpg",
+        "mindsharePct": 1.363109816109899
+      }
+    ]
+  },
+  {
+    "id": "cf1463cb-31a9-43de-beab-408566b5cbbb",
+    "title": "Peaq",
+    "topicSlug": "peaq",
+    "description": "Peaq is a Layer-1 focused on DePIN and the “Machine Economy,” enabling tokenized ownership of devices like vehicles, robots, and IoT. It builds on Substrate/Polkadot foundations with modular functions for device onboarding and rewards.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1777989922013532160/7O3vUzjI_400x400.jpg",
+    "xHandle": "peaq",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 116
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 130
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 92
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 118
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 106
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 92
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 72
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "8c853fac-8a8a-4ff2-9312-6844186d0824",
+        "twitterId": "1749139741906251776",
+        "handle": "BeeOnGrid",
+        "name": "Bee🐝",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1947960502530809856/rvVF2mNM_400x400.jpg",
+        "mindsharePct": 5.387556147480788
+      },
+      {
+        "userId": "aa61376b-f4e6-46e2-991f-82c98f0ee622",
+        "twitterId": "1517327083478736896",
+        "handle": "0xxNathan",
+        "name": "Nathan",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1917244025566081024/ddvK6rr6_400x400.jpg",
+        "mindsharePct": 3.935048020081662
+      },
+      {
+        "userId": "3308430e-cb7b-4854-bac1-4cb1511af4a6",
+        "twitterId": "1516641037476761601",
+        "handle": "quan_eth",
+        "name": "Quan",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1584649679291064320/OpjzQDZ6_400x400.jpg",
+        "mindsharePct": 3.006664386916898
+      },
+      {
+        "userId": "92a13f4c-a889-4c41-bd4d-4e0b3d8d7065",
+        "twitterId": "1503019095436021767",
+        "handle": "avni87744",
+        "name": "Avni_web3",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1978149471616708608/wjTqzRAG_400x400.jpg",
+        "mindsharePct": 2.98153287650427
+      },
+      {
+        "userId": "51d3aae8-0013-4c0a-a7bb-1d6f269f6526",
+        "twitterId": "1384549926080860166",
+        "handle": "MoonKing___",
+        "name": "MoonKing",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1675128345611182080/rS_aM_L4_400x400.jpg",
+        "mindsharePct": 2.899341924894349
+      }
+    ]
+  },
+  {
+    "id": "1cf23a83-ca54-4c78-ad60-9a08cdeb9267",
+    "title": "Camp Network",
+    "topicSlug": "camp-network",
+    "description": "Camp Network is a Layer-1 blockchain for verifiable IP ownership and AI agents built on that IP. It emphasizes provenance, creator tools, and AI-powered applications, with ecosystem launches tied to its mainnet.",
+    "categoryTags": [
+      "L1",
+      "AI",
+      "IP"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1774932612160557056/QOyzwbO2_400x400.jpg",
+    "xHandle": "campnetworkxyz",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 102
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 111
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 105
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 99
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 74
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 74
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 76
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "4540c011-486e-4e22-bcf5-93a1d6eebca9",
+        "twitterId": "364159270",
+        "handle": "Vanieofweb3",
+        "name": "Hermes",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1942550994476249088/Y2oq3wOm_400x400.jpg",
+        "mindsharePct": 3.55018166221289
+      },
+      {
+        "userId": "5c70c6b8-cb53-447b-8937-7fb981096098",
+        "twitterId": "1468579133038997504",
+        "handle": "RickLFG",
+        "name": "rick",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1732719093243949056/u8AXAOkn_400x400.png",
+        "mindsharePct": 3.425443607694714
+      },
+      {
+        "userId": "2e67627d-4cbc-4890-a547-d26e4e6c456c",
+        "twitterId": "1783481394565353472",
+        "handle": "vincentDev",
+        "name": "𝗩𝗜𝗡𝗖𝗘𝗡𝗧",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1976268207414480896/U7N2gH8y_400x400.jpg",
+        "mindsharePct": 2.221759113099254
+      },
+      {
+        "userId": "54d28a50-42f5-492c-ae20-3d36eb906533",
+        "twitterId": "1522502573424619520",
+        "handle": "Beelaah3",
+        "name": "N usman💫",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1980643142421426176/bUDCL9Zt_bigger.jpg",
+        "mindsharePct": 2.204875547313535
+      },
+      {
+        "userId": "14fb8fd3-2370-4203-b556-ee836b7994d0",
+        "twitterId": "1677642855081295877",
+        "handle": "Nija_lii",
+        "name": "Zamani",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1965844055524360192/X75siGiZ_bigger.jpg",
+        "mindsharePct": 2.094966226969237
+      }
+    ]
+  },
+  {
+    "id": "af1686d2-062f-4476-80db-1a726106d981",
+    "title": "Infinex",
+    "topicSlug": "infinex",
+    "description": "Infinex is a non‑custodial, passkey‑based onchain account that abstracts wallets, gas, and bridging so anyone can use DeFi like a CEX. With Swidge for one‑step cross‑chain flows and Infinex Perps (powered by Hyperliquid) for low‑fee derivatives trading, users get a seamless, cross‑device experience tied to Governance Points and Patron incentives. Campaigns like Speedrun, Craterun, and Yaprun reward early usage while the platform keeps adding chains, assets, and yield integrations.",
+    "categoryTags": [
+      "DeFI"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1978267585633525760/PavGc5KA_400x400.png",
+    "xHandle": "infinex",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 60
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 57
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 95
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 53
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 77
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 60
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 41
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "97a47861-fa00-44d3-b6de-be7e7869c091",
+        "twitterId": "1482640180855160832",
+        "handle": "banditxbt",
+        "name": "banditxbt",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1923661282206511104/miKN7Xm8_400x400.jpg",
+        "mindsharePct": 8.348004684125387
+      },
+      {
+        "userId": "693a6f68-ae4b-4241-b9ee-79a5cee322ad",
+        "twitterId": "1529700919238987776",
+        "handle": "Smokey_titan",
+        "name": "smokey",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1964013431943733248/xEjB7rnr_400x400.jpg",
+        "mindsharePct": 7.471907199797374
+      },
+      {
+        "userId": "ed2131a6-c2f9-4ad2-aa1c-caf5e975456c",
+        "twitterId": "3078211361",
+        "handle": "TimHaldorsson",
+        "name": "Tim Haldorsson",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1928091512484556800/Toeoufns_400x400.jpg",
+        "mindsharePct": 6.179080257263524
+      },
+      {
+        "userId": "47de687c-74e4-4212-a12f-7daaf6e713de",
+        "twitterId": "1600230048572792846",
+        "handle": "sjdedic",
+        "name": "Simon Dedic",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1945552136592367616/y3x7RUZ4_400x400.jpg",
+        "mindsharePct": 5.888501814052536
+      },
+      {
+        "userId": "72360f13-0509-4861-ad4a-5cf859fbbe66",
+        "twitterId": "1469066819948490761",
+        "handle": "Tma_420",
+        "name": "T.M.A",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1982303521476096000/eMA6rL5x_400x400.jpg",
+        "mindsharePct": 4.420955306529387
+      }
+    ]
+  },
+  {
+    "id": "d3ca829f-d97e-40c2-9ec9-9fa4981f1108",
+    "title": "Theoriq",
+    "topicSlug": "theoriq",
+    "description": "Alpha Protocol (Theoriqs) is an onchain infrastructure that powers autonomous AI agents and coordinated swarms (AlphaSwarm) to optimize liquidity, execute dynamic trading strategies, and discover yield across DeFi protocols—enabling institutional-grade, adaptive capital management with low trust assumptions.\nAgent swarms autonomously shift capital between pools, vaults, lending venues, and staking opportunities in real time to maximize returns and minimize risk.",
+    "categoryTags": [
+      "AI",
+      "Infrastructure"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1810489288947019776/cEt5sHX__400x400.jpg",
+    "xHandle": "TheoriqAI",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 41
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 32
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 75
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 107
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 66
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 38
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 41
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "8c8a65c5-19e9-4f92-8236-5b0e5a3387ea",
+        "twitterId": "1523982039812395010",
+        "handle": "woryin_Crypto",
+        "name": "𝑾𝒐𝒓𝒚𝒊𝒏",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1969111255530053632/FAoPfp_H_400x400.jpg",
+        "mindsharePct": 10.85436532471298
+      },
+      {
+        "userId": "36c75fcf-b443-4666-9bfd-4fa51e11384a",
+        "twitterId": "1378756322041196552",
+        "handle": "zaimiriQ",
+        "name": "zaimiri ✏️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1956760267330572288/RLKoQJwK_bigger.jpg",
+        "mindsharePct": 5.045044410837509
+      },
+      {
+        "userId": "1594ad5c-766f-4571-ac89-c37ad6060a46",
+        "twitterId": "46801378",
+        "handle": "Xeer",
+        "name": "Xeer",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1982304460715016192/eQUgmzIy_400x400.jpg",
+        "mindsharePct": 3.270830597107759
+      },
+      {
+        "userId": "815512a1-d13d-4b27-8abb-d2006421b23e",
+        "twitterId": "1471546995181379591",
+        "handle": "0xRobbey",
+        "name": "Robbey Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1965090076595302400/NHgEHe0V_400x400.jpg",
+        "mindsharePct": 3.056026052138064
+      },
+      {
+        "userId": "e6297184-b61a-4fea-96d2-cd293ddb9c86",
+        "twitterId": "435324782",
+        "handle": "0xReomi",
+        "name": "REOMI",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1943758388602494976/Dn7xry2g_400x400.jpg",
+        "mindsharePct": 2.612900425374923
+      }
+    ]
+  },
+  {
+    "id": "3ea247d1-0fc6-4ead-82e1-56cc4c1ec677",
+    "title": "Falcon Finance",
+    "topicSlug": "falcon",
+    "description": "Falcon Finance is a universal collateralization protocol enabling users and institutions to mint USDf, earn yield via sUSDf and boosted vaults, and participate in a cross-chain liquidity economy driven by Falcon Miles incentives. The FF governance token aligns long-term incentives—granting boosted yields, discounted terms, and governance rights—while the protocol emphasizes broad collateral acceptance, on-chain transparency, and a risk framework for secure, sustainable yield generation.",
+    "categoryTags": [
+      "DeFI"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1915752392139874304/YoIPk2yT_400x400.png",
+    "xHandle": "FalconStable",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 103
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 128
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 106
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 58
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 0
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "ed2131a6-c2f9-4ad2-aa1c-caf5e975456c",
+        "twitterId": "3078211361",
+        "handle": "TimHaldorsson",
+        "name": "Tim Haldorsson",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1928091512484556800/Toeoufns_400x400.jpg",
+        "mindsharePct": 9.012251952196813
+      },
+      {
+        "userId": "309ab1ba-74c1-46d4-9f2f-7e78a2b5369b",
+        "twitterId": "1430373223267409926",
+        "handle": "coinfoin_",
+        "name": "coinfoin | Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1954614585660751873/4KjC-NqB_bigger.jpg",
+        "mindsharePct": 7.715782077267189
+      },
+      {
+        "userId": "b2d7478a-fecb-45c4-939d-00139e2d8ab2",
+        "twitterId": "1454785464041295880",
+        "handle": "heycape_",
+        "name": "Cape 👊",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1959126721929879552/L4_sJxzT_bigger.jpg",
+        "mindsharePct": 5.487940850207209
+      },
+      {
+        "userId": "45eccd6c-2963-4ede-ac4f-3c153b8e1f80",
+        "twitterId": "851707964",
+        "handle": "nftmufettisi",
+        "name": "mufettis 🐋",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1950971126571544577/utEOoqqe_400x400.jpg",
+        "mindsharePct": 3.197251508607264
+      },
+      {
+        "userId": "2a9151db-ef07-4d97-8d65-5804a7521093",
+        "twitterId": "1412115737276260358",
+        "handle": "Dashke_witch",
+        "name": "Dashke",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1966398393569148928/BibpqxGD_400x400.jpg",
+        "mindsharePct": 2.986178004559943
+      }
+    ]
+  },
+  {
+    "id": "1a0903fb-eb1b-4be5-8bae-81a05bcb8b92",
+    "title": "Aborean",
+    "topicSlug": "aborean",
+    "description": "Aborean Finance is liquidity layer of Abstract, built to power seamless swaps, deep incentives, and native DeFi growth.",
+    "categoryTags": [
+      "DeFI"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1965797503615275008/IpvV7fWa_400x400.jpg",
+    "xHandle": "AboreanFI",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 48
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 56
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 72
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 63
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 49
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 41
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 43
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "3b0e7f2d-feb0-4a4c-8ce4-0a27e05212b0",
+        "twitterId": "1432387651974443009",
+        "handle": "ProofOfEly",
+        "name": "Ely",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1899824667671576576/RVqjlLdW_400x400.jpg",
+        "mindsharePct": 11.29512992244259
+      },
+      {
+        "userId": "403e443f-35a1-4b98-9647-f59de76bb34e",
+        "twitterId": "179224911",
+        "handle": "xinsanityo",
+        "name": "Cris 𓆏",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1963482016977940480/a0oo6uN0_bigger.jpg",
+        "mindsharePct": 5.119232631496359
+      },
+      {
+        "userId": "59850eac-7d94-47eb-8b0c-e743a8873804",
+        "twitterId": "1907434939903275008",
+        "handle": "Cryptobullaaa",
+        "name": "Cryptobulla",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1907435131456909312/OIMJXb4h_bigger.jpg",
+        "mindsharePct": 4.189913275013909
+      },
+      {
+        "userId": "fb9620cc-8d14-490a-8bef-9fc6a896aa71",
+        "twitterId": "1447603917823647755",
+        "handle": "Rajp_14",
+        "name": "Raj",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1899840185925337088/2g_uarj5_400x400.jpg",
+        "mindsharePct": 3.269696502116797
+      },
+      {
+        "userId": "e0806f77-b753-4d2b-8090-a48f4def0d3c",
+        "twitterId": "1287576585353039872",
+        "handle": "0xCygaar",
+        "name": "cygaar",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1874970187780194304/rEKKc4YC_400x400.jpg",
+        "mindsharePct": 2.702988454605365
+      }
+    ]
+  },
+  {
+    "id": "2e9f656d-5733-4d88-b521-7e31069b1ab6",
+    "title": "Artery",
+    "topicSlug": "artery",
+    "description": "Artery Chain is a next-generation Layer 1 blockchain built on Avalanche, purpose-built for AI-powered, immersive Web3 AI & gaming. Artery combines rich storytelling, game-first mechanics, and intelligent AI systems to usher in a new era of decentralized worlds. ",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": true,
+    "leagueSlug": "artery",
+    "logoUrl": "https://pbs.twimg.com/profile_images/1920361142121033729/SLIR8rz7_400x400.jpg",
+    "xHandle": "Artery_Chain",
+    "tournament": {
+      "id": "8fcc363e-ee3c-4eb4-a9ad-cf83add436d2",
+      "rewardsEnabled": false,
+      "rewardCadence": null,
+      "rewardDescription": null,
+      "prizePoolLabel": "1% $ARTERY + Xeets",
+      "rewardPoolAmount": "Flash Tournament ends on 11/17. Top 100 creators win. Top 50 win Artery Genesis NFT. Tokens fully unlocked.",
+      "endsAt": "2025-11-18T00:00:00.548Z",
+      "isActive": true,
+      "comingSoon": false,
+      "startDate": "2025-10-25T00:00:00.000Z",
+      "spotlighted": true
+    },
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 86
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 142
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "6548345f-a86e-4077-a2d9-32831105c0ef",
+        "twitterId": "1873145367140941824",
+        "handle": "MrY0han",
+        "name": "Dracø",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1968349680242139136/1cUUBvFy_400x400.jpg",
+        "totalPoints": 40.32191501394237
+      },
+      {
+        "userId": "52bb1422-7487-456c-9709-47d42bb7d3b2",
+        "twitterId": "1467998923725938688",
+        "handle": "RxPrinceGabriel",
+        "name": "DeFiDispenser",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1971923267033206785/rCt8dU5n_400x400.jpg",
+        "totalPoints": 15.63940576326033
+      },
+      {
+        "userId": "b8df7675-45cb-4539-a37d-9c901b0d4e51",
+        "twitterId": "1732496710876676097",
+        "handle": "Soathefirstt",
+        "name": "Dr SOA Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1786132270216065024/FK750ARz_400x400.jpg",
+        "totalPoints": 12.88121187535134
+      },
+      {
+        "userId": "e8c2a48c-c1e2-4a59-8f37-9631a1055c6a",
+        "twitterId": "1598765346122498061",
+        "handle": "NessaC_w3",
+        "name": "🌱ᐯ𝗮ᑎ𝗲𝘀𝘀𝗮",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1978919413718884352/pxlQodof_400x400.jpg",
+        "totalPoints": 10.74010755682491
+      },
+      {
+        "userId": "a9288bfe-fc8f-43f3-9d04-67fba31906eb",
+        "twitterId": "1300122153317212161",
+        "handle": "Poolz__",
+        "name": "Poolz Finance | We’re Hiring!",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1830984486609195009/9QYYiA6g_400x400.png",
+        "totalPoints": 10.54450639054153
+      }
+    ]
+  },
+  {
+    "id": "56e9167b-e501-4967-a48f-1d94b9260747",
+    "title": "Anoma",
+    "topicSlug": "anoma",
+    "description": "Anoma is an intent-centric distributed OS that abstracts counterparty discovery, solving, and atomic settlement so developers can write expressive, multi-party applications that run across chains and security domains. Its stack (intent gossip, solvers, fractal instances, validity predicates, Taiga/Typhon execution) supports privacy primitives (ZK, FHE, threshold decryption) for use cases from decentralized exchanges to multiparty barter and runtime rollups.",
+    "categoryTags": [
+      "Infrastructure"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1923389396671168512/04XToCah_400x400.jpg",
+    "xHandle": "anoma",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 27
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 28
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 19
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 25
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 15
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "249cacb4-f707-4b8c-b7a9-ef2e43affde3",
+        "twitterId": "1464106969305088000",
+        "handle": "catqpx",
+        "name": "CaTQ Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1870542200490356736/LOEE97LN_400x400.jpg",
+        "mindsharePct": 14.01207012703463
+      },
+      {
+        "userId": "20254ed6-962d-419b-a553-bc02d9cc10b4",
+        "twitterId": "1360236831640408068",
+        "handle": "vuonglongbtc",
+        "name": "0xVL 🟨",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1968145707124264962/3KPx5r5Y_400x400.png",
+        "mindsharePct": 7.646062527624776
+      },
+      {
+        "userId": "10de7064-ccde-433a-8856-9603968c6d25",
+        "twitterId": "1664197104414216192",
+        "handle": "fhenix",
+        "name": "Fhenix",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1977843603150909440/fceL5xK4_400x400.jpg",
+        "mindsharePct": 5.490322629825837
+      },
+      {
+        "userId": "9893c4e9-fdc5-42f4-91f9-b014c2b8722b",
+        "twitterId": "1074566198",
+        "handle": "FerreWeb3",
+        "name": "Ferre",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1891782324141895680/nxQuPcsu_bigger.jpg",
+        "mindsharePct": 5.402702525359833
+      },
+      {
+        "userId": "d57df08a-5674-46f0-be0b-dc9441ba5f24",
+        "twitterId": "1725402619328212992",
+        "handle": "0xyigido_",
+        "name": "Yigido",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1826252775006568448/nCpvVCm3_bigger.jpg",
+        "mindsharePct": 5.063068558780488
+      }
+    ]
+  },
+  {
+    "id": "8d36f941-a226-47ca-a601-d15d5939ccc0",
+    "title": "zkVerify",
+    "topicSlug": "zkverify",
+    "description": "zkVerify is a retail-grade zk proof verification layer that verifies proofs in under a second and interoperates with many proving schemes, enabling developers to “verify everywhere” without heavy infra changes. Mainnet live with VFY token, zkVerify exposes Relayer APIs, explorer tools, and validator economics to scale verifiable AI, provable gaming, zkTLS, and other privacy-first use cases.",
+    "categoryTags": [
+      "ZK"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1963633554027397120/D4WuG_t4_400x400.jpg",
+    "xHandle": "ZKVProtocol",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 46
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 0
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "8632d250-a9a5-4845-ba50-bb0b26581389",
+        "twitterId": "1131238362",
+        "handle": "AlisaWeb3",
+        "name": "Alisa 🎮",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1945831758294872065/euX_rwkZ_400x400.png",
+        "mindsharePct": 18.48620021898335
+      },
+      {
+        "userId": "902fa2f7-b21e-4f3f-bb69-827bc9862f10",
+        "twitterId": "1353022306726146049",
+        "handle": "chikao_eth",
+        "name": "Chikao",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1968871131336818688/9CxDot4X_bigger.jpg",
+        "mindsharePct": 16.02536458310422
+      },
+      {
+        "userId": "0d035179-edcf-43dd-8791-96b1e7e2f2ab",
+        "twitterId": "1570966956886327299",
+        "handle": "web3dothan",
+        "name": "Dothan (Ⓜ️Ⓜ️T)〽️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1702158108687032320/wnz_8HUq_400x400.jpg",
+        "mindsharePct": 11.87988738535931
+      },
+      {
+        "userId": "94bb312c-799f-47ae-bc9b-7c7c15c65904",
+        "twitterId": "1388112456002588674",
+        "handle": "TRANLAMHG91",
+        "name": "Jackai Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1976193105696264192/GbY5QP6o_400x400.jpg",
+        "mindsharePct": 9.665179992599501
+      },
+      {
+        "userId": "b8712d29-5de7-4c9a-ad3c-5d3e096e482e",
+        "twitterId": "1592738135833812992",
+        "handle": "RAZA_npc",
+        "name": "Raza (❖,❖)",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1966776034818174976/V5N_gkUT_400x400.jpg",
+        "mindsharePct": 9.441044330738029
+      }
+    ]
+  },
+  {
+    "id": "b39d2685-2b14-4680-99d5-15b0f5214164",
+    "title": "Valannia",
+    "topicSlug": "valannia",
+    "description": "Valannia is a next-gen MMO strategy universe where you command a hero, marshal combat units, and shape a real, on-chain economy that emulates real-world markets. Build, craft, and wage RTS battles in a vast world; conquer territory, engage in politics, own your heroes, units, resources, land, and gear as tradable assets; and risk-manage adventures across Green, Yellow, and high-stakes Red zones.",
+    "categoryTags": [
+      "Gaming"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1965119608513241088/ZKlKna-J_400x400.jpg",
+    "xHandle": "ValanniaGame",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 13
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 0
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "8823f146-b36a-42eb-8a46-c71cc164cc52",
+        "twitterId": "1463944807735197697",
+        "handle": "nhat710994",
+        "name": "MinSun.SOL ✦Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1978480488441589761/KqygsdEA_400x400.jpg",
+        "mindsharePct": 32.33425046322546
+      },
+      {
+        "userId": "b38fd2b9-8031-42ae-877f-ce8a731600c1",
+        "twitterId": "783072201167638528",
+        "handle": "bboym0dE",
+        "name": "m0dE",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1964429014782869504/MIMCff9I_400x400.jpg",
+        "mindsharePct": 11.77985635921334
+      },
+      {
+        "userId": "c085fd84-6d13-469e-a6de-b21f1dc3bc7a",
+        "twitterId": "106499065",
+        "handle": "sofieskov",
+        "name": "Nhật HoàngⓂ️Ⓜ️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1964142070832254977/c3fEd0dL_400x400.jpg",
+        "mindsharePct": 10.93189982155936
+      },
+      {
+        "userId": "93517cdd-7814-4eb5-b05e-782dc7968350",
+        "twitterId": "327638515",
+        "handle": "Minderback95",
+        "name": "Minderminder Ⓜ️Ⓜ️T 🌊RIVER",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1734868531077111808/dkLpq1mZ_400x400.jpg",
+        "mindsharePct": 10.36822129472264
+      },
+      {
+        "userId": "8a00ebb4-5fa4-43d1-8379-770e0fbc0e59",
+        "twitterId": "786485794915557377",
+        "handle": "bonbon_2507",
+        "name": "BonBon",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1970340559333269506/SGMvBDa6_400x400.jpg",
+        "mindsharePct": 8.814790304971428
+      }
+    ]
+  },
+  {
+    "id": "94004d24-feb9-4eb1-974f-11fcce01e320",
+    "title": "Mezo",
+    "topicSlug": "mezo",
+    "description": "Mezo is a Bitcoin-centric, EVM-compatible network that enables permissionless, self-service Bitcoin banking: fixed-rate BTC-backed loans, a native USD stablecoin (MUSD), and native yield on bridged assets via rebasing m-tokens.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1777650090162769920/KnBgdkXh_400x400.jpg",
+    "xHandle": "MezoNetwork",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 0
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "f5fab80e-a734-46ea-bf76-5ee207b41480",
+        "twitterId": "1594294446300229633",
+        "handle": "0xadoniscyril",
+        "name": "Adonis Cyril",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1979580883926384640/HQUM7yyK_400x400.jpg",
+        "mindsharePct": 43.9698845035504
+      },
+      {
+        "userId": "a2bbc76a-5651-4400-b257-12ffb4eda80e",
+        "twitterId": "1326191960474832897",
+        "handle": "B93329649",
+        "name": "Nedo.4B Ⓜ️Ⓜ️T",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1974073489696215040/fqUCOlc8_400x400.jpg",
+        "mindsharePct": 8.027989356135953
+      },
+      {
+        "userId": "645d405b-38cf-4108-9f95-511535a1c3d7",
+        "twitterId": "1192775775302250496",
+        "handle": "Kayvan99840250",
+        "name": "Kevin",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1929197582573596672/FQvjpKY6_400x400.jpg",
+        "mindsharePct": 5.558113587838669
+      },
+      {
+        "userId": "9f998e71-c948-4574-bc98-bdb6eb12e58c",
+        "twitterId": "1795762163828584449",
+        "handle": "schlummerX",
+        "name": "schlummer.ink",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1961013184229167104/9_PsjLLv_bigger.jpg",
+        "mindsharePct": 4.107498910669177
+      },
+      {
+        "userId": "669c2a03-8ffc-44a1-986d-376b4cd4935a",
+        "twitterId": "1608058727055106048",
+        "handle": "in_pangea",
+        "name": "Pangea",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1861350731275542529/ept6fyLg_400x400.jpg",
+        "mindsharePct": 3.420271534470634
+      }
+    ]
+  },
+  {
+    "id": "f5ac3f5b-379d-4910-8694-7ba1ed121c8c",
+    "title": "Polkadot",
+    "topicSlug": "polkadot",
+    "description": "Polkadot is a multichain network built for shared security and interoperability via XCM. Current “Polkadot 2.0” efforts focus on Agile Coretime, Async Backing, and Elastic Scaling across parachains and governance.",
+    "categoryTags": [
+      "L1"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1944665239502323712/0FMaAZ31_400x400.jpg",
+    "xHandle": "Polkadot",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 0
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "3a424181-8c00-4726-8a12-b90cc9b2c9f3",
+        "twitterId": "1674568302625009666",
+        "handle": "katexbt",
+        "name": "katexbt.hl",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1965699098688073728/qNcfLt8a_400x400.jpg",
+        "mindsharePct": 8.121166298615115
+      },
+      {
+        "userId": "a2759a8a-0458-4a07-8130-007f3569cbf3",
+        "twitterId": "1346628932485844998",
+        "handle": "SubQueryNetwork",
+        "name": "SubQuery",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1826175656331456516/jEYzkWt7_400x400.png",
+        "mindsharePct": 5.140535600116324
+      },
+      {
+        "userId": "a9b297fb-2ca8-4ff7-b61d-374031f362a8",
+        "twitterId": "884511390987407360",
+        "handle": "Web3foundation",
+        "name": "Web3 Foundation",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1162751266432442369/cjjjE5un_400x400.png",
+        "mindsharePct": 4.822542269172859
+      },
+      {
+        "userId": "388f01e3-1651-4ded-bc70-06ae80850dc5",
+        "twitterId": "1889422815373463553",
+        "handle": "Kingsley_Chuks1",
+        "name": "ᴋɪɴɢꜱʟᴇʏ",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1955289114955104256/tBxjuy32_400x400.jpg",
+        "mindsharePct": 4.702543335141509
+      },
+      {
+        "userId": "afbb63fb-53dd-44c7-b8f0-271a292b1310",
+        "twitterId": "1483278495585349633",
+        "handle": "ToriRibolla",
+        "name": "Tori",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1933680960735678464/Zee9ebus_400x400.jpg",
+        "mindsharePct": 4.12567253878501
+      }
+    ]
+  },
+  {
+    "id": "2728b26c-f6e2-408e-8430-9dedf2b9fd20",
+    "title": "Click.Game",
+    "topicSlug": "clickgame",
+    "description": "Click.Game is a familiar gameplay where great branding and visuals meet social gamblefi - short and repeatable fun,  now on Abstract. \nCreated by a veteran team, bringing more life to the risk games genre.",
+    "categoryTags": [
+      "Gaming"
+    ],
+    "isLeague": false,
+    "leagueSlug": null,
+    "logoUrl": "https://pbs.twimg.com/profile_images/1959974820667330560/LFnblD78_400x400.jpg",
+    "xHandle": "clickdotgame",
+    "tournament": null,
+    "series7d": [
+      {
+        "date": "2025-10-20",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-21",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-22",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-23",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-24",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-25",
+        "totalPosts": 0
+      },
+      {
+        "date": "2025-10-26",
+        "totalPosts": 0
+      }
+    ],
+    "topUsers7d": [
+      {
+        "userId": "b6616bea-a46e-4850-a932-7052ae88038b",
+        "twitterId": "1791043027445678080",
+        "handle": "Bryce160920",
+        "name": "Official Bryce ✞",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1928402865401298944/KD29WQwl_bigger.jpg",
+        "mindsharePct": 31.57924593226453
+      },
+      {
+        "userId": "8f43ab40-b066-4d04-be33-a2e7bf6b5527",
+        "twitterId": "1344372883536150528",
+        "handle": "mike_owi",
+        "name": "Mike Owi.eth 🔺",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1940062644754432001/TxD9QsR4_bigger.jpg",
+        "mindsharePct": 17.47448184373226
+      },
+      {
+        "userId": "b65ee0c4-4118-4971-960a-09da6d97f820",
+        "twitterId": "1763751948962959360",
+        "handle": "stevegmi1",
+        "name": "steve 🦸🏻‍♂️",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1974115090153512960/xiI0qtfh_400x400.jpg",
+        "mindsharePct": 14.01211155499243
+      },
+      {
+        "userId": "ebdd3833-2710-4af6-8ad4-4115739c47f5",
+        "twitterId": "1562486521441054723",
+        "handle": "Kinglotoos_OG",
+        "name": "Kinglotoos 📴",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1960159491531354113/xKjW4QgT_400x400.jpg",
+        "mindsharePct": 12.90054152643837
+      },
+      {
+        "userId": "8ad4739f-3400-40b0-aaea-e5c6cfc1bf21",
+        "twitterId": "1903600758559494144",
+        "handle": "VuAnh1747432",
+        "name": "Vu Anh 🍊,💊 | 𝔽rAI π² Morph",
+        "avatarUrl": "https://pbs.twimg.com/profile_images/1974748010275016704/Y2mMr-Q0_400x400.png",
+        "mindsharePct": 7.282400375496147
+      }
+    ]
+  }
+]
