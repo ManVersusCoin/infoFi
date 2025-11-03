@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import domtoimage from "dom-to-image";
 import { X, Copy, Download } from "lucide-react";
 

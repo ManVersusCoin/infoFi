@@ -598,7 +598,7 @@ export default function LeagueLeaderboards(): JSX.Element {
                                     >
                                         <div className="flex items-center gap-1">
                                             Sig #
-                                            {sortConfig?.topicSlug === slug && sortConfig?.metric === "rankSignal" ? (
+                                            {sortConfig?.slug === slug && sortConfig?.metric === "rankSignal" ? (
                                                 sortConfig.direction === "asc" ? (
                                                     <ArrowUp className="w-3 h-3 text-blue-500 inline-block" />
                                                 ) : (
@@ -616,7 +616,7 @@ export default function LeagueLeaderboards(): JSX.Element {
                                     >
                                         <div className="flex items-center gap-1">
                                             Noise #
-                                            {sortConfig?.topicSlug === slug && sortConfig?.metric === "rankNoise" ? (
+                                            {sortConfig?.slug === slug && sortConfig?.metric === "rankNoise" ? (
                                                 sortConfig.direction === "asc" ? (
                                                     <ArrowUp className="w-3 h-3 text-blue-500 inline-block" />
                                                 ) : (
@@ -634,7 +634,7 @@ export default function LeagueLeaderboards(): JSX.Element {
                                     >
                                         <div className="flex items-center gap-1">
                                             Total #
-                                            {sortConfig?.topicSlug === slug && sortConfig?.metric === "rankTotal" ? (
+                                            {sortConfig?.slug === slug && sortConfig?.metric === "rankTotal" ? (
                                                 sortConfig.direction === "asc" ? (
                                                     <ArrowUp className="w-3 h-3 text-blue-500 inline-block" />
                                                 ) : (
@@ -652,7 +652,7 @@ export default function LeagueLeaderboards(): JSX.Element {
                                     >
                                         <div className="flex items-center gap-1">
                                             Ratio %
-                                            {sortConfig?.topicSlug === slug && sortConfig?.metric === "rankRatio" ? (
+                                            {sortConfig?.slug === slug && sortConfig?.metric === "rankRatio" ? (
                                                 sortConfig.direction === "asc" ? (
                                                     <ArrowUp className="w-3 h-3 text-blue-500 inline-block" />
                                                 ) : (
