@@ -672,11 +672,11 @@ export default function LeagueLeaderboards(): JSX.Element {
                                 <tr key={p.userId}>
                                     <td className="px-3 py-2 text-xs">{idx + 1}</td>
                                     <td className="px-3 py-2 text-sm flex items-center gap-2">
-                                        <img src={p.avatarUrl} alt={p.name} className="w-6 h-6 rounded-full" />
+                                        <img src={p.avatarUrl || ''} alt={p.name} className="w-6 h-6 rounded-full" />
                                         <div>
                                             <div className="font-medium">{p.name}</div>
                                             <a
-                                                href={`https://twitter.com/${p.handle}`}
+                                                href={`https://x.com/${p.handle}`}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="text-xs text-blue-500 hover:underline"
