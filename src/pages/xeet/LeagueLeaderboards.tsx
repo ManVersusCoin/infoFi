@@ -1,5 +1,8 @@
 ﻿import type { JSX } from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { ArrowUp, ArrowDown } from "lucide-react";
+import InfoModal from "../../components/xeet/InfoModal";
+import RankingProfileCard from "../../components/xeet/RankingProfileCard";
 
 type TopicMeta = {
     id?: string;
@@ -51,6 +54,7 @@ export default function LeagueLeaderboards(): JSX.Element {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 30;
     const [viewMode, setViewMode] = useState<"cards" | "table">("cards");
+    const [sortConfig, setSortConfig] = useState<{ slug: string; metric: string; direction: "asc" | "desc" } | null>(null);
 
     // load once
     useEffect(() => {
@@ -213,37 +217,69 @@ export default function LeagueLeaderboards(): JSX.Element {
 
     // Main filtering & sorting
     const filteredSortedProfiles = useMemo(() => {
-        // base: derivedProfiles but we need to treat ranks > topLimit as absent
+        // 1️⃣ Base — appliquer topLimit sur les ranks
         let arr = derivedProfiles
             .map((p) => {
-                // compute for each topic in p.ranks whether rank meets topLimit
                 const ranksFiltered: Record<string, any> = {};
                 for (const [slug, r] of Object.entries(p.ranks)) {
-                    const val = metric === "rankTotal" ? r.rankTotal : metric === "rankSignal" ? r.rankSignal : r.rankNoise;
+                    const val =
+                        metric === "rankTotal"
+                            ? r.rankTotal
+                            : metric === "rankSignal"
+                                ? r.rankSignal
+                                : r.rankNoise;
+
+                    // ratio Noise/Signal
+                    const ratio =
+                        r.signalPoints && r.noisePoints
+                            ? (r.noisePoints / r.signalPoints) * 100
+                            : null;
+
                     if (typeof val === "number" && val <= topLimit) {
-                        ranksFiltered[slug] = r;
+                        ranksFiltered[slug] = { ...r, ratio };
                     }
                 }
                 return { ...p, ranksFiltered };
             })
-            // filter by profile search
+            // 2️⃣ Filtre par recherche
             .filter((p) => {
                 const q = profileSearch.trim().toLowerCase();
                 if (!q) return true;
-                return (p.name || "").toLowerCase().includes(q) || (p.handle || "").toLowerCase().includes(q);
+                return (
+                    (p.name || "").toLowerCase().includes(q) ||
+                    (p.handle || "").toLowerCase().includes(q)
+                );
             });
+        const topics = new Set<string>();
+        arr.forEach((p) =>
+            Object.keys(p.ranksFiltered || {}).forEach((slug) => topics.add(slug))
+        );
 
-        // filter by selectedTopics: if selectedTopics not empty, keep profiles that have at least one selected topic in ranksFiltered
+        topics.forEach((slug) => {
+            const validProfiles = arr.filter(
+                (p) => p.ranksFiltered?.[slug]?.ratio != null
+            );
+            validProfiles.sort(
+                (a, b) => a.ranksFiltered[slug].ratio - b.ranksFiltered[slug].ratio
+            );
+            validProfiles.forEach(
+                (p, i) => (p.ranksFiltered[slug].rankRatio = i + 1)
+            );
+        });
+        // 3️⃣ Filtre par topics sélectionnés
         if (selectedTopics.length > 0) {
-            arr = arr.filter((p) => selectedTopics.some((s) => p.ranksFiltered && p.ranksFiltered[s]));
+            arr = arr.filter((p) =>
+                selectedTopics.some((s) => p.ranksFiltered && p.ranksFiltered[s])
+            );
         }
 
-        // filter by topicCountFilter
+        // 4️⃣ Filtre par topic overlap
         if (topicCountFilter !== null) {
             if (selectedTopics.length > 0) {
                 arr = arr.filter((p) => {
                     let c = 0;
-                    for (const s of selectedTopics) if (p.ranksFiltered && p.ranksFiltered[s]) c++;
+                    for (const s of selectedTopics)
+                        if (p.ranksFiltered && p.ranksFiltered[s]) c++;
                     return c === topicCountFilter;
                 });
             } else {
@@ -254,21 +290,48 @@ export default function LeagueLeaderboards(): JSX.Element {
             }
         }
 
-        // Only include profiles with at least one topic rank
+        // 5️⃣ Supprimer les profils sans aucun classement valide
         arr = arr.filter((p) => Object.keys(p.ranksFiltered || {}).length > 0);
 
-        // Sorting
+        // 6️⃣ Si un tri manuel est actif (via clic sur Signal / Noise / Total)
+        if (sortConfig) {
+            const { slug, metric, direction } = sortConfig;
+            arr.sort((a, b) => {
+                const av = a.ranksFiltered?.[slug]?.[metric] ?? Infinity;
+                const bv = b.ranksFiltered?.[slug]?.[metric] ?? Infinity;
+                if (av === bv) return (a.name || "").localeCompare(b.name || "");
+                return direction === "asc" ? av - bv : bv - av;
+            });
+            return arr;
+        }
+
+        // 7️⃣ Sinon, tri automatique en fonction de la sélection de topics
         if (selectedTopics.length === 1) {
             const slug = selectedTopics[0];
-            // sort by that topic's metric rank
             arr.sort((a, b) => {
-                const ra = a.ranksFiltered?.[slug] ? (metric === "rankTotal" ? a.ranksFiltered[slug].rankTotal : metric === "rankSignal" ? a.ranksFiltered[slug].rankSignal : a.ranksFiltered[slug].rankNoise) : Infinity;
-                const rb = b.ranksFiltered?.[slug] ? (metric === "rankTotal" ? b.ranksFiltered[slug].rankTotal : metric === "rankSignal" ? b.ranksFiltered[slug].rankSignal : b.ranksFiltered[slug].rankNoise) : Infinity;
+                const ra = a.ranksFiltered?.[slug]
+                    ? metric === "rankTotal"
+                        ? a.ranksFiltered[slug].rankTotal
+                        : metric === "rankSignal"
+                            ? a.ranksFiltered[slug].rankSignal
+                            : a.ranksFiltered[slug].rankNoise
+                    : Infinity;
+                const rb = b.ranksFiltered?.[slug]
+                    ? metric === "rankTotal"
+                        ? b.ranksFiltered[slug].rankTotal
+                        : metric === "rankSignal"
+                            ? b.ranksFiltered[slug].rankSignal
+                            : b.ranksFiltered[slug].rankNoise
+                    : Infinity;
                 if (ra !== rb) return ra - rb;
-                return (a.name || a.handle || "").localeCompare(b.name || b.handle || "", undefined, { sensitivity: "base" });
+                return (a.name || a.handle || "").localeCompare(
+                    b.name || b.handle || "",
+                    undefined,
+                    { sensitivity: "base" }
+                );
             });
         } else if (selectedTopics.length > 1) {
-            // compute best & sum among selected topics (only among ranksFiltered)
+            // 8️⃣ Si plusieurs topics → tri par meilleur rank et somme
             arr = arr
                 .map((p) => {
                     let best = Infinity;
@@ -276,7 +339,13 @@ export default function LeagueLeaderboards(): JSX.Element {
                     let count = 0;
                     for (const s of selectedTopics) {
                         const r = p.ranksFiltered?.[s];
-                        const v = r ? (metric === "rankTotal" ? r.rankTotal : metric === "rankSignal" ? r.rankSignal : r.rankNoise) : undefined;
+                        const v = r
+                            ? metric === "rankTotal"
+                                ? r.rankTotal
+                                : metric === "rankSignal"
+                                    ? r.rankSignal
+                                    : r.rankNoise
+                            : undefined;
                         if (typeof v === "number") {
                             best = Math.min(best, v);
                             sum += v;
@@ -288,15 +357,44 @@ export default function LeagueLeaderboards(): JSX.Element {
                 .sort((a: any, b: any) => {
                     if (a.__best !== b.__best) return a.__best - b.__best;
                     if (a.__sum !== b.__sum) return a.__sum - b.__sum;
-                    return (a.name || a.handle || "").localeCompare(b.name || b.handle || "", undefined, { sensitivity: "base" });
+                    return (a.name || a.handle || "").localeCompare(
+                        b.name || b.handle || "",
+                        undefined,
+                        { sensitivity: "base" }
+                    );
                 });
         } else {
-            // no topics selected: alphabetical
-            arr.sort((a, b) => (a.name || a.handle || "").localeCompare(b.name || b.handle || "", undefined, { sensitivity: "base" }));
+            // 9️⃣ Aucun topic sélectionné → tri alphabétique
+            arr = arr
+                .map((p) => {
+                    const ranks = Object.values(p.ranksFiltered || {});
+                    if (ranks.length === 0) return { ...p, __score: 0 };
+
+                    // méthode "points" (simple et stable)
+                    const points = ranks
+                        .map((r: any) => (r.rankTotal ? (topLimit - r.rankTotal + 1) / topLimit : 0))
+                        .reduce((a, b) => a + b, 0);
+
+                    return { ...p, __score: points };
+                })
+                .sort((a: any, b: any) => {
+                    if (b.__score !== a.__score) return b.__score - a.__score;
+                    return (a.name || a.handle || "").localeCompare(b.name || b.handle || "", undefined, { sensitivity: "base" });
+                });
+
         }
 
         return arr;
-    }, [derivedProfiles, profileSearch, selectedTopics, topicCountFilter, topLimit, metric]);
+    }, [
+        derivedProfiles,
+        profileSearch,
+        selectedTopics,
+        topicCountFilter,
+        topLimit,
+        metric,
+        sortConfig, // 👈 pour déclencher un nouveau tri manuel
+    ]);
+
 
     // pagination
     const totalPages = Math.max(1, Math.ceil(filteredSortedProfiles.length / itemsPerPage));
@@ -304,6 +402,17 @@ export default function LeagueLeaderboards(): JSX.Element {
     const start = (currentPage - 1) * itemsPerPage;
     const pageProfiles = filteredSortedProfiles.slice(start, start + itemsPerPage);
 
+
+    const handleSort = (slug: string, metric: string) => {
+        setSortConfig((prev) => {
+            if (prev && prev.slug === slug && prev.metric === metric) {
+                return { ...prev, direction: prev.direction === "asc" ? "desc" : "asc" };
+            }
+            return { slug, metric, direction: "asc" };
+        });
+    };
+
+ 
     // helpers
     const toggleTopic = (slug: string) => {
         setSelectedTopics((prev) => (prev.includes(slug) ? prev.filter((s) => s !== slug) : [...prev, slug]));
@@ -389,11 +498,13 @@ export default function LeagueLeaderboards(): JSX.Element {
                             </div>
                         )}
                     </div>
+                    <InfoModal />
+                    <div className="flex items-center gap-3 w-full md:w-auto">
+                        <input value={profileSearch} onChange={(e) => { setProfileSearch(e.target.value); setCurrentPage(1); }} placeholder="Search profiles..." className="px-3 py-2 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 w-full md:w-64" />
+                    </div>
                 </div>
 
-                <div className="flex items-center gap-3 w-full md:w-auto">
-                    <input value={profileSearch} onChange={(e) => { setProfileSearch(e.target.value); setCurrentPage(1); }} placeholder="Search profiles..." className="px-3 py-2 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 w-full md:w-64" />
-                </div>
+                
             </div>
 
             {/* topic-overlap filter */}
@@ -411,7 +522,7 @@ export default function LeagueLeaderboards(): JSX.Element {
             ) : filteredSortedProfiles.length === 0 ? (
                 <div className="py-10 text-center text-gray-500">No profiles found.</div>
             ) : viewMode === "cards" ? (
-                <>
+                        <>{/*
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                         {pageProfiles.map((p) => (
                             <div key={p.userId} className="bg-gray-100 dark:bg-gray-800 rounded-xl p-3 hover:bg-gray-200 dark:hover:bg-gray-700 transition">
@@ -440,22 +551,35 @@ export default function LeagueLeaderboards(): JSX.Element {
                             </div>
                         ))}
                     </div>
+                    */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                        {pageProfiles.map((p) => (
+                            <RankingProfileCard
+                                p={p}
+                                selectedTopics={selectedTopics}
+                                topicsForDataset={topicsForDataset}
+                                getTopicMeta={getTopicMeta}
+                                dataset={dataset}
+                                metric={metric}
+                                
+                            />
+                        ))}
+                    </div>
                 </>
             ) : (
-                // TABLE VIEW: full table with selected topics as groups of 3 columns (Signal/Noise/Total)
+                // TABLE VIEW — Enhanced version
                 <div className="overflow-auto border rounded">
                     <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
                         <thead className="bg-gray-50 dark:bg-gray-900">
                             <tr>
                                 <th className="px-3 py-2 text-left text-xs font-medium">#</th>
-                                <th className="px-3 py-2 text-left text-xs font-medium">Name</th>
-                                <th className="px-3 py-2 text-left text-xs font-medium">Handle</th>
+                                <th className="px-3 py-2 text-left text-xs font-medium">Profile</th>
 
                                 {(selectedTopics.length > 0 ? selectedTopics : topicsForDataset.map(t => t.topicSlug)).map((slug) => {
                                     const meta = getTopicMeta(slug);
                                     return (
-                                        <th key={slug} colSpan={3} className="px-3 py-2 text-left text-xs font-medium">
-                                            <div className="flex items-center gap-2">
+                                        <th key={slug} colSpan={4} className="px-3 py-2 text-center text-xs font-medium">
+                                            <div className="flex justify-center items-center gap-2">
                                                 <img src={meta.logoUrl || "/default-avatar.jpg"} alt={meta.title} className="w-4 h-4 rounded-full" />
                                                 <div>{meta.title}</div>
                                             </div>
@@ -466,30 +590,137 @@ export default function LeagueLeaderboards(): JSX.Element {
                             <tr className="bg-gray-50 dark:bg-gray-900">
                                 <th></th>
                                 <th></th>
-                                <th></th>
                                 {(selectedTopics.length > 0 ? selectedTopics : topicsForDataset.map(t => t.topicSlug)).flatMap((slug) => [
-                                    <th key={slug + "-sig"} className="px-3 py-1 text-xs font-medium">Sig #</th>,
-                                    <th key={slug + "-noi"} className="px-3 py-1 text-xs font-medium">Noise #</th>,
-                                    <th key={slug + "-tot"} className="px-3 py-1 text-xs font-medium">Total #</th>,
+                                    <th
+                                        key={slug + "-sig"}
+                                        className="px-3 py-1 text-xs font-medium cursor-pointer select-none hover:underline"
+                                        onClick={() => handleSort(slug, "rankSignal")}
+                                    >
+                                        <div className="flex items-center gap-1">
+                                            Sig #
+                                            {sortConfig?.topicSlug === slug && sortConfig?.metric === "rankSignal" ? (
+                                                sortConfig.direction === "asc" ? (
+                                                    <ArrowUp className="w-3 h-3 text-blue-500 inline-block" />
+                                                ) : (
+                                                    <ArrowDown className="w-3 h-3 text-blue-500 inline-block" />
+                                                )
+                                            ) : (
+                                                <ArrowUp className="w-3 h-3 text-gray-400 opacity-30 inline-block" />
+                                            )}
+                                        </div>
+                                    </th>,
+                                    <th
+                                        key={slug + "-noi"}
+                                        className="px-3 py-1 text-xs font-medium cursor-pointer select-none hover:underline"
+                                        onClick={() => handleSort(slug, "rankNoise")}
+                                    >
+                                        <div className="flex items-center gap-1">
+                                            Noise #
+                                            {sortConfig?.topicSlug === slug && sortConfig?.metric === "rankNoise" ? (
+                                                sortConfig.direction === "asc" ? (
+                                                    <ArrowUp className="w-3 h-3 text-blue-500 inline-block" />
+                                                ) : (
+                                                    <ArrowDown className="w-3 h-3 text-blue-500 inline-block" />
+                                                )
+                                            ) : (
+                                                <ArrowUp className="w-3 h-3 text-gray-400 opacity-30 inline-block" />
+                                            )}
+                                        </div>
+                                    </th>,
+                                    <th
+                                        key={slug + "-tot"}
+                                        className="px-3 py-1 text-xs font-medium cursor-pointer select-none hover:underline"
+                                        onClick={() => handleSort(slug, "rankTotal")}
+                                    >
+                                        <div className="flex items-center gap-1">
+                                            Total #
+                                            {sortConfig?.topicSlug === slug && sortConfig?.metric === "rankTotal" ? (
+                                                sortConfig.direction === "asc" ? (
+                                                    <ArrowUp className="w-3 h-3 text-blue-500 inline-block" />
+                                                ) : (
+                                                    <ArrowDown className="w-3 h-3 text-blue-500 inline-block" />
+                                                )
+                                            ) : (
+                                                <ArrowUp className="w-3 h-3 text-gray-400 opacity-30 inline-block" />
+                                            )}
+                                        </div>
+                                    </th>,
+                                    <th
+                                        key={slug + "-ratio"}
+                                        className="px-3 py-1 text-xs font-medium cursor-pointer select-none hover:underline"
+                                        onClick={() => handleSort(slug, "rankRatio")}
+                                    >
+                                        <div className="flex items-center gap-1">
+                                            Ratio %
+                                            {sortConfig?.topicSlug === slug && sortConfig?.metric === "rankRatio" ? (
+                                                sortConfig.direction === "asc" ? (
+                                                    <ArrowUp className="w-3 h-3 text-blue-500 inline-block" />
+                                                ) : (
+                                                    <ArrowDown className="w-3 h-3 text-blue-500 inline-block" />
+                                                )
+                                            ) : (
+                                                <ArrowUp className="w-3 h-3 text-gray-400 opacity-30 inline-block" />
+                                            )}
+                                        </div>
+                                    </th>,
                                 ])}
                             </tr>
                         </thead>
+
                         <tbody className="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
                             {filteredSortedProfiles.map((p, idx) => (
                                 <tr key={p.userId}>
                                     <td className="px-3 py-2 text-xs">{idx + 1}</td>
-                                    <td className="px-3 py-2 text-sm">{p.name}</td>
-                                    <td className="px-3 py-2 text-sm">@{p.handle}</td>
+                                    <td className="px-3 py-2 text-sm flex items-center gap-2">
+                                        <img src={p.avatarUrl} alt={p.name} className="w-6 h-6 rounded-full" />
+                                        <div>
+                                            <div className="font-medium">{p.name}</div>
+                                            <a
+                                                href={`https://twitter.com/${p.handle}`}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-xs text-blue-500 hover:underline"
+                                            >
+                                                @{p.handle}
+                                            </a>
+                                        </div>
+                                    </td>
 
                                     {(selectedTopics.length > 0 ? selectedTopics : topicsForDataset.map(t => t.topicSlug)).flatMap((slug) => {
-                                        const r = (p as any).ranksFiltered ? (p as any).ranksFiltered[slug] : undefined;
-                                        const sig = r?.rankSignal ?? "-";
-                                        const noi = r?.rankNoise ?? "-";
-                                        const tot = r?.rankTotal ?? "-";
+                                        const r = p.ranksFiltered?.[slug];
+                                        if (!r) {
+                                            return [
+                                                <td key={slug + "-sig-" + p.userId} className="px-3 py-1 text-xs text-gray-400">-</td>,
+                                                <td key={slug + "-noi-" + p.userId} className="px-3 py-1 text-xs text-gray-400">-</td>,
+                                                <td key={slug + "-tot-" + p.userId} className="px-3 py-1 text-xs text-gray-400">-</td>,
+                                                <td key={slug + "-ratio-" + p.userId} className="px-3 py-1 text-xs text-gray-400">-</td>,
+                                            ];
+                                        }
                                         return [
-                                            <td key={slug + "-sig-" + p.userId} className="px-3 py-1 text-xs">{sig}</td>,
-                                            <td key={slug + "-noi-" + p.userId} className="px-3 py-1 text-xs">{noi}</td>,
-                                            <td key={slug + "-tot-" + p.userId} className="px-3 py-1 text-xs">{tot}</td>,
+                                            <td key={slug + "-sig-" + p.userId} className="px-3 py-1 text-xs">
+                                                {r.rankSignal ?? "-"}{" "}
+                                                <span className="text-gray-500 text-[10px] ml-1">
+                                                    ({r.signalPoints?.toFixed(1)})
+                                                </span>
+                                            </td>,
+                                            <td key={slug + "-noi-" + p.userId} className="px-3 py-1 text-xs">
+                                                {r.rankNoise ?? "-"}{" "}
+                                                <span className="text-gray-500 text-[10px] ml-1">
+                                                    ({r.noisePoints?.toFixed(1)})
+                                                </span>
+                                            </td>,
+                                            <td key={slug + "-tot-" + p.userId} className="px-3 py-1 text-xs">
+                                                {r.rankTotal ?? "-"}{" "}
+                                                <span className="text-gray-500 text-[10px] ml-1">
+                                                    ({r.totalPoints?.toFixed(1)})
+                                                </span>
+                                            </td>,
+                                            <td key={slug + "-ratio-" + p.userId} className="px-3 py-1 text-xs">
+                                                {r.rankRatio ?? "-"}{" "}
+                                                <span className="text-gray-500 text-[10px] ml-1">
+                                                    ({r.ratio?.toFixed(1)}%)
+                                                </span>
+                                            </td>,
                                         ];
                                     })}
                                 </tr>
@@ -497,6 +728,8 @@ export default function LeagueLeaderboards(): JSX.Element {
                         </tbody>
                     </table>
                 </div>
+
+
             )}
 
             {/* Pagination controls */}
@@ -507,6 +740,7 @@ export default function LeagueLeaderboards(): JSX.Element {
                     <button onClick={() => setCurrentPage((cp) => Math.min(totalPages, cp + 1))} disabled={currentPage === totalPages} className="px-3 py-1 rounded-md bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 disabled:opacity-50">Next →</button>
                 </div>
             )}
+            
         </div>
     );
 }
