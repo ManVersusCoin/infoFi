@@ -12,13 +12,22 @@ interface FeatureCardProps {
 
 const features: FeatureCardProps[] = [
     {
+        title: "Xeet Analysis",
+        description:
+            "Explore top profiles ranked by influence and insights. Compare across topics and timeframes.",
+        image: "/images/xeet-leaderboards.png",
+        link: "/xeet-leagues",
+        active: true,
+        isNew: true,
+    },
+    {
         title: "Xeet Pack Generator",
         description:
             "Select your favorite profiles and generate a fake shareable Xeet collector cards.",
         image: "/images/profile-pack.png",
         link: "/pack-generator",
         active: true,
-        isNew: true,
+        isNew: false,
     },
     {
         title: "Airdrop Card",
@@ -36,7 +45,7 @@ const features: FeatureCardProps[] = [
         image: "/images/dad-jokes.png",
         link: "/dad-jokes",
         active: true,
-        isNew: true,
+        isNew: false,
     },
     {
         title: "Creator Earning Card",
@@ -47,22 +56,9 @@ const features: FeatureCardProps[] = [
         active: true,
         isNew: true,
     },
-    {
-        title: "Leaderboards",
-        description:
-            "Explore top profiles ranked by influence and insights. Compare across topics and timeframes.",
-        image: "/images/xeet-leaderboards.png",
-        link: "/leaderboard",
-        active: false,
-    },
     
-    {
-        title: "Xeet Analysis",
-        description:
-            "Dive into advanced analytics for Xeet data, with tournaments and signal breakdowns.",
-        image: "/images/xeet.jpg",
-        active: false,
-    },
+    
+    
     {
         title: "Wallchain Analysis",
         description:
