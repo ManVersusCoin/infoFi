@@ -48,8 +48,7 @@ export default function StatsShareModal({
         const fetchXeetData = async () => {
             setLoadingXeet(true);
             try {
-                //const res = await fetch(`/api/xeet/user/handle/${profile.handle}`);
-                const res = await fetch(`https://www.xeet.ai/api/user/handle/${profile.handle}`);
+                const res = await fetch(`/api/xeet/${profile.handle}`);
                 if (!res.ok) throw new Error("Failed to fetch Xeet data");
                 const json = await res.json();
                 setXeetData(json.data);
