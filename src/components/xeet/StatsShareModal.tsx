@@ -218,13 +218,13 @@ export default function StatsShareModal({
                         })}
                     </div>
 
-                    {/* Bottom */}
-                    <div className="w-full flex justify-between items-center text-xs text-white/80">
-                        <span className="pl-2">
+                    {/* Bottom - Responsive footer */}
+                    <div className="w-full flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0 text-[11px] sm:text-xs text-white/70 mt-auto pt-2 border-t border-white/10">
+                        <span className="pl-1 sm:pl-2">
                             {new Date(profile.generatedAt || Date.now()).toLocaleDateString("en-US")}
                         </span>
-                        <span className="pr-3">
-                            For fun and informational purposes only / not affiliated with the official Xeet project
+                        <span className="text-center sm:text-right px-2 sm:px-3 leading-snug max-w-[90%] sm:max-w-none">
+                            For fun and informational purposes only<br className="sm:hidden" /> / not affiliated with the official Xeet project
                         </span>
                     </div>
                 </div>
