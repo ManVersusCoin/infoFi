@@ -1,6 +1,6 @@
-import { useState } from "react";
+﻿import { useState } from "react";
 import { Share2 } from "lucide-react";
-import StatsShareModal from "./StatsShareModal"; // new component (see below)
+import StatsShareModal from "./StatsShareModal";
 
 interface RankingProfileCardProps {
     p: any;
@@ -21,20 +21,38 @@ function RankingProfileCard({
 }: RankingProfileCardProps) {
     const [modalOpen, setModalOpen] = useState(false);
 
+    // Function to sort topics by rank in ascending order
+    const sortTopicsByRank = (topics: any[]) => {
+        return topics.sort((a, b) => {
+            const metaA = getTopicMeta(a.topicSlug || a);
+            const metaB = getTopicMeta(b.topicSlug || b);
+
+            const rankA = p.ranksFiltered?.[metaA.topicSlug]?.[metric] || Infinity;
+            const rankB = p.ranksFiltered?.[metaB.topicSlug]?.[metric] || Infinity;
+
+            return rankA - rankB;
+        });
+    };
+
     return (
         <div
             key={p.userId}
             className="relative bg-gray-100 dark:bg-gray-800 rounded-xl p-3 hover:bg-gray-200 dark:hover:bg-gray-700 transition"
         >
-            {/* Share icon */}
-            <button
-                onClick={() => setModalOpen(true)}
-                className="absolute top-2 right-2 bg-black/30 hover:bg-black/50 text-white p-1.5 rounded-full"
-                title="Share stats"
-            >
-                <Share2 size={14} />
-            </button>
+            {/* Buttons in top-right */}
+            <div className="absolute top-2 right-2 flex items-center gap-2">
+                {/* Share button */}
+                <button
+                    onClick={() => setModalOpen(true)}
+                    className="bg-black/30 hover:bg-black/50 text-white p-1.5 rounded-full"
+                    title="Share stats"
+                >
+                    <Share2 size={14} />
+                </button>
 
+            </div>
+
+            {/* Profile */}
             <div className="flex items-center gap-3 mb-3">
                 <img
                     src={p.avatarUrl || "/default-avatar.jpg"}
@@ -56,10 +74,12 @@ function RankingProfileCard({
                 </div>
             </div>
 
+            {/* Topics grid */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
-                {(selectedTopics.length > 0
-                    ? selectedTopics.map((s) => getTopicMeta(s))
-                    : topicsForDataset
+                {sortTopicsByRank(
+                    selectedTopics.length > 0
+                        ? selectedTopics.map((s) => getTopicMeta(s))
+                        : topicsForDataset
                 ).map((tmeta) => {
                     const r = (p as any).ranksFiltered
                         ? (p as any).ranksFiltered[tmeta.topicSlug]
@@ -91,16 +111,18 @@ function RankingProfileCard({
                 })}
             </div>
 
+            {/* Share Modal */}
             {modalOpen && (
                 <StatsShareModal
                     profile={p}
                     selectedTopics={selectedTopics}
                     topicsForDataset={topicsForDataset}
-					dataset={dataset}
+                    dataset={dataset}
                     metric={metric}
                     onClose={() => setModalOpen(false)}
                 />
             )}
+
         </div>
     );
 }

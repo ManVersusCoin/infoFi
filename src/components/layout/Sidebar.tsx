@@ -10,6 +10,7 @@ interface LinkItem {
     to?: string;
     label: string;
     icon?: any;
+    logo?: string;
     children?: LinkItem[];
 }
 
@@ -17,10 +18,17 @@ const links: LinkItem[] = [
     { to: "/", label: "Home", icon: Home },
     {
         label: "Xeet",
-        icon: undefined, // we’ll replace with logo
+        logo: "/xeet.jpg",
         children: [
             { to: "/pack-generator", label: "Fake Pack Generator", icon: IdCardLanyard },
             { to: "/xeet-leagues", label: "Leaderboards Analysis", icon: Trophy },
+        ],
+    },
+    {
+        label: "Wallchain",
+        logo: "/wallchain.jpg",
+        children: [
+            { to: "/wallchain", label: "Leaderboards Analysis", icon: Trophy },
         ],
     },
     { to: "/airdrop-card", label: "Airdrop Card generator", icon: Gift },
@@ -32,7 +40,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
     return (
         <>
             {/* === Desktop Sidebar === */}
-            <aside className="hidden md:flex flex-col w-64 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700">
+            <aside className="hidden md:flex flex-col w-64 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 text-sm">
                 <div className="flex-1 overflow-y-auto p-4">
                     <div className="flex items-center gap-3 mb-8">
                         <img
@@ -57,7 +65,13 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
                                     <div>
                                         <div className="flex items-center justify-between px-3 py-2 rounded-xl bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 font-medium cursor-default">
                                             <span>{link.label}</span>
-                                            <img src="/xeet.jpg" alt="Xeet" className="w-5 h-5 rounded-md" />
+                                            {link.logo && (
+                                                <img
+                                                    src={link.logo}
+                                                    alt={link.label}
+                                                    className="w-5 h-5 rounded-md"
+                                                />
+                                            )}
                                         </div>
                                         <div className="ml-4 mt-1 space-y-1">
                                             {link.children.map((child) => (
@@ -71,6 +85,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
                                                         }`
                                                     }
                                                 >
+                                                    {child.icon && <child.icon size={18} />}
                                                     {child.label}
                                                 </NavLink>
                                             ))}
@@ -135,7 +150,13 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
                                         <div>
                                             <div className="flex items-center justify-between px-3 py-2 rounded-xl bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 font-medium cursor-default">
                                                 <span>{link.label}</span>
-                                                <img src="/xeet.jpg" alt="Xeet" className="w-5 h-5 rounded-md" />
+                                                {link.logo && (
+                                                    <img
+                                                        src={link.logo}
+                                                        alt={link.label}
+                                                        className="w-5 h-5 rounded-md"
+                                                    />
+                                                )}
                                             </div>
                                             <div className="ml-4 mt-1 space-y-1">
                                                 {link.children.map((child) => (
@@ -150,6 +171,7 @@ export default function Sidebar({ open, setOpen }: SidebarProps) {
                                                             }`
                                                         }
                                                     >
+                                                        {child.icon && <child.icon size={18} />}
                                                         {child.label}
                                                     </NavLink>
                                                 ))}

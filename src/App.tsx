@@ -8,9 +8,9 @@ import EvmActivityVisualizerPage from "./pages/EvmActivityVisualizer";
 import WallChainLeaderboard from "./pages/WallchainLeaderboard";
 import WallChainLeaderboard from "./pages/WallchainLeaderboard";
 import XeetLeaderboard from "./pages/XeetLeaderboard";
-
+import WallChainLeaderboard from "./pages/WallchainLeaderboard";
 */
-
+import WallChainLeaderboard from "./pages/WallchainLeaderboard";
 import XeetLeagueLeaderboard from "./pages/XeetLeagueLeaderboard";
 import AirdropCardGenerator from "./pages/AirdropCardGenerator";
 import CreatorEarningsCard from "./pages/CreatorEarningsCardGenerator";
@@ -29,10 +29,11 @@ export default function App() {
                     <Route path="/airdrop-card" element={<AirdropCardGenerator />} />
                     <Route path="/earning-card" element={<CreatorEarningsCard />} />
                     <Route path="/dad-jokes" element={<CryptoDadsTalker />} />
-                    
+                    <Route path="/wallchain" element={<WallChainLeaderboard />} />
                     < Route path="/xeet-leagues" element={<XeetLeagueLeaderboard />} />
                     
                     {/*
+                        <Route path="/wallchain" element={<WallChainLeaderboard />} />
                         <Route path="/wallchain" element={<WallChainLeaderboard />} />
                     < Route path="/xeet" element={<XeetLeaderboard />} />
                         < Route path="/xeet" element={<XeetLeaderboard />} />

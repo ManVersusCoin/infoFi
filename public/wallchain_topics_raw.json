@@ -1,0 +1,298 @@
+[
+  {
+    "companyId": "spaace",
+    "companyName": "Spaace",
+    "logoUrl": "/spaace.svg",
+    "title": "Reward pool",
+    "description": "$1,000,000 $SPAACE",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Spaace_background.a73a7aa4e3244f61e7bf57af1b89b309.svg",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2025-12-04T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "warden",
+    "companyName": "Warden",
+    "logoUrl": "/warden.jpg",
+    "title": "Reward pool",
+    "description": "$900,000 $WARD",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/warden_background.33f4af6534fe03c598b6c50f5a3c0fd9.svg",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2024-12-31T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "apecoin",
+    "companyName": "Ape x OS",
+    "logoUrl": "/apecoin.png",
+    "title": "Reward pool",
+    "description": "50,000 $APE",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Apecoin_background.b38501e9cc3c2df0710a94afcbba8d18.png",
+    "countdown": {
+      "label": "Epoch ends in",
+      "endDate": "2025-11-28T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "beyond",
+    "companyName": "Beyond",
+    "logoUrl": "/beyond.jpg",
+    "title": "Reward pool",
+    "description": "4% of Supply ",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/badge-icon-url/beyond_background.56e946cb43439c47dbd37a6c41795f98.svg",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2025-12-08T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "scor",
+    "companyName": "SCOR",
+    "logoUrl": "/scor.jpg",
+    "title": "Reward pool",
+    "description": "0.5% of Supply",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/scor_background.fac883d66f05508957171968119facf0.svg",
+    "countdown": {
+      "label": "Epoch 1 ends in ",
+      "endDate": "2025-12-29T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "velvet",
+    "companyName": "Velvet",
+    "logoUrl": "/velvet.jpg",
+    "title": "Reward pool",
+    "description": "$132,000 $VELVET",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/velvet_background.7f17e993a3a132fd281e44d1e148a1b4.svg",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2025-11-23T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "analog",
+    "companyName": "Analog",
+    "logoUrl": "/analog.png",
+    "title": "Reward pool",
+    "description": "$200,000 $ANLOG",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Analog_background.4e2267d17d33b03510fef930ebfe1ce7.svg",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2025-11-19T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "klout",
+    "companyName": "KLOUT",
+    "logoUrl": "/klout.png",
+    "title": "Reward pool",
+    "description": "1% of Supply",
+    "buttonText": "Start Earning ",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/KLOUT_background.65d33bb5f9630079dc58bbfe4320a87f.svg",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2025-11-17T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "idOS",
+    "companyName": "idOS",
+    "logoUrl": "/idOS.png",
+    "title": "Reward pool",
+    "description": "1% of Supply",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/idOS_background.06d84007b94d32482b78de438fb5e11d.png",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2025-10-23T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "heyelsa",
+    "companyName": "HeyElsa",
+    "logoUrl": "/heyelsa.png",
+    "title": "Reward pool",
+    "description": "0.6% of Supply",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Heyelsa_background.5ffd09c25051ac172520cebbbb557511.png",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2025-11-30T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "limitless",
+    "companyName": "Limitless",
+    "logoUrl": "/limitless.png",
+    "title": "Reward pool",
+    "description": "0.5% $LMTS (~$1,700,000)",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Limitless_background.d75faf92b1733c9ec7f8f92577d84b22.png",
+    "countdown": {
+      "label": "Epoch II ends in",
+      "endDate": "2026-01-25T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "covalent",
+    "companyName": "Covalent",
+    "logoUrl": "/covalent.png",
+    "title": "Reward pool",
+    "description": "$200,000 $CXT",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Covalent_background.0492c916076fe640b799ae0f0b2782e1.png",
+    "countdown": {
+      "label": "Epoch III ends in",
+      "endDate": "2025-11-17T00:00:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "genome",
+    "companyName": "Genome",
+    "logoUrl": "/genome.png",
+    "title": "Reward pool",
+    "description": "2% of Supply",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Genome_background.8b02dae48da42a6b65bcddbe41ac1d32.png",
+    "countdown": null,
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "wallchain",
+    "companyName": "Wallchain",
+    "logoUrl": "/wallchain.png",
+    "title": "Reward pool",
+    "description": "To be announced",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "https://app.wallchain.xyz/external-bucket/hashed/badge-icon-url/Leaderboard.aacaa08f3c2ac116d621a60bd0d31686.png",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Wallchain_background.421d46645ef2a6abbbf82fb511acb8f9.png",
+    "countdown": null,
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "raid",
+    "companyName": "Apecoin R.A.I.D",
+    "logoUrl": "https://app.wallchain.xyz/external-bucket/hashed/logo-url/apecoin_avatar.4fdff75a4ff77d9281887a1676ceafc8.png",
+    "title": "Reward pool",
+    "description": "100,000 $APE",
+    "buttonText": "Explore",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Apecoin_background.d70839d917465b8789a8b0b4aad0c262.png",
+    "countdown": null,
+    "section": "finished",
+    "width": "half"
+  },
+  {
+    "companyId": "avantis",
+    "companyName": "Avantis",
+    "logoUrl": "https://app.wallchain.xyz/external-bucket/hashed/logo-url/avantis_avatar.5de5b651e55fbea6e27019f65595858f.png",
+    "title": "Reward pool",
+    "description": "$2,200,000 $AVNT",
+    "buttonText": "Explore",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Avantis_background.4ef8d20fb99323c64eaba289c1fdf378.png",
+    "countdown": null,
+    "section": "finished",
+    "width": "half"
+  },
+  {
+    "companyId": "socket",
+    "companyName": "SOCKET",
+    "logoUrl": "https://app.wallchain.xyz/external-bucket/hashed/logo-url/socket_avatar.74f375f96c58c2bc47a7a4694945ac77.png",
+    "title": "Overview",
+    "description": "Community Campaign",
+    "buttonText": "Explore",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Socket_background.edb0106e8f62082544280f167dcfa8e0.png",
+    "countdown": null,
+    "section": "finished",
+    "width": "half"
+  },
+  {
+    "companyId": "illiquid_nft",
+    "companyName": "ILLIQUID",
+    "logoUrl": "https://app.wallchain.xyz/external-bucket/hashed/logo-url/ILLIQUID_avatar.6647fd5abd2999b4f536f738762a81cc.png",
+    "title": "Reward pool",
+    "description": "NFT mint revenue share for Top 50 and GTD for Top 1,000",
+    "buttonText": "",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/ILLIQUID_background.78badb7e5d562fcef090c393fdffd904.png",
+    "countdown": null,
+    "section": "finished",
+    "width": "half"
+  },
+  {
+    "companyId": "apechain",
+    "companyName": "ApeChain",
+    "logoUrl": "https://app.wallchain.xyz/external-bucket/hashed/logo-url/apechain_avatar.4fdff75a4ff77d9281887a1676ceafc8.png",
+    "title": "Overview",
+    "description": "Grow your influence",
+    "buttonText": "Explore",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Apechain_background.b38501e9cc3c2df0710a94afcbba8d18.png",
+    "countdown": null,
+    "section": "community_build_opportunities",
+    "width": "half"
+  },
+  {
+    "companyId": "solana",
+    "companyName": "Solana",
+    "logoUrl": "https://app.wallchain.xyz/external-bucket/hashed/logo-url/solana_avatar.52ef9007ab70b22f37c5185f59a43281.png",
+    "title": "Overview",
+    "description": "Grow your influence",
+    "buttonText": "Explore",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Solana_background.e3dd74eb60368f6aa31914a7383f49bd.png",
+    "countdown": null,
+    "section": "community_build_opportunities",
+    "width": "half"
+  }
+]

@@ -44,11 +44,12 @@ export default function StatsShareModal({
     // ------------------------------
     // Fetch Xeet data
     // ------------------------------
+    {/* }
     useEffect(() => {
         const fetchXeetData = async () => {
             setLoadingXeet(true);
             try {
-                const res = await fetch(`/api/xeet/${profile.handle}`);
+                const res = await fetch(`/api/xeet/user/handle/${profile.handle}`);
                 if (!res.ok) throw new Error("Failed to fetch Xeet data");
                 const json = await res.json();
                 setXeetData(json.data);
@@ -61,7 +62,7 @@ export default function StatsShareModal({
         };
         fetchXeetData();
     }, [profile.handle]);
-
+    */}
     // ------------------------------
     // Copy / Download handlers
     // ------------------------------
@@ -149,6 +150,7 @@ export default function StatsShareModal({
                 >
                     {/* Xeet + logo */}
                     <div className="absolute top-4 right-4 flex items-center gap-3">
+                        {/* }
                         {loadingXeet ? (
                             <div className="animate-pulse bg-white/20 rounded px-2 py-1 w-20 h-10" />
                         ) : (
@@ -156,14 +158,16 @@ export default function StatsShareModal({
                                 <span className="text-pink-400 font-bold text-lg">
                                     {xeetData?.xeetEarned?.toLocaleString()} Xeets
                                 </span>
-                                <span className="text-white/80 text-xs">{metricLabel()}</span>
+                                
                             </div>
                         )}
+                        */}
                         <img
                             src="/xeet.jpg"
                             alt="Xeet"
                             className="w-12 h-12 rounded-md border border-white/20 shadow-md"
                         />
+                        <span className="text-white/80 text-xs">{metricLabel()}</span>
                     </div>
 
                     {/* Top: Profile info */}
