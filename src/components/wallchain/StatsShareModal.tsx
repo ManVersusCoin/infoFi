@@ -169,7 +169,13 @@ export default function StatsShareModal({
                                     className="flex items-center gap-2 bg-gray-50 dark:bg-gray-900 px-2 py-1 rounded-md"
                                 >
                                     <img
-                                        src={tmeta.logoUrl || "/default-avatar.jpg"}
+                                        src={
+                                            tmeta.logoUrl
+                                                ? /\.png$|\.jpg$/i.test(tmeta.logoUrl)
+                                                    ? tmeta.logoUrl
+                                                    : `/${tmeta.topicSlug}.png`
+                                                : "/default-avatar.jpg"
+                                        }
                                         alt={tmeta.title}
                                         className="w-4 h-4 rounded-full border"
                                     />
