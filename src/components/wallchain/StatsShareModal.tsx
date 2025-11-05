@@ -26,6 +26,7 @@ export default function StatsShareModal({
     onClose,
 }: StatsShareModalProps) {
     const cardRef = useRef<HTMLDivElement>(null);
+
     const [toasts, setToasts] = useState<Toast[]>([]);
 
     // ------------------------------
@@ -45,27 +46,11 @@ export default function StatsShareModal({
     const handleCopyImage = async () => {
         if (!cardRef.current) return;
         try {
-            // Ensure the card is visible and rendered
-            const originalDisplay = cardRef.current.style.display;
-            cardRef.current.style.display = 'block';
-
-            const blob = await domtoimage.toBlob(cardRef.current, {
-                width: cardRef.current.offsetWidth * 2,
-                height: cardRef.current.offsetHeight * 2,
-                style: {
-                    transform: 'scale(2)',
-                    transformOrigin: 'top left'
-                }
-            });
-
-            // Restore original display
-            cardRef.current.style.display = originalDisplay;
-
+            const blob = await domtoimage.toBlob(cardRef.current);
             const item = new ClipboardItem({ "image/png": blob });
             await navigator.clipboard.write([item]);
             addToast("Image copied to clipboard!", "success");
-        } catch (err) {
-            console.error("Copy error:", err);
+        } catch {
             addToast("Failed to copy image", "error");
         }
     };
@@ -73,33 +58,15 @@ export default function StatsShareModal({
     const handleDownloadImage = async () => {
         if (!cardRef.current) return;
         try {
-            // Ensure the card is visible and rendered
-            const originalDisplay = cardRef.current.style.display;
-            cardRef.current.style.display = 'block';
-
-            const blob = await domtoimage.toBlob(cardRef.current, {
-                width: cardRef.current.offsetWidth * 2,
-                height: cardRef.current.offsetHeight * 2,
-                style: {
-                    transform: 'scale(2)',
-                    transformOrigin: 'top left'
-                }
-            });
-
-            // Restore original display
-            cardRef.current.style.display = originalDisplay;
-
+            const blob = await domtoimage.toBlob(cardRef.current);
             const url = URL.createObjectURL(blob);
             const a = document.createElement("a");
             a.href = url;
-            a.download = `${profile.handle}_stats.png`;
-            document.body.appendChild(a);
+            a.download = `${profile.handle}_wallchain_stats.png`;
             a.click();
-            document.body.removeChild(a);
             URL.revokeObjectURL(url);
             addToast("Image downloaded!", "success");
-        } catch (err) {
-            console.error("Download error:", err);
+        } catch {
             addToast("Failed to download image", "error");
         }
     };
@@ -110,7 +77,7 @@ export default function StatsShareModal({
             : topicsForDataset;
 
     const metricLabel = () => {
-        if (dataset === "tournament") return "Tournament ranks";
+        if (dataset === "tournament") return "Current Epoch ranks";
         if (dataset === "7d") {
             if (metric === "rankTotal") return "7D Total ranks";
             if (metric === "rankSignal") return "7D Signal ranks";
@@ -173,12 +140,13 @@ export default function StatsShareModal({
                 >
                     {/* Wallchain + logo */}
                     <div className="absolute top-4 right-4 flex items-center gap-3">
+                        <span className="text-white/80 text-xs">{metricLabel()}</span>
                         <img
                             src="/wallchain.jpg"
                             alt="Wallchain"
                             className="w-12 h-12 rounded-md border border-white/20 shadow-md"
                         />
-                        <span className="text-white/80 text-xs">{metricLabel()}</span>
+                        
                     </div>
 
                     {/* Top: Profile info */}
