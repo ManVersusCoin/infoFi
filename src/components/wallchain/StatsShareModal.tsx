@@ -173,7 +173,7 @@ export default function StatsShareModal({
                                             tmeta.logoUrl
                                                 ? /\.png$|\.jpg$/i.test(tmeta.logoUrl)
                                                     ? tmeta.logoUrl
-                                                    : `/${tmeta.topicSlug}.png`
+                                                    : `/${tmeta.topicSlug}.jpg`
                                                 : "/default-avatar.jpg"
                                         }
                                         alt={tmeta.title}
