@@ -1,4 +1,4 @@
-﻿import { useRef, useState, useEffect } from "react";
+﻿import { useRef, useState } from "react";
 import domtoimage from "dom-to-image";
 import { X, Copy, Download } from "lucide-react";
 
@@ -26,8 +26,7 @@ export default function StatsShareModal({
     onClose,
 }: StatsShareModalProps) {
     const cardRef = useRef<HTMLDivElement>(null);
-    const [xeetData, setXeetData] = useState<any>(null);
-    const [loadingXeet, setLoadingXeet] = useState(true);
+    
     const [toasts, setToasts] = useState<Toast[]>([]);
 
     // ------------------------------
@@ -41,28 +40,7 @@ export default function StatsShareModal({
         }, 3000);
     };
 
-    // ------------------------------
-    // Fetch Xeet data
-    // ------------------------------
-    {/* }
-    useEffect(() => {
-        const fetchXeetData = async () => {
-            setLoadingXeet(true);
-            try {
-                const res = await fetch(`/api/xeet/user/handle/${profile.handle}`);
-                if (!res.ok) throw new Error("Failed to fetch Xeet data");
-                const json = await res.json();
-                setXeetData(json.data);
-            } catch (err) {
-                console.error("Failed to fetch Xeet data:", err);
-                addToast("Failed to load Xeet data", "error");
-            } finally {
-                setLoadingXeet(false);
-            }
-        };
-        fetchXeetData();
-    }, [profile.handle]);
-    */}
+    
     // ------------------------------
     // Copy / Download handlers
     // ------------------------------
@@ -150,18 +128,7 @@ export default function StatsShareModal({
                 >
                     {/* Xeet + logo */}
                     <div className="absolute top-4 right-4 flex items-center gap-3">
-                        {/* }
-                        {loadingXeet ? (
-                            <div className="animate-pulse bg-white/20 rounded px-2 py-1 w-20 h-10" />
-                        ) : (
-                            <div className="flex flex-col items-end bg-black/40 px-3 py-1 rounded-md">
-                                <span className="text-pink-400 font-bold text-lg">
-                                    {xeetData?.xeetEarned?.toLocaleString()} Xeets
-                                </span>
-                                
-                            </div>
-                        )}
-                        */}
+                        
                         <img
                             src="/xeet.jpg"
                             alt="Xeet"
@@ -180,16 +147,7 @@ export default function StatsShareModal({
                         <div>
                             <h2 className="text-lg font-semibold">{profile.name}</h2>
                             <p className="text-sm text-blue-400">@{profile.handle}</p>
-                            {/* Followers */}
-                            {xeetData && (
-                                <p className="text-xs text-white/80">
-                                    {xeetData.followerCount.toLocaleString(undefined, {
-                                        notation: "compact",
-                                        maximumFractionDigits: 1,
-                                    })}{" "}
-                                    followers
-                                </p>
-                            )}
+                            
                         </div>
                     </div>
 

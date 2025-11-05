@@ -53,9 +53,9 @@ export default function LeagueLeaderboards(): JSX.Element {
     const [topicCountFilter, setTopicCountFilter] = useState<number | null>(null);
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 30;
-    const [viewMode, setViewMode] = useState<"cards" | "table">("cards");
+    const viewMode = "cards";
     const [sortConfig, setSortConfig] = useState<{ slug: string; metric: string; direction: "asc" | "desc" } | null>(null);
-
+    const [generationDate, setGenerationDate] = useState<Date | null>(null);
     // load once
     useEffect(() => {
         const load = async () => {
@@ -67,8 +67,10 @@ export default function LeagueLeaderboards(): JSX.Element {
                 ]);
 
                 if (!gRes.ok) throw new Error("Failed to fetch /xeet_global/latest.json");
-                const gjson: GlobalProfile[] = await gRes.json();
-                setGlobalProfiles(gjson || []);
+                const gjson = await gRes.json();
+                const profiles: GlobalProfile[] = Array.isArray(gjson.profiles) ? gjson.profiles : [];
+                setGlobalProfiles(profiles);
+                setGenerationDate(gjson.generationDate || null);
 
                 if (tRes && tRes.ok) {
                     const tjson = await tRes.json();
@@ -429,18 +431,42 @@ export default function LeagueLeaderboards(): JSX.Element {
 
     return (
         <div className="space-y-6 text-gray-900 dark:text-gray-100">
-            {/* Summary */}
-            <div className="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 flex flex-wrap items-center justify-between gap-2">
-                <div className="text-sm"><strong className="text-lg">{filteredProfilesCount}</strong> profiles</div>
-                <div className="text-sm"><strong className="text-lg">{topicsForDataset.length}</strong> active topics</div>
-                <div className="text-sm"><strong className="text-lg">{leaderboardCount}</strong> leaderboard entries (Top {topLimit})</div>
-                <div className="ml-auto flex items-center gap-2">
-                    <label className="text-sm">View:</label>
-                    <button onClick={() => setViewMode("cards")} className={`px-2 py-1 rounded ${viewMode === "cards" ? "bg-blue-600 text-white" : "bg-gray-100 dark:bg-gray-800"}`}>Cards</button>
-                    <button onClick={() => setViewMode("table")} className={`px-2 py-1 rounded ${viewMode === "table" ? "bg-blue-600 text-white" : "bg-gray-100 dark:bg-gray-800"}`} disabled={selectedTopics.length !== 1}>Table</button>
+            
+            {/* Header summary */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div className="bg-gray-500 dark:bg-gray-800 rounded-xl p-4 shadow-md flex items-center">
+                    <div className="flex-shrink-0 mr-4">
+                        <img
+                            src="/xeet.jpg"
+                            alt="Xeet Logo"
+                            className="w-12 h-12"
+                        />
+                    </div>
+                    <div className="flex flex-col">
+                        <div className="text-white text-lg font-bold">Xeet</div>
+                        <a
+                            href="https://www.xeet.ai/refer/man_versus_coin" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-white text-xs underline mt-1"
+                        >
+                            Register now
+                        </a>
+                    </div>
+                </div>
+                <div className="bg-blue-500 dark:bg-blue-800 rounded-xl p-4 shadow-md">
+                    <div className="text-white text-sm font-medium">Profiles Analyzed</div>
+                    <div className="text-white text-2xl font-bold">{filteredProfilesCount}</div>
+                </div>
+                <div className="bg-green-500 dark:bg-green-800 rounded-xl p-4 shadow-md">
+                    <div className="text-white text-sm font-medium">Active Topics</div>
+                    <div className="text-white text-2xl font-bold">{topicsForDataset.length}</div>
+                </div>
+                <div className="bg-purple-500 dark:bg-purple-800 rounded-xl p-4 shadow-md flex flex-col justify-between">
+                    <div className="text-white text-sm font-medium">Leaderboard Entries</div>
+                    <div className="text-white text-2xl font-bold">{leaderboardCount}</div>
                 </div>
             </div>
-
             {/* Controls */}
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
                 <div className="flex flex-wrap items-center gap-3">
@@ -502,8 +528,12 @@ export default function LeagueLeaderboards(): JSX.Element {
                     <div className="flex items-center gap-3 w-full md:w-auto">
                         <input value={profileSearch} onChange={(e) => { setProfileSearch(e.target.value); setCurrentPage(1); }} placeholder="Search profiles..." className="px-3 py-2 rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 w-full md:w-64" />
                     </div>
+                    
                 </div>
-
+                {/* Last generation date */}
+                <div className="text-sm text-gray-500 dark:text-gray-400">
+                    Last updated: {generationDate ? new Date(generationDate).toLocaleString() : 'N/A'}
+                </div>
                 
             </div>
 

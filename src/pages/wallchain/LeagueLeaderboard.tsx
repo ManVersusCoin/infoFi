@@ -51,7 +51,7 @@ export default function LeagueLeaderboard(): JSX.Element {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 30;
     const [sortConfig, setSortConfig] = useState<{ slug: string; direction: "asc" | "desc" } | null>(null);
-    const [viewMode, setViewMode] = useState<"cards" | "table">("cards");
+    const viewMode = "cards";
     const [topicCountFilter, setTopicCountFilter] = useState<number | null>(null);
     const [generationDate, setGenerationDate] = useState<Date | null>(null);
     // Load Wallchain data
@@ -68,7 +68,7 @@ export default function LeagueLeaderboard(): JSX.Element {
                 const gjson = await gRes.json();
                 const profiles: GlobalProfile[] = Array.isArray(gjson.profiles) ? gjson.profiles : [];
                 setGlobalProfiles(profiles);
-                setGenerationDate(typeof gjson.generationDate === "string" ? gjson.generationDate : null);
+                setGenerationDate(gjson.generationDate || null);
                 if (tRes && tRes.ok) {
                     const tjson = await tRes.json();
                     const metas: TopicMeta[] = (Array.isArray(tjson) ? tjson : []).map((t: any) => ({
@@ -87,13 +87,13 @@ export default function LeagueLeaderboard(): JSX.Element {
                 } else {
                     // fallback if topic file missing
                     const uniq = new Map<string, TopicMeta>();
-                    gjson.forEach((p) =>
-                        p.topics.forEach((te) => {
+                    gjson.forEach((p: GlobalProfile) => {
+                        p.topics.forEach((te: TopicEntry) => {
                             if (!uniq.has(te.topicSlug)) {
                                 uniq.set(te.topicSlug, { topicSlug: te.topicSlug, title: te.topicSlug });
                             }
-                        })
-                    );
+                        });
+                    });
                     setTopicMetas(Array.from(uniq.values()));
                 }
             } catch (err) {
@@ -126,7 +126,7 @@ export default function LeagueLeaderboard(): JSX.Element {
                 };
             }
             return {
-                userId: p.userId,
+                userId: p.handle,
                 handle: p.handle,
                 name: p.name,
                 avatarUrl: p.avatarUrl,
@@ -269,7 +269,7 @@ export default function LeagueLeaderboard(): JSX.Element {
         <div className="space-y-6 text-gray-900 dark:text-gray-100">
             {/* Header summary */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-                <div className="bg-grey-500 dark:bg-grey-800 rounded-xl p-4 shadow-md flex items-center">
+                <div className="bg-gray-500 dark:bg-gray-800 rounded-xl p-4 shadow-md flex items-center">
                     <div className="flex-shrink-0 mr-4">
                         <img
                             src="/wallchain.jpg" // Replace with the actual path to your logo
@@ -412,7 +412,7 @@ export default function LeagueLeaderboard(): JSX.Element {
                 </div>
                 {/* Last generation date */}
                 <div className="text-sm text-gray-500 dark:text-gray-400">
-                    Last updated: {globalProfiles.length > 0 ? new Date(generationDate).toLocaleString() : 'N/A'}
+                    Last updated: {generationDate ? new Date(generationDate).toLocaleString() : 'N/A'}
                 </div>
             </div>
 
