@@ -26,7 +26,6 @@ export default function StatsShareModal({
     onClose,
 }: StatsShareModalProps) {
     const cardRef = useRef<HTMLDivElement>(null);
-
     const [toasts, setToasts] = useState<Toast[]>([]);
 
     // ------------------------------
@@ -40,18 +39,33 @@ export default function StatsShareModal({
         }, 3000);
     };
 
-
     // ------------------------------
     // Copy / Download handlers
     // ------------------------------
     const handleCopyImage = async () => {
         if (!cardRef.current) return;
         try {
-            const blob = await domtoimage.toBlob(cardRef.current);
+            // Ensure the card is visible and rendered
+            const originalDisplay = cardRef.current.style.display;
+            cardRef.current.style.display = 'block';
+
+            const blob = await domtoimage.toBlob(cardRef.current, {
+                width: cardRef.current.offsetWidth * 2,
+                height: cardRef.current.offsetHeight * 2,
+                style: {
+                    transform: 'scale(2)',
+                    transformOrigin: 'top left'
+                }
+            });
+
+            // Restore original display
+            cardRef.current.style.display = originalDisplay;
+
             const item = new ClipboardItem({ "image/png": blob });
             await navigator.clipboard.write([item]);
             addToast("Image copied to clipboard!", "success");
-        } catch {
+        } catch (err) {
+            console.error("Copy error:", err);
             addToast("Failed to copy image", "error");
         }
     };
@@ -59,15 +73,33 @@ export default function StatsShareModal({
     const handleDownloadImage = async () => {
         if (!cardRef.current) return;
         try {
-            const blob = await domtoimage.toBlob(cardRef.current);
+            // Ensure the card is visible and rendered
+            const originalDisplay = cardRef.current.style.display;
+            cardRef.current.style.display = 'block';
+
+            const blob = await domtoimage.toBlob(cardRef.current, {
+                width: cardRef.current.offsetWidth * 2,
+                height: cardRef.current.offsetHeight * 2,
+                style: {
+                    transform: 'scale(2)',
+                    transformOrigin: 'top left'
+                }
+            });
+
+            // Restore original display
+            cardRef.current.style.display = originalDisplay;
+
             const url = URL.createObjectURL(blob);
             const a = document.createElement("a");
             a.href = url;
             a.download = `${profile.handle}_stats.png`;
+            document.body.appendChild(a);
             a.click();
+            document.body.removeChild(a);
             URL.revokeObjectURL(url);
             addToast("Image downloaded!", "success");
-        } catch {
+        } catch (err) {
+            console.error("Download error:", err);
             addToast("Failed to download image", "error");
         }
     };
@@ -89,6 +121,19 @@ export default function StatsShareModal({
             if (metric === "rankSignal") return "30D Signal ranks";
             if (metric === "rankNoise") return "30D Noise ranks";
         }
+    };
+
+    // Helper function to get logo URL
+    const getLogoUrl = (tmeta: any) => {
+        if (!tmeta.logoUrl) return "/default-avatar.jpg";
+
+        // Check if URL ends with .png or .jpg (case insensitive)
+        if (/\.(png|jpg)$/i.test(tmeta.logoUrl)) {
+            return tmeta.logoUrl;
+        }
+
+        // Fallback to topicSlug.png
+        return `/${tmeta.topicSlug}.jpg`;
     };
 
     return (
@@ -128,7 +173,6 @@ export default function StatsShareModal({
                 >
                     {/* Wallchain + logo */}
                     <div className="absolute top-4 right-4 flex items-center gap-3">
-
                         <img
                             src="/wallchain.jpg"
                             alt="Wallchain"
@@ -147,7 +191,6 @@ export default function StatsShareModal({
                         <div>
                             <h2 className="text-lg font-semibold">{profile.name}</h2>
                             <p className="text-sm text-blue-400">@{profile.handle}</p>
-
                         </div>
                     </div>
 
@@ -169,15 +212,13 @@ export default function StatsShareModal({
                                     className="flex items-center gap-2 bg-gray-50 dark:bg-gray-900 px-2 py-1 rounded-md"
                                 >
                                     <img
-                                        src={
-                                            tmeta.logoUrl
-                                                ? /\.png$|\.jpg$/i.test(tmeta.logoUrl)
-                                                    ? tmeta.logoUrl
-                                                    : `/${tmeta.topicSlug}.jpg`
-                                                : "/default-avatar.jpg"
-                                        }
+                                        src={getLogoUrl(tmeta)}
                                         alt={tmeta.title}
                                         className="w-4 h-4 rounded-full border"
+                                        onError={(e) => {
+                                            const target = e.target as HTMLImageElement;
+                                            target.src = "/default-avatar.jpg";
+                                        }}
                                     />
                                     <span className="truncate">{tmeta.title}</span>
                                     <span className="ml-auto text-yellow-400 font-semibold">#{display}</span>
