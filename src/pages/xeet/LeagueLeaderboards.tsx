@@ -88,8 +88,8 @@ export default function LeagueLeaderboards(): JSX.Element {
                 } else {
                     // Build topic metas from globalProfiles if topics_raw not available
                     const uniq = new Map<string, TopicMeta>();
-                    gjson.forEach((p) =>
-                        p.topics.forEach((te) => {
+                    gjson.forEach((p: GlobalProfile) =>
+                        p.topics.forEach((te: TopicEntry) => {
                             if (!uniq.has(te.topicSlug)) {
                                 uniq.set(te.topicSlug, { topicSlug: te.topicSlug, title: te.topicSlug, logoUrl: undefined });
                             }
