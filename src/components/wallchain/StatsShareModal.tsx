@@ -1,6 +1,12 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import domtoimage from "dom-to-image";
 import { X, Copy, Download } from "lucide-react";
+
+interface Toast {
+    id: number;
+    message: string;
+    type: "success" | "error";
+}
 
 interface StatsShareModalProps {
     profile: any;
@@ -21,22 +27,49 @@ export default function StatsShareModal({
 }: StatsShareModalProps) {
     const cardRef = useRef<HTMLDivElement>(null);
 
+    const [toasts, setToasts] = useState<Toast[]>([]);
+
+    // ------------------------------
+    // Toast helpers
+    // ------------------------------
+    const addToast = (message: string, type: "success" | "error") => {
+        const id = Date.now();
+        setToasts((prev) => [...prev, { id, message, type }]);
+        setTimeout(() => {
+            setToasts((prev) => prev.filter((t) => t.id !== id));
+        }, 3000);
+    };
+
+
+    // ------------------------------
+    // Copy / Download handlers
+    // ------------------------------
     const handleCopyImage = async () => {
         if (!cardRef.current) return;
-        const blob = await domtoimage.toBlob(cardRef.current);
-        const item = new ClipboardItem({ "image/png": blob });
-        await navigator.clipboard.write([item]);
+        try {
+            const blob = await domtoimage.toBlob(cardRef.current);
+            const item = new ClipboardItem({ "image/png": blob });
+            await navigator.clipboard.write([item]);
+            addToast("Image copied to clipboard!", "success");
+        } catch {
+            addToast("Failed to copy image", "error");
+        }
     };
 
     const handleDownloadImage = async () => {
         if (!cardRef.current) return;
-        const blob = await domtoimage.toBlob(cardRef.current);
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = `${profile.handle}_stats.png`;
-        a.click();
-        URL.revokeObjectURL(url);
+        try {
+            const blob = await domtoimage.toBlob(cardRef.current);
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = `${profile.handle}_stats.png`;
+            a.click();
+            URL.revokeObjectURL(url);
+            addToast("Image downloaded!", "success");
+        } catch {
+            addToast("Failed to download image", "error");
+        }
     };
 
     const displayedTopics =
@@ -45,19 +78,17 @@ export default function StatsShareModal({
             : topicsForDataset;
 
     const metricLabel = () => {
-        if (dataset === "tournament") return "Current Epoch ranks";
-        else if (dataset === "7d") {
+        if (dataset === "tournament") return "Tournament ranks";
+        if (dataset === "7d") {
             if (metric === "rankTotal") return "7D Total ranks";
             if (metric === "rankSignal") return "7D Signal ranks";
             if (metric === "rankNoise") return "7D Noise ranks";
-            
-        } else if (dataset === "30d") {
+        }
+        if (dataset === "30d") {
             if (metric === "rankTotal") return "30D Total ranks";
             if (metric === "rankSignal") return "30D Signal ranks";
-            if (metric === "rankNoise") return "730DD Noise ranks";
-            
+            if (metric === "rankNoise") return "30D Noise ranks";
         }
-        
     };
 
     return (
@@ -65,6 +96,19 @@ export default function StatsShareModal({
             className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4"
             onClick={onClose}
         >
+            {/* Toasts */}
+            <div className="absolute top-4 right-4 flex flex-col gap-2 z-50">
+                {toasts.map((t) => (
+                    <div
+                        key={t.id}
+                        className={`px-4 py-2 rounded shadow font-semibold text-sm ${t.type === "success" ? "bg-green-500 text-white" : "bg-red-500 text-white"
+                            }`}
+                    >
+                        {t.message}
+                    </div>
+                ))}
+            </div>
+
             <div
                 className="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 rounded-2xl shadow-2xl p-6 w-full max-w-2xl relative"
                 onClick={(e) => e.stopPropagation()}
@@ -77,22 +121,23 @@ export default function StatsShareModal({
                     <X size={20} />
                 </button>
 
-                {/* Card preview area */}
+                {/* Card preview */}
                 <div
                     ref={cardRef}
                     className="relative bg-gradient-to-r from-gray-900 to-gray-700 text-white rounded-xl p-6 flex flex-col justify-between min-h-[400px] w-full"
                 >
-                    {/* Xeet logo top-right */}
-                    <div className="absolute top-4 right-4 flex flex-col items-end text-xs">
+                    {/* Wallchain + logo */}
+                    <div className="absolute top-4 right-4 flex items-center gap-3">
+
                         <img
                             src="/wallchain.jpg"
                             alt="Wallchain"
-                            className="w-12 h-12 mb-1 rounded-md border border-white/20 shadow-md"
+                            className="w-12 h-12 rounded-md border border-white/20 shadow-md"
                         />
-                        <span className="text-white/80">{metricLabel()}</span>
+                        <span className="text-white/80 text-xs">{metricLabel()}</span>
                     </div>
 
-                    {/* Top: Profile Info */}
+                    {/* Top: Profile info */}
                     <div className="flex items-center gap-4">
                         <img
                             src={profile.avatarUrl || "/default-avatar.jpg"}
@@ -102,6 +147,7 @@ export default function StatsShareModal({
                         <div>
                             <h2 className="text-lg font-semibold">{profile.name}</h2>
                             <p className="text-sm text-blue-400">@{profile.handle}</p>
+
                         </div>
                     </div>
 
@@ -120,45 +166,30 @@ export default function StatsShareModal({
                             return (
                                 <div
                                     key={tmeta.topicSlug}
-                                    className="flex items-center gap-2  bg-gray-50 dark:bg-gray-900 px-2 py-1 rounded-md"
+                                    className="flex items-center gap-2 bg-gray-50 dark:bg-gray-900 px-2 py-1 rounded-md"
                                 >
-                                    {/*<img
+                                    <img
                                         src={tmeta.logoUrl || "/default-avatar.jpg"}
                                         alt={tmeta.title}
                                         className="w-4 h-4 rounded-full border"
                                     />
-                                    <img
-                                        src={`/api/proxy-image?url=${encodeURIComponent(tmeta.logoUrl)}`}
-                                        alt={tmeta.title}
-                                        className="w-4 h-4 rounded-full border"
-                                    />
-                                    */
-                                    }
-                                    <img
-                                        src={`${tmeta.logoUrl}`}
-                                        alt={tmeta.title}
-                                        className="w-4 h-4 rounded-full border"
-                                    />
                                     <span className="truncate">{tmeta.title}</span>
-                                    <span className="ml-auto text-yellow-400 font-semibold">
-                                        #{display}
-                                    </span>
+                                    <span className="ml-auto text-yellow-400 font-semibold">#{display}</span>
                                 </div>
                             );
                         })}
                     </div>
 
-                    {/* Bottom: Disclaimer + generation date */}
-                    <div className="w-full flex justify-between items-center text-xs text-white/80">
-                        <span className="pl-2">
+                    {/* Bottom - Responsive footer */}
+                    <div className="w-full flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0 text-[11px] sm:text-xs text-white/70 mt-auto pt-2 border-t border-white/10">
+                        <span className="pl-1 sm:pl-2">
                             {new Date(profile.generatedAt || Date.now()).toLocaleDateString("en-US")}
                         </span>
-                        <span className="pr-3">
-                            For fun and informational purposes only / not affiliated with the official Wallchain project
+                        <span className="text-center sm:text-right px-2 sm:px-3 leading-snug max-w-[90%] sm:max-w-none">
+                            For fun and informational purposes only<br className="sm:hidden" /> / not affiliated with the official Wallchain project
                         </span>
                     </div>
                 </div>
-
 
                 {/* Actions */}
                 <div className="flex justify-end gap-3 mt-6">
