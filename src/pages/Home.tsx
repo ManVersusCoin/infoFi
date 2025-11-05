@@ -21,6 +21,15 @@ const features: FeatureCardProps[] = [
         isNew: true,
     },
     {
+        title: "Wallchain Analysis",
+        description:
+            "Dive into advanced analytics for Wallchain data, with campaigns and signal breakdowns.",
+        image: "/images/wallchain.jpg",
+        link: "/wallchain",
+        active: true,
+        isNew: true,
+    },
+    {
         title: "Xeet Pack Generator",
         description:
             "Select your favorite profiles and generate a fake shareable Xeet collector cards.",
@@ -54,18 +63,10 @@ const features: FeatureCardProps[] = [
         image: "/images/earning-card.png",
         link: "/earning-card",
         active: true,
-        isNew: true,
+        isNew: false,
     },
     
     
-    
-    {
-        title: "Wallchain Analysis",
-        description:
-            "Dive into advanced analytics for Wallchain data, with campaigns and signal breakdowns.",
-        image: "/images/wallchain.jpg",
-        active: false, 
-    },
     
 ];
 
@@ -73,13 +74,13 @@ export default function Home() {
     return (
         <div className="min-h-screen bg-gray-100 dark:bg-gray-900 p-8">
             <div className="max-w-6xl mx-auto">
-                {/* Titre principal */}
+                
                 <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-10 text-center">
                     Discover some useless tools for {" "}
                     <span className="text-blue-500">Web3</span>
                 </h1>
 
-                {/* Grille de cartes */}
+                
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {features.map((feature, idx) => {
                         const CardWrapper = feature.active ? "a" : "div";
@@ -94,14 +95,14 @@ export default function Home() {
                                     !feature.active && "opacity-70 grayscale"
                                 )}
                             >
-                                {/* Si la carte est active → lien cliquable */}
+                                
                                 <CardWrapper
                                     {...(feature.active
                                         ? { href: feature.link }
                                         : { "aria-disabled": true })}
                                     className="block w-full h-full"
                                 >
-                                    {/* Image */}
+                                
                                     <div className="relative h-40 bg-gray-200 dark:bg-gray-700">
                                         <img
                                             src={feature.image}
@@ -126,7 +127,7 @@ export default function Home() {
                                         )}
                                     </div>
 
-                                    {/* Contenu */}
+                                
                                     <div className="p-5">
                                         <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                                             {feature.title}
