@@ -95,7 +95,7 @@ export default function StatsShareModal({
         if (!tmeta.logoUrl) return "/default-avatar.jpg";
 
         // Check if URL ends with .png or .jpg (case insensitive)
-        if (/\.(png|jpg)$/i.test(tmeta.logoUrl)) {
+        if (/\.(png|jpg|svg)$/i.test(tmeta.logoUrl)) {
             return tmeta.logoUrl;
         }
 
