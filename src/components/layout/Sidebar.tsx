@@ -20,8 +20,8 @@ const links: LinkItem[] = [
         label: "Xeet",
         logo: "/xeet.jpg",
         children: [
-            { to: "/pack-generator", label: "Fake Pack Generator", icon: IdCardLanyard },
             { to: "/xeet-leagues", label: "Leaderboards Analysis", icon: Trophy },
+            { to: "/pack-generator", label: "Fake Pack Generator", icon: IdCardLanyard },
         ],
     },
     {
@@ -29,6 +29,7 @@ const links: LinkItem[] = [
         logo: "/wallchain.jpg",
         children: [
             { to: "/wallchain", label: "Leaderboards Analysis", icon: Trophy },
+            { to: "/wallchain-index", label: "Organic Index", icon: IdCardLanyard },
         ],
     },
     { to: "/airdrop-card", label: "Airdrop Card generator", icon: Gift },

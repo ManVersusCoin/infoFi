@@ -9,6 +9,11 @@ import WallChainLeaderboard from "./pages/WallchainLeaderboard";
 import WallChainLeaderboard from "./pages/WallchainLeaderboard";
 import XeetLeaderboard from "./pages/XeetLeaderboard";
 import WallChainLeaderboard from "./pages/WallchainLeaderboard";
+import CrossPlatform from "./pages/CrossPlatform"; 
+import IncoherencesTable from "./pages/infofi/IncoherencesTable"; 
+import FilteredProfilesPage from "./pages/wallchain/FilteredProfilesPage";
+import ConsoleSimulator from "./pages/ConsoleSimulator";
+import NFTRoundUpPage from "./pages/NFTRoundup";
 */
 import WallChainLeaderboard from "./pages/WallchainLeaderboard";
 import XeetLeagueLeaderboard from "./pages/XeetLeagueLeaderboard";
@@ -17,6 +22,7 @@ import CreatorEarningsCard from "./pages/CreatorEarningsCardGenerator";
 import XeetPackGeneratorPage from "./pages/xeet/XeetPackGenerator";
 import CryptoDadsTalker from "./pages/CryptoDadsTalker";
 
+import FarmingIndex from "./pages/wallchain/FarmingIndex";
 import "./index.css";
 
 export default function App() {
@@ -31,8 +37,14 @@ export default function App() {
                     <Route path="/dad-jokes" element={<CryptoDadsTalker />} />
                     <Route path="/wallchain" element={<WallChainLeaderboard />} />
                     < Route path="/xeet-leagues" element={<XeetLeagueLeaderboard />} />
+                    < Route path="/wallchain-index" element={<FarmingIndex />} />
                     
                     {/*
+                         < Route path="/comparison" element={<CrossPlatform />} />
+                    < Route path="/incoherences" element={<IncoherencesTable />} />
+                    < Route path="/console-simulator" element={<ConsoleSimulator />} />
+                    < Route path="/wallchain-filter" element={<FilteredProfilesPage />} />
+                    < Route path="/nft-roundup" element={<NFTRoundUpPage />} />
                         <Route path="/wallchain" element={<WallChainLeaderboard />} />
                         <Route path="/wallchain" element={<WallChainLeaderboard />} />
                     < Route path="/xeet" element={<XeetLeaderboard />} />
