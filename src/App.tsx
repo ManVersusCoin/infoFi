@@ -13,7 +13,7 @@ import CrossPlatform from "./pages/CrossPlatform";
 import IncoherencesTable from "./pages/infofi/IncoherencesTable"; 
 import FilteredProfilesPage from "./pages/wallchain/FilteredProfilesPage";
 import ConsoleSimulator from "./pages/ConsoleSimulator";
-import NFTRoundUpPage from "./pages/NFTRoundup";
+
 */
 import WallChainLeaderboard from "./pages/WallchainLeaderboard";
 import XeetLeagueLeaderboard from "./pages/XeetLeagueLeaderboard";
@@ -21,8 +21,8 @@ import AirdropCardGenerator from "./pages/AirdropCardGenerator";
 import CreatorEarningsCard from "./pages/CreatorEarningsCardGenerator";
 import XeetPackGeneratorPage from "./pages/xeet/XeetPackGenerator";
 import CryptoDadsTalker from "./pages/CryptoDadsTalker";
-
 import FarmingIndex from "./pages/wallchain/FarmingIndex";
+import NFTRoundUpPage from "./pages/NFTRoundup";
 import "./index.css";
 
 export default function App() {
@@ -38,6 +38,7 @@ export default function App() {
                     <Route path="/wallchain" element={<WallChainLeaderboard />} />
                     < Route path="/xeet-leagues" element={<XeetLeagueLeaderboard />} />
                     < Route path="/wallchain-index" element={<FarmingIndex />} />
+                    < Route path="/nft-roundup" element={<NFTRoundUpPage />} />
                     
                     {/*
                          < Route path="/comparison" element={<CrossPlatform />} />
