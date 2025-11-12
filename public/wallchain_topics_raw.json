@@ -1,5 +1,69 @@
 [
   {
+    "companyId": "reya",
+    "companyName": "Reya",
+    "logoUrl": "/reya.svg",
+    "title": "Reward pool",
+    "description": "0.2% of Supply",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/reya_background.8c062b2668ed5a9234c49b6461e77896.svg",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2025-12-10T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "heyelsa",
+    "companyName": "HeyElsa",
+    "logoUrl": "/heyelsa.png",
+    "title": "Reward pool",
+    "description": "0.6% of Supply",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Heyelsa_background.5ffd09c25051ac172520cebbbb557511.png",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2025-11-30T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "limitless",
+    "companyName": "Limitless",
+    "logoUrl": "/limitless.png",
+    "title": "Reward pool",
+    "description": "0.5% $LMTS (~$1,700,000)",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Limitless_background.d75faf92b1733c9ec7f8f92577d84b22.png",
+    "countdown": {
+      "label": "Epoch II ends in",
+      "endDate": "2026-01-25T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "idOS",
+    "companyName": "idOS",
+    "logoUrl": "/idOS.png",
+    "title": "Reward pool",
+    "description": "1% of Supply",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/idOS_background.06d84007b94d32482b78de438fb5e11d.png",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2025-10-23T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
     "companyId": "spaace",
     "companyName": "Spaace",
     "logoUrl": "/spaace.svg",
@@ -11,70 +75,6 @@
     "countdown": {
       "label": "Epoch I ends in",
       "endDate": "2025-12-04T23:59:00Z"
-    },
-    "section": "pre_tge",
-    "width": "half"
-  },
-  {
-    "companyId": "warden",
-    "companyName": "Warden",
-    "logoUrl": "/warden.jpg",
-    "title": "Reward pool",
-    "description": "$900,000 $WARD",
-    "buttonText": "Start Earning",
-    "badgeIconUrl": "",
-    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/warden_background.33f4af6534fe03c598b6c50f5a3c0fd9.svg",
-    "countdown": {
-      "label": "Epoch I ends in",
-      "endDate": "2024-12-31T23:59:00Z"
-    },
-    "section": "pre_tge",
-    "width": "half"
-  },
-  {
-    "companyId": "apecoin",
-    "companyName": "Ape x OS",
-    "logoUrl": "/apecoin.png",
-    "title": "Reward pool",
-    "description": "50,000 $APE",
-    "buttonText": "Start Earning",
-    "badgeIconUrl": "",
-    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Apecoin_background.b38501e9cc3c2df0710a94afcbba8d18.png",
-    "countdown": {
-      "label": "Epoch ends in",
-      "endDate": "2025-11-28T23:59:00Z"
-    },
-    "section": "pre_tge",
-    "width": "half"
-  },
-  {
-    "companyId": "beyond",
-    "companyName": "Beyond",
-    "logoUrl": "/beyond.jpg",
-    "title": "Reward pool",
-    "description": "4% of Supply ",
-    "buttonText": "Start Earning",
-    "badgeIconUrl": "",
-    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/badge-icon-url/beyond_background.56e946cb43439c47dbd37a6c41795f98.svg",
-    "countdown": {
-      "label": "Epoch I ends in",
-      "endDate": "2025-12-08T23:59:00Z"
-    },
-    "section": "pre_tge",
-    "width": "half"
-  },
-  {
-    "companyId": "scor",
-    "companyName": "SCOR",
-    "logoUrl": "/scor.jpg",
-    "title": "Reward pool",
-    "description": "0.5% of Supply",
-    "buttonText": "Start Earning",
-    "badgeIconUrl": "",
-    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/scor_background.fac883d66f05508957171968119facf0.svg",
-    "countdown": {
-      "label": "Epoch 1 ends in ",
-      "endDate": "2025-12-29T23:59:00Z"
     },
     "section": "pre_tge",
     "width": "half"
@@ -112,6 +112,70 @@
     "width": "half"
   },
   {
+    "companyId": "warden",
+    "companyName": "Warden",
+    "logoUrl": "/warden.jpg",
+    "title": "Reward pool",
+    "description": "$900,000 $WARD",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/warden_background.33f4af6534fe03c598b6c50f5a3c0fd9.svg",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2024-12-31T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "beyond",
+    "companyName": "Beyond",
+    "logoUrl": "/beyond.jpg",
+    "title": "Reward pool",
+    "description": "4% of Supply ",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/badge-icon-url/beyond_background.56e946cb43439c47dbd37a6c41795f98.svg",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2025-12-08T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "apecoin",
+    "companyName": "Ape x OS",
+    "logoUrl": "/apecoin.png",
+    "title": "Reward pool",
+    "description": "50,000 $APE",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Apecoin_background.b38501e9cc3c2df0710a94afcbba8d18.png",
+    "countdown": {
+      "label": "Epoch ends in",
+      "endDate": "2025-11-28T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
+    "companyId": "scor",
+    "companyName": "SCOR",
+    "logoUrl": "/scor.jpg",
+    "title": "Reward pool",
+    "description": "0.5% of Supply",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/scor_background.fac883d66f05508957171968119facf0.svg",
+    "countdown": {
+      "label": "Epoch 1 ends in ",
+      "endDate": "2025-12-29T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
     "companyId": "klout",
     "companyName": "KLOUT",
     "logoUrl": "/klout.png",
@@ -123,54 +187,6 @@
     "countdown": {
       "label": "Epoch I ends in",
       "endDate": "2025-11-17T23:59:00Z"
-    },
-    "section": "pre_tge",
-    "width": "half"
-  },
-  {
-    "companyId": "idOS",
-    "companyName": "idOS",
-    "logoUrl": "/idOS.png",
-    "title": "Reward pool",
-    "description": "1% of Supply",
-    "buttonText": "Start Earning",
-    "badgeIconUrl": "",
-    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/idOS_background.06d84007b94d32482b78de438fb5e11d.png",
-    "countdown": {
-      "label": "Epoch I ends in",
-      "endDate": "2025-10-23T23:59:00Z"
-    },
-    "section": "pre_tge",
-    "width": "half"
-  },
-  {
-    "companyId": "heyelsa",
-    "companyName": "HeyElsa",
-    "logoUrl": "/heyelsa.png",
-    "title": "Reward pool",
-    "description": "0.6% of Supply",
-    "buttonText": "Start Earning",
-    "badgeIconUrl": "",
-    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Heyelsa_background.5ffd09c25051ac172520cebbbb557511.png",
-    "countdown": {
-      "label": "Epoch I ends in",
-      "endDate": "2025-11-30T23:59:00Z"
-    },
-    "section": "pre_tge",
-    "width": "half"
-  },
-  {
-    "companyId": "limitless",
-    "companyName": "Limitless",
-    "logoUrl": "/limitless.png",
-    "title": "Reward pool",
-    "description": "0.5% $LMTS (~$1,700,000)",
-    "buttonText": "Start Earning",
-    "badgeIconUrl": "",
-    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/Limitless_background.d75faf92b1733c9ec7f8f92577d84b22.png",
-    "countdown": {
-      "label": "Epoch II ends in",
-      "endDate": "2026-01-25T23:59:00Z"
     },
     "section": "pre_tge",
     "width": "half"
