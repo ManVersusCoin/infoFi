@@ -1,8 +1,9 @@
 ﻿import { useState, useEffect, useRef, useMemo } from 'react';
-import axios from 'axios';
+import type { JSX } from "react";
+import axios from 'axios'; // <-- This requires 'npm install axios'
 import {
     BarChart3, DollarSign, Users, TrendingUp, Activity, Copy, Download, Search,
-    ChevronDown, Loader2,  ExternalLink // Added ExternalLink
+    ChevronDown, Loader2,  ExternalLink
 } from 'lucide-react';
 import domtoimage from 'dom-to-image';
 
@@ -212,7 +213,7 @@ const NFTRoundUpPage = () => {
 
     const lastOptions = useMemo(() => {
         const now = new Date();
-        return [1, 7, 30, 60].map(days => {
+        return [1, 3, 7, 30, 60].map(days => {
             const before = now;
             const after = new Date(before.getTime() - days * 24 * 60 * 60 * 1000); // 24h * days
             const display = `${after.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} - ${before.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
@@ -282,12 +283,9 @@ const NFTRoundUpPage = () => {
 
                 console.log('API Response:', response);
 
-                // --- TIMESTAMP FIX ---
-                // OpenSea API returns event_timestamp as an ISO 8601 string.
-                // We convert it to epoch seconds (as a string) to be
-                // compatible with the sorting and display logic.
                 const events = (response.data.asset_events as Event[] || []).map(e => ({
-                    ...e, // Pass through all original event data (like transaction hash)
+                    ...e,
+                   
                 }));
                 console.log(`Received ${events.length} events in this batch`);
 
@@ -303,8 +301,9 @@ const NFTRoundUpPage = () => {
                 if (hasMore) {
                     await new Promise(resolve => setTimeout(resolve, 1000));
                 }
-            } catch (error) {
+            } catch (error) { // 'error' is 'unknown'
                 console.error("Error fetching events:", error);
+                // This 'if' check *requires* axios types to be loaded.
                 if (axios.isAxiosError(error)) {
                     console.error("Axios error details:", error.response?.data);
                 }
@@ -350,7 +349,12 @@ const NFTRoundUpPage = () => {
                 }
             } else setPreviousData(null);
         } catch (e) {
-            console.error(e);
+            // Safer catch block
+            if (e instanceof Error) {
+                console.error("Failed to fetch data:", e.message);
+            } else {
+                console.error("An unknown error occurred during fetch:", e);
+            }
             showToast("❌ Failed to fetch data.", "error");
         } finally {
             setLoading(false);
@@ -477,9 +481,11 @@ const NFTRoundUpPage = () => {
 
     // --- Pagination Logic ---
 
-    // 1. Memoize the sorted events (FIX: Use Number() for sorting)
+    // 1. Memoize the sorted events (FIX: Use parseFloat)
     const sortedEvents = useMemo(() => {
-        return [...allEvents].sort((a, b) => (Number(b.event_timestamp) || 0) - (Number(a.event_timestamp) || 0));
+        return [...allEvents].sort((a, b) =>
+            (b.event_timestamp || 0) - (a.event_timestamp || 0)
+        );
     }, [allEvents]);
 
     // 2. Calculate total pages
@@ -533,6 +539,7 @@ const NFTRoundUpPage = () => {
         }
     };
 
+    // This prop 'icon' needs the 'JSX.Element' type, which requires the tsconfig.json fix
     const MetricCard = ({ title, value, previousValue, change, icon, positiveOnDecrease = false }: { title: string; value: string; previousValue: string; change: number; icon: JSX.Element; positiveOnDecrease?: boolean }) => {
         const color = positiveOnDecrease ? change < 0 ? 'text-green-500' : change > 0 ? 'text-red-500' : 'text-gray-500' : change > 0 ? 'text-green-500' : change < 0 ? 'text-red-500' : 'text-gray-500';
         return (
@@ -555,11 +562,18 @@ const NFTRoundUpPage = () => {
         );
     };
 
+    // --- 💡 FIXED HighlightCard ---
+    // This new implementation fixes the 'possibly null' errors
     const HighlightCard = ({ title, item, type }: { title: string; item: Event | ProcessedData['mostTradedNFT']; type: 'sale' | 'traded' }) => {
+        // This guard is correct and prevents null 'item'
         if (!item) return null;
 
         const isSale = type === 'sale';
-        const nftDetails = isSale ? (item as Event).nft : (item as ProcessedData['mostTradedNFT']);
+
+        // After the null check, 'item' is either Event or NonNullable<ProcessedData['mostTradedNFT']>
+        // If isSale, item is Event, so item.nft is correct.
+        // If !isSale, item is the ...NFT object, which *is* the details.
+        const nftDetails = isSale ? (item as Event).nft : item;
         const saleDetails = isSale ? (item as Event) : null;
 
         return (
@@ -567,21 +581,23 @@ const NFTRoundUpPage = () => {
                 <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-2">{title}</h3>
                 <div className="flex items-center">
                     <img
-                        src={nftDetails.image_url}
-                        alt={nftDetails.name}
+                        src={nftDetails?.image_url} // <-- This is now safe
+                        alt={nftDetails?.name} // <-- This is now safe
                         className="w-16 h-16 object-cover rounded-md mr-4"
                         onError={e => (e.target as HTMLImageElement).src = 'https://via.placeholder.com/64?text=NFT'}
                     />
                     <div>
-                        <div className="font-medium text-gray-900 dark:text-white">{nftDetails.name || 'Unknown NFT'}</div>
+                        <div className="font-medium text-gray-900 dark:text-white">{nftDetails?.name || 'Unknown NFT'}</div>
                         {isSale && saleDetails && (
                             <div className="text-sm text-gray-500 dark:text-gray-400">
                                 {(parseFloat(saleDetails.payment.quantity) / Math.pow(10, saleDetails.payment.decimals)).toFixed(4)} {saleDetails.payment.symbol}
                             </div>
                         )}
-                        {!isSale && item && (
+                        {/* If !isSale, 'item' is guaranteed non-null and is the ...NFT object */}
+                        {!isSale && (
                             <div className="text-sm text-gray-500 dark:text-gray-400">
-                                {(item as ProcessedData['mostTradedNFT']).salesCount} sales
+                                {/* We cast to the *non-null* type to access salesCount */}
+                                {(item as NonNullable<ProcessedData['mostTradedNFT']>).salesCount} sales
                             </div>
                         )}
                     </div>
@@ -854,17 +870,18 @@ const NFTRoundUpPage = () => {
                                                 <th className="px-4 py-2 text-left">Buyer</th>
                                                 <th className="px-4 py-2 text-left">Seller</th>
                                                 <th className="px-4 py-2 text-left">Price</th>
-                                                <th className="px-4 py-2 text-left">Transaction</th> {/* 🆕 New Column */}
+                                                <th className="px-4 py-2 text-left">Transaction</th>
                                             </tr>
                                         </thead>
                                         <tbody className="bg-white dark:bg-gray-900 divide-y divide-gray-100 dark:divide-gray-800">
                                             {paginatedEvents.map((ev, i) => (
                                                 <tr key={`${ev.transaction || i}-${ev.nft.identifier}`} className="hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
-                                                    <td className="px-4 py-2 text-gray-700 dark:text-gray-300">
+                                                    <td className="px-4 py-2 text-gray-700 dark:text-gray-300 whitespace-nowrap">
+                                                        {/* --- 💡 FIX: Use parseFloat for safety --- */}
                                                         {ev.event_timestamp
-                                                            ? new Date(ev.event_timestamp.toFixed(0) * 1000).toLocaleString() // 🆕 conversion timestamp -> date
+                                                            ? new Date(parseFloat(ev.event_timestamp.toFixed(0)) * 1000).toLocaleString()
                                                             : "—"}
-                                                        </td>
+                                                    </td>
                                                     <td className="px-4 py-2 flex items-center space-x-2">
                                                         <img
                                                             src={ev.nft.image_url}
@@ -879,7 +896,6 @@ const NFTRoundUpPage = () => {
                                                     <td className="px-4 py-2 text-gray-800 dark:text-gray-200 font-medium whitespace-nowrap">
                                                         {(parseFloat(ev.payment?.quantity) / Math.pow(10, ev.payment?.decimals)).toFixed(4)} {ev.payment?.symbol}
                                                     </td>
-                                                    {/* 🆕 Etherscan Link Column */}
                                                     <td className="px-4 py-2 text-gray-600 dark:text-gray-400">
                                                         {ev.transaction ? (
                                                             <a
