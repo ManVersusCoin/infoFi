@@ -31,6 +31,13 @@ interface Event {
     transaction?: string; // This is the transaction hash
 }
 
+interface NFTObject {
+    identifier: string;
+    name: string;
+    image_url: string;
+    salesCount?: number;
+}
+
 interface ProcessedData {
     totalVolume: number;
     totalAskVolume: number;
@@ -564,16 +571,19 @@ const NFTRoundUpPage = () => {
 
     // --- 💡 FIXED HighlightCard ---
     // This new implementation fixes the 'possibly null' errors
-    const HighlightCard = ({ title, item, type }: { title: string; item: Event | ProcessedData['mostTradedNFT']; type: 'sale' | 'traded' }) => {
-        // This guard is correct and prevents null 'item'
+    const HighlightCard = ({ title, item, type }: { title: string; item: Event | NFTObject; type: 'sale' | 'traded' }) => {
         if (!item) return null;
 
         const isSale = type === 'sale';
 
-        // After the null check, 'item' is either Event or NonNullable<ProcessedData['mostTradedNFT']>
-        // If isSale, item is Event, so item.nft is correct.
-        // If !isSale, item is the ...NFT object, which *is* the details.
-        const nftDetails = isSale ? (item as Event).nft : item;
+        // Type guard pour TS
+        const getNFTDetails = (obj: Event | NFTObject): NFTObject => {
+            if ('nft' in obj) return obj.nft; // Event
+            return obj; // NFTObject
+        };
+
+        const nftDetails = getNFTDetails(item);
+
         const saleDetails = isSale ? (item as Event) : null;
 
         return (
@@ -581,23 +591,21 @@ const NFTRoundUpPage = () => {
                 <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-2">{title}</h3>
                 <div className="flex items-center">
                     <img
-                        src={nftDetails?.image_url} // <-- This is now safe
-                        alt={nftDetails?.name} // <-- This is now safe
+                        src={nftDetails.image_url || 'https://via.placeholder.com/64?text=NFT'}
+                        alt={nftDetails.name || 'Unknown NFT'}
                         className="w-16 h-16 object-cover rounded-md mr-4"
                         onError={e => (e.target as HTMLImageElement).src = 'https://via.placeholder.com/64?text=NFT'}
                     />
                     <div>
-                        <div className="font-medium text-gray-900 dark:text-white">{nftDetails?.name || 'Unknown NFT'}</div>
-                        {isSale && saleDetails && (
+                        <div className="font-medium text-gray-900 dark:text-white">{nftDetails.name || 'Unknown NFT'}</div>
+                        {isSale && saleDetails?.payment && (
                             <div className="text-sm text-gray-500 dark:text-gray-400">
                                 {(parseFloat(saleDetails.payment.quantity) / Math.pow(10, saleDetails.payment.decimals)).toFixed(4)} {saleDetails.payment.symbol}
                             </div>
                         )}
-                        {/* If !isSale, 'item' is guaranteed non-null and is the ...NFT object */}
-                        {!isSale && (
+                        {!isSale && 'salesCount' in nftDetails && (
                             <div className="text-sm text-gray-500 dark:text-gray-400">
-                                {/* We cast to the *non-null* type to access salesCount */}
-                                {(item as NonNullable<ProcessedData['mostTradedNFT']>).salesCount} sales
+                                {nftDetails.salesCount} sales
                             </div>
                         )}
                     </div>
@@ -810,9 +818,9 @@ const NFTRoundUpPage = () => {
                                         <TrendingUp size={16} className="mr-2" />Highlights
                                     </h4>
                                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                                        <HighlightCard title="Highest Sale" item={data.highestSale} type="sale" />
-                                        <HighlightCard title="Lowest Sale" item={data.lowestSale} type="sale" />
-                                        <HighlightCard title="Most Traded NFT" item={data.mostTradedNFT} type="traded" />
+                                        <HighlightCard title="Highest Sale" item={data.highestSale!} type="sale" />
+                                        <HighlightCard title="Lowest Sale" item={data.lowestSale!} type="sale" />
+                                        <HighlightCard title="Most Traded NFT" item={data.mostTradedNFT!} type="traded" />
                                     </div>
                                 </div>
                             )}
