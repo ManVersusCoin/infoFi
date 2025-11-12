@@ -34,6 +34,16 @@ type GlobalProfile = {
     topics: TopicEntry[];
 };
 
+// Local type mirroring the structure expected by RankingProfileCard
+type ProfileForCard = {
+    userId?: string;
+    handle?: string; // Must be optional now
+    avatarUrl?: string | null;
+    name?: string;
+    ranksFiltered: Record<string, any>;
+};
+
+
 const TOP_OPTIONS = [50, 100, 150, 200, 250, 300, 400, 500, 600, 700, 800, 900, 1000];
 
 export default function LeagueLeaderboard(): JSX.Element {
@@ -156,18 +166,18 @@ export default function LeagueLeaderboard(): JSX.Element {
     }, [topicsForDataset, topicQuery]);
 
     const filteredProfiles = useMemo(() => {
-        
-        let arr = derivedProfiles.map((p) => {
+
+        let arr: (ProfileForCard & { __score?: number })[] = derivedProfiles.map((p) => {
             const ranksFiltered: Record<string, any> = {};
             for (const [slug, r] of Object.entries(p.ranks)) {
                 if (typeof r.rankTotal === "number" && r.rankTotal <= topLimit) {
                     ranksFiltered[slug] = { ...r };
                 }
             }
-            return { ...p, ranksFiltered };
+            return { ...p, ranksFiltered } as ProfileForCard;
         });
 
-        
+
         if (profileSearch.trim()) {
             const q = profileSearch.toLowerCase();
             arr = arr.filter(
@@ -175,21 +185,21 @@ export default function LeagueLeaderboard(): JSX.Element {
             );
         }
 
-        
+
         if (selectedTopics.length > 0) {
             arr = arr.filter((p) =>
                 selectedTopics.some((s) => p.ranksFiltered && p.ranksFiltered[s])
             );
         }
 
-        
+
         if (topicCountFilter) {
             arr = arr.filter((p) => Object.keys(p.ranksFiltered).length === topicCountFilter);
         }
 
-        
+
         if (!selectedTopics.length) {
-            
+
             arr = arr
                 .map((p) => {
                     const ranks = Object.values(p.ranksFiltered || {});
@@ -206,13 +216,13 @@ export default function LeagueLeaderboard(): JSX.Element {
                     });
                 });
         } else if (selectedTopics.length === 1 && !sortConfig) {
-            
+
             const slug = selectedTopics[0];
             arr.sort((a, b) => {
                 const av = a.ranksFiltered?.[slug]?.rankTotal ?? Infinity;
                 const bv = b.ranksFiltered?.[slug]?.rankTotal ?? Infinity;
                 if (av === bv) return (a.name || "").localeCompare(b.name || "");
-                return av - bv; 
+                return av - bv;
             });
         } else if (sortConfig) {
             const { slug, direction } = sortConfig;
@@ -224,11 +234,11 @@ export default function LeagueLeaderboard(): JSX.Element {
             });
         }
 
-        
+
         return arr.filter((p) => Object.keys(p.ranksFiltered).length > 0);
     }, [derivedProfiles, selectedTopics, profileSearch, topLimit, sortConfig, topicCountFilter]);
 
-    
+
     const topicCountOptions = useMemo(() => {
         const counts: Record<number, number> = {};
         filteredProfiles.forEach((p) => {
@@ -253,8 +263,9 @@ export default function LeagueLeaderboard(): JSX.Element {
     const start = (currentPage - 1) * itemsPerPage;
     const pageProfiles = filteredProfiles.slice(start, start + itemsPerPage);
 
-    const getTopicMeta = (slug: string) =>
-        topicMetas.find((t) => t.topicSlug === slug) ?? { topicSlug: slug, title: slug };
+    // FIX: Function signature changed to match RankingProfileCardProps: returns TopicMeta | undefined
+    const getTopicMeta = (slug: string): TopicMeta | undefined =>
+        topicMetas.find((t) => t.topicSlug === slug);
 
     const handleSort = (slug: string) => {
         setSortConfig((prev) => {
@@ -451,9 +462,9 @@ export default function LeagueLeaderboard(): JSX.Element {
                     {pageProfiles.map((p) => (
                         <RankingProfileCard
                             key={p.userId}
-                            p={p}
+                            p={p as any}
                             selectedTopics={selectedTopics}
-                            topicsForDataset={topicsForDataset}
+                            topicsForDataset={topicsForDataset as any}
                             getTopicMeta={getTopicMeta}
                             dataset={dataset}
                             metric="rankTotal"
@@ -468,7 +479,8 @@ export default function LeagueLeaderboard(): JSX.Element {
                                 <th className="px-3 py-2 text-left text-xs font-medium">#</th>
                                 <th className="px-3 py-2 text-left text-xs font-medium">Profile</th>
                                 {selectedTopics.map((slug) => {
-                                    const meta = getTopicMeta(slug);
+                                    // FIX: Added fallback explicitly here for local rendering
+                                    const meta = getTopicMeta(slug) ?? { topicSlug: slug, title: slug };
                                     return (
                                         <th
                                             key={slug}
@@ -505,14 +517,16 @@ export default function LeagueLeaderboard(): JSX.Element {
                                         <img src={p.avatarUrl || ""} alt={p.name} className="w-6 h-6 rounded-full" />
                                         <div>
                                             <div className="font-medium">{p.name}</div>
-                                            <a
-                                                href={`https://x.com/${p.handle}`}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="text-xs text-blue-500 hover:underline"
-                                            >
-                                                @{p.handle}
-                                            </a>
+                                            {p.handle && (
+                                                <a
+                                                    href={`https://x.com/${p.handle}`}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="text-xs text-blue-500 hover:underline"
+                                                >
+                                                    @{p.handle}
+                                                </a>
+                                            )}
                                         </div>
                                     </td>
                                     {selectedTopics.map((slug) => {

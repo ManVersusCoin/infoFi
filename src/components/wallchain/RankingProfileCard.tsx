@@ -11,9 +11,10 @@ type RankEntry = {
     totalPoints?: number;
 };
 
+// FIX 1: handle is now optional (handle?: string) to match LeagueLeaderboard data
 type Profile = {
     userId?: string;
-    handle: string;
+    handle?: string;
     avatarUrl?: string;
     name?: string;
     ranksFiltered: Record<string, RankEntry | undefined>;
@@ -21,23 +22,26 @@ type Profile = {
 
 // --- Types for Topic Metadata ---
 interface TopicMetaIn {
+    // accepts several possible shapes (we normalize later)
     topicSlug?: string;
     companyId?: string;
     id?: string;
-    logoUrl?: string;
+    logoUrl?: string | null; // FIX 2: Added | null to match LeagueLeaderboard type
     title?: string;
     companyName?: string;
 }
 
+// The *final* normalized shape we want to use (slug is required)
 type NormalizedTopicMeta = {
     topicSlug: string;
-    logoUrl?: string;
+    logoUrl?: string | null; // FIX 3: Added | null
     title?: string;
 };
 
+// The *intermediate* shape returned by normalizeTopicMeta (slug might be undefined)
 type NormalizedTopicMetaLoose = {
     topicSlug: string | undefined;
-    logoUrl?: string;
+    logoUrl?: string | null; // FIX 4: Added | null
     title?: string | undefined;
 };
 
@@ -45,7 +49,7 @@ interface RankingProfileCardProps {
     p: Profile;
     selectedTopics: string[] | TopicMetaIn[];
     topicsForDataset: NormalizedTopicMeta[];
-    getTopicMeta: (slug: string) => TopicMetaIn | undefined; // The raw getter
+    getTopicMeta: (slug: string) => TopicMetaIn | undefined;
     dataset: "tournament" | "7d" | "30d";
     metric: "rankTotal" | "rankSignal" | "rankNoise";
 }
@@ -54,12 +58,13 @@ function RankingProfileCard({
     p,
     selectedTopics,
     topicsForDataset,
-    getTopicMeta, // This is the raw getter: (slug: string) => TopicMetaIn | undefined
+    getTopicMeta,
     dataset,
     metric,
 }: RankingProfileCardProps) {
     const [modalOpen, setModalOpen] = useState(false);
 
+    // Normalize a topic "item" to { topicSlug, logoUrl, title }
     const normalizeTopicMeta = (
         t: string | TopicMetaIn | undefined
     ): NormalizedTopicMetaLoose | undefined => {
@@ -72,6 +77,7 @@ function RankingProfileCard({
                 title: raw?.companyName ?? raw?.title ?? t,
             };
         }
+        // t is object
         const topicSlug = t.topicSlug || t.companyId || t.id;
         const title = t.companyName || t.title || topicSlug;
         return {
@@ -81,11 +87,13 @@ function RankingProfileCard({
         };
     };
 
+    // Build topicsToShow: prefer selectedTopics if provided, else full topicsForDataset
     const topicsToShowRaw: (string | TopicMetaIn)[] =
         Array.isArray(selectedTopics) && selectedTopics.length > 0
             ? selectedTopics
             : (topicsForDataset as TopicMetaIn[]);
 
+    // normalized list with guaranteed topicSlug
     const topicsToShow = topicsToShowRaw
         .map(normalizeTopicMeta)
         .filter(
@@ -93,6 +101,7 @@ function RankingProfileCard({
                 !!x && !!x.topicSlug && typeof x.topicSlug === "string"
         );
 
+    // SAFE helper — return numeric rank or undefined
     const getNumericRank = (profile: Profile, slug: string) => {
         if (!profile?.ranksFiltered) return undefined;
         const r = profile.ranksFiltered[slug];
@@ -112,6 +121,7 @@ function RankingProfileCard({
         return typeof value === "number" && Number.isFinite(value) ? value : undefined;
     };
 
+    // don't mutate input — copy then sort by numeric rank (ascending)
     const sortTopicsByRank = (topics: NormalizedTopicMeta[]) => {
         return [...topics].sort((a, b) => {
             const rankA = getNumericRank(p, a.topicSlug);
@@ -123,8 +133,10 @@ function RankingProfileCard({
         });
     };
 
+    // final topics list to render
     const renderedTopics = sortTopicsByRank(topicsToShow);
 
+    // Clean logic to get slugs for the modal
     const slugsForModal: string[] = (
         Array.isArray(selectedTopics) && selectedTopics.length > 0
             ? selectedTopics
@@ -132,20 +144,6 @@ function RankingProfileCard({
     )
         .map((t) => normalizeTopicMeta(t)?.topicSlug)
         .filter((x): x is string => !!x);
-
-    // --- SOLUTION ---
-    // Create an "adapter" function to pass to the modal.
-    // This function matches the signature StatsShareModal likely expects:
-    // (slug: string) => NormalizedTopicMeta
-    const getNormalizedTopicMetaForModal = (slug: string): NormalizedTopicMeta => {
-        const raw = getTopicMeta(slug); // Use the original raw getter
-        return {
-            topicSlug: slug,
-            logoUrl: raw?.logoUrl,
-            title: raw?.companyName ?? raw?.title ?? slug, // Fallback to slug if no meta
-        };
-    };
-    // --- END SOLUTION ---
 
     return (
         <div
@@ -169,14 +167,17 @@ function RankingProfileCard({
                     className="w-10 h-10 rounded-full border"
                 />
                 <div className="flex flex-col min-w-0">
-                    <a
-                        href={`https://x.com/${p.handle}`}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="font-medium text-blue-600 dark:text-blue-400 truncate"
-                    >
-                        @{p.handle}
-                    </a>
+                    {/* Check for handle before rendering the link */}
+                    {p.handle && (
+                        <a
+                            href={`https://x.com/${p.handle}`}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="font-medium text-blue-600 dark:text-blue-400 truncate"
+                        >
+                            @{p.handle}
+                        </a>
+                    )}
                     <span className="text-xs text-gray-600 dark:text-gray-400 truncate">{p.name}</span>
                 </div>
             </div>
@@ -210,8 +211,7 @@ function RankingProfileCard({
                     profile={p}
                     selectedTopics={slugsForModal}
                     topicsForDataset={topicsForDataset}
-                    // MODIFIED: Pass the new normalized getter function
-                    getTopicMeta={getNormalizedTopicMetaForModal}
+                    getTopicMeta={getTopicMeta}
                     dataset={dataset}
                     metric={metric}
                     onClose={() => setModalOpen(false)}
