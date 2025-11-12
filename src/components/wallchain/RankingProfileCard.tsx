@@ -49,7 +49,7 @@ interface RankingProfileCardProps {
     p: Profile;
     selectedTopics: string[] | TopicMetaIn[];
     topicsForDataset: NormalizedTopicMeta[];
-    getTopicMeta: (slug: string) => TopicMetaIn | undefined;
+    getTopicMeta: (slug: string) => TopicMetaIn | undefined; // This prop is used internally
     dataset: "tournament" | "7d" | "30d";
     metric: "rankTotal" | "rankSignal" | "rankNoise";
 }
@@ -145,6 +145,7 @@ function RankingProfileCard({
         .map((t) => normalizeTopicMeta(t)?.topicSlug)
         .filter((x): x is string => !!x);
 
+
     return (
         <div
             key={p.userId ?? p.handle}
@@ -211,10 +212,10 @@ function RankingProfileCard({
                     profile={p}
                     selectedTopics={slugsForModal}
                     topicsForDataset={topicsForDataset}
-                    getTopicMeta={getTopicMeta}
                     dataset={dataset}
                     metric={metric}
                     onClose={() => setModalOpen(false)}
+                // Removed: getTopicMeta={getTopicMeta}
                 />
             )}
         </div>
