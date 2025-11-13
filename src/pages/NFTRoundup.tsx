@@ -608,8 +608,9 @@ const NFTRoundUpPage = () => {
                 {compare && (
                     <div className="flex items-center mt-2">
                         <span className={`text-sm ${color}`}>
+                            {change == '-' ? '' : null}
                             {change > 0 ? <TrendingUp className="inline mr-1" size={14} /> : change < 0 ? <TrendingUp className="inline mr-1 rotate-180" size={14} /> : null}
-                            {Math.abs(change).toFixed(2)}%
+                            {change !== '-' ? Math.abs(change).toFixed(2) + '%' : null}
                         </span>
                         <span className="ml-2 text-sm text-gray-500 dark:text-gray-400">vs ({previousValue})</span>
                     </div>
@@ -912,7 +913,7 @@ const NFTRoundUpPage = () => {
                                         <MetricCard title="Median Sale Price" value={`${data.medianSalePrice.toFixed(3)} ETH`} previousValue={`${previousData?.medianSalePrice.toFixed(3) || '0'} ETH`} change={calculateChange(data.medianSalePrice, previousData?.medianSalePrice || 0)} icon={<DollarSign size={18} />} />
                                         <MetricCard title="Distinct Buyers" value={data.distinctBuyers.toString()} previousValue={previousData?.distinctBuyers.toString() || '0'} change={calculateChange(data.distinctBuyers, previousData?.distinctBuyers || 0)} icon={<Users size={18} />} />
                                         <MetricCard title="Distinct Sellers" value={data.distinctSellers.toString()} previousValue={previousData?.distinctSellers.toString() || '0'} change={calculateChange(data.distinctSellers, previousData?.distinctSellers || 0)} icon={<Users size={18} />} positiveOnDecrease />
-                                        <MetricCard title="Buyer-Seller Balance" value={data.balance.toString()} previousValue={`${previousData?.balance || 0}`} change={calculateChange(data.balance, previousData?.balance || 0)} icon={<TrendingUp size={18} />} positiveOnDecrease />
+                                        <MetricCard title="Buyer-Seller Balance" value={data.balance.toString()} previousValue={`${previousData?.balance || 0}`} change="-" icon={<TrendingUp size={18} />} />
                                     </>
                                 )}
                             </div>
