@@ -213,12 +213,8 @@ const NFTRoundUpPage = () => {
         return x;
     };
 
-    const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, globalThis.Event>) => {
-      e.currentTarget.src = '/ethereum.jpg';
-    };
-
     // --- AJOUT : Helper pour les images (inspiré de App.jsx) ---
-    const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+    const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, globalThis.Event>) => {
         (e.target as HTMLImageElement).src = 'https://placehold.co/32x32/E0E0E0/B0B0B0?text=NFT';
     };
 
