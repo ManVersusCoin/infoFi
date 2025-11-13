@@ -596,28 +596,66 @@ const NFTRoundUpPage = () => {
     };
 
     // This prop 'icon' needs the 'JSX.Element' type, which requires the tsconfig.json fix
-    const MetricCard = ({ title, value, previousValue, change, icon, positiveOnDecrease = false }: { title: string; value: string; previousValue: string; change: number; icon: JSX.Element; positiveOnDecrease?: boolean }) => {
-        const color = positiveOnDecrease ? change < 0 ? 'text-green-500' : change > 0 ? 'text-red-500' : 'text-gray-500' : change > 0 ? 'text-green-500' : change < 0 ? 'text-red-500' : 'text-gray-500';
+    const MetricCard = ({
+        title,
+        value,
+        previousValue,
+        change,
+        icon,
+        positiveOnDecrease = false
+    }: {
+        title: string;
+        value: string;
+        previousValue: string;
+        change: number | string;
+        icon: JSX.Element;
+        positiveOnDecrease?: boolean;
+    }) => {
+        const color =
+        positiveOnDecrease
+            ? change < 0
+            ? 'text-green-500'
+            : change > 0
+                ? 'text-red-500'
+                : 'text-gray-500'
+            : change > 0
+            ? 'text-green-500'
+            : change < 0
+                ? 'text-red-500'
+                : 'text-gray-500';
+
         return (
-            <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
-                <div className="flex items-center justify-between mb-2">
-                    <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400">{title}</h3>
-                    {icon}
-                </div>
-                <div className="text-2xl font-semibold text-gray-900 dark:text-white">{value}</div>
-                {compare && (
-                    <div className="flex items-center mt-2">
-                        <span className={`text-sm ${color}`}>
-                            {change == '-' ? '' : null}
-                            {change > 0 ? <TrendingUp className="inline mr-1" size={14} /> : change < 0 ? <TrendingUp className="inline mr-1 rotate-180" size={14} /> : null}
-                            {change !== '-' ? Math.abs(change).toFixed(2) + '%' : null}
-                        </span>
-                        <span className="ml-2 text-sm text-gray-500 dark:text-gray-400">vs ({previousValue})</span>
-                    </div>
-                )}
+        <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+            <div className="flex items-center justify-between mb-2">
+            <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400">{title}</h3>
+            {icon}
             </div>
+            <div className="text-2xl font-semibold text-gray-900 dark:text-white">{value}</div>
+            {compare && (
+            <div className="flex items-center mt-2">
+                <span className={`text-sm ${color}`}>
+                {change === '-' ? (
+                    ''
+                ) : (
+                    <>
+                    {Number(change) > 0 ? (
+                        <TrendingUp className="inline mr-1" size={14} />
+                    ) : Number(change) < 0 ? (
+                        <TrendingUp className="inline mr-1 rotate-180" size={14} />
+                    ) : null}
+                    {Math.abs(Number(change)).toFixed(2)}%
+                    </>
+                )}
+                </span>
+                <span className="ml-2 text-sm text-gray-500 dark:text-gray-400">
+                vs ({previousValue})
+                </span>
+            </div>
+            )}
+        </div>
         );
     };
+
 
     // --- 💡 FIXED HighlightCard ---
     // This new implementation fixes the 'possibly null' errors
