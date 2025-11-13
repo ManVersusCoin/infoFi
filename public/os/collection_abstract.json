@@ -1,0 +1,1759 @@
+{
+  "collections": [
+    {
+      "collection": "gigaverse-roms-abstract",
+      "name": "Gigaverse ROMs",
+      "image_url": "https://i2c.seadn.io/collection/gigaverse-roms-abstract/image_type_logo/7e736fc913ca4e747ddee80744a754/167e736fc913ca4e747ddee80744a754.png",
+      "opensea_url": "https://opensea.io/collection/gigaverse-roms-abstract",
+      "project_url": "https://gigaverse.io",
+      "contracts": [
+        {
+          "address": "0x59eec556cef447e13edf4bfd3d4433d8dad8a7a5",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "bearish-abstract",
+      "name": "BEARISH",
+      "image_url": "https://i2c.seadn.io/abstract/604f826c300c4cf4bed6cb314534e448/fc1e581739e9c53a9ecffb2554a8fb/ccfc1e581739e9c53a9ecffb2554a8fb.webp",
+      "opensea_url": "https://opensea.io/collection/bearish-abstract",
+      "project_url": "https://www.bearish.af/about-us",
+      "contracts": [
+        {
+          "address": "0x516dc288e26b34557f68ea1c1ff13576eff8a168",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "fugzfamily",
+      "name": "Fugz",
+      "image_url": "https://i2c.seadn.io/abstract/b365830dd54f4ef7810e8e10e4615ed3/85be3f6f8e0209c9895b5b5654fc6f/d085be3f6f8e0209c9895b5b5654fc6f.png",
+      "opensea_url": "https://opensea.io/collection/fugzfamily",
+      "project_url": "https://www.fugzofficial.com/",
+      "contracts": [
+        {
+          "address": "0x99b9007f3c8732b9bff2ed68ab7f73f27c4a0c53",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "finalbosu",
+      "name": "Final Bosu",
+      "image_url": "https://i.seadn.io/s/raw/files/029d8f680e55ca109f9a128d60a8b338.jpg",
+      "opensea_url": "https://opensea.io/collection/finalbosu",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x5fedb9a131f798e986109dd89942c17c25c81de3",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "ruyui-abstract",
+      "name": "RUYUI",
+      "image_url": "https://i2c.seadn.io/abstract/ffbd5d9f707c4ed18b5effff292c5a9b/e9a3cb91965710ee5f99f2f190fc2e/9ce9a3cb91965710ee5f99f2f190fc2e.png",
+      "opensea_url": "https://opensea.io/collection/ruyui-abstract",
+      "project_url": "https://ruyui.com/",
+      "contracts": [
+        {
+          "address": "0x9ce89a1303f2d52a9d7840fcd5a6870c2a8550c0",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "genesishero-abstract",
+      "name": "OCH Genesis Hero",
+      "image_url": "https://i2c.seadn.io/collection/genesishero-abstract/image_type_logo/707a6656ea94519397621fef2d16d4/26707a6656ea94519397621fef2d16d4.png",
+      "opensea_url": "https://opensea.io/collection/genesishero-abstract",
+      "project_url": "https://www.onchainheroes.xyz/",
+      "contracts": [
+        {
+          "address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "klara-abstract",
+      "name": "Klara",
+      "image_url": "https://i2c.seadn.io/abstract/0xc174d34db38e924cc2bd3884c2145bc10fcbdf9c/5f256f71f22296b14a3edf3d47a170/1f5f256f71f22296b14a3edf3d47a170.png",
+      "opensea_url": "https://opensea.io/collection/klara-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xc174d34db38e924cc2bd3884c2145bc10fcbdf9c",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "digitalinsects",
+      "name": "Digital Insects",
+      "image_url": "https://i2c.seadn.io/collection/digitalinsects/image_type_logo/3cfad4fe5b5a936e757ed2fe9fedac/383cfad4fe5b5a936e757ed2fe9fedac.jpeg",
+      "opensea_url": "https://opensea.io/collection/digitalinsects",
+      "project_url": "https://souls.club/insects",
+      "contracts": [
+        {
+          "address": "0x9814eb83c32ae87728e19513298c6d2efa14de7a",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "buumeeofficial",
+      "name": "BUUMEE",
+      "image_url": "https://i2c.seadn.io/abstract/0x02cf8fe86c9bbc4fc3e95567fc82398687e73367/e907bf3883441d72d9b26768156b9b/0ae907bf3883441d72d9b26768156b9b.webp",
+      "opensea_url": "https://opensea.io/collection/buumeeofficial",
+      "project_url": "https://myBUUMEE.com",
+      "contracts": [
+        {
+          "address": "0x02cf8fe86c9bbc4fc3e95567fc82398687e73367",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstractio",
+      "name": "Abstractio",
+      "image_url": "https://i2c.seadn.io/abstract/00aad6c2fd5545489701af4e2f59b6ce/d1565698cd42fe0568be32535eba71/70d1565698cd42fe0568be32535eba71.png",
+      "opensea_url": "https://opensea.io/collection/abstractio",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x4b432060903184c5710f2ef0cf23adc84e7ffb18",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "pengztracted-abstract",
+      "name": "Pengztracted",
+      "image_url": "https://i2c.seadn.io/abstract/0xa6c46c07f7f1966d772e29049175ebba26262513/9f1ce66a3a67c19339136608cfafd1/ef9f1ce66a3a67c19339136608cfafd1.png",
+      "opensea_url": "https://opensea.io/collection/pengztracted-abstract",
+      "project_url": "http://pengztracted.com",
+      "contracts": [
+        {
+          "address": "0xa6c46c07f7f1966d772e29049175ebba26262513",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "gigaverse-giglings",
+      "name": "Gigaverse Giglings",
+      "image_url": "https://i2c.seadn.io/abstract/24ae4874c2b24692bb2612252b9ade88/2d09d64065de26260d0fb94b0db61a/722d09d64065de26260d0fb94b0db61a.png",
+      "opensea_url": "https://opensea.io/collection/gigaverse-giglings",
+      "project_url": "https://gigaverse.io",
+      "contracts": [
+        {
+          "address": "0xd320831c876190c7ef79376ffcc889756f038e04",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "veabx",
+      "name": "veABX",
+      "image_url": "https://raw2.seadn.io/abstract/0x27b04370d8087e714a9f557c1eff7901cea6bb63/1e92b3382491196e93058eb76a3560/801e92b3382491196e93058eb76a3560.svg",
+      "opensea_url": "https://opensea.io/collection/veabx",
+      "project_url": "https://aborean.finance/",
+      "contracts": [
+        {
+          "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "och-gacha-weapon",
+      "name": "OCH WEAPON",
+      "image_url": "https://i2c.seadn.io/collection/och-gacha-weapon/image_type_logo/e26b475ab3eac4391330ade2b30aef/37e26b475ab3eac4391330ade2b30aef.png",
+      "opensea_url": "https://opensea.io/collection/och-gacha-weapon",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x686bfe70f061507065f3e939c12ac9ee5a564dcf",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "web3-playboys",
+      "name": "Web3 Playboys",
+      "image_url": "https://i2c.seadn.io/collection/web3-playboys-795875849/image_type_logo/e5caaecc7837933198701463b41318/9ee5caaecc7837933198701463b41318.jpeg",
+      "opensea_url": "https://opensea.io/collection/web3-playboys",
+      "project_url": "https://web3playboys.com",
+      "contracts": [
+        {
+          "address": "0x09bb4c785165915e66f4a645bc978a6c885a0319",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "dreamiliomaker-abstract",
+      "name": "DreamilioMaker",
+      "image_url": "https://i2c.seadn.io/collection/dreamiliomaker-abstract/image_type_logo/f43f528f645dddbb76b0a0e76103af/c4f43f528f645dddbb76b0a0e76103af.png",
+      "opensea_url": "https://opensea.io/collection/dreamiliomaker-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x30072084ff8724098cbb65e07f7639ed31af5f66",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "och-ringbearer",
+      "name": "OCH Ringbearer",
+      "image_url": "https://i2c.seadn.io/collection/och-ringbearer/image_type_logo/51ce4f748b53c88dcff40cd8796636/6e51ce4f748b53c88dcff40cd8796636.png",
+      "opensea_url": "https://opensea.io/collection/och-ringbearer",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x610a92436b9fdfc7d0c3686bb2cbe7b3bae22904",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "genie-abs",
+      "name": "Genie NFT",
+      "image_url": "https://i2c.seadn.io/collection/genie-952053902/image_type_logo/5c4866ce7a330cb39af0c8091d04c4/375c4866ce7a330cb39af0c8091d04c4.jpeg",
+      "opensea_url": "https://opensea.io/collection/genie-abs",
+      "project_url": "https://genieabs.xyz/",
+      "contracts": [
+        {
+          "address": "0x8fe79352ea106ffaedb935a3d7dd1116f5460aa0",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "wolf-game-gen2",
+      "name": "Wolf Game - Gen2",
+      "image_url": "https://i2c.seadn.io/abstract/0x58aefe35438fe160309c2729602e668d89cabcbf/a42ca990e781a5dfc60d1c0dea283a/bca42ca990e781a5dfc60d1c0dea283a.png",
+      "opensea_url": "https://opensea.io/collection/wolf-game-gen2",
+      "project_url": "http://wolf.game",
+      "contracts": [
+        {
+          "address": "0x58aefe35438fe160309c2729602e668d89cabcbf",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "och-items",
+      "name": "OCH Items",
+      "image_url": "https://i2c.seadn.io/collection/och-items/image_type_logo/e2b5c45d6f1baf848f4f8dc450be92/20e2b5c45d6f1baf848f4f8dc450be92.png",
+      "opensea_url": "https://opensea.io/collection/och-items",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x14f926d2751f4bb0200e9b016b6ae4a1e4b207bd",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "b25-access-pass",
+      "name": "B25 Ventures Access Pass",
+      "image_url": "https://i2c.seadn.io/collection/b25-access-pass/image_type_logo/4918b2f8f0d1674feb61a4bcc2e73f/aa4918b2f8f0d1674feb61a4bcc2e73f.png",
+      "opensea_url": "https://opensea.io/collection/b25-access-pass",
+      "project_url": "https://opensea.io/0x753cf57210d2be5239c26d8c5f0b30013398aa5f/galleries",
+      "contracts": [
+        {
+          "address": "0xfb6face103e4fc97fbd7e7f1a33921e22b45a342",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "bigcoin-miners",
+      "name": "Bigcoin Miners",
+      "image_url": "https://i2c.seadn.io/collection/bigcoin-miners/image_type_logo/2e12d69fc7c9cff84d3dcd2183e6e1/b22e12d69fc7c9cff84d3dcd2183e6e1.gif",
+      "opensea_url": "https://opensea.io/collection/bigcoin-miners",
+      "project_url": "https://bigcoin.tech",
+      "contracts": [
+        {
+          "address": "0x4e70f7c12dffba550db549cda8f78085e733f5b6",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstract-hotdogs-abstract",
+      "name": "Abstract Hotdogs",
+      "image_url": "https://i2c.seadn.io/abstract/326e868aa8a645319a944052abb53410/335108be8e0e183515660ec817b932/3a335108be8e0e183515660ec817b932.png",
+      "opensea_url": "https://opensea.io/collection/abstract-hotdogs-abstract",
+      "project_url": "https://hotdogs.wtf/",
+      "contracts": [
+        {
+          "address": "0x265f307c1bdbb6f5d4b174d47f363ef5837be98b",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "monster-capsules",
+      "name": "Monster Capsules",
+      "image_url": "https://i2c.seadn.io/abstract/84f50d637866412fae00934dd57d9e01/91e48e0a4cbb21fb543331e52f9635/5691e48e0a4cbb21fb543331e52f9635.png",
+      "opensea_url": "https://opensea.io/collection/monster-capsules",
+      "project_url": "https://monsters.fun",
+      "contracts": [
+        {
+          "address": "0x38272b362bca267dc8e9120087c93cefb86a69ac",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "punkism-5",
+      "name": "Punkism",
+      "image_url": "https://i2c.seadn.io/abstract/bd4367353955439193720f5dc314d8b0/d977395d93ff6c86d8380a55c70277/61d977395d93ff6c86d8380a55c70277.png",
+      "opensea_url": "https://opensea.io/collection/punkism-5",
+      "project_url": "https://punkism.fun/",
+      "contracts": [
+        {
+          "address": "0x267db21df5e870f0506ec95d0b094195d85963b8",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "puffins",
+      "name": "Puffins",
+      "image_url": "https://i2c.seadn.io/collection/puffins/image_type_logo/9a2a27ced8c0fbb06212961f38b925/bc9a2a27ced8c0fbb06212961f38b925.png",
+      "opensea_url": "https://opensea.io/collection/puffins",
+      "project_url": "https://www.puffins.fun/",
+      "contracts": [
+        {
+          "address": "0x7e96d5b352aede973f826f767d40e919eb3336fd",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "glowbuds",
+      "name": "Glowbuds",
+      "image_url": "https://i2c.seadn.io/collection/glowbuds/image_type_logo/6af46215005b68e601d99412b79aaa/616af46215005b68e601d99412b79aaa.gif",
+      "opensea_url": "https://opensea.io/collection/glowbuds",
+      "project_url": "https://glowbi.xyz",
+      "contracts": [
+        {
+          "address": "0x40148d9aec2d0aed12ccf556cd7cd79c15197644",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "franky-go-equipment",
+      "name": "Franky GO Equipment",
+      "image_url": "https://i2c.seadn.io/collection/franky-go-equipment/image_type_logo/2b431b27486b4d1e015e21a8657eb2/742b431b27486b4d1e015e21a8657eb2.png",
+      "opensea_url": "https://opensea.io/collection/franky-go-equipment",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xbaa9489147167091510c6b1e350e45c2b00d79cb",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "wolf-game",
+      "name": "Wolf Game",
+      "image_url": "https://i2c.seadn.io/abstract/0x43c6458efebb368b78b8b71280b3cfbe73d531b9/4cc26b1cf0373af69069cfefdafe46/a14cc26b1cf0373af69069cfefdafe46.png",
+      "opensea_url": "https://opensea.io/collection/wolf-game",
+      "project_url": "http://wolf.game",
+      "contracts": [
+        {
+          "address": "0x43c6458efebb368b78b8b71280b3cfbe73d531b9",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "canna-sapiens-122802046",
+      "name": "Canna Sapiens",
+      "image_url": "https://i2c.seadn.io/collection/canna-sapiens-122802046/image_type_logo/756fe092e9f6800ad31fdadb4e58e1/91756fe092e9f6800ad31fdadb4e58e1.png",
+      "opensea_url": "https://opensea.io/collection/canna-sapiens-122802046",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x8d1efb8ab4f74607fb9df73c065df627fe0f3b6d",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "astroverseofficial",
+      "name": "AstroVerse",
+      "image_url": "https://i2c.seadn.io/collection/astroverseofficial/image_type_logo/cbec4dcd5221e6b4e94e0bda80549e/9bcbec4dcd5221e6b4e94e0bda80549e.jpeg",
+      "opensea_url": "https://opensea.io/collection/astroverseofficial",
+      "project_url": "https://www.astroverse.wtf/",
+      "contracts": [
+        {
+          "address": "0xc077ec761d6b65374f4237b548752a519751cc51",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "frankygo-consumables",
+      "name": "Franky GO Consumables",
+      "image_url": "https://i2c.seadn.io/abstract/2f5380182b0e4c03a6e1b00e77d265cf/efc419e7a952f18d5d60d937e94d54/abefc419e7a952f18d5d60d937e94d54.png",
+      "opensea_url": "https://opensea.io/collection/frankygo-consumables",
+      "project_url": "https://www.frankygo.xyz/app",
+      "contracts": [
+        {
+          "address": "0xe17734d3233338fe61b38bde5bb1e261c1418460",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "wolf-game-farmer",
+      "name": "Wolf Game - Farmer",
+      "image_url": "https://i2c.seadn.io/abstract/0xe3567e35eca062791d2c51b132e99090baea7336/cdd9f68c64e5152f979d94807bc4d0/2ecdd9f68c64e5152f979d94807bc4d0.png",
+      "opensea_url": "https://opensea.io/collection/wolf-game-farmer",
+      "project_url": "http://wolf.game",
+      "contracts": [
+        {
+          "address": "0xe3567e35eca062791d2c51b132e99090baea7336",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "plooshy-apartments-abstract",
+      "name": "Plooshy Apartments",
+      "image_url": "https://i2c.seadn.io/base/0x90f3de9f870d21904c59ce7e0f82442165f688bc/66242d22d072e638c1c82da57dd533/8666242d22d072e638c1c82da57dd533.gif",
+      "opensea_url": "https://opensea.io/collection/plooshy-apartments-abstract",
+      "project_url": "https://theplooshies.com/",
+      "contracts": [
+        {
+          "address": "0x4431431a12b9af869cd78250590ee5c81d53e84b",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "pixelady-maker-cata-abstract",
+      "name": "Pixelady Maker CATA",
+      "image_url": "https://i2c.seadn.io/abstract/2162be1f6ba94648a517fd7f47bbb177/9cec0b8b5f53c6c8666414ab58958c/619cec0b8b5f53c6c8666414ab58958c.png",
+      "opensea_url": "https://opensea.io/collection/pixelady-maker-cata-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xea56abd80cc721e6ed38cc287a0770c65fb47394",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "sugartown-cores",
+      "name": "CORES by Sugartown",
+      "image_url": "https://i2c.seadn.io/abstract/0x297ff812462bd6bdd8697a3deb2818e12b2e7dbb/5da6eab2ac11422744ca0765f76607/4f5da6eab2ac11422744ca0765f76607.png",
+      "opensea_url": "https://opensea.io/collection/sugartown-cores",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x297ff812462bd6bdd8697a3deb2818e12b2e7dbb",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "bigpool-abstract",
+      "name": "BIGPOOL",
+      "image_url": "https://i2c.seadn.io/abstract/0x86880e120a0c91350f1dff5deed94f620c2446ee/fcc782a6ded8fdbf996cfd953b5602/12fcc782a6ded8fdbf996cfd953b5602.jpeg",
+      "opensea_url": "https://opensea.io/collection/bigpool-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x86880e120a0c91350f1dff5deed94f620c2446ee",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "kabu-abstract",
+      "name": "Kabu",
+      "image_url": "https://i2c.seadn.io/collection/kabu-abstract/image_type_logo/bb575c8414a09592dd99f313943685/59bb575c8414a09592dd99f313943685.jpeg",
+      "opensea_url": "https://opensea.io/collection/kabu-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x7e3059b08e981a369f99db26487ab4cbffdfef29",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "lol-land-abstract",
+      "name": "LOL Land",
+      "image_url": "https://i.seadn.io/s/raw/files/b2bc0d2fb07d6b066b067ba691eef178.png",
+      "opensea_url": "https://opensea.io/collection/lol-land-abstract",
+      "project_url": "https://www.lol.land/",
+      "contracts": [
+        {
+          "address": "0x979ecfa03237ca6db80ab5f5912d59d9f8142a53",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "dyli-abstract",
+      "name": "DYLI",
+      "image_url": "https://i2c.seadn.io/abstract/ceab452dba82451784e22343e95460cc/dd4869696a39c0214bf2ba9d995e48/47dd4869696a39c0214bf2ba9d995e48.png",
+      "opensea_url": "https://opensea.io/collection/dyli-abstract",
+      "project_url": "https://dyli.io/",
+      "contracts": [
+        {
+          "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "chronoforge-mounts-abstract",
+      "name": "ChronoForge Mounts",
+      "image_url": "https://i2c.seadn.io/abstract/0x87447ae77e56231b12897161f5a2aba046d42058/c1bd1b3016c89b2163da4283b44a0e/39c1bd1b3016c89b2163da4283b44a0e.png",
+      "opensea_url": "https://opensea.io/collection/chronoforge-mounts-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x87447ae77e56231b12897161f5a2aba046d42058",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "roach-racing-club-loot-boxes-abstract",
+      "name": "Roach Racing Club: Loot Boxes",
+      "image_url": "https://i2c.seadn.io/abstract/0xa0f69095d2b31e9795e9923cd2a66fa911ccd3cf/b54979fddc32521c1ebae51a0c0401/68b54979fddc32521c1ebae51a0c0401.gif",
+      "opensea_url": "https://opensea.io/collection/roach-racing-club-loot-boxes-abstract",
+      "project_url": "https://roachracingclub.com/",
+      "contracts": [
+        {
+          "address": "0xa0f69095d2b31e9795e9923cd2a66fa911ccd3cf",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "wolf-game-valley-land",
+      "name": "Wolf Game - Valley Land",
+      "image_url": "https://i2c.seadn.io/abstract/0x64c564f1509863b2c323dc66271d856fdd09d58a/6ab5afad29799fb34d9dd7f4ab301d/436ab5afad29799fb34d9dd7f4ab301d.png",
+      "opensea_url": "https://opensea.io/collection/wolf-game-valley-land",
+      "project_url": "http://wolf.game",
+      "contracts": [
+        {
+          "address": "0x64c564f1509863b2c323dc66271d856fdd09d58a",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "khuga-abstract-founder-s-set-2",
+      "name": "Khuga: Abstract Founder's Set",
+      "image_url": "https://i2c.seadn.io/abstract/0ccc7a22966044bcb450f73ab36402e9/651e6c45d32a32d376d89019960fc6/8c651e6c45d32a32d376d89019960fc6.png",
+      "opensea_url": "https://opensea.io/collection/khuga-abstract-founder-s-set-2",
+      "project_url": "https://khuga.io",
+      "contracts": [
+        {
+          "address": "0x487d52e1e07c0f39c4a3b78a53ac0953cd90db9b",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "aob-mining-pool",
+      "name": "AOB Mining Pool",
+      "image_url": "https://i2c.seadn.io/collection/aob-mining-pool/image_type_logo/0d7dcad053c084278069909c74cf42/7e0d7dcad053c084278069909c74cf42.png",
+      "opensea_url": "https://opensea.io/collection/aob-mining-pool",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x3d696740d1620fd786622fc38379ea92eb6bdb56",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "lil-floofs",
+      "name": "Lil Floofs",
+      "image_url": "https://i2c.seadn.io/collection/lil-floofs/image_type_logo/b5ec34898c684ebffa76c8daf60458/40b5ec34898c684ebffa76c8daf60458.png",
+      "opensea_url": "https://opensea.io/collection/lil-floofs",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x0f8ea05a66076cdf90761484de8f945efa01a1c8",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstra-universe-abstract",
+      "name": "Abstra Universe",
+      "image_url": "https://i2c.seadn.io/abstract/0xe501994195b9951413411395ed1921a88eff694e/2f56dcb03f3ca7f9cd11558b2a0f94/902f56dcb03f3ca7f9cd11558b2a0f94.jpeg",
+      "opensea_url": "https://opensea.io/collection/abstra-universe-abstract",
+      "project_url": "https://abstrauniverse.io/",
+      "contracts": [
+        {
+          "address": "0xe501994195b9951413411395ed1921a88eff694e",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "bearyz",
+      "name": "Bearyz",
+      "image_url": "https://i2c.seadn.io/collection/bearyz-nft/image_type_logo/594c547513ceb5d92b99c4f72b90af/ec594c547513ceb5d92b99c4f72b90af.jpeg",
+      "opensea_url": "https://opensea.io/collection/bearyz",
+      "project_url": "https://www.bearycoin.xyz/",
+      "contracts": [
+        {
+          "address": "0xff4217568f7315b5950c6b244222884434e19ab3",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "chronoforge-consumables",
+      "name": "ChronoForge Consumables",
+      "image_url": "https://i2c.seadn.io/abstract/0x89a8d30ab57ba1ac147198caf452ab6e08ca66d9/cb0a107de9b2b7d51bbcf41814965b/50cb0a107de9b2b7d51bbcf41814965b.png",
+      "opensea_url": "https://opensea.io/collection/chronoforge-consumables",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x89a8d30ab57ba1ac147198caf452ab6e08ca66d9",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "pawaverse",
+      "name": "PAWAverse",
+      "image_url": "https://i2c.seadn.io/abstract/0xfed42a4096d18980c808c403fc321934ca0cc6b8/2dc9ad169feca5b70ee04232605633/592dc9ad169feca5b70ee04232605633.webp",
+      "opensea_url": "https://opensea.io/collection/pawaverse",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xfed42a4096d18980c808c403fc321934ca0cc6b8",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "web3-playboys-traits",
+      "name": "Web3 Playboys Traits",
+      "image_url": "https://i2c.seadn.io/collection/web3-playboys-traits/image_type_logo/d2de286145a9f36c1dd0aee14c98e2/bfd2de286145a9f36c1dd0aee14c98e2.jpeg",
+      "opensea_url": "https://opensea.io/collection/web3-playboys-traits",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x1e49b0d225c45b22f66bd660841d98e153c7abd5",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "anichess-x-pudgy-penguins",
+      "name": "Anichess x Pudgy Penguins",
+      "image_url": "https://i2c.seadn.io/collection/anichess-penguboard/image_type_logo/838260f9561cc39f41dc862476fc73/96838260f9561cc39f41dc862476fc73.jpeg",
+      "opensea_url": "https://opensea.io/collection/anichess-x-pudgy-penguins",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x3261e96a63f24c480e0f8dfc7416126bbb2da441",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "bozo-by-bozoverse",
+      "name": "Bozo",
+      "image_url": "https://i2c.seadn.io/abstract/15d13ce545bc47d78af786005e596efd/d42c35423adc17131fcc38fe8314f8/0ed42c35423adc17131fcc38fe8314f8.jpeg",
+      "opensea_url": "https://opensea.io/collection/bozo-by-bozoverse",
+      "project_url": "https://www.bozoverse.xyz/",
+      "contracts": [
+        {
+          "address": "0xcc54017f0eda6b86028d55d221c24299506b7d25",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "tengu-abs",
+      "name": "TENGU",
+      "image_url": "https://i2c.seadn.io/collection/tengu-481536757/image_type_logo/3ee33f0467b8b8ed2c5126efe2caa6/953ee33f0467b8b8ed2c5126efe2caa6.png",
+      "opensea_url": "https://opensea.io/collection/tengu-abs",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xadf790b30bd2a0648002e7dc36c14c0424d4fd9c",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "duper-genesis-ace",
+      "name": "Duper Genesis Ace",
+      "image_url": "https://i2c.seadn.io/abstract/0xade40639486a247b5dd1de9cf6cbcf73737a5a35/ee2e704d4fc46cfecb62e340a51642/38ee2e704d4fc46cfecb62e340a51642.png",
+      "opensea_url": "https://opensea.io/collection/duper-genesis-ace",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xade40639486a247b5dd1de9cf6cbcf73737a5a35",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "chronoforge-pets-2",
+      "name": "ChronoForge Pets",
+      "image_url": "https://i2c.seadn.io/abstract/0xce2ad424e71491998b7f579d4baa27bb1afc338f/438e882b48a7bac7ff6c8cc881c7b6/32438e882b48a7bac7ff6c8cc881c7b6.png",
+      "opensea_url": "https://opensea.io/collection/chronoforge-pets-2",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xce2ad424e71491998b7f579d4baa27bb1afc338f",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "och-gacha-token-abstract",
+      "name": "OCH - Gacha Token",
+      "image_url": "https://i2c.seadn.io/collection/och-gacha-token-abstract/image_type_logo/0b9e6c823f593c9120a143199b3051/530b9e6c823f593c9120a143199b3051.gif",
+      "opensea_url": "https://opensea.io/collection/och-gacha-token-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xb5ec907d0e80f9a1ca9c1942d69fb558e01140d4",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "lil-foots",
+      "name": "LIL FOOTS",
+      "image_url": "https://i2c.seadn.io/collection/lil-foots/image_type_logo/6200a6bcb75130a0f86f1556a87a3e/e96200a6bcb75130a0f86f1556a87a3e.png",
+      "opensea_url": "https://opensea.io/collection/lil-foots",
+      "project_url": "https://www.bigfoot404.com",
+      "contracts": [
+        {
+          "address": "0x22fc5bb9810ef92db35accea463693331bcd0a8a",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstract-firsts",
+      "name": "Abstract Firsts",
+      "image_url": "https://i.seadn.io/s/raw/files/5ac6139f830ad8d79af19d955a514369.gif",
+      "opensea_url": "https://opensea.io/collection/abstract-firsts",
+      "project_url": "https://firsts.art",
+      "contracts": [
+        {
+          "address": "0xf074214f0fa13a06730a2e2052d26d4f66ea2c66",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "maero-universe",
+      "name": "Maero Universe",
+      "image_url": "https://i2c.seadn.io/collection/maero-universe-435970059/image_type_logo/04418f1282350ad93cde36ec1d1fed/8104418f1282350ad93cde36ec1d1fed.png",
+      "opensea_url": "https://opensea.io/collection/maero-universe",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x6d7db6a536224212f5f196f9908f61dfa8e6775b",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "chronoforge-totem-abstract",
+      "name": "Chronoforge Totem",
+      "image_url": "https://i2c.seadn.io/abstract/0x76c3388946529620cce29498fe7164b39aa69719/28c5ef8b037bbccbdd7353d00d4ea6/d028c5ef8b037bbccbdd7353d00d4ea6.png",
+      "opensea_url": "https://opensea.io/collection/chronoforge-totem-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x76c3388946529620cce29498fe7164b39aa69719",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "sails-up",
+      "name": "Sails Up",
+      "image_url": "https://i2c.seadn.io/abstract/37f5cce0dad843888afbbc57bb672f78/547adc0680dd0f93f991b6a6b41501/16547adc0680dd0f93f991b6a6b41501.png",
+      "opensea_url": "https://opensea.io/collection/sails-up",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x80adfc74167dc1a4339e204968a07a1b775b47a8",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "segmintcollectibles",
+      "name": "SegMint Collectibles",
+      "image_url": "https://i2c.seadn.io/abstract/79aafc2a348249b3995699633355b372/ddde2a466cfaad597076b6e5c11298/4dddde2a466cfaad597076b6e5c11298.png",
+      "opensea_url": "https://opensea.io/collection/segmintcollectibles",
+      "project_url": "https://segmint.io",
+      "contracts": [
+        {
+          "address": "0xd2ef5b70e6d66a422d9c2c2eeaf861cb4e2a0360",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "plooshy-houses-abstract",
+      "name": "Plooshy Houses",
+      "image_url": "https://i2c.seadn.io/abstract/0x5c52b005ee8291004b5a4d8e1b4ae6cc71e4ab40/77da79175483b773cea68b99b1fe8a/eb77da79175483b773cea68b99b1fe8a.png",
+      "opensea_url": "https://opensea.io/collection/plooshy-houses-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x5c52b005ee8291004b5a4d8e1b4ae6cc71e4ab40",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "uwu-abstract",
+      "name": "UwU 69",
+      "image_url": "https://i2c.seadn.io/collection/uwu-abstract/image_type_logo/6b92cb04855b11086ef7e3302b7ecf/206b92cb04855b11086ef7e3302b7ecf.png",
+      "opensea_url": "https://opensea.io/collection/uwu-abstract",
+      "project_url": "https://uwueth.xyz/",
+      "contracts": [
+        {
+          "address": "0xd0b5fd5341cffbaeb569158b63eeb9c2019ce8c2",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "pengu-clash-official",
+      "name": "Pengu Clash",
+      "image_url": "https://i2c.seadn.io/admin-uploads/5c9bf8bb39b5556ee8ccc721f2c47c/515c9bf8bb39b5556ee8ccc721f2c47c.jpeg",
+      "opensea_url": "https://opensea.io/collection/pengu-clash-official",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x274591ac50e2e0f5919d985189f894a687169b8e",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "the-wolves",
+      "name": "The Wolves",
+      "image_url": "https://i2c.seadn.io/abstract/0xad6fed095736a88ebfa461fe2b8aa167c2e54251/c4929bf8f6f417b8bc955745a4815d/0ec4929bf8f6f417b8bc955745a4815d.png",
+      "opensea_url": "https://opensea.io/collection/the-wolves",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xad6fed095736a88ebfa461fe2b8aa167c2e54251",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "neura-androids",
+      "name": "Neura Androids",
+      "image_url": "https://i2c.seadn.io/abstract/a04400d4d59c45eb9b16a335294a3248/f0d2db8671b9036c1faa22faca5cdb/4df0d2db8671b9036c1faa22faca5cdb.gif",
+      "opensea_url": "https://opensea.io/collection/neura-androids",
+      "project_url": "https://app.neura.adanede.com",
+      "contracts": [
+        {
+          "address": "0x8f2620daa79ea542c8be3d533fc44abf5964854d",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "fake-friends-69",
+      "name": "Fake Friends",
+      "image_url": "https://i2c.seadn.io/abstract/6b77c04f85484c89a7171b26a1c0274a/b7b4ec30082ba3a87675968cb5a0b0/71b7b4ec30082ba3a87675968cb5a0b0.jpeg",
+      "opensea_url": "https://opensea.io/collection/fake-friends-69",
+      "project_url": "https://lhub.to/socialsrising",
+      "contracts": [
+        {
+          "address": "0x64b689730d150d1a6c0f32ce798caaca898654c0",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "in-the-moment-10",
+      "name": "In the Moment",
+      "image_url": "https://i2c.seadn.io/abstract/0xa22f3f9154b0f0e6b3266661e86645d00633ec2d/1c06e7da7c9aa5c3ede84fa09682ac/c51c06e7da7c9aa5c3ede84fa09682ac.png",
+      "opensea_url": "https://opensea.io/collection/in-the-moment-10",
+      "project_url": "https://discord.com/invite/93WU6kt29u",
+      "contracts": [
+        {
+          "address": "0xa22f3f9154b0f0e6b3266661e86645d00633ec2d",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "moody-madness-assets",
+      "name": "Moody Madness Assets",
+      "image_url": "https://i2c.seadn.io/abstract/0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644/46bbf86dfe6505796abc5986be1993/9446bbf86dfe6505796abc5986be1993.png",
+      "opensea_url": "https://opensea.io/collection/moody-madness-assets",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "segmint-adventurers-abstract",
+      "name": "SegMint Adventurers",
+      "image_url": "https://i2c.seadn.io/abstract/0xe9c756d9a982bdb1be73ed6faff5d9c51b964303/16be152c040349f5b373dd71f46b5b/fc16be152c040349f5b373dd71f46b5b.gif",
+      "opensea_url": "https://opensea.io/collection/segmint-adventurers-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xe9c756d9a982bdb1be73ed6faff5d9c51b964303",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "derplets-abstract",
+      "name": "Derplets",
+      "image_url": "https://raw2.seadn.io/abstract/0xb47a26df28923bc826100256e7d5fa01cd0817a7/142529ae9a5bd20cceadd7f4d1a659/06142529ae9a5bd20cceadd7f4d1a659.svg",
+      "opensea_url": "https://opensea.io/collection/derplets-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xb47a26df28923bc826100256e7d5fa01cd0817a7",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "angry-whales-465547014",
+      "name": "Angry Whales",
+      "image_url": "https://i2c.seadn.io/collection/angry-whales-465547014/image_type_logo/de8198f18fc3258234a7a7bf9e6913/b1de8198f18fc3258234a7a7bf9e6913.png",
+      "opensea_url": "https://opensea.io/collection/angry-whales-465547014",
+      "project_url": "https://www.angrywhales.io/",
+      "contracts": [
+        {
+          "address": "0x8bb25a82e2f0230c2cfe3278cbc16a2c93685359",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "metasharksnft",
+      "name": "MetaSharks on Abstract",
+      "image_url": "https://i2c.seadn.io/collection/metasharksnft/image_type_logo/e20276459091324a83b9b5a05eb9a0/39e20276459091324a83b9b5a05eb9a0.png",
+      "opensea_url": "https://opensea.io/collection/metasharksnft",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xf64450d13e0541000fb071a68d2021a1fca7a9d2",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "lonelystrak",
+      "name": "LONELYstrakt",
+      "image_url": "https://i2c.seadn.io/collection/lonelystrak/image_type_logo/e9f48e6b64efcd9907757d83476cf2/8ee9f48e6b64efcd9907757d83476cf2.png",
+      "opensea_url": "https://opensea.io/collection/lonelystrak",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x930aa47e1267108bc83bf8f0cb0fbbab489a9bcc",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstractors-abstract",
+      "name": "Abstractors",
+      "image_url": "https://i2c.seadn.io/collection/abstractors-abstract/image_type_logo/7499f5af090ff74820aadbba89522a/e27499f5af090ff74820aadbba89522a.jpeg",
+      "opensea_url": "https://opensea.io/collection/abstractors-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x66de4d3ad9a490e4f090d60bff1b82723150abb3",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstract-pepes-abstract",
+      "name": "Abstract Pepes",
+      "image_url": "https://i2c.seadn.io/abstract/ecc18103762e4b589c068a5434e49842/a5bce3c78720f707b87005eccde036/c9a5bce3c78720f707b87005eccde036.png",
+      "opensea_url": "https://opensea.io/collection/abstract-pepes-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xc97cbba151ed084ed49a0c53b93a8f2e805c5489",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "jupis-510033443",
+      "name": "jupis",
+      "image_url": "https://i2c.seadn.io/abstract/0x31af18fb7c7844edea5d8cd5a301826d113001b8/4083024e0e5694d070e0635580c6c6/184083024e0e5694d070e0635580c6c6.gif",
+      "opensea_url": "https://opensea.io/collection/jupis-510033443",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x31af18fb7c7844edea5d8cd5a301826d113001b8",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "legendary-league-abstract",
+      "name": "Legendary League",
+      "image_url": "https://i2c.seadn.io/abstract/0x8407a1010943427b134f002586c75b2b2c0edd28/9211c495f96a892fcc85af5efdb6fe/6d9211c495f96a892fcc85af5efdb6fe.gif",
+      "opensea_url": "https://opensea.io/collection/legendary-league-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x8407a1010943427b134f002586c75b2b2c0edd28",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "vote-escrowed-aimi",
+      "name": "Vote-escrowed AIMI",
+      "image_url": "",
+      "opensea_url": "https://opensea.io/collection/vote-escrowed-aimi",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x88e34216282f54e5ae391db5f5b9e0e533e886a8",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "genesis-employee",
+      "name": "Genesis Employee",
+      "image_url": "https://i2c.seadn.io/abstract/234b15e6acdc40b88a54e390a6a2ed34/741427b56f21fef293de607d7e1ef6/70741427b56f21fef293de607d7e1ef6.gif",
+      "opensea_url": "https://opensea.io/collection/genesis-employee",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x3c3f39bf2800dfa5878f4aa152e01b9b6b889d27",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "pixcadia-nukes-abstract",
+      "name": "Pixcadia Nukes",
+      "image_url": "https://i2c.seadn.io/abstract/0x7960f6e1582d2e2591f43fdf741b1527021fa49c/792d7f18d56535dae1d60d05624ddc/6a792d7f18d56535dae1d60d05624ddc.gif",
+      "opensea_url": "https://opensea.io/collection/pixcadia-nukes-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x7960f6e1582d2e2591f43fdf741b1527021fa49c",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "neura-box",
+      "name": "Neura Box",
+      "image_url": "https://i2c.seadn.io/abstract/d52c928885894afebc0299eb45826c0a/bcdba102d6d6423e785106ca8ebe3b/23bcdba102d6d6423e785106ca8ebe3b.gif",
+      "opensea_url": "https://opensea.io/collection/neura-box",
+      "project_url": "https://app.neura.adanede.com",
+      "contracts": [
+        {
+          "address": "0xf0d8fa0e609ff48065957e8fe175fdd70a5de4ac",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "pigcade",
+      "name": "PIGCADE",
+      "image_url": "https://i2c.seadn.io/abstract/0xcbf246be33caf06353e64ac98759880a7c520645/2b364806e48c8881c3871471be9b76/7d2b364806e48c8881c3871471be9b76.png",
+      "opensea_url": "https://opensea.io/collection/pigcade",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xcbf246be33caf06353e64ac98759880a7c520645",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "capncompany",
+      "name": "Captain & Company",
+      "image_url": "https://i2c.seadn.io/abstract/90849f14d9a94c95b72cabf1f7d2cb7d/2a852d3b7cca65120765ccec370dbd/ce2a852d3b7cca65120765ccec370dbd.gif",
+      "opensea_url": "https://opensea.io/collection/capncompany",
+      "project_url": "https://capnco.gg",
+      "contracts": [
+        {
+          "address": "0xa95f70235cac8b78e77576ff1fadb818180af172",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "neura-paintings",
+      "name": "Neura Paintings",
+      "image_url": "https://i2c.seadn.io/collection/neura-paintings/image_type_logo/ae973eaeb4efc5327c4b0ea870f83d/a5ae973eaeb4efc5327c4b0ea870f83d.png",
+      "opensea_url": "https://opensea.io/collection/neura-paintings",
+      "project_url": "https://app.neura.adanede.com/",
+      "contracts": [
+        {
+          "address": "0x795ae5ef1a8dd8d4aef4e723244bfd1a3fa1566e",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "the-wilds-nfts-the-reds",
+      "name": "The Wilds NFTs - The Reds",
+      "image_url": "https://i2c.seadn.io/abstract/0x9b1b5d7e39260c9eb94ba12c4eede3349e1d3c99/d263f1f44ffa1c8bdc2948952ffea7/36d263f1f44ffa1c8bdc2948952ffea7.png",
+      "opensea_url": "https://opensea.io/collection/the-wilds-nfts-the-reds",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x9b1b5d7e39260c9eb94ba12c4eede3349e1d3c99",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "bored-ape-ascii-club-3",
+      "name": "Bored Ape Ascii Club",
+      "image_url": "https://i2c.seadn.io/abstract/0x3e41a668435dacbdc06a179f0930f2eb28eaf353/059f14b21a365b8e46d8821cbdb85a/63059f14b21a365b8e46d8821cbdb85a.gif",
+      "opensea_url": "https://opensea.io/collection/bored-ape-ascii-club-3",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x3e41a668435dacbdc06a179f0930f2eb28eaf353",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstractiogang-8",
+      "name": "AbstractioGang",
+      "image_url": "https://i.seadn.io/s/raw/files/5fe7d4b0c0e190d1b757f9c9f4291a95.png",
+      "opensea_url": "https://opensea.io/collection/abstractiogang-8",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x0285fa5a88516adda20233c07b74f87fe7ceb207",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "pengs-on-abstract",
+      "name": "Pixel Penguins",
+      "image_url": "https://i2c.seadn.io/abstract/209ddc17148142e699351264d820e26f/3f37280e097043a42c281f24637057/cd3f37280e097043a42c281f24637057.webp",
+      "opensea_url": "https://opensea.io/collection/pengs-on-abstract",
+      "project_url": "https://pengs-abstract.nfts2.me/",
+      "contracts": [
+        {
+          "address": "0xaa246e2cb28ae4be5c721ef8fa08b1f4f00b70e1",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "pixelcorns-abs",
+      "name": "Pixelcorns",
+      "image_url": "https://i2c.seadn.io/collection/pixelcorns-359487593/image_type_logo/cd9b2356cb4e0f4d8afd6fdb48900d/8dcd9b2356cb4e0f4d8afd6fdb48900d.png",
+      "opensea_url": "https://opensea.io/collection/pixelcorns-abs",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xe10f14bb1bc67e8c89cec3f3d51d1f5c19a2bd00",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "buumeehalloweenlimitededitions-339600283",
+      "name": "BUUMEEHALLOWEENLIMITEDEDITIONS",
+      "image_url": "https://i2c.seadn.io/abstract/0x9b63a31b40594ae6c1f9aebcab2915b7632e7092/d3b0c061a860e7299c08ed1325ebc5/0dd3b0c061a860e7299c08ed1325ebc5.webp",
+      "opensea_url": "https://opensea.io/collection/buumeehalloweenlimitededitions-339600283",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x9b63a31b40594ae6c1f9aebcab2915b7632e7092",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "the-skellies",
+      "name": "Captain & Company - The Skellies",
+      "image_url": "https://i2c.seadn.io/abstract/6bf4879ba5f241a0b5e38ccadf06d89a/b099ac828cf37a5137ec6ab41ce771/bab099ac828cf37a5137ec6ab41ce771.png",
+      "opensea_url": "https://opensea.io/collection/the-skellies",
+      "project_url": "https://capnco.gg/",
+      "contracts": [
+        {
+          "address": "0x2a9c7b2cf75f9ff7d278d71334e157b0508b2909",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "neura-modules",
+      "name": "Neura Modules",
+      "image_url": "https://i.seadn.io/s/raw/files/8c1652adfd7f299c3b767fa691b8a9ae.webp",
+      "opensea_url": "https://opensea.io/collection/neura-modules",
+      "project_url": "https://app.neura.adanede.com",
+      "contracts": [
+        {
+          "address": "0xb57a178832b9299c0ce1d0e42058d31564390557",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "ellies-abstract",
+      "name": "AbstractEllies",
+      "image_url": "https://i2c.seadn.io/abstract/0x7558894fc1640f43429ae5273108eef00fc8ded0/15435b6ed4a739e3b90fe212c8da7f/1415435b6ed4a739e3b90fe212c8da7f.gif",
+      "opensea_url": "https://opensea.io/collection/ellies-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x7558894fc1640f43429ae5273108eef00fc8ded0",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "lil-pixel-pengs",
+      "name": "LiL Pixel Pengs - FREEMINT",
+      "image_url": "https://i2c.seadn.io/abstract/f890650e7a9042d0b7d66623c54d26c1/853a995995d8f034f959b64ae50711/35853a995995d8f034f959b64ae50711.webp",
+      "opensea_url": "https://opensea.io/collection/lil-pixel-pengs",
+      "project_url": "https://lilpengs.nfts2.me/",
+      "contracts": [
+        {
+          "address": "0x10b2890f5993bb83d84a4eb36c09f655ccb19427",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "chonkybaras-3",
+      "name": "Chonkybaras",
+      "image_url": "https://i2c.seadn.io/abstract/0xf6ee164bb754f83868139c68b9fdf0804fec2be5/ca6cf81b5e181d20673b0d2e962126/02ca6cf81b5e181d20673b0d2e962126.png",
+      "opensea_url": "https://opensea.io/collection/chonkybaras-3",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xf6ee164bb754f83868139c68b9fdf0804fec2be5",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "aborean-finance-position-nft",
+      "name": "Aborean CL Position NFT v1",
+      "image_url": "https://raw2.seadn.io/abstract/0xa4890b89dc628bae614780079acc951fb0ecdc5f/dad996216494d440d0089af5107cc8/2bdad996216494d440d0089af5107cc8.svg",
+      "opensea_url": "https://opensea.io/collection/aborean-finance-position-nft",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstract-rekt-invaders",
+      "name": "ABSTRACT REKT INVADERS",
+      "image_url": "https://i2c.seadn.io/abstract/a4f6beab8b9b498097b7049d726712db/087d153e3b19f5059516fccb5cfcf5/c2087d153e3b19f5059516fccb5cfcf5.gif",
+      "opensea_url": "https://opensea.io/collection/abstract-rekt-invaders",
+      "project_url": "https://invaders.world",
+      "contracts": [
+        {
+          "address": "0x7e146a1ef1986896a29444d1e17b125b83350112",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "chimpers-cards-against-all-odds",
+      "name": "Chimpers Cards - Against All Odds",
+      "image_url": "https://i2c.seadn.io/abstract/0x234f652928a980951d60f60359526c8b4ab5fc2a/3ac2596994254ece0d407f874fc4b5/ce3ac2596994254ece0d407f874fc4b5.png",
+      "opensea_url": "https://opensea.io/collection/chimpers-cards-against-all-odds",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x234f652928a980951d60f60359526c8b4ab5fc2a",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "making-coffee-nft-paris",
+      "name": "Making Coffee: NFT Paris",
+      "image_url": "https://i2c.seadn.io/abstract/0x48c4050e04846de22b07e44ccbc7755a0860ea82/5f6d75452557609cb92f8383427302/045f6d75452557609cb92f8383427302.gif",
+      "opensea_url": "https://opensea.io/collection/making-coffee-nft-paris",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x48c4050e04846de22b07e44ccbc7755a0860ea82",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "absapesnft",
+      "name": "Abstract Apes",
+      "image_url": "https://i2c.seadn.io/collection/abstract-apes-390226117/image_type_logo/732ff1ab858e647384b066d593ecfa/9a732ff1ab858e647384b066d593ecfa.gif",
+      "opensea_url": "https://opensea.io/collection/absapesnft",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x173b9eed3cceb40a142c47d155afdab5f4d23e58",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "bosko-abstract",
+      "name": "Bosko",
+      "image_url": "https://i2c.seadn.io/abstract/0xfd8818892fb34b759aec2e6f8960125d411ae11a/d1b32313bda2382616e9d5b2f682a9/64d1b32313bda2382616e9d5b2f682a9.png",
+      "opensea_url": "https://opensea.io/collection/bosko-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xfd8818892fb34b759aec2e6f8960125d411ae11a",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstract-ghosts-abstract",
+      "name": "Abstract Ghosts",
+      "image_url": "https://i2c.seadn.io/abstract/0x62bc693332d1a50273b3103a2cf3ed120771b09d/ea6223c1c5dffa6ae788e2b3b18472/8aea6223c1c5dffa6ae788e2b3b18472.png",
+      "opensea_url": "https://opensea.io/collection/abstract-ghosts-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x62bc693332d1a50273b3103a2cf3ed120771b09d",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "hoodgangnft",
+      "name": "HoodGangNFT",
+      "image_url": "https://i2c.seadn.io/abstract/0xa3bcbf9cc63af6fd578f7fff508640868f6091bf/c599498fbe02451715881735d7e36a/d4c599498fbe02451715881735d7e36a.png",
+      "opensea_url": "https://opensea.io/collection/hoodgangnft",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xa3bcbf9cc63af6fd578f7fff508640868f6091bf",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "gigaverse-names",
+      "name": "Gigaverse Names",
+      "image_url": "https://i2c.seadn.io/admin-uploads/ad450ec17277571dc8ee9dbafb25ea/9dad450ec17277571dc8ee9dbafb25ea.png",
+      "opensea_url": "https://opensea.io/collection/gigaverse-names",
+      "project_url": "https://gigaverse.io",
+      "contracts": [
+        {
+          "address": "0x57e8994e2ac2e49974b0ae685c15b468d1c09259",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "mintify-abstract-keys-abs",
+      "name": "Mintify Abstract Keys",
+      "image_url": "https://raw2.seadn.io/abstract/0x2b21d07c98905f48a71100af2b58c069be4d0a2a/12e40d92e74d6b21557e62ff389c39/0b12e40d92e74d6b21557e62ff389c39.mov",
+      "opensea_url": "https://opensea.io/collection/mintify-abstract-keys-abs",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x2b21d07c98905f48a71100af2b58c069be4d0a2a",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "bored-abstract",
+      "name": "Bored ABS - Mint",
+      "image_url": "https://i2c.seadn.io/abstract/ad3bc2a838d145cdaea96dcacbecc9d4/03ad3f4c204a09d70375c451bdae5a/1503ad3f4c204a09d70375c451bdae5a.png",
+      "opensea_url": "https://opensea.io/collection/bored-abstract",
+      "project_url": "https://bored-abstract.nfts2.me/",
+      "contracts": [
+        {
+          "address": "0x8fdd90e148f9dd42cb84f61ac6d3933f3ab6b2e9",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstract-saudis-punk",
+      "name": "Abstract Saudis Punk",
+      "image_url": "https://i2c.seadn.io/abstract/0xd338826706286a90eec7555a26245a77b9605a79/831ee71ac3be77a19e6e55932add4b/97831ee71ac3be77a19e6e55932add4b.png",
+      "opensea_url": "https://opensea.io/collection/abstract-saudis-punk",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xd338826706286a90eec7555a26245a77b9605a79",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "cluckers-abstract",
+      "name": "Cluckers",
+      "image_url": "https://i2c.seadn.io/abstract/0x6a721a0dec7808e916d5b7c9d2e8d0247b19e250/39ade3ba28707cebd92d5e89b2ccdb/c139ade3ba28707cebd92d5e89b2ccdb.png",
+      "opensea_url": "https://opensea.io/collection/cluckers-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x6a721a0dec7808e916d5b7c9d2e8d0247b19e250",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstract-socks",
+      "name": "Abstract Socks",
+      "image_url": "https://i2c.seadn.io/abstract/f83bc445838a45049b7f0b3f802e7c18/adfd9e3665160fb1bd35fa1c37b096/0aadfd9e3665160fb1bd35fa1c37b096.jpeg",
+      "opensea_url": "https://opensea.io/collection/abstract-socks",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x6dc53336dd91ff5bf6f3c14d99b913e19d398c6c",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "lost-gods",
+      "name": "Lost Gods",
+      "image_url": "https://i2c.seadn.io/collection/lost-gods/image_type_logo/d8657c54c05525c7f252f810a8bd6d/8ad8657c54c05525c7f252f810a8bd6d.png",
+      "opensea_url": "https://opensea.io/collection/lost-gods",
+      "project_url": "https://lostgods.0xd38.com/",
+      "contracts": [
+        {
+          "address": "0x9ee4042c9542f1d9d45f4a6cdeaee2182bb4ff19",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "build-on-abstract",
+      "name": "BUILD ON ABSTRACT - MINT LIVE",
+      "image_url": "https://i2c.seadn.io/abstract/794852d88242425bae261bfab954e091/df531e895ac0823bc117a5ecccf6b5/31df531e895ac0823bc117a5ecccf6b5.webp",
+      "opensea_url": "https://opensea.io/collection/build-on-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xd30767ec891434e60ee5f8b88774219ea21d766d",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstract-azuki-2",
+      "name": "Abstract Azuki",
+      "image_url": "https://i2c.seadn.io/abstract/e5ad42f6c4d14e04b066729705bb6bb4/99d1bd10bbadb40d97295c2e4f3db1/9399d1bd10bbadb40d97295c2e4f3db1.webp",
+      "opensea_url": "https://opensea.io/collection/abstract-azuki-2",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x316163ac11151c4f2462ab01dde7c42bcf8633a2",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstract-x-zkmarkets",
+      "name": "Abstract x zkMarkets",
+      "image_url": "https://i2c.seadn.io/abstract/d08eee8ff98c44eabb876ae553df94b7/578e80c0b376355164a289cc5b0049/c5578e80c0b376355164a289cc5b0049.jpeg",
+      "opensea_url": "https://opensea.io/collection/abstract-x-zkmarkets",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xcdd62789d2c5269f167b6ad732d4f7d18634a58c",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "efwdf",
+      "name": "efwdf",
+      "image_url": "https://i2c.seadn.io/collection/efwdf/image_type_logo/1923e42684a98463fda5b8214db9f2/761923e42684a98463fda5b8214db9f2.jpeg",
+      "opensea_url": "https://opensea.io/collection/efwdf",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x2df31d254e202149c9079468a7208ca452c1197f",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "fingerprints-10",
+      "name": "Fingerprints",
+      "image_url": "https://i2c.seadn.io/abstract/0xc2fa688eba752cfc5eb1ad672778235aca440756/2a200ae5b46220f7ac82cb3d47d71c/fe2a200ae5b46220f7ac82cb3d47d71c.png",
+      "opensea_url": "https://opensea.io/collection/fingerprints-10",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xc2fa688eba752cfc5eb1ad672778235aca440756",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "mafia-printer-headquarter-305072193",
+      "name": "Mafia Printer Headquarter",
+      "image_url": "https://i2c.seadn.io/abstract/0xd3e2b2d6a9b46faa41f092ca7a961c034c9a2c48/5595cfb277db90f0aa126d69c277f3/615595cfb277db90f0aa126d69c277f3.webp",
+      "opensea_url": "https://opensea.io/collection/mafia-printer-headquarter-305072193",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xd3e2b2d6a9b46faa41f092ca7a961c034c9a2c48",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "penguin-life-3",
+      "name": "Penguin Life",
+      "image_url": "https://i2c.seadn.io/abstract/8b75dce433e547f0ab3964f642994323/7985ec8c100fa88feda60492a27d70/467985ec8c100fa88feda60492a27d70.png",
+      "opensea_url": "https://opensea.io/collection/penguin-life-3",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x57e12abdf617fcd0d2ab6984c289075aa90cac8c",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "degen-pepes-85830911",
+      "name": "Degen Pepes",
+      "image_url": "https://i2c.seadn.io/abstract/0xe3483a5d5061344767fffb1197886415b5146453/daced1d185d6ba68ee3fc6eb8c6273/5edaced1d185d6ba68ee3fc6eb8c6273.gif",
+      "opensea_url": "https://opensea.io/collection/degen-pepes-85830911",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xe3483a5d5061344767fffb1197886415b5146453",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "sangoro",
+      "name": "Sangoro",
+      "image_url": "https://i2c.seadn.io/abstract/13937cd1809f42d29fc3bfbb1a426062/b5ec65432153a727d67bd7eaa94880/81b5ec65432153a727d67bd7eaa94880.webp",
+      "opensea_url": "https://opensea.io/collection/sangoro",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xb230a2fa3f8db02704b02c1eaf3c9f71b5d75c7d",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "cryptodigga",
+      "name": "Crypto Digga Items",
+      "image_url": "https://i2c.seadn.io/abstract/3edae737d94a4abf9d574cd7f02ad3a7/6828f7745416dd757cf06e59ccb5bb/e96828f7745416dd757cf06e59ccb5bb.png",
+      "opensea_url": "https://opensea.io/collection/cryptodigga",
+      "project_url": "https://cryptodigga.xyz/",
+      "contracts": [
+        {
+          "address": "0x92e08ecb02d8df6c74a026764ad1c8ae503df52c",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "onchain-villains-abstract",
+      "name": "Onchain Villains",
+      "image_url": "https://i2c.seadn.io/abstract/0xd44b2574e9c144eb44e4df21a46e6ccf45a695ba/c69a9a96ce81d66661ca4ba67e2b93/4fc69a9a96ce81d66661ca4ba67e2b93.png",
+      "opensea_url": "https://opensea.io/collection/onchain-villains-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xd44b2574e9c144eb44e4df21a46e6ccf45a695ba",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "sketchymilios-by-mymilio",
+      "name": "Sketchymilios by Mymilio",
+      "image_url": "https://i2c.seadn.io/abstract/de2189c9abdb49a3928b4e4cde48fe8a/9abca4643cc105aaa2b4a7b6881836/b09abca4643cc105aaa2b4a7b6881836.png",
+      "opensea_url": "https://opensea.io/collection/sketchymilios-by-mymilio",
+      "project_url": "https://mymilio.xyz",
+      "contracts": [
+        {
+          "address": "0x08533a2b16e3db03eebd5b23210122f97dfcb97d",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "pengym-squad",
+      "name": "PenGYM Squad",
+      "image_url": "https://i2c.seadn.io/collection/pengym-squad/image_type_logo/e70d556348ce0cebb348810082b59c/27e70d556348ce0cebb348810082b59c.jpeg",
+      "opensea_url": "https://opensea.io/collection/pengym-squad",
+      "project_url": "https://pengym.xyz/",
+      "contracts": [
+        {
+          "address": "0xac991dc7d362af82c371a8d3a0443356d9810a54",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "pixelatedpepesnfts",
+      "name": "PixelatedPepesNFT",
+      "image_url": "https://i2c.seadn.io/abstract/0x3018e29738b543fd624681b48ebd7d820a682ff6/971eb65e8c41d4bf66c3352197a92d/88971eb65e8c41d4bf66c3352197a92d.png",
+      "opensea_url": "https://opensea.io/collection/pixelatedpepesnfts",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x3018e29738b543fd624681b48ebd7d820a682ff6",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "thethousands",
+      "name": "Thousands",
+      "image_url": "https://i2c.seadn.io/abstract/8fb730c95a224457832631784daeb343/658beb065af239a093396444f5a727/f7658beb065af239a093396444f5a727.png",
+      "opensea_url": "https://opensea.io/collection/thethousands",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x693d41f80b50f8fef07adad83cb160c54d38ddf9",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "degen-gorg",
+      "name": "Degen Gorg",
+      "image_url": "https://i2c.seadn.io/abstract/0xcd10c7956e6dd465a8a67d6530fbaa9a0e8ea0f7/8e077b4a5c93a17d771102b4ad135b/588e077b4a5c93a17d771102b4ad135b.png",
+      "opensea_url": "https://opensea.io/collection/degen-gorg",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xcd10c7956e6dd465a8a67d6530fbaa9a0e8ea0f7",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "orange-penguin-free-mint-now",
+      "name": "Orange Penguin (Free Mint Now)",
+      "image_url": "https://i2c.seadn.io/abstract/bf710be0af784f45bbaa1e4cfdd9cf28/c38c091d2eb7cc491c495ed985d947/abc38c091d2eb7cc491c495ed985d947.gif",
+      "opensea_url": "https://opensea.io/collection/orange-penguin-free-mint-now",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xa77e54181df28b78710229a91a967c38c2520f6d",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "baby-panda-14",
+      "name": "baby panda",
+      "image_url": "https://i2c.seadn.io/abstract/0bc02b382e8c417d84d8d331f5c62c78/b4e1b5d96d579454a2c57cf7719381/27b4e1b5d96d579454a2c57cf7719381.jpeg",
+      "opensea_url": "https://opensea.io/collection/baby-panda-14",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0x4fdd35bb8ad8fbbcf7071ac5aa8e2c7f47f929a7",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstract-tickets",
+      "name": "Abstract Tickets",
+      "image_url": "https://i2c.seadn.io/abstract/5f6ca9e8789a46e8a5888473a1ad9eeb/524154f7923ad2b3599d28386c2b24/49524154f7923ad2b3599d28386c2b24.png",
+      "opensea_url": "https://opensea.io/collection/abstract-tickets",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xd20dfb97f9caabf4f3835f9621565a9f34df564a",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "abstract-ai-agent",
+      "name": "Abstract AI Agent",
+      "image_url": "https://i2c.seadn.io/abstract/159c74d783f24ea0a829e4090bd4633e/e083ed8966c4ff11e30448e92bbeb5/05e083ed8966c4ff11e30448e92bbeb5.png",
+      "opensea_url": "https://opensea.io/collection/abstract-ai-agent",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xd2ac76f0b80cfe462a1b227af1d68c69d3b85b22",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "be-bullish-abstract",
+      "name": "Be bullish",
+      "image_url": "https://i2c.seadn.io/abstract/8a0b2c2c34bb40ac9fbafc4c0c570926/c8c391283c3ce13124c84e8440c97d/39c8c391283c3ce13124c84e8440c97d.png",
+      "opensea_url": "https://opensea.io/collection/be-bullish-abstract",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xa4ff68ad9d268497daa65293a95cc889e7295481",
+          "chain": "abstract"
+        }
+      ]
+    },
+    {
+      "collection": "toxic-gardens-1",
+      "name": "TOXIC GARDENS",
+      "image_url": "https://i2c.seadn.io/abstract/fcd6d3ab69d746ac8a87a8a0022a2b5b/3c70b5aa131cf44010c979eb9ad7ba/523c70b5aa131cf44010c979eb9ad7ba.gif",
+      "opensea_url": "https://opensea.io/collection/toxic-gardens-1",
+      "project_url": "",
+      "contracts": [
+        {
+          "address": "0xa208f726f525440e154cf11f2c747ded932fc6bc",
+          "chain": "abstract"
+        }
+      ]
+    }
+  ]
+}

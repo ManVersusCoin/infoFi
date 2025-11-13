@@ -61,6 +61,23 @@ interface Toast {
     type: "success" | "error";
 }
 
+// --- AJOUT : Définition des chaînes (inspiré de App.jsx) ---
+const chains = [
+  { name: 'Ethereum', file: '/os/collection_ethereum.json', logo: 'ethereum.jpg' },
+  { name: 'Abstract', file: '/os/collection_abstract.json', logo: 'abstract.jpg' }
+];
+
+// --- AJOUT : Option de collection par défaut (inspiré de App.jsx) ---
+const defaultCollectionOption: Collection = { 
+  collection: '', 
+  name: 'Select a Collection', 
+  image_url: '', 
+  opensea_url: '', 
+  project_url: '', 
+  contracts: [] 
+};
+
+
 const getISOWeek = (date: Date): number => {
     const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
     const dayNum = d.getUTCDay() || 7;
@@ -97,37 +114,64 @@ const NFTRoundUpPage = () => {
     const [allEvents, setAllEvents] = useState<Event[]>([]);
     const roundupRef = useRef<HTMLDivElement>(null);
 
+    // --- NOUVEAUX ÉTATS pour la sélection de la chaîne ---
+    const [selectedChain, setSelectedChain] = useState(chains[0]);
+    const [showChainDropdown, setShowChainDropdown] = useState(false);
+
     const [isDetailsOpen, setIsDetailsOpen] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
     const rowsPerPage = 15;
 
+    // --- MODIFIÉ : useEffect dépendant de selectedChain ---
     useEffect(() => {
-
         setFetchingCollections(true);
-        fetch('/os/collection_ethereum.json')
+        // Réinitialiser les listes et la recherche lors du changement de chaîne
+        setCollections([defaultCollectionOption]);
+        setFilteredCollections([defaultCollectionOption]);
+        setSelectedCollection(null);
+        setSearchTerm('');
+        setData(null);
+        setPreviousData(null);
+        setAllEvents([]);
+
+        fetch(selectedChain.file) // Utilise le fichier de la chaîne sélectionnée
             .then(res => {
                 if (!res.ok) {
-                    throw new Error('Failed to fetch collections');
+                    throw new Error(`Failed to fetch collections from ${selectedChain.file}`);
                 }
                 return res.json();
             })
             .then(data => {
-                setCollections([{ collection: '', name: 'Select a Collection', image_url: '', opensea_url: '', project_url: '', contracts: [] }, ...data.collections]);
-                setFilteredCollections([{ collection: '', name: 'Select a Collection', image_url: '', opensea_url: '', project_url: '', contracts: [] }, ...data.collections]);
+                setCollections([defaultCollectionOption, ...data.collections]);
+                setFilteredCollections([defaultCollectionOption, ...data.collections]);
             })
             .catch(error => {
                 console.error('Error fetching collections:', error);
-                showToast("❌ Failed to load collections. Please try again later.", "error");
+                showToast(`❌ Failed to load collections for ${selectedChain.name}.`, "error");
+                // Assurer la réinitialisation même en cas d'erreur
+                setCollections([defaultCollectionOption]);
+                setFilteredCollections([defaultCollectionOption]);
             })
             .finally(() => {
                 setFetchingCollections(false);
             });
-    }, []);
+    }, [selectedChain]); // Se déclenche à nouveau lorsque selectedChain change
 
+    // --- MODIFIÉ : useEffect pour filtrer les collections (inspiré de App.jsx) ---
     useEffect(() => {
-        const actualCollections = collections.filter(c => c.collection !== '');
-        setFilteredCollections([collections[0], ...actualCollections.filter(c => c.name.toLowerCase().includes(searchTerm.toLowerCase()))]);
-    }, [searchTerm, collections]);
+        if (searchTerm === '') {
+            setFilteredCollections(collections);
+        } else {
+            const lowerCaseSearch = searchTerm.toLowerCase();
+            setFilteredCollections(
+                collections.filter(c =>
+                    c.name.toLowerCase().includes(lowerCaseSearch) ||
+                    c.collection.toLowerCase().includes(lowerCaseSearch)
+                )
+            );
+        }
+    }, [searchTerm, collections]); // Se déclenche lorsque searchTerm ou la liste de base des collections change
+
 
     useEffect(() => {
         setCurrentPage(1);
@@ -167,6 +211,11 @@ const NFTRoundUpPage = () => {
     const endOfDayUTC = (d: Date) => {
         const x = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate(), 23, 59, 59, 999));
         return x;
+    };
+
+    // --- AJOUT : Helper pour les images (inspiré de App.jsx) ---
+    const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+        (e.target as HTMLImageElement).src = 'https://placehold.co/32x32/E0E0E0/B0B0B0?text=NFT';
     };
 
     // --- Months (3 derniers mois) ---
@@ -619,9 +668,59 @@ const NFTRoundUpPage = () => {
             <div className="max-w-6xl mx-auto">
                 <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">NFT Collection Roundup</h1>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                    <div className="relative">
-                        <Search className="absolute left-3 top-3.5 text-gray-400" size={18} />
+               
+
+                <div className="grid grid-cols-1 md:grid-cols-8 gap-4 mb-6">
+                <div className="relative md:col-span-1">
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                            Chain
+                        </label>
+                        <button
+                            onClick={() => setShowChainDropdown(!showChainDropdown)}
+                            onBlur={() => setTimeout(() => setShowChainDropdown(false), 200)} // Délai pour permettre le clic sur onMouseDown
+                            className="flex items-center justify-between w-full p-2.5 pl-3 pr-4 border rounded-lg bg-white dark:bg-gray-700 dark:text-white dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+                        >
+                            <div className="flex items-center gap-2">
+                                <img
+                                    src={selectedChain.logo}
+                                    alt={selectedChain.name}
+                                    className="w-6 h-6 rounded-full"
+                                    onError={handleImageError}
+                                />
+                                <span className="font-medium">{selectedChain.name}</span>
+                            </div>
+                            <ChevronDown size={18} className={`transition-transform text-gray-400 ${showChainDropdown ? 'rotate-180' : ''}`} />
+                        </button>
+
+                        {showChainDropdown && (
+                            <div className="absolute z-30 w-full mt-1 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-lg max-h-60 overflow-y-auto">
+                                {chains.map(chain => (
+                                    <div
+                                        key={chain.name}
+                                        className="flex items-center p-3 hover:bg-gray-100 dark:hover:bg-gray-600 cursor-pointer gap-2"
+                                        onMouseDown={() => { // onMouseDown se déclenche avant onBlur
+                                            setSelectedChain(chain);
+                                            setShowChainDropdown(false);
+                                        }}
+                                    >
+                                        <img
+                                            src={chain.logo}
+                                            alt={chain.name}
+                                            className="w-6 h-6 rounded-full"
+                                            onError={handleImageError}
+                                        />
+                                        <span className="text-gray-900 dark:text-white">{chain.name}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+                    </div>    
+                <div className="relative  md:col-span-3">
+                        
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                            Collection
+                        </label>
+                        <Search className="absolute left-3 top-10 text-gray-400" size={18} /> 
                         <input
                             type="text"
                             value={searchTerm}
@@ -662,11 +761,15 @@ const NFTRoundUpPage = () => {
                         )}
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div className="flex items-center rounded-lg bg-gray-200 dark:bg-gray-700 p-1">
+                    <div className=" md:col-span-4 grid grid-cols-1 sm:grid-cols-2 gap-x-4">
+                        
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 sm:col-span-2">
+                            Period
+                        </label>
+                        <div className="flex items-center rounded-lg bg-gray-200 dark:bg-gray-700 p-1 h-12">
                             <button
                                 type="button"
-                                className={`w-full px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${periodType === 'month'
+                                className={`w-full h-full  px-4 rounded-md text-sm font-medium transition-colors ${periodType === 'month'
                                     ? 'bg-white dark:bg-gray-800 text-gray-900 dark:text-white shadow-sm'
                                     : 'text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'
                                     }`}
@@ -676,7 +779,7 @@ const NFTRoundUpPage = () => {
                             </button>
                             <button
                                 type="button"
-                                className={`w-full px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${periodType === 'week'
+                                className={`w-full h-full  px-4 rounded-md text-sm font-medium transition-colors ${periodType === 'week'
                                     ? 'bg-white dark:bg-gray-800 text-gray-900 dark:text-white shadow-sm'
                                     : 'text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'
                                     }`}
@@ -686,7 +789,7 @@ const NFTRoundUpPage = () => {
                             </button>
                             <button
                                 type="button"
-                                className={`w-full px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${periodType === 'last'
+                                className={`w-full h-full  px-4 rounded-md text-sm font-medium transition-colors ${periodType === 'last'
                                     ? 'bg-white dark:bg-gray-800 text-gray-900 dark:text-white shadow-sm'
                                     : 'text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200'
                                     }`}
@@ -698,6 +801,8 @@ const NFTRoundUpPage = () => {
 
 
                         <div className="relative">
+                            
+                            
                             <button
                                 type="button"
                                 onClick={() => setIsPeriodDropdownOpen(!isPeriodDropdownOpen)}
@@ -804,10 +909,10 @@ const NFTRoundUpPage = () => {
                                         <MetricCard title="Bid Volume" value={`${data.totalBidVolume.toFixed(2)} ETH`} previousValue={`${previousData?.totalBidVolume.toFixed(2) || '0'} ETH`} change={calculateChange(data.totalBidVolume, previousData?.totalBidVolume || 0)} icon={<DollarSign size={18} />} positiveOnDecrease />
                                         <MetricCard title="Number of Sales" value={data.numberOfSales.toString()} previousValue={previousData?.numberOfSales.toString() || '0'} change={calculateChange(data.numberOfSales, previousData?.numberOfSales || 0)} icon={<Activity size={18} />} />
                                         <MetricCard title="Ask Volume Ratio" value={`${data.askRatio.toFixed(2)}%`} previousValue={`${previousData?.askRatio.toFixed(2) || '0'}%`} change={calculateChange(data.askRatio, previousData?.askRatio || 0)} icon={<TrendingUp size={18} />} />
-                                        <MetricCard title="Median Sale Price" value={`${data.medianSalePrice.toFixed(2)} ETH`} previousValue={`${previousData?.medianSalePrice.toFixed(2) || '0'} ETH`} change={calculateChange(data.medianSalePrice, previousData?.medianSalePrice || 0)} icon={<DollarSign size={18} />} />
+                                        <MetricCard title="Median Sale Price" value={`${data.medianSalePrice.toFixed(3)} ETH`} previousValue={`${previousData?.medianSalePrice.toFixed(3) || '0'} ETH`} change={calculateChange(data.medianSalePrice, previousData?.medianSalePrice || 0)} icon={<DollarSign size={18} />} />
                                         <MetricCard title="Distinct Buyers" value={data.distinctBuyers.toString()} previousValue={previousData?.distinctBuyers.toString() || '0'} change={calculateChange(data.distinctBuyers, previousData?.distinctBuyers || 0)} icon={<Users size={18} />} />
                                         <MetricCard title="Distinct Sellers" value={data.distinctSellers.toString()} previousValue={previousData?.distinctSellers.toString() || '0'} change={calculateChange(data.distinctSellers, previousData?.distinctSellers || 0)} icon={<Users size={18} />} positiveOnDecrease />
-                                        <MetricCard title="Buyer-Seller Balance" value={data.balance.toString()} previousValue={`${previousData?.balance || 0}`} change={calculateChange(data.balance, previousData?.balance || 0)} icon={<TrendingUp size={18} />} />
+                                        <MetricCard title="Buyer-Seller Balance" value={data.balance.toString()} previousValue={`${previousData?.balance || 0}`} change={calculateChange(data.balance, previousData?.balance || 0)} icon={<TrendingUp size={18} />} positiveOnDecrease />
                                     </>
                                 )}
                             </div>
