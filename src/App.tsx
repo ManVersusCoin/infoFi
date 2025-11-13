@@ -23,6 +23,7 @@ import XeetPackGeneratorPage from "./pages/xeet/XeetPackGenerator";
 import CryptoDadsTalker from "./pages/CryptoDadsTalker";
 import FarmingIndex from "./pages/wallchain/FarmingIndex";
 import NFTRoundUpPage from "./pages/NFTRoundup";
+import ExodusStatsCalculator from "./pages/ExodusStatsCalculator";
 import "./index.css";
 
 export default function App() {
@@ -39,7 +40,7 @@ export default function App() {
                     < Route path="/xeet-leagues" element={<XeetLeagueLeaderboard />} />
                     < Route path="/wallchain-index" element={<FarmingIndex />} />
                     < Route path="/nft-roundup" element={<NFTRoundUpPage />} />
-                    
+                    < Route path="/theplague-exodus" element={<ExodusStatsCalculator />} />
                     {/*
                          < Route path="/comparison" element={<CrossPlatform />} />
                     < Route path="/incoherences" element={<IncoherencesTable />} />

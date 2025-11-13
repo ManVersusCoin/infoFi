@@ -1,5 +1,5 @@
 ﻿import { NavLink } from "react-router-dom";
-import { Home, Trophy, Gift, Laugh, CircleDollarSign, X, IdCardLanyard } from "lucide-react";
+import { Home, Trophy, Gift, Laugh, CircleDollarSign, X, IdCardLanyard , Origami } from "lucide-react";
 
 interface SidebarProps {
     open: boolean;
@@ -36,6 +36,7 @@ const links: LinkItem[] = [
     { to: "/airdrop-card", label: "Airdrop Card generator", icon: Gift },
     { to: "/dad-jokes", label: "CryptoDad Jokes", icon: Laugh },
     { to: "/earning-card", label: "Creator Earning Card", icon: CircleDollarSign },
+    { to: "/theplague-exodus", label: "ThePlague Exodus", icon: Origami },
 ];
 
 export default function Sidebar({ open, setOpen }: SidebarProps) {
