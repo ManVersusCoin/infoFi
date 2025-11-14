@@ -20,6 +20,7 @@ export type Profile = { // <-- Ajout de 'export'
     avatarUrl?: string;
     name?: string;
     ranksFiltered: Record<string, RankEntry | undefined>;
+    generatedAt?: number;
 };
 // --- Types for Topic Metadata ---
 interface TopicMetaIn {
