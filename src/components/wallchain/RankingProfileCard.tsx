@@ -3,7 +3,8 @@ import { Share2 } from "lucide-react";
 import StatsShareModal from "./StatsShareModal";
 
 // --- Types for 'p' (profile) prop ---
-type RankEntry = {
+// EXPORT these types
+export type RankEntry = { // <-- Ajout de 'export'
     rankTotal?: number;
     rank?: number;
     rankSignal?: number;
@@ -12,14 +13,14 @@ type RankEntry = {
 };
 
 // FIX 1: handle is now optional (handle?: string) to match LeagueLeaderboard data
-type Profile = {
+// EXPORT this type
+export type Profile = { // <-- Ajout de 'export'
     userId?: string;
     handle?: string;
     avatarUrl?: string;
     name?: string;
     ranksFiltered: Record<string, RankEntry | undefined>;
 };
-
 // --- Types for Topic Metadata ---
 interface TopicMetaIn {
     // accepts several possible shapes (we normalize later)

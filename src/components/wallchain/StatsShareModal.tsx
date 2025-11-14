@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import domtoimage from "dom-to-image";
 import { X, Copy, Download } from "lucide-react";
-
+import type { Profile, RankEntry } from "./RankingProfileCard";
 interface Toast {
     id: number;
     message: string;
@@ -10,22 +10,6 @@ interface Toast {
 
 // Définitions de types simplifiées
 type MetricType = "rankTotal" | "rankSignal" | "rankNoise";
-
-interface RankEntry {
-    rankTotal?: number;
-    rank?: number;
-    rankSignal?: number;
-    rankNoise?: number;
-    totalPoints?: number;
-}
-
-interface Profile {
-    handle: string;
-    name?: string;
-    avatarUrl?: string;
-    generatedAt?: number;
-    ranksFiltered: Record<string, RankEntry | undefined>;
-}
 
 interface TopicMetaIn {
     topicSlug: string;
