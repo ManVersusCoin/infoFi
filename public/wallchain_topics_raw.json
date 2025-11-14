@@ -192,6 +192,22 @@
     "width": "half"
   },
   {
+    "companyId": "AlignerZ",
+    "companyName": "AlignerZ",
+    "logoUrl": "/AlignerZ.png",
+    "title": "Reward pool",
+    "description": "3.84% of Supply",
+    "buttonText": "Start Earning",
+    "badgeIconUrl": "",
+    "backgroundImageUrl": "https://app.wallchain.xyz/external-bucket/hashed/background-image-url/AlignerZ_background.d73cc90fbc99f5d1f4ca7f23d08e0514.png",
+    "countdown": {
+      "label": "Epoch I ends in",
+      "endDate": "2025-12-12T23:59:00Z"
+    },
+    "section": "pre_tge",
+    "width": "half"
+  },
+  {
     "companyId": "covalent",
     "companyName": "Covalent",
     "logoUrl": "/covalent.png",
